@@ -61,6 +61,8 @@ public class MainActivity extends Activity {
         s.setDomStorageEnabled(true);
         s.setAllowFileAccess(false);
         s.setAllowContentAccess(false);
+        // Web dio po ovome zna koja je verzija instalirana (provjera ažuriranja).
+        s.setUserAgentString(s.getUserAgentString() + " RadneNedjelje/" + BuildConfig.VERSION_CODE);
 
         webView.setWebViewClient(new WebViewClient() {
             @Override

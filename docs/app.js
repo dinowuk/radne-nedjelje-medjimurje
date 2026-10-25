@@ -22,11 +22,25 @@ const ucitaj = (k, def) => { try { const v = localStorage.getItem(k); return v =
 const stanje = {
   podaci: null,
   nedjelja: null,
-  mjesto: ucitaj('mjesto', ''),
+  mjesto: ucitaj('mjesto', '') === '*moji' ? '' : ucitaj('mjesto', ''),
   iskljuceniLanci: new Set(ucitaj('iskljuceniLanci', [])),
   samoOtvoreni: ucitaj('samoOtvoreni', true),
   moji: new Set(ucitaj('moji', [])),
+  mojaMjesta: new Set(ucitaj('mojaMjesta', [])),
+  prikaz: ucitaj('prikaz', null), // 'sve' | 'moji' | 'mjesta'
 };
+if (!['sve', 'moji', 'mjesta'].includes(stanje.prikaz)) {
+  stanje.prikaz = stanje.moji.size ? 'moji' : stanje.mojaMjesta.size ? 'mjesta' : 'sve';
+}
+
+let porukaTimer;
+function pokaziPoruku(tekst) {
+  const el = $('#poruka');
+  el.textContent = tekst;
+  el.classList.add('vidljiva');
+  clearTimeout(porukaTimer);
+  porukaTimer = setTimeout(() => el.classList.remove('vidljiva'), 2200);
+}
 
 // ------------------------------------------------------------ datumi
 function danasZagreb() {
@@ -137,12 +151,19 @@ function nacrtajNedjelje() {
 
 function nacrtajFiltere() {
   const tr = stanje.podaci.trgovine;
-  const sel = $('#mjesto');
-  const mjesta = [...new Set(tr.map(t => t.mjesto))].sort((a, b) => a.localeCompare(b, 'hr'));
-  sel.innerHTML = '<option value="">Sva mjesta</option>' + (stanje.moji.size ? '<option value="*moji">★ Moji dućani</option>' : '') +
-    mjesta.map(m => `<option>${m}</option>`).join('');
-  if (stanje.mjesto && ![...sel.options].some(o => o.value === stanje.mjesto)) stanje.mjesto = '';
-  sel.value = stanje.mjesto;
+  const p = stanje.prikaz;
+  document.querySelectorAll('.kartice button').forEach(b => b.setAttribute('aria-selected', b.dataset.prikaz === p));
+  $('#brojMoji').textContent = stanje.moji.size ? `(${stanje.moji.size})` : '';
+  $('#brojMjesta').textContent = stanje.mojaMjesta.size ? `(${stanje.mojaMjesta.size})` : '';
+  $('#poljeMjesto').hidden = p !== 'sve';
+  $('#mojaMjesta').hidden = p !== 'mjesta';
+  $('#lanci').hidden = p === 'moji';
+  $('#samoOtvoreni').parentElement.hidden = p === 'moji'; // svoje dućane uvijek vidiš, i kad su zatvoreni
+  $('#mojaMjestaPopis').textContent = stanje.mojaMjesta.size
+    ? [...stanje.mojaMjesta].sort((a, b) => a.localeCompare(b, 'hr')).join(', ') : 'Još nisi odabrao mjesta.';
+
+  $('#mjestaLista').innerHTML = sveMjesta().map(m => `<option value="${m}"></option>`).join('');
+  $('#mjesto').value = stanje.mjesto;
 
   const lanci = [...new Set(tr.map(t => t.lanac))].sort((a, b) => a.localeCompare(b, 'hr'));
   const box = $('#lanci');
@@ -163,15 +184,34 @@ function nacrtajFiltere() {
   $('#samoOtvoreni').checked = stanje.samoOtvoreni;
 }
 
+// Usporedba bez kvačica i velikih slova: "cakovec" nađe "Čakovec".
+const bezKvacica = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/gi, 'd').toLowerCase().trim();
+const mjestoOdgovara = (mjesto, upit) => !upit || bezKvacica(mjesto).includes(bezKvacica(upit));
+
+function sveMjesta() {
+  return [...new Set(stanje.podaci.trgovine.map(t => t.mjesto))].sort((a, b) => a.localeCompare(b, 'hr'));
+}
+
 function nacrtajPopis() {
   const d = stanje.nedjelja;
+  const p = stanje.prikaz;
   const svi = stanje.podaci.trgovine.filter(t =>
-    !stanje.iskljuceniLanci.has(t.lanac) &&
-    (stanje.mjesto === '' || (stanje.mjesto === '*moji' ? stanje.moji.has(t.id) : t.mjesto === stanje.mjesto)));
+    p === 'moji' ? stanje.moji.has(t.id)
+      : !stanje.iskljuceniLanci.has(t.lanac) &&
+        (p === 'mjesta' ? stanje.mojaMjesta.has(t.mjesto) : mjestoOdgovara(t.mjesto, stanje.mjesto)));
   const sa = svi.map(t => ({ t, s: statusTrgovine(t, d) }));
   const otvoreni = sa.filter(x => x.s.tip === 'otvoreno');
   const nepoznati = sa.filter(x => x.s.tip === 'nepoznato');
-  const prikaz = stanje.samoOtvoreni ? otvoreni : sa;
+  const prikaz = stanje.samoOtvoreni && p !== 'moji' ? otvoreni : sa;
+
+  // Prazni "moji" prikazi: uputa umjesto praznog popisa
+  if (p === 'moji' && !stanje.moji.size || p === 'mjesta' && !stanje.mojaMjesta.size) {
+    $('#sazetak').innerHTML = '';
+    $('#popis').innerHTML = p === 'moji'
+      ? `<div class="prazno"><p><b>Još nemaš svojih dućana.</b></p><p>Na kartici "Sve" dodirni ★ kod dućana u kojima kupuješ — ovdje ćeš ih onda odmah vidjeti, i radi li ove nedjelje.</p><button class="gumb-glavni" data-idi="sve">Odaberi dućane</button></div>`
+      : `<div class="prazno"><p><b>Još nemaš svojih mjesta.</b></p><p>Odaberi mjesta u kojima kupuješ pa ćeš vidjeti samo dućane iz njih.</p><button class="gumb-glavni" data-uredi-mjesta>Odaberi mjesta</button></div>`;
+    return;
+  }
 
   // Sažetak
   const { dan, mj, god } = dioDatuma(d);
@@ -197,12 +237,12 @@ function nacrtajPopis() {
     return;
   }
   const red = { otvoreno: 0, nepoznato: 1, zatvoreno: 2 };
-  prikaz.sort((a, b) => (stanje.moji.has(b.t.id) - stanje.moji.has(a.t.id)) || a.t.mjesto.localeCompare(b.t.mjesto, 'hr') ||
+  prikaz.sort((a, b) => a.t.mjesto.localeCompare(b.t.mjesto, 'hr') ||
     red[a.s.tip] - red[b.s.tip] || a.t.lanac.localeCompare(b.t.lanac, 'hr'));
   const tpl = $('#t-trgovina');
   let zadnjaGrupa = null;
   for (const { t, s: st } of prikaz) {
-    const grupa = stanje.moji.has(t.id) ? '★ Moji dućani' : t.mjesto;
+    const grupa = t.mjesto;
     if (grupa !== zadnjaGrupa) {
       const h = document.createElement('h3');
       h.className = 'grupa';
@@ -226,20 +266,98 @@ function nacrtajPopis() {
     z.setAttribute('aria-pressed', stanje.moji.has(t.id));
     z.setAttribute('aria-label', stanje.moji.has(t.id) ? 'Makni iz mojih dućana' : 'Dodaj u moje dućane');
     z.addEventListener('click', () => {
-      if (stanje.moji.has(t.id)) stanje.moji.delete(t.id); else stanje.moji.add(t.id);
+      const dodano = !stanje.moji.has(t.id);
+      if (dodano) stanje.moji.add(t.id); else stanje.moji.delete(t.id);
       spremi('moji', [...stanje.moji]);
+      pokaziPoruku(dodano ? `★ ${t.lanac}, ${t.mjesto} dodan u moje dućane` : 'Maknuto iz mojih dućana');
       nacrtajFiltere();
-      nacrtajPopis();
+      if (stanje.prikaz === 'moji') nacrtajPopis();
+      else {
+        z.setAttribute('aria-pressed', dodano);
+        z.setAttribute('aria-label', dodano ? 'Makni iz mojih dućana' : 'Dodaj u moje dućane');
+      }
     });
     popis.appendChild(el);
   }
 }
 
+// ------------------------------------------------------------ moja mjesta (dijalog)
+function nacrtajPopisMjesta() {
+  const q = $('#traziMjesto').value;
+  const brojPo = {};
+  for (const t of stanje.podaci.trgovine) brojPo[t.mjesto] = (brojPo[t.mjesto] || 0) + 1;
+  const box = $('#popisMjesta');
+  box.innerHTML = '';
+  // Odabrana mjesta na vrhu (redoslijed se ne mijenja dok je dijalog otvoren, da kvačica ne "pobjegne").
+  const odabranaNaPocetku = new Set(stanje.mojaMjesta);
+  const redom = sveMjesta().sort((a, b) => odabranaNaPocetku.has(b) - odabranaNaPocetku.has(a));
+  for (const m of redom) {
+    if (!mjestoOdgovara(m, q)) continue;
+    const l = document.createElement('label');
+    l.innerHTML = `<input type="checkbox"${stanje.mojaMjesta.has(m) ? ' checked' : ''}><span></span><small>${brojPo[m]} ${brojPo[m] === 1 ? 'dućan' : 'dućana'}</small>`;
+    l.querySelector('span').textContent = m;
+    l.querySelector('input').addEventListener('change', e => {
+      if (e.target.checked) stanje.mojaMjesta.add(m); else stanje.mojaMjesta.delete(m);
+      spremi('mojaMjesta', [...stanje.mojaMjesta]);
+    });
+    box.appendChild(l);
+  }
+  if (!box.children.length) box.innerHTML = '<p class="prazno">Nema mjesta s tim imenom.</p>';
+}
+function otvoriMjesta() {
+  $('#traziMjesto').value = '';
+  nacrtajPopisMjesta();
+  $('#dijalogMjesta').showModal();
+}
+$('#traziMjesto').addEventListener('input', nacrtajPopisMjesta);
+$('#urediMjesta').addEventListener('click', otvoriMjesta);
+$('#ocistiMjesta').addEventListener('click', e => {
+  e.preventDefault();
+  stanje.mojaMjesta.clear();
+  spremi('mojaMjesta', []);
+  nacrtajPopisMjesta();
+});
+$('#dijalogMjesta').addEventListener('close', () => {
+  stanje.prikaz = 'mjesta';
+  spremi('prikaz', 'mjesta');
+  nacrtajFiltere();
+  nacrtajPopis();
+});
+
 // ------------------------------------------------------------ događaji
-$('#mjesto').addEventListener('change', e => { stanje.mjesto = e.target.value; spremi('mjesto', stanje.mjesto); nacrtajPopis(); });
+function postaviPrikaz(p) {
+  stanje.prikaz = p;
+  spremi('prikaz', p);
+  nacrtajFiltere();
+  nacrtajPopis();
+}
+document.querySelectorAll('.kartice button').forEach(b => b.addEventListener('click', () => postaviPrikaz(b.dataset.prikaz)));
+$('#popis').addEventListener('click', e => {
+  if (e.target.closest('[data-uredi-mjesta]')) otvoriMjesta();
+  const idi = e.target.closest('[data-idi]');
+  if (idi) postaviPrikaz(idi.dataset.idi);
+});
+$('#mjesto').addEventListener('input', e => { stanje.mjesto = e.target.value; spremi('mjesto', stanje.mjesto); nacrtajPopis(); });
 $('#samoOtvoreni').addEventListener('change', e => { stanje.samoOtvoreni = e.target.checked; spremi('samoOtvoreni', stanje.samoOtvoreni); nacrtajPopis(); });
 $('#osvjezi').addEventListener('click', () => ucitajPodatke(true));
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && stanje.podaci) ucitajPodatke(false); });
+
+// ------------------------------------------------------------ provjera nove verzije (samo Android aplikacija)
+// Aplikacija u user-agentu šalje "RadneNedjelje/<versionCode>"; docs/verzija.json kaže koja je najnovija.
+const VERZIJA_URL = 'https://raw.githubusercontent.com/dinowuk/radne-nedjelje-medjimurje/main/docs/verzija.json';
+async function provjeriAzuriranje() {
+  const m = navigator.userAgent.match(/RadneNedjelje\/(\d+)/);
+  if (!m) return;
+  try {
+    const v = await (await fetch(VERZIJA_URL + '?t=' + Date.now(), { cache: 'no-store' })).json();
+    if (+v.versionCode > +m[1] && v.url) {
+      $('#azuriranjeTekst').textContent = `Dostupna je nova verzija ${v.versionName}${v.opis ? ' — ' + v.opis : ''}.`;
+      $('#azuriranjeLink').href = v.url;
+      $('#azuriranje').hidden = false;
+    }
+  } catch (e) { /* bez interneta — provjerit će sljedeći put */ }
+}
+provjeriAzuriranje();
 
 // U Android aplikaciji su datoteke već ugrađene, service worker treba samo web verziji.
 if ('serviceWorker' in navigator && !U_APLIKACIJI) navigator.serviceWorker.register('sw.js').catch(() => {});

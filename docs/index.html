@@ -26,13 +26,29 @@
 </header>
 
 <main>
+  <div class="azuriranje" id="azuriranje" hidden>
+    <span id="azuriranjeTekst">Dostupna je nova verzija aplikacije.</span>
+    <a id="azuriranjeLink" target="_blank" rel="noopener">Preuzmi</a>
+  </div>
+
+  <div class="kartice" role="tablist" aria-label="Prikaz">
+    <button role="tab" data-prikaz="sve">Sve</button>
+    <button role="tab" data-prikaz="moji">★ Moji dućani <span class="broj" id="brojMoji"></span></button>
+    <button role="tab" data-prikaz="mjesta">Moja mjesta <span class="broj" id="brojMjesta"></span></button>
+  </div>
+
   <section id="sazetak" class="sazetak" aria-live="polite"></section>
 
   <section class="filteri" aria-label="Filteri">
-    <label class="polje">
+    <label class="polje polje--siroko" id="poljeMjesto">
       <span>Mjesto</span>
-      <select id="mjesto"><option value="">Sva mjesta</option></select>
+      <input type="search" id="mjesto" list="mjestaLista" placeholder="Upiši naselje (npr. Prelog)" autocomplete="off" enterkeyhint="search">
+      <datalist id="mjestaLista"></datalist>
     </label>
+    <div class="moja-mjesta" id="mojaMjesta" hidden>
+      <span id="mojaMjestaPopis"></span>
+      <button class="gumb-tekst" id="urediMjesta">Uredi</button>
+    </div>
     <div id="lanci" class="cipovi" role="group" aria-label="Lanci"></div>
     <label class="prekidac">
       <input type="checkbox" id="samoOtvoreni" checked>
@@ -48,6 +64,21 @@
   <p>Podaci se svaki dan automatski preuzimaju sa službenih stranica trgovaca. Trgovac može promijeniti radno vrijeme u zadnji čas — za sigurnost provjeri i kod trgovca.</p>
   <p><a href="privatnost.html">Pravila privatnosti</a></p>
 </footer>
+
+<dialog id="dijalogMjesta" aria-labelledby="naslovMjesta">
+  <form method="dialog" class="dijalog">
+    <h2 id="naslovMjesta">Moja mjesta</h2>
+    <p class="dijalog__opis">Označi mjesta u kojima kupuješ.</p>
+    <input type="search" id="traziMjesto" placeholder="Traži mjesto…" autocomplete="off">
+    <div id="popisMjesta" class="popis-mjesta"></div>
+    <div class="dijalog__gumbi">
+      <button value="ocisti" class="gumb-tekst" id="ocistiMjesta">Očisti sve</button>
+      <button value="gotovo" class="gumb-glavni">Gotovo</button>
+    </div>
+  </form>
+</dialog>
+
+<div id="poruka" class="poruka" role="status" aria-live="polite"></div>
 
 <template id="t-trgovina">
   <article class="trgovina">
