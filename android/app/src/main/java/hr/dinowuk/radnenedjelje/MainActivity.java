@@ -11,6 +11,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.WindowInsets;
 import android.webkit.GeolocationPermissions;
+import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
@@ -32,6 +33,8 @@ public class MainActivity extends Activity {
 
     private static final int ZAHTJEV_LOKACIJA = 1;
     private static final int ZAHTJEV_OBAVIJESTI = 2;
+    private static final int ZAHTJEV_DATOTEKA = 3;
+    private ValueCallback<Uri[]> cekaDatoteku;
 
     private WebView webView;
     // Lokacija koju je stranica zatražila dok čekamo odgovor korisnika na Androidov upit
@@ -79,6 +82,20 @@ public class MainActivity extends Activity {
         webView.addJavascriptInterface(new MostJS(this), "RadneNedjeljeApp");
 
         webView.setWebChromeClient(new WebChromeClient() {
+            // Odabir fotke (admin: <input type="file">)
+            @Override
+            public boolean onShowFileChooser(WebView v, ValueCallback<Uri[]> cb, FileChooserParams params) {
+                if (cekaDatoteku != null) cekaDatoteku.onReceiveValue(null);
+                cekaDatoteku = cb;
+                try {
+                    startActivityForResult(params.createIntent(), ZAHTJEV_DATOTEKA);
+                } catch (ActivityNotFoundException e) {
+                    cekaDatoteku = null;
+                    return false;
+                }
+                return true;
+            }
+
             @Override
             public void onGeolocationPermissionsShowPrompt(String izvor, GeolocationPermissions.Callback cb) {
                 if (!izvor.contains(DOMENA)) { cb.invoke(izvor, false, false); return; }
@@ -142,6 +159,16 @@ public class MainActivity extends Activity {
     private void javiStranici(String vrsta, boolean dano) {
         webView.evaluateJavascript("window.dispatchEvent(new CustomEvent('dopustenje',{detail:{vrsta:'"
                 + vrsta + "',dano:" + dano + "}}))", null);
+    }
+
+    @SuppressWarnings("deprecation")
+    @Override
+    protected void onActivityResult(int kod, int rezultat, Intent data) {
+        super.onActivityResult(kod, rezultat, data);
+        if (kod == ZAHTJEV_DATOTEKA && cekaDatoteku != null) {
+            cekaDatoteku.onReceiveValue(WebChromeClient.FileChooserParams.parseResult(rezultat, data));
+            cekaDatoteku = null;
+        }
     }
 
     @Override

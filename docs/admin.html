@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Kam f nedelu? — uređivanje</title>
+<link rel="stylesheet" href="stil.css">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin">
+<header class="zaglavlje">
+  <div class="zaglavlje__red">
+    <div>
+      <h1>Uređivanje</h1>
+      <p class="podnaslov">Kam f nedelu? — admin</p>
+    </div>
+    <a class="ikonski" href="index.html" aria-label="Natrag u aplikaciju" title="Natrag">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20v-2z"/></svg>
+    </a>
+  </div>
+</header>
+
+<main>
+  <!-- Prijava -->
+  <section id="prijava" class="kartica-admin" hidden>
+    <h2>Prijava</h2>
+    <p>Upiši svoj GitHub ključ (token) koji smije pisati u repozitorij <b>dinowuk/radne-nedjelje-medjimurje</b>. Pamti se samo na ovom uređaju.</p>
+    <input type="password" id="token" placeholder="github_pat_…" autocomplete="off">
+    <button class="gumb-glavni" id="prijaviSe">Prijavi se</button>
+    <p class="greska" id="greskaPrijave"></p>
+  </section>
+
+  <section id="radno" hidden>
+    <div class="kartice" role="tablist">
+      <button role="tab" data-tab="restorani" aria-selected="true">Restorani</button>
+      <button role="tab" data-tab="dogadaji">Događanja</button>
+    </div>
+
+    <!-- Restorani -->
+    <div id="tabRestorani">
+      <div class="admin-traka">
+        <input type="text" id="traziR" placeholder="Traži restoran ili mjesto…">
+        <button class="gumb-tekst" id="noviRestoran">+ Novi restoran</button>
+      </div>
+      <div id="popisR"></div>
+    </div>
+
+    <!-- Događanja -->
+    <div id="tabDogadaji" hidden>
+      <div class="admin-traka">
+        <input type="text" id="traziD" placeholder="Traži događanje…">
+        <button class="gumb-tekst" id="noviDogadaj">+ Novo događanje</button>
+      </div>
+      <div id="popisD"></div>
+    </div>
+
+    <p class="admin-napomena">Promjene su vidljive u aplikaciji za nekoliko minuta (GitHub osvježava podatke). <button class="gumb-tekst" id="odjava">Odjava</button></p>
+  </section>
+</main>
+
+<!-- Uređivanje restorana -->
+<dialog id="dlgR">
+  <form method="dialog" class="dijalog admin-forma">
+    <h2 id="dlgRNaslov">Restoran</h2>
+    <label>Naziv <input id="rNaziv"></label>
+    <div class="dva"><label>Mjesto <input id="rMjesto"></label><label>Adresa <input id="rAdresa"></label></div>
+    <div class="dva"><label>Telefon <input id="rTel"></label><label>Web <input id="rWeb"></label></div>
+    <label>Fotka</label>
+    <div class="foto-polje">
+      <img id="rFotoPrikaz" alt="">
+      <div>
+        <input type="file" id="rFotoDatoteka" accept="image/*">
+        <input id="rFoto" placeholder="ili zalijepi link na fotku (https://…)">
+        <button type="button" class="gumb-tekst" id="rFotoMakni">Makni fotku</button>
+      </div>
+    </div>
+    <label>Opis <textarea id="rOpis" rows="3" maxlength="400"></textarea></label>
+    <label>Preporučena jela (svako u svoj red) <textarea id="rJela" rows="3"></textarea></label>
+    <label>Nedjeljni ručak / ponuda <textarea id="rRucak" rows="2" maxlength="300" placeholder="npr. Nedjeljni ručak 15 € — juha, pečenka, mlinci, salata"></textarea></label>
+    <label>Nedjelja radno vrijeme <input id="rNedjelja" placeholder="npr. 11:00-22:00, ili 'ne radi', prazno = iz karte"></label>
+    <fieldset class="gablec-polje">
+      <label class="prekidac"><input type="checkbox" id="rGablec"><span><b>Nudi gablec</b></span></label>
+      <div class="dva"><label>Cijena <input id="rGablecCijena" placeholder="npr. 9 €"></label><label>Vrijeme <input id="rGablecVrijeme" placeholder="npr. pon–pet 10–14 h"></label></div>
+      <label>Gablec — jelovnik (dnevni ili tjedni; npr. "PON: grah s kobasicom, UTO: …") <textarea id="rGablecMeni" rows="4"></textarea></label>
+    </fieldset>
+    <div class="kvacice">
+      <label class="prekidac"><input type="checkbox" id="rIstaknut"><span>Istaknut (na vrhu popisa)</span></label>
+      <label class="prekidac"><input type="checkbox" id="rSakriven"><span>Sakrij (zatvoren / ne prikazuj)</span></label>
+    </div>
+    <p class="greska" id="greskaR"></p>
+    <div class="dijalog__gumbi">
+      <button value="odustani" class="gumb-tekst">Odustani</button>
+      <button value="spremi" class="gumb-glavni" id="spremiR">Spremi</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- Uređivanje događanja -->
+<dialog id="dlgD">
+  <form method="dialog" class="dijalog admin-forma">
+    <h2>Događanje</h2>
+    <label>Naslov <input id="dNaslov"></label>
+    <div class="dva"><label>Od <input type="date" id="dOd"></label><label>Do <input type="date" id="dDo"></label></div>
+    <div class="dva"><label>Vrijeme <input type="time" id="dVrijeme"></label><label>Vrsta
+      <select id="dKategorija"><option>koncert</option><option>zabava</option><option>manifestacija</option><option>sajam</option><option>kazalište</option><option>izložba</option><option>film</option><option>sport</option><option>gastro</option><option>za djecu</option><option>ostalo</option></select></label></div>
+    <div class="dva"><label>Mjesto održavanja <input id="dMjesto" placeholder="npr. Dvorac Čakovec"></label><label>Grad/naselje <input id="dGrad"></label></div>
+    <label>Cijena <input id="dCijena" placeholder="npr. Besplatno, 10 €"></label>
+    <label>Link za više <input id="dLink" placeholder="https://…"></label>
+    <label>Fotka</label>
+    <div class="foto-polje">
+      <img id="dFotoPrikaz" alt="">
+      <div><input type="file" id="dFotoDatoteka" accept="image/*"><input id="dFoto" placeholder="ili link na fotku"></div>
+    </div>
+    <label>Opis <textarea id="dOpis" rows="3" maxlength="400"></textarea></label>
+    <p class="greska" id="greskaD"></p>
+    <div class="dijalog__gumbi">
+      <button value="obrisi" class="gumb-tekst" id="obrisiD">Obriši</button>
+      <button value="odustani" class="gumb-tekst">Odustani</button>
+      <button value="spremi" class="gumb-glavni">Spremi</button>
+    </div>
+  </form>
+</dialog>
+
+<div id="poruka" class="poruka" role="status" aria-live="polite"></div>
+<script src="admin.js"></script>
+</body>
+</html>

@@ -78,30 +78,68 @@ function blagdan(d) {
 }
 
 // ------------------------------------------------------------ podaci
+const UREDJIVANJE_URL = LOKALNO ? 'podaci/uredjivanje.json'
+  : 'https://raw.githubusercontent.com/dinowuk/radne-nedjelje-medjimurje/main/docs/podaci/uredjivanje.json';
+
+// Preklopi ručne izmjene iz admina preko automatskih podataka (original ostaje netaknut)
+function primijeniUredjivanje(sirovi, u) {
+  const p = JSON.parse(JSON.stringify(sirovi));
+  if (!u) return p;
+  const ur = u.restorani || {};
+  p.restorani = [...(p.restorani || []), ...(u.noviRestorani || []).map(r => ({ tjedan: null, ...r }))]
+    .filter(r => !(ur[r.id] && ur[r.id].sakriven))
+    .map(r => {
+      const iz = ur[r.id];
+      if (!iz) return r;
+      const n = { ...r };
+      for (const k of ['naziv', 'mjesto', 'adresa', 'tel', 'web', 'foto', 'opis']) if (iz[k] !== undefined) n[k] = iz[k];
+      for (const k of ['jela', 'rucak', 'gablec', 'istaknut']) if (iz[k] !== undefined) n[k] = iz[k];
+      if (iz.nedjelja) {
+        const v = String(iz.nedjelja).trim();
+        n.tjedan = { ...(n.tjedan || {}), ned: /ne radi|zatvoren/i.test(v) ? null : v.replace(/\s*[–-]\s*/, '-') };
+      }
+      return n;
+    });
+  const d = u.dogadaji || {};
+  const skriveni = new Set(d.skriveni || []);
+  p.dogadaji = [...(p.dogadaji || []).filter(e => !skriveni.has(e.id)), ...(d.novi || [])]
+    .sort((a, b) => a.od.localeCompare(b.od) || String(a.vrijeme).localeCompare(String(b.vrijeme)));
+  p.najave = (p.najave || []).filter(n => !skriveni.has(n.id));
+  return p;
+}
+
 async function ucitajPodatke(forsiraj) {
   const gumb = $('#osvjezi');
   gumb.classList.add('vrti');
   // Redom: mreža → zadnji spremljeni podaci → kopija ugrađena u aplikaciju. Uzima se najsvježije.
-  const svjezije = p => p && (!stanje.podaci || p.azurirano > stanje.podaci.azurirano);
+  // stanje.sirovi = automatski podaci; stanje.podaci = sirovi + ručne izmjene iz admina
+  const svjezije = p => p && (!stanje.sirovi || p.azurirano > stanje.sirovi.azurirano);
   try {
     const r = await fetch(PODACI_URL + (forsiraj ? '?t=' + Date.now() : ''), { cache: forsiraj ? 'no-store' : 'default' });
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const p = await r.json();
-    if (svjezije(p)) stanje.podaci = p;
+    if (svjezije(p)) stanje.sirovi = p;
     try { localStorage.setItem('podaci', JSON.stringify(p)); } catch (e) {}
   } catch (e) {
     const spremljeni = ucitaj('podaci', null);
-    if (svjezije(spremljeni)) stanje.podaci = spremljeni;
-    if (!stanje.podaci) {
-      try { stanje.podaci = await (await fetch(UGRADJENI_PODACI)).json(); } catch (e2) {}
+    if (svjezije(spremljeni)) stanje.sirovi = spremljeni;
+    if (!stanje.sirovi) {
+      try { stanje.sirovi = await (await fetch(UGRADJENI_PODACI)).json(); } catch (e2) {}
     }
-    if (!stanje.podaci) {
+    if (!stanje.sirovi) {
+      gumb.classList.remove('vrti');
       $('#popis').innerHTML = '<p class="prazno">Podaci se ne mogu učitati. Provjeri internetsku vezu i pokušaj ponovno.</p>';
       return;
     }
-  } finally {
-    gumb.classList.remove('vrti');
   }
+  // Ručne izmjene (admin): ako ih nema ili nema interneta, zadnje spremljene
+  try {
+    const r = await fetch(UREDJIVANJE_URL + '?t=' + Math.floor(Date.now() / 120000), { cache: 'no-store' });
+    if (r.ok) { stanje.uredjivanje = await r.json(); try { localStorage.setItem('uredjivanje', JSON.stringify(stanje.uredjivanje)); } catch (e) {} }
+  } catch (e) { /* bez interneta */ }
+  if (!stanje.uredjivanje) stanje.uredjivanje = ucitaj('uredjivanje', null);
+  stanje.podaci = primijeniUredjivanje(stanje.sirovi, stanje.uredjivanje);
+  gumb.classList.remove('vrti');
   const p = stanje.podaci;
   const nn = nadolazecaNedjelja();
   if (!stanje.nedjelja || !p.nedjelje.includes(stanje.nedjelja)) {
@@ -178,31 +216,52 @@ function statusRestorana(r) {
   return v ? { tip: 'otvoreno', tekst: v.replace('-', ' – ') } : { tip: 'zatvoreno', tekst: 'Nedjeljom ne radi' };
 }
 
+stanje.restoraniNacin = 'nedjelja'; // 'nedjelja' | 'gablec'
+const DANI_KLJUC = ['ned', 'pon', 'uto', 'sri', 'cet', 'pet', 'sub'];
+
+// Radno vrijeme danas (za gablec, radnim danom)
+function statusDanas(r) {
+  const k = DANI_KLJUC[new Date(danasZagreb() + 'T12:00:00Z').getUTCDay()];
+  if (!r.tjedan || !(k in r.tjedan)) return { tip: 'nepoznato', tekst: 'Vrijeme nije upisano' };
+  return r.tjedan[k] ? { tip: 'otvoreno', tekst: 'Danas ' + r.tjedan[k].replace('-', ' – ') } : { tip: 'zatvoreno', tekst: 'Danas ne radi' };
+}
+
 function nacrtajRestorane() {
-  const svi = stanje.podaci.restorani || [];
+  const gablec = stanje.restoraniNacin === 'gablec';
+  document.querySelectorAll('[data-rnacin]').forEach(b => b.setAttribute('aria-selected', b.dataset.rnacin === stanje.restoraniNacin));
+  const svi = (stanje.podaci.restorani || []).filter(r => !gablec || r.gablec);
   const q = stanje.traziRestoran;
   const d = stanje.nedjelja;
   const { dan, mj } = dioDatuma(d);
-  let lista = svi.filter(r => !q || mjestoOdgovara(r.naziv, q) || mjestoOdgovara(r.mjesto, q) || mjestoOdgovara(r.kuhinja || '', q))
-    .map(r => ({ r, s: statusRestorana(r) }));
+  let lista = svi.filter(r => !q || mjestoOdgovara(r.naziv, q) || mjestoOdgovara(r.mjesto, q) || mjestoOdgovara(r.kuhinja || '', q)
+      || (r.gablec && mjestoOdgovara(r.gablec.meni || '', q)))
+    .map(r => ({ r, s: gablec ? statusDanas(r) : statusRestorana(r) }));
   const rade = lista.filter(x => x.s.tip === 'otvoreno').length;
   const ukupno = lista.length;
-  if (stanje.samoNedjeljom) lista = lista.filter(x => x.s.tip === 'otvoreno');
+  if (stanje.samoNedjeljom && !gablec) lista = lista.filter(x => x.s.tip === 'otvoreno');
+  $('#samoNedjeljom').parentElement.hidden = gablec;
   const red = { otvoreno: 0, nepoznato: 1, zatvoreno: 2 };
   const blizu = stanje.restoraniBlizu && stanje.pozicija;
   if (blizu) {
     for (const x of lista) x.km = udaljenostKm(stanje.pozicija, x.r);
     lista.sort((a, b) => a.km - b.km);
   } else {
-    lista.sort((a, b) => red[a.s.tip] - red[b.s.tip] || a.r.mjesto.localeCompare(b.r.mjesto, 'hr') || a.r.naziv.localeCompare(b.r.naziv, 'hr'));
+    // istaknuti (preporuka) prvi
+    lista.sort((a, b) => (!!b.r.istaknut - !!a.r.istaknut) || red[a.s.tip] - red[b.s.tip] || a.r.mjesto.localeCompare(b.r.mjesto, 'hr') || a.r.naziv.localeCompare(b.r.naziv, 'hr'));
   }
-  $('#restoraniSazetak').innerHTML = `<h2>Restorani u Međimurju</h2><p>Nedjelja, ${dan}. ${MJESECI_PUNO[mj]}: radi <b>${rade}</b> od ${ukupno} restorana${q ? ` za „${esc(q)}”` : ''}</p>` +
-    (blagdan(d) ? `<div class="obavijest">${blagdan(d)} je blagdan — restorani mogu raditi drugačije, provjeri pozivom.</div>` : '');
+  $('#restoraniSazetak').innerHTML = gablec
+    ? `<h2>Gablec u Međimurju</h2><p>${ukupno ? `<b>${ukupno}</b> ${ukupno === 1 ? 'restoran nudi' : 'restorana nudi'} gablec${q ? ` za „${esc(q)}”` : ''}` : 'Još nema upisanih gableca'}</p>`
+    : `<h2>Restorani u Međimurju</h2><p>Nedjelja, ${dan}. ${MJESECI_PUNO[mj]}: radi <b>${rade}</b> od ${ukupno} restorana${q ? ` za „${esc(q)}”` : ''}</p>` +
+      (blagdan(d) ? `<div class="obavijest">${blagdan(d)} je blagdan — restorani mogu raditi drugačije, provjeri pozivom.</div>` : '');
   $('#samoNedjeljom').checked = stanje.samoNedjeljom;
   $('#ocistiRestoran').hidden = !q;
   $('#restoraniBlizu').setAttribute('aria-pressed', !!blizu);
 
   const box = $('#restoraniPopis');
+  if (!lista.length && gablec) {
+    box.innerHTML = '<p class="prazno">Gablec još nije upisan ni za jedan restoran.</p>';
+    return;
+  }
   if (!lista.length) {
     box.innerHTML = ukupno
       ? `<p class="prazno">Nijedan od ${ukupno} restorana nema upisano da radi nedjeljom.<br><button class="gumb-glavni" id="prikaziSveRestorane">Prikaži sve (pa nazovi)</button></p>`
@@ -218,10 +277,16 @@ function nacrtajRestorane() {
     const info = [r.kuhinja || r.vrsta, r.mjesto].filter(Boolean).join(' · ') +
       (blizu ? ` · ${km < 1 ? Math.round(km * 1000 / 50) * 50 + ' m' : km.toFixed(1).replace('.', ',') + ' km'}` : '');
     const karta = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(`${r.naziv}, ${r.adresa ? r.adresa + ', ' : ''}${r.mjesto}, Hrvatska`);
+    const g = r.gablec;
     el.innerHTML = `${r.foto ? `<img class="restoran__foto" src="${esc(r.foto)}" alt="" loading="lazy">` : ''}
-      <div class="restoran__glava"><div><h3>${esc(r.naziv)}</h3><p class="restoran__info">${esc(info)}</p></div>
+      <div class="restoran__glava"><div>${r.istaknut ? '<span class="restoran__preporuka">★ Preporuka</span>' : ''}<h3>${esc(r.naziv)}</h3><p class="restoran__info">${esc(info)}</p></div>
         <span class="trgovina__vrijeme ${s.tip}">${esc(s.tekst)}</span></div>
-      ${r.opis ? `<p class="restoran__opis">${esc(r.opis)}</p>` : ''}
+      ${gablec && g ? `<div class="restoran__gablec"><strong>Gablec${g.cijena ? ' · ' + esc(g.cijena) : ''}</strong>${g.vrijeme ? ` <small>${esc(g.vrijeme)}</small>` : ''}
+        ${g.meni ? `<p>${esc(g.meni)}</p>` : ''}${g.azurirano ? `<small>Upisano ${dioDatuma(g.azurirano).dan}.${dioDatuma(g.azurirano).mj + 1}.</small>` : ''}</div>` : ''}
+      ${!gablec && r.opis ? `<p class="restoran__opis">${esc(r.opis)}</p>` : ''}
+      ${!gablec && r.jela && r.jela.length ? `<p class="restoran__jela"><b>Preporučujemo:</b> ${r.jela.map(esc).join(', ')}</p>` : ''}
+      ${!gablec && r.rucak ? `<p class="restoran__rucak"><b>Nedjeljni ručak:</b> ${esc(r.rucak)}</p>` : ''}
+      ${!gablec && g ? '<p class="restoran__rucak"><b>Nudi gablec</b> — pogledaj karticu Gablec</p>' : ''}
       <div class="restoran__gumbi">
         ${r.tel ? `<a href="tel:${esc(r.tel.replace(/[^\d+]/g, ''))}">${IKONA_TEL} Nazovi</a>` : ''}
         ${r.web ? `<a href="${esc(r.web)}" target="_blank" rel="noopener">Web</a>` : ''}
@@ -249,6 +314,7 @@ function nacrtajRestorane() {
 }
 
 $('#traziRestoran').addEventListener('input', e => { stanje.traziRestoran = e.target.value; nacrtajRestorane(); });
+document.querySelectorAll('[data-rnacin]').forEach(b => b.addEventListener('click', () => { stanje.restoraniNacin = b.dataset.rnacin; nacrtajRestorane(); }));
 $('#ocistiRestoran').addEventListener('click', () => { $('#traziRestoran').value = ''; stanje.traziRestoran = ''; nacrtajRestorane(); });
 $('#samoNedjeljom').addEventListener('change', e => { stanje.samoNedjeljom = e.target.checked; spremi('samoNedjeljom', stanje.samoNedjeljom); nacrtajRestorane(); });
 $('#restoraniBlizu').addEventListener('click', () => {
@@ -344,14 +410,14 @@ function nacrtajDogadaje() {
     return;
   }
   for (const e of prikaz) {
-    const a = document.createElement('a');
+    // ručno dodana događanja (admin) ne moraju imati link
+    const a = document.createElement(e.link ? 'a' : 'div');
     a.className = 'dogadaj';
-    a.href = e.link;
-    a.target = '_blank';
-    a.rel = 'noopener';
+    if (e.link) { a.href = e.link; a.target = '_blank'; a.rel = 'noopener'; }
     a.innerHTML = `${e.slika ? `<img src="${esc(e.slika)}" alt="" loading="lazy">` : '<span class="dogadaj__bez-slike"></span>'}
       <div class="dogadaj__tijelo"><div class="dogadaj__kada">${esc(kadaDogadaj(e))}</div>
-      <h3>${esc(e.naslov)}</h3><p class="dogadaj__gdje">${esc(e.mjesto)}${e.grad && !e.mjesto.includes(e.grad) ? ', ' + esc(e.grad) : ''}</p>
+      <h3>${esc(e.naslov)}</h3><p class="dogadaj__gdje">${esc(e.mjesto || '')}${e.grad && !(e.mjesto || '').includes(e.grad) ? (e.mjesto ? ', ' : '') + esc(e.grad) : ''}</p>
+      ${!e.link && e.opis ? `<p class="dogadaj__gdje">${esc(e.opis)}</p>` : ''}
       <div class="dogadaj__oznake"><span>${esc(VELIKO(e.kategorija || 'ostalo'))}</span>${e.cijena ? `<span>${esc(e.cijena)}</span>` : ''}</div></div>`;
     const img = a.querySelector('img');
     if (img) img.onerror = () => img.replaceWith(Object.assign(document.createElement('span'), { className: 'dogadaj__bez-slike' }));
@@ -855,6 +921,17 @@ document.addEventListener('visibilitychange', () => { if (document.visibilitySta
 {
   const v = navigator.userAgent.match(/RadneNedjeljeVerzija\/([\w.]+)/);
   if (v) $('#verzijaAplikacije').textContent = 'Verzija aplikacije: ' + v[1];
+}
+
+// Skriveni ulaz u admin: 5 dodira na "Zadnje ažuriranje"
+{
+  let dodiri = 0, t;
+  $('#azurirano').addEventListener('click', () => {
+    dodiri++;
+    clearTimeout(t);
+    t = setTimeout(() => { dodiri = 0; }, 2000);
+    if (dodiri >= 5) location.href = 'admin.html';
+  });
 }
 
 // U Android aplikaciji su datoteke već ugrađene, service worker treba samo web verziji.

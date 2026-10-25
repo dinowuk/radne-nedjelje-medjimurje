@@ -282,6 +282,13 @@ body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
 .restoran__glava { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; }
 .restoran__foto { display: block; width: calc(100% + 24px); margin: -12px -12px 10px; height: 150px; object-fit: cover; border-radius: 14px 14px 0 0; background: var(--glavna-svijetla); }
 .restoran__opis { margin: 6px 0 0; font-size: .85rem; color: var(--tekst-2); }
+.restoran__preporuka { display: inline-block; font-size: .7rem; font-weight: 800; letter-spacing: .03em; text-transform: uppercase; color: #8a5a00; background: #ffe9b0; padding: 2px 8px; border-radius: 999px; margin-bottom: 4px; }
+.restoran__jela, .restoran__rucak { margin: 6px 0 0; font-size: .88rem; }
+.restoran__jela b, .restoran__rucak b { color: var(--glavna); }
+.restoran__gablec { margin-top: 8px; padding: 10px; border-radius: 10px; background: var(--glavna-svijetla); font-size: .9rem; }
+.restoran__gablec strong { color: var(--glavna); }
+.restoran__gablec p { margin: 4px 0 0; white-space: pre-line; }
+.restoran__gablec small { color: var(--tekst-2); }
 .restoran__glava div { flex: 1; min-width: 0; }
 .restoran h3 { margin: 0; font-size: 1rem; }
 .restoran__info { margin: 2px 0 0; color: var(--tekst-2); font-size: .86rem; }
