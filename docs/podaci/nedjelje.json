@@ -1,7 +1,10 @@
 {
- "azurirano": "2026-10-25T11:47:28.134Z",
+ "azurirano": "2026-10-25T12:08:46.183Z",
  "nadolazeca": "2026-10-25",
  "nedjelje": [
+  "2026-08-16",
+  "2026-08-23",
+  "2026-08-30",
   "2026-09-06",
   "2026-09-13",
   "2026-09-20",
@@ -24,52 +27,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-25T11:47:28.134Z"
+   "provjereno": "2026-10-25T12:08:46.183Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-25T11:47:28.134Z"
+   "provjereno": "2026-10-25T12:08:46.183Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-25T11:47:28.134Z"
+   "provjereno": "2026-10-25T12:08:46.183Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T11:47:28.134Z"
+   "provjereno": "2026-10-25T12:08:46.183Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T11:47:28.134Z"
+   "provjereno": "2026-10-25T12:08:46.183Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T11:47:28.134Z"
+   "provjereno": "2026-10-25T12:08:46.183Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T11:47:28.134Z"
+   "provjereno": "2026-10-25T12:08:46.183Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-25T11:47:28.134Z"
+   "provjereno": "2026-10-25T12:08:46.183Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T11:47:28.134Z"
+   "provjereno": "2026-10-25T12:08:46.183Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T11:47:28.134Z"
+   "provjereno": "2026-10-25T12:08:46.183Z"
   }
  },
  "greske": [],
@@ -3968,6 +3971,155 @@
     "2026-12-27": "07:00-11:00"
    },
    "tjedan": null
+  }
+ ],
+ "centri": [
+  {
+   "id": "centar-stop-shop-cakovec",
+   "vrsta": "centar",
+   "lanac": "Stop Shop",
+   "naziv": "STOP SHOP Čakovec",
+   "adresa": "Ulica 34. Inženjerijske bojne 2",
+   "mjesto": "Čakovec",
+   "lat": 46.389725,
+   "lng": 16.447738,
+   "opis": "Retail park. Radne nedjelje od 9 do 14 h; supermarket i kafić mogu imati drugačije vrijeme.",
+   "izvor": "https://stop-shop.com/hr/hrvatska/cakovec",
+   "nedjelje": {
+    "2026-08-16": null,
+    "2026-08-23": null,
+    "2026-08-30": null,
+    "2026-09-06": "09:00-14:00",
+    "2026-09-13": "09:00-14:00",
+    "2026-09-20": null,
+    "2026-09-27": null,
+    "2026-10-04": "09:00-14:00",
+    "2026-10-11": "09:00-14:00",
+    "2026-10-18": null,
+    "2026-10-25": "09:00-14:00",
+    "2026-11-01": null,
+    "2026-11-08": "09:00-14:00",
+    "2026-11-15": "09:00-14:00",
+    "2026-11-22": "09:00-14:00",
+    "2026-11-29": "09:00-14:00",
+    "2026-12-06": "09:00-14:00",
+    "2026-12-13": "09:00-14:00",
+    "2026-12-20": "09:00-14:00",
+    "2026-12-27": "09:00-14:00"
+   },
+   "tjedan": null,
+   "trgovine": [
+    {
+     "naziv": "Plodine",
+     "vrsta": "Supermarket",
+     "ned": "07:00-21:00",
+     "veza": "plodine-128"
+    },
+    {
+     "naziv": "dm",
+     "vrsta": "Drogerija",
+     "ned": "09:00-14:00"
+    },
+    {
+     "naziv": "Sinsay",
+     "vrsta": "Odjeća",
+     "ned": "09:00-14:00"
+    },
+    {
+     "naziv": "Sport Vision",
+     "vrsta": "Sport",
+     "ned": "09:00-14:00"
+    },
+    {
+     "naziv": "KiK",
+     "vrsta": "Odjeća i dom",
+     "ned": "09:00-14:00"
+    },
+    {
+     "naziv": "NKD",
+     "vrsta": "Odjeća",
+     "ned": "09:00-14:00"
+    },
+    {
+     "naziv": "PittaRosso",
+     "vrsta": "Obuća",
+     "ned": "09:00-14:00"
+    },
+    {
+     "naziv": "TEDi",
+     "vrsta": "Dom i sitnice",
+     "ned": "09:00-14:00"
+    },
+    {
+     "naziv": "Zoo City",
+     "vrsta": "Kućni ljubimci",
+     "ned": "09:00-14:00"
+    },
+    {
+     "naziv": "Vacom",
+     "vrsta": "Elektronika",
+     "ned": "09:00-15:00"
+    },
+    {
+     "naziv": "Mandis Pharm",
+     "vrsta": "Ljekarna",
+     "ned": "09:00-14:00"
+    },
+    {
+     "naziv": "Optika Anda",
+     "vrsta": "Optika",
+     "ned": "09:00-14:00"
+    },
+    {
+     "naziv": "ReStart Caffe Bar",
+     "vrsta": "Kafić",
+     "ned": "08:00-14:00"
+    }
+   ]
+  },
+  {
+   "id": "centar-galerija-sjever",
+   "vrsta": "centar",
+   "lanac": "Galerija Sjever",
+   "naziv": "Galerija Sjever",
+   "adresa": "Svetojelenska cesta 25",
+   "mjesto": "Čakovec",
+   "lat": 46.395973,
+   "lng": 16.428315,
+   "opis": "Trgovački centar. Radno vrijeme centra prema trgovini C&A.",
+   "izvor": "https://www.c-and-a.com/stores/hr-en/medimurje/cakovec/svetojelenska-cesta-25.html",
+   "nedjelje": {
+    "2026-10-25": "09:00-14:00",
+    "2026-11-01": null,
+    "2026-11-08": "09:00-14:00",
+    "2026-11-15": "09:00-14:00",
+    "2026-11-22": null,
+    "2026-11-29": null,
+    "2026-12-06": "09:00-14:00",
+    "2026-12-13": "09:00-14:00",
+    "2026-12-20": "09:00-14:00",
+    "2026-12-27": "09:00-14:00"
+   },
+   "tjedan": {
+    "pon": "09:00-21:00",
+    "uto": "09:00-21:00",
+    "sri": "09:00-21:00",
+    "cet": "09:00-21:00",
+    "pet": "09:00-21:00",
+    "sub": "09:00-21:00"
+   },
+   "trgovine": [
+    {
+     "naziv": "SPAR",
+     "vrsta": "Supermarket",
+     "veza": "spar-28"
+    },
+    {
+     "naziv": "C&A",
+     "vrsta": "Odjeća",
+     "veza": "centar-galerija-sjever"
+    }
+   ]
   }
  ]
 }
