@@ -27,7 +27,7 @@ foreach ($js in Get-ChildItem $PSScriptRoot -Recurse -Filter *.js) {
 $root = (Resolve-Path $PSScriptRoot).Path
 $files = Get-ChildItem $PSScriptRoot -Recurse -File -Force | Where-Object {
   $rel = $_.FullName.Substring($root.Length + 1)
-  $rel -notmatch '^\.claude\\' -and ($SaPodacima -or $rel -notmatch '^docs\\podaci\\') -and $rel -notmatch '^docs\\podaci\\uredjivanje\.json$' -and $rel -notmatch '^docs\\slike\\' -and $rel -notmatch '\\node_modules\\' -and $rel -notmatch '^android\\(kljuc|build|app\\build|\.gradle)\\' -and $rel -notmatch '^android\\local\.properties$' -and $rel -notmatch '^izlaz\\' -and -not ($BezWorkflowa -and $rel -match '^\.github\\')
+  $rel -notmatch '^\.claude\\' -and ($SaPodacima -or $rel -notmatch '^docs\\podaci\\') -and $rel -notmatch '^docs\\podaci\\uredjivanje\.json$' -and $rel -notmatch '^docs\\slike\\' -and $rel -notmatch '\\node_modules\\' -and $rel -notmatch '^android\\(kljuc|build|app\\build|\.gradle)\\' -and $rel -notmatch '^android\\local\.properties$' -and $rel -notmatch '^izlaz\\' -and $rel -notmatch '^kontakti\\' -and -not ($BezWorkflowa -and $rel -match '^\.github\\')
 }
 
 # 3. prazan repozitorij: Git Data API ne radi bez prvog commita

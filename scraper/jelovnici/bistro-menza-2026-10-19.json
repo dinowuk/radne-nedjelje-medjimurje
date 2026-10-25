@@ -1,0 +1,40 @@
+{
+ "restoran": "osm-n12196789233",
+ "od": "2026-10-19",
+ "do": "2026-10-24",
+ "izvor": "Facebook objava Bistro Menza (slika), prepisano 25.10.2026.",
+ "napomena": "Juha gratis uz gablec u bistrou · juha za van 0,40 € · porcija kruha 0,30 € · salata 1,50 € · dostava 040/602-196",
+ "svakiDan": [["Velika pizza (Capricciosa, Margarita, Vesuvio, Funghi)", "6,80 €"], ["Premium burger", "6,50 €"]],
+ "dani": {
+  "2026-10-19": {
+   "glavna": [["Zagorsko varivo", "6,00 €"], ["Pileći file u umaku", "4,80 €"], ["Svinjski bečki", "4,70 €"], ["Pileći bečki", "4,50 €"], ["Hrskava chilli piletina", "4,50 €"], ["Juneći kebab", "6,50 €"]],
+   "vege": [["Zapečeni makaroni sa sirom i gljivama", "6,50 €"]],
+   "prilozi": [["Riži bizi", "1,50 €"], ["Pire krumpir", "1,50 €"], ["Povrće na maslacu", "1,50 €"], ["Domaći pečeni krumpir", "1,50 €"]]
+  },
+  "2026-10-20": {
+   "glavna": [["Pileći paprikaš", "6,00 €"], ["Svinjski medaljoni u umaku", "4,80 €"], ["Svinjski bečki", "4,70 €"], ["Pileći bečki", "4,50 €"], ["Hrskava chilli piletina", "4,50 €"], ["Juneći kebab", "6,50 €"]],
+   "vege": [["Hladna salata od heljde i povrća", "6,50 €"]],
+   "prilozi": [["Riži bizi", "1,50 €"], ["Pire krumpir", "1,50 €"], ["Povrće na maslacu", "1,50 €"], ["Domaći pečeni krumpir", "1,50 €"]]
+  },
+  "2026-10-21": {
+   "glavna": [["Cigansko pečenje", "4,80 €"], ["Pileća rolica sa špekom", "4,80 €"], ["Svinjski bečki", "4,70 €"], ["Pileći bečki", "4,50 €"], ["Hrskava chilli piletina", "4,50 €"], ["Juneći kebab", "6,50 €"]],
+   "vege": [["Povrtna palenta", "6,50 €"]],
+   "prilozi": [["Riži bizi", "1,50 €"], ["Pire krumpir", "1,50 €"], ["Povrće na maslacu", "1,50 €"], ["Hajdinska kaša", "2,00 €"], ["Lešo krumpir", "1,50 €"], ["Domaći pečeni krumpir", "1,50 €"]]
+  },
+  "2026-10-22": {
+   "glavna": [["Sočno svinjsko pečenje", "4,80 €"], ["Ćufte", "4,80 €"], ["Grah s kobasicom", "5,00 €"], ["Svinjski bečki", "4,70 €"], ["Pileći bečki", "4,50 €"], ["Hrskava chilli piletina", "4,50 €"], ["Juneći kebab", "6,50 €"]],
+   "vege": [["Zapečena cvjetača sa čedar sirom", "6,50 €"]],
+   "prilozi": [["Riži bizi", "1,50 €"], ["Pire krumpir", "1,50 €"], ["Povrće na maslacu", "1,50 €"], ["Mlinci", "1,50 €"], ["Domaći pečeni krumpir", "1,50 €"]]
+  },
+  "2026-10-23": {
+   "glavna": [["Lignje + pommes + tartar", "7,00 €"], ["Pohani oslić", "4,70 €"], ["Pečena piletina", "4,80 €"], ["Lovački gulaš s njokima", "6,00 €"], ["Grah s kobasicom", "5,00 €"], ["Svinjski bečki", "4,70 €"], ["Pileći bečki", "4,50 €"], ["Hrskava chilli piletina", "4,80 €"], ["Juneći kebab", "6,50 €"]],
+   "vege": [["Široki rezanci s brokulom", "6,50 €"]],
+   "prilozi": [["Riži bizi", "1,50 €"], ["Pire krumpir", "1,50 €"], ["Povrće na maslacu", "1,50 €"], ["Hladna salata od tjestenine", "2,00 €"], ["Domaći pečeni krumpir", "1,50 €"]]
+  },
+  "2026-10-24": {
+   "glavna": [["Pileći file na Orly", "4,80 €"], ["Grah s kobasicom", "5,00 €"], ["Svinjski bečki", "4,70 €"], ["Pileći bečki", "4,50 €"], ["Hrskava chilli piletina", "4,80 €"], ["Juneći kebab", "6,50 €"]],
+   "vege": [["Njoki na mediteranski", "6,50 €"]],
+   "prilozi": [["Riži bizi", "1,50 €"], ["Pire krumpir", "1,50 €"], ["Povrće na maslacu", "1,50 €"], ["Domaći pečeni krumpir", "1,50 €"]]
+  }
+ }
+}
