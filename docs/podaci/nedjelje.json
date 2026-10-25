@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-25T13:18:54.005Z",
+ "azurirano": "2026-10-25T13:30:03.084Z",
  "nadolazeca": "2026-10-25",
  "nedjelje": [
   "2026-08-16",
@@ -27,52 +27,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-25T13:18:54.005Z"
+   "provjereno": "2026-10-25T13:30:03.084Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-25T13:18:54.005Z"
+   "provjereno": "2026-10-25T13:30:03.084Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-25T13:18:54.005Z"
+   "provjereno": "2026-10-25T13:30:03.084Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T13:18:54.005Z"
+   "provjereno": "2026-10-25T13:30:03.084Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T13:18:54.005Z"
+   "provjereno": "2026-10-25T13:30:03.084Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T13:18:54.005Z"
+   "provjereno": "2026-10-25T13:30:03.084Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T13:18:54.005Z"
+   "provjereno": "2026-10-25T13:30:03.084Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-25T13:18:54.005Z"
+   "provjereno": "2026-10-25T13:30:03.084Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T13:18:54.005Z"
+   "provjereno": "2026-10-25T13:30:03.084Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T13:18:54.005Z"
+   "provjereno": "2026-10-25T13:30:03.084Z"
   }
  },
  "greske": [],
@@ -4568,7 +4568,9 @@
     "pet": "09:30-23:00",
     "sub": "09:30-23:00",
     "ned": "11:30-21:30"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n1748069161",
@@ -4589,7 +4591,9 @@
     "pet": "11:00-23:00",
     "sub": "11:00-23:00",
     "ned": "11:00-22:00"
-   }
+   },
+   "foto": "https://batak.hr/wp-content/uploads/2023/05/batak-og.png",
+   "opis": "BATAK je popularna destinacija svih gurmana i ljubitelja dobre atmosfere, ugodnog interijera i gastro specijaliteta!"
   },
   {
    "id": "osm-n6679751371",
@@ -4602,7 +4606,9 @@
    "lng": 16.440787,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n12188150892",
@@ -4621,7 +4627,9 @@
     "cet": "09:00-23:00",
     "pet": "09:00-23:00",
     "sub": "09:00-23:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3325657972",
@@ -4634,7 +4642,9 @@
    "lng": 16.432008,
    "tel": "+385 40 341 099",
    "web": "https://stari-grad.com/",
-   "tjedan": null
+   "tjedan": null,
+   "foto": "https://stari-grad.com/wp-content/uploads/2026/02/Otkrijte-nasu-pricu-11.jpg",
+   "opis": null
   },
   {
    "id": "osm-n12196789233",
@@ -4654,7 +4664,9 @@
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n12188056649",
@@ -4675,7 +4687,9 @@
     "pet": "07:00-22:00",
     "sub": "07:00-22:00",
     "ned": "07:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": "Pingvin - naruči putem interneta, plati gotovinom ili online, dostavljamo u domove i urede"
   },
   {
    "id": "osm-n12188150893",
@@ -4696,7 +4710,9 @@
     "pet": "10:00-23:00",
     "sub": "12:00-23:00",
     "ned": "12:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": "Boccone Bar - naruči putem interneta, plati gotovinom ili online, dostavljamo u domove i urede"
   },
   {
    "id": "osm-n6767149447",
@@ -4717,7 +4733,9 @@
     "pet": "06:00-21:00",
     "sub": "06:00-21:00",
     "ned": "07:00-13:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3887518373",
@@ -4730,7 +4748,9 @@
    "lng": 16.437745,
    "tel": "+385 95 355 2888",
    "web": "https://www.facebook.com/profile.php?id=100078125650462",
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3815606870",
@@ -4751,7 +4771,9 @@
     "pet": "07:00-19:00",
     "sub": "07:00-13:00",
     "ned": "07:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n12196669022",
@@ -4764,7 +4786,9 @@
    "lng": 16.436275,
    "tel": "+385 40 313 032",
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w734151911",
@@ -4785,7 +4809,9 @@
     "pet": "07:00-02:00",
     "sub": "07:00-02:00",
     "ned": "09:00-00:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n6612628508",
@@ -4806,7 +4832,9 @@
     "pet": "07:00-20:00",
     "sub": "09:00-20:00",
     "ned": "09:00-20:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n9147737529",
@@ -4819,7 +4847,9 @@
    "lng": 16.413884,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3034002298",
@@ -4839,7 +4869,9 @@
     "cet": "16:00-23:45",
     "pet": "16:00-02:00",
     "sub": "16:00-02:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n6024472851",
@@ -4860,7 +4892,9 @@
     "pet": "08:00-21:00",
     "sub": "08:00-21:00",
     "ned": "08:00-14:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n12188066058",
@@ -4875,7 +4909,9 @@
    "web": "https://mala-hiza.hr/",
    "tjedan": {
     "ned": "12:00-18:00"
-   }
+   },
+   "foto": "https://mala-hiza.hr/wp-content/uploads/2017/12/malahiza-logo-e1513869532645.png",
+   "opis": "Restoran MALA HIŽA RADNO VRIJEME RESTORANA Ponedjeljak - četvrtak - 12,00 do 21,00 Petak i subota - 12,00 do 21,00 Nedjelja, blagdani i praznici - 12,00 do 16,00 Uskrs i Božić ZATVORENO RADNO VRIJEME…"
   },
   {
    "id": "osm-n10972433072",
@@ -4896,7 +4932,9 @@
     "pet": "09:00-22:00",
     "sub": "09:00-22:00",
     "ned": "09:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n6743785121",
@@ -4917,7 +4955,9 @@
     "pet": "07:00-22:00",
     "sub": "08:00-22:00",
     "ned": "10:00-18:00"
-   }
+   },
+   "foto": null,
+   "opis": "Međimurska hiža Čakovec. Restoran i caffe bar, Ljudevita Gaja 35, Čakovec. Telefon: 040 390 011. Svakodnevna ponuda gableca i À la carte jela."
   },
   {
    "id": "osm-n6495194856",
@@ -4938,7 +4978,9 @@
     "pet": "10:00-23:00",
     "sub": "10:00-23:00",
     "ned": "10:00-23:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n12196669023",
@@ -4959,7 +5001,9 @@
     "cet": "08:00-22:00",
     "pet": "08:00-24:00",
     "sub": "08:00-24:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3815606868",
@@ -4980,7 +5024,9 @@
     "pet": "08:00-02:00",
     "sub": "08:00-02:00",
     "ned": "10:00-12:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3816978333",
@@ -5001,7 +5047,9 @@
     "pet": "07:00-24:00",
     "sub": "07:00-24:00",
     "ned": "09:00-23:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n6855350498",
@@ -5022,7 +5070,9 @@
     "pet": "08:00-23:00",
     "sub": "08:00-23:00",
     "ned": "08:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3889171121",
@@ -5042,7 +5092,9 @@
     "cet": "08:00-23:00",
     "pet": "08:00-24:00",
     "sub": "08:00-24:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n4151095246",
@@ -5063,7 +5115,9 @@
     "pet": "09:00-23:00",
     "sub": "09:00-23:00",
     "ned": "09:00-23:00"
-   }
+   },
+   "foto": "https://pomodoro.hr/wp-content/uploads/2020/12/Izrezak.png",
+   "opis": "Pizza – jer ljubav na svim jezicima ima isto ime – jelo kojem smo posvetili najviše pažnje, pomnoodabranih sastojaka poput San Marzano rajčica, brašna visokog udjela proteina, duga…"
   },
   {
    "id": "osm-n12196669020",
@@ -5076,7 +5130,9 @@
    "lng": 16.450019,
    "tel": "+385 92 416 2773",
    "web": "https://www.facebook.com/pusiona",
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n6548470760",
@@ -5096,7 +5152,9 @@
     "cet": "07:00-15:00",
     "pet": "07:00-15:00",
     "sub": "07:00-15:00"
-   }
+   },
+   "foto": null,
+   "opis": "KTC proizvodnja, trgovina, usluge i turistička agencija, d.d."
   },
   {
    "id": "osm-n6569406458",
@@ -5116,7 +5174,9 @@
     "pet": "09:00-23:00",
     "sub": "09:00-23:00",
     "ned": "09:00-23:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n12196669021",
@@ -5129,7 +5189,9 @@
    "lng": 16.434855,
    "tel": "+385 40 314 328",
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n6631251305",
@@ -5150,7 +5212,9 @@
     "pet": "07:00-22:00",
     "sub": "07:00-22:00",
     "ned": "10:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w104763401",
@@ -5171,7 +5235,9 @@
     "pet": "07:00-24:00",
     "sub": "07:00-24:00",
     "ned": "10:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n1239537467",
@@ -5192,7 +5258,9 @@
     "pet": "12:00-23:00",
     "sub": "11:00-22:00",
     "ned": "12:00-23:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n1568931636",
@@ -5213,7 +5281,9 @@
     "pet": "09:00-24:00",
     "sub": "09:00-24:00",
     "ned": "09:00-24:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n6569487757",
@@ -5234,7 +5304,9 @@
     "pet": "07:00-23:00",
     "sub": "07:00-23:00",
     "ned": "07:00-23:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3815606869",
@@ -5247,7 +5319,9 @@
    "lng": 16.436007,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3906333895",
@@ -5268,7 +5342,9 @@
     "pet": "07:00-02:00",
     "sub": "07:00-02:00",
     "ned": "08:00-23:00"
-   }
+   },
+   "foto": null,
+   "opis": "Bajzovi dvori - caffe bar, piće, pijača, bar, bajzovi, dvori, Dekanovec"
   },
   {
    "id": "osm-n9919359768",
@@ -5289,7 +5365,9 @@
     "pet": "07:00-22:00",
     "sub": "07:00-22:00",
     "ned": "09:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3817918353",
@@ -5302,7 +5380,9 @@
    "lng": 16.64045,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n1190001650",
@@ -5315,7 +5395,9 @@
    "lng": 16.657096,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w312378557",
@@ -5328,7 +5410,9 @@
    "lng": 16.371816,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n1113993654",
@@ -5341,7 +5425,9 @@
    "lng": 16.678939,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w689987596",
@@ -5354,7 +5440,9 @@
    "lng": 16.295753,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n410764174",
@@ -5367,7 +5455,9 @@
    "lng": 16.327927,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n410745255",
@@ -5380,7 +5470,9 @@
    "lng": 16.37411,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w310993172",
@@ -5393,7 +5485,9 @@
    "lng": 16.373831,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w479560803",
@@ -5406,7 +5500,9 @@
    "lng": 16.319658,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w478581049",
@@ -5419,7 +5515,9 @@
    "lng": 16.326916,
    "tel": "+385 40 868 318",
    "web": "https://potrti-kotac.com",
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": "Restaurant"
   },
   {
    "id": "osm-n1913944141",
@@ -5432,7 +5530,9 @@
    "lng": 16.377401,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n7078157768",
@@ -5452,7 +5552,9 @@
     "pet": "09:00-22:00",
     "sub": "09:00-02:00",
     "ned": "09:00-24:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w377853202",
@@ -5465,7 +5567,9 @@
    "lng": 16.434749,
    "tel": null,
    "web": "https://restoran-fontana.hr/",
-   "tjedan": null
+   "tjedan": null,
+   "foto": "https://assets.cdn.filesafe.space/CjdWtimuEjVqMDWFbh58/media/69b43a25bfc81fa6eaf25989.png",
+   "opis": "Restoran Fontana Mačkovec u blizini Čakovca. Domaća kuhinja i dječja igraonica Magolino, savršeno mjesto za obiteljski ručak i proslave."
   },
   {
    "id": "osm-w416801452",
@@ -5486,7 +5590,9 @@
     "pet": "10:00-24:00",
     "sub": "10:00-24:00",
     "ned": "10:00-23:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n1157938883",
@@ -5499,7 +5605,9 @@
    "lng": 16.528769,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w378434949",
@@ -5519,7 +5627,9 @@
     "sub": "11:00-00:00",
     "pet": "11:00-23:00",
     "ned": "10:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n13281245922",
@@ -5540,7 +5650,9 @@
     "pet": "09:00-23:00",
     "sub": "11:00-24:00",
     "ned": "11:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": "Bajzovi dvori - caffe bar, piće, pijača, bar, bajzovi, dvori, Dekanovec"
   },
   {
    "id": "osm-w1473342316",
@@ -5561,7 +5673,9 @@
     "pet": "10:00-22:00",
     "sub": "11:00-22:00",
     "ned": "11:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n6304078903",
@@ -5581,7 +5695,9 @@
     "cet": "07:00-15:00",
     "pet": "07:00-15:00",
     "sub": "07:00-15:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w673966510",
@@ -5594,7 +5710,9 @@
    "lng": 16.431194,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n7201177987",
@@ -5607,7 +5725,9 @@
    "lng": 16.374407,
    "tel": null,
    "web": "https://restoranatlantik.com/",
-   "tjedan": null
+   "tjedan": null,
+   "foto": "https://storage.googleapis.com/gator-sitethumbnails/site-505517/800x500.jpg",
+   "opis": null
   },
   {
    "id": "osm-n7160790404",
@@ -5628,7 +5748,9 @@
     "pet": "10:00-23:00",
     "sub": "12:00-23:00",
     "ned": "12:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w300298921",
@@ -5641,7 +5763,9 @@
    "lng": 16.391282,
    "tel": "+385 40 822 270",
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n7157044432",
@@ -5662,7 +5786,9 @@
     "pet": "07:30-23:00",
     "sub": "07:30-23:00",
     "ned": "07:30-23:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w322533370",
@@ -5675,7 +5801,9 @@
    "lng": 16.366213,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w327152058",
@@ -5696,7 +5824,9 @@
     "pet": "10:00-22:00",
     "sub": "10:00-22:00",
     "ned": "10:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": "Kavana Cobra: Catering | Organizirane proslave | Krizma | Vjenčanje | Godišnjica | Rođendan | Pizzeria | Plate | Međimurje | Čakovec | Proslava |"
   },
   {
    "id": "osm-w625719529",
@@ -5709,7 +5839,9 @@
    "lng": 16.61601,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w863570524",
@@ -5722,7 +5854,9 @@
    "lng": 16.613722,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n6653428062",
@@ -5743,7 +5877,9 @@
     "pet": "07:00-18:00",
     "sub": "08:00-17:00",
     "ned": null
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w863559260",
@@ -5756,7 +5892,9 @@
    "lng": 16.615339,
    "tel": "+385 40 295 704",
    "web": "https://www.trattoriarossa.com",
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w316181702",
@@ -5769,7 +5907,9 @@
    "lng": 16.37029,
    "tel": "+385 40 829 394",
    "web": "https://www.visitmedimurje.com/backend/opsirnije-nedelisce.asp?id=200",
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w317781120",
@@ -5782,7 +5922,9 @@
    "lng": 16.362835,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w310191340",
@@ -5795,7 +5937,9 @@
    "lng": 16.362008,
    "tel": null,
    "web": "https://www.mamica.com.hr/en",
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": "U idiličnom zelenom okruženju na pola puta između Čakovca i Varaždina, Mamica Pansion & Restoran nudi iznimno udobne sobe, doručak za pamćenje, a restoran odlikuje domaća međimurska kuhinja s modernim…"
   },
   {
    "id": "osm-w317781063",
@@ -5808,7 +5952,9 @@
    "lng": 16.361568,
    "tel": "+38540895163",
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n13910575543",
@@ -5821,7 +5967,9 @@
    "lng": 16.398052,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n1562493355",
@@ -5834,7 +5982,9 @@
    "lng": 16.743803,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w380445305",
@@ -5855,7 +6005,9 @@
     "pet": "09:00-23:00",
     "sub": "11:00-23:00",
     "ned": "11:00-22:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w380448206",
@@ -5875,7 +6027,9 @@
     "pet": "08:00-23:00",
     "sub": "08:00-24:00",
     "ned": "08:00-24:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w378440143",
@@ -5892,7 +6046,9 @@
     "pet": "08:00-23:00",
     "sub": "08:00-23:00",
     "ned": "08:00-23:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w378314964",
@@ -5905,7 +6061,9 @@
    "lng": 16.498518,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w380624731",
@@ -5926,7 +6084,9 @@
     "cet": "07:00-23:00",
     "pet": "07:00-01:00",
     "sub": "07:00-01:00"
-   }
+   },
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w515734771",
@@ -5946,7 +6106,9 @@
     "pet": "11:00-23:00",
     "sub": "11:00-23:00",
     "ned": "11:00-23:00"
-   }
+   },
+   "foto": "https://www.terbotz.hr/wp-content/uploads/2019/06/img_s.jpg",
+   "opis": "Restoran Terbotz, mjesto gdje na stol donosimo jedinstvene okuse Međimurja, sezonske juhe, maštovite priloge, mesna ili riblja jela i vrhunske deserte."
   },
   {
    "id": "osm-w238305089",
@@ -5959,7 +6121,9 @@
    "lng": 16.337285,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-n3891008081",
@@ -5972,7 +6136,9 @@
    "lng": 16.362121,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   },
   {
    "id": "osm-w1214387293",
@@ -5985,7 +6151,9 @@
    "lng": 16.326285,
    "tel": null,
    "web": null,
-   "tjedan": null
+   "tjedan": null,
+   "foto": null,
+   "opis": null
   }
  ]
 }

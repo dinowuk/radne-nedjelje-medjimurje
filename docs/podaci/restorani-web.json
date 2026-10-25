@@ -1,0 +1,151 @@
+{
+ "https://trattoriarustica.hr/": {
+  "foto": null,
+  "opis": null,
+  "greska": "fetch failed",
+  "provjereno": "2026-10-25T13:31:36.243Z"
+ },
+ "https://stari-grad.com/": {
+  "foto": "https://stari-grad.com/wp-content/uploads/2026/02/Otkrijte-nasu-pricu-11.jpg",
+  "opis": null,
+  "provjereno": "2026-10-25T13:31:37.040Z"
+ },
+ "https://www.ktc.hr/": {
+  "foto": null,
+  "opis": "KTC proizvodnja, trgovina, usluge i turistička agencija, d.d.",
+  "provjereno": "2026-10-25T13:31:37.304Z"
+ },
+ "https://www.bajzovidvori.com/": {
+  "foto": null,
+  "opis": "Bajzovi dvori - caffe bar, piće, pijača, bar, bajzovi, dvori, Dekanovec",
+  "provjereno": "2026-10-25T13:31:38.859Z"
+ },
+ "https://pomodoro.hr/": {
+  "foto": "https://pomodoro.hr/wp-content/uploads/2020/12/Izrezak.png",
+  "opis": "Pizza – jer ljubav na svim jezicima ima isto ime – jelo kojem smo posvetili najviše pažnje, pomnoodabranih sastojaka poput San Marzano rajčica, brašna visokog udjela proteina, duga…",
+  "provjereno": "2026-10-25T13:31:39.103Z"
+ },
+ "https://www.batak.hr/": {
+  "foto": "https://batak.hr/wp-content/uploads/2023/05/batak-og.png",
+  "opis": "BATAK je popularna destinacija svih gurmana i ljubitelja dobre atmosfere, ugodnog interijera i gastro specijaliteta!",
+  "provjereno": "2026-10-25T13:31:40.776Z"
+ },
+ "http://stefovaklet.com.hr/": {
+  "foto": null,
+  "opis": null,
+  "greska": "fetch failed",
+  "provjereno": "2026-10-25T13:31:41.137Z"
+ },
+ "http://www.restoran-kristal.net": {
+  "foto": null,
+  "opis": null,
+  "provjereno": "2026-10-25T13:31:41.472Z"
+ },
+ "https://restoranatlantik.com/": {
+  "foto": "https://storage.googleapis.com/gator-sitethumbnails/site-505517/800x500.jpg",
+  "opis": null,
+  "provjereno": "2026-10-25T13:31:41.538Z"
+ },
+ "https://restoran-lipa.com/": {
+  "foto": null,
+  "opis": null,
+  "greska": "fetch failed",
+  "provjereno": "2026-10-25T13:31:41.557Z"
+ },
+ "http://medjimurska-hiza.com/": {
+  "foto": null,
+  "opis": "Međimurska hiža Čakovec. Restoran i caffe bar, Ljudevita Gaja 35, Čakovec. Telefon: 040 390 011. Svakodnevna ponuda gableca i À la carte jela.",
+  "provjereno": "2026-10-25T13:31:42.516Z"
+ },
+ "https://barok-cakovec.com/": {
+  "foto": null,
+  "opis": null,
+  "provjereno": "2026-10-25T13:31:42.810Z"
+ },
+ "https://mala-hiza.hr/": {
+  "foto": "https://mala-hiza.hr/wp-content/uploads/2017/12/malahiza-logo-e1513869532645.png",
+  "opis": "Restoran MALA HIŽA RADNO VRIJEME RESTORANA Ponedjeljak - četvrtak - 12,00 do 21,00 Petak i subota - 12,00 do 21,00 Nedjelja, blagdani i praznici - 12,00 do 16,00 Uskrs i Božić ZATVORENO RADNO VRIJEME…",
+  "provjereno": "2026-10-25T13:31:43.749Z"
+ },
+ "https://www.pingvin.hr/": {
+  "foto": null,
+  "opis": "Pingvin - naruči putem interneta, plati gotovinom ili online, dostavljamo u domove i urede",
+  "provjereno": "2026-10-25T13:31:43.888Z"
+ },
+ "https://www.bocconebar.hr/": {
+  "foto": null,
+  "opis": "Boccone Bar - naruči putem interneta, plati gotovinom ili online, dostavljamo u domove i urede",
+  "provjereno": "2026-10-25T13:31:44.054Z"
+ },
+ "https://www.bajzovidvori.com/index.php/bajzovi-dvori-mursko-sredisce": {
+  "foto": null,
+  "opis": "Bajzovi dvori - caffe bar, piće, pijača, bar, bajzovi, dvori, Dekanovec",
+  "provjereno": "2026-10-25T13:31:44.153Z"
+ },
+ "https://pizza-gracija.com.hr/": {
+  "foto": null,
+  "opis": null,
+  "greska": "fetch failed",
+  "provjereno": "2026-10-25T13:31:44.252Z"
+ },
+ "https://ekom.hr/ugostiteljstvo/": {
+  "foto": null,
+  "opis": null,
+  "provjereno": "2026-10-25T13:31:53.432Z"
+ },
+ "http://www.bistro-arka.hr/": {
+  "foto": null,
+  "opis": null,
+  "greska": "fetch failed",
+  "provjereno": "2026-10-25T13:31:54.284Z"
+ },
+ "https://restoran-fontana.hr/": {
+  "foto": "https://assets.cdn.filesafe.space/CjdWtimuEjVqMDWFbh58/media/69b43a25bfc81fa6eaf25989.png",
+  "opis": "Restoran Fontana Mačkovec u blizini Čakovca. Domaća kuhinja i dječja igraonica Magolino, savršeno mjesto za obiteljski ručak i proslave.",
+  "provjereno": "2026-10-25T13:31:54.332Z"
+ },
+ "http://svetimartin.eu/": {
+  "foto": null,
+  "opis": null,
+  "greska": "fetch failed",
+  "provjereno": "2026-10-25T13:31:54.418Z"
+ },
+ "https://www.visitmedimurje.com/backend/opsirnije-nedelisce.asp?id=200": {
+  "foto": null,
+  "opis": null,
+  "greska": "HTTP 404",
+  "provjereno": "2026-10-25T13:31:56.184Z"
+ },
+ "https://www.kavanacobra.hr": {
+  "foto": null,
+  "opis": "Kavana Cobra: Catering | Organizirane proslave | Krizma | Vjenčanje | Godišnjica | Rođendan | Pizzeria | Plate | Međimurje | Čakovec | Proslava |",
+  "provjereno": "2026-10-25T13:31:56.888Z"
+ },
+ "https://www.mamica.com.hr/en": {
+  "foto": null,
+  "opis": "U idiličnom zelenom okruženju na pola puta između Čakovca i Varaždina, Mamica Pansion & Restoran nudi iznimno udobne sobe, doručak za pamćenje, a restoran odlikuje domaća međimurska kuhinja s modernim…",
+  "provjereno": "2026-10-25T13:31:57.590Z"
+ },
+ "http://www.bistro-jastreb.com/": {
+  "foto": null,
+  "opis": null,
+  "greska": "fetch failed",
+  "provjereno": "2026-10-25T13:31:57.601Z"
+ },
+ "https://www.trattoriarossa.com": {
+  "foto": null,
+  "opis": null,
+  "greska": "fetch failed",
+  "provjereno": "2026-10-25T13:31:57.963Z"
+ },
+ "https://www.terbotz.hr/": {
+  "foto": "https://www.terbotz.hr/wp-content/uploads/2019/06/img_s.jpg",
+  "opis": "Restoran Terbotz, mjesto gdje na stol donosimo jedinstvene okuse Međimurja, sezonske juhe, maštovite priloge, mesna ili riblja jela i vrhunske deserte.",
+  "provjereno": "2026-10-25T13:31:58.527Z"
+ },
+ "https://potrti-kotac.com": {
+  "foto": null,
+  "opis": "Restaurant",
+  "provjereno": "2026-10-25T13:31:59.479Z"
+ }
+}
