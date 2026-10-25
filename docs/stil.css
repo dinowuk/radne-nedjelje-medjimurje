@@ -1,0 +1,151 @@
+:root {
+  --pozadina: #f4f6f5;
+  --povrsina: #ffffff;
+  --tekst: #17201c;
+  --tekst-2: #5b6862;
+  --rub: #dde3e0;
+  --glavna: #0f6b4f;
+  --glavna-svijetla: #e3f2ec;
+  --otvoreno: #127a46;
+  --otvoreno-poz: #e2f5ea;
+  --zatvoreno: #8a948f;
+  --upozorenje: #8a5a00;
+  --upozorenje-poz: #fff3d6;
+  --zvjezdica: #e0a100;
+  --sjena: 0 1px 2px rgba(0,0,0,.06), 0 2px 8px rgba(0,0,0,.05);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --pozadina: #0f1412;
+    --povrsina: #18201c;
+    --tekst: #e6ece9;
+    --tekst-2: #9aa8a1;
+    --rub: #2a3530;
+    --glavna: #4fc39a;
+    --glavna-svijetla: #1b3229;
+    --otvoreno: #5fd69a;
+    --otvoreno-poz: #173326;
+    --zatvoreno: #6f7b75;
+    --upozorenje: #f0c065;
+    --upozorenje-poz: #352a12;
+    --sjena: none;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--pozadina);
+  color: var(--tekst);
+  font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+main, .zaglavlje__red, .nedjelje, .podnozje { max-width: 720px; margin: 0 auto; }
+
+.zaglavlje {
+  position: sticky; top: 0; z-index: 5;
+  background: var(--glavna);
+  color: #fff;
+  padding: calc(10px + env(safe-area-inset-top)) 0 0;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .zaglavlje { background: #13392d; } }
+.zaglavlje__red { display: flex; align-items: center; justify-content: space-between; padding: 0 16px; }
+h1 { font-size: 1.35rem; margin: 0; letter-spacing: -.01em; }
+.podnaslov { margin: 0; opacity: .85; font-size: .9rem; }
+
+.ikonski {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 50%;
+  border: 0; background: transparent; color: inherit; cursor: pointer;
+}
+.ikonski:hover { background: rgba(127,127,127,.15); }
+.ikonski:focus-visible, button:focus-visible, select:focus-visible, a:focus-visible { outline: 2px solid var(--glavna); outline-offset: 2px; }
+.zaglavlje .ikonski:focus-visible { outline-color: #fff; }
+#osvjezi.vrti svg { animation: vrti 1s linear infinite; }
+@keyframes vrti { to { transform: rotate(360deg); } }
+
+.nedjelje {
+  display: flex; gap: 8px; overflow-x: auto; padding: 12px 16px 14px;
+  scrollbar-width: none;
+}
+.nedjelje::-webkit-scrollbar { display: none; }
+.nedjelja {
+  flex: 0 0 auto; min-width: 74px;
+  border: 1px solid rgba(255,255,255,.35); border-radius: 12px;
+  background: transparent; color: #fff; padding: 6px 10px; cursor: pointer;
+  font: inherit; text-align: center; line-height: 1.2;
+}
+.nedjelja small { display: block; font-size: .72rem; opacity: .85; }
+.nedjelja b { font-size: 1rem; }
+.nedjelja[aria-pressed="true"] { background: #fff; color: var(--glavna); border-color: #fff; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .nedjelja[aria-pressed="true"] { color: #13392d; } }
+.nedjelja.prosla { opacity: .65; }
+
+main { padding: 0 16px; }
+
+.sazetak { margin: 16px 0 8px; }
+.sazetak h2 { font-size: 1.15rem; margin: 0 0 2px; }
+.sazetak p { margin: 0; color: var(--tekst-2); }
+.obavijest {
+  margin-top: 10px; padding: 10px 12px; border-radius: 10px;
+  background: var(--upozorenje-poz); color: var(--upozorenje); font-size: .92rem;
+}
+
+.filteri { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin: 12px 0; }
+.polje { display: flex; align-items: center; gap: 8px; font-size: .9rem; color: var(--tekst-2); }
+select {
+  font: inherit; color: var(--tekst); background: var(--povrsina);
+  border: 1px solid var(--rub); border-radius: 10px; padding: 7px 10px; max-width: 60vw;
+}
+.cipovi { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
+.cip {
+  font: inherit; font-size: .85rem; cursor: pointer;
+  border: 1px solid var(--rub); background: var(--povrsina); color: var(--tekst);
+  border-radius: 999px; padding: 5px 11px; display: inline-flex; align-items: center; gap: 6px;
+}
+.cip i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.cip[aria-pressed="false"] { opacity: .45; }
+.prekidac { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; cursor: pointer; }
+.prekidac input { width: 18px; height: 18px; accent-color: var(--glavna); }
+
+.grupa { margin: 18px 0 6px; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--tekst-2); }
+.popis { padding-bottom: 8px; }
+.trgovina {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--povrsina); border: 1px solid var(--rub); border-radius: 14px;
+  padding: 10px 10px 10px 12px; margin: 8px 0; box-shadow: var(--sjena);
+}
+.trgovina__lanac {
+  flex: 0 0 44px; height: 44px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-weight: 700; font-size: .78rem; text-align: center; line-height: 1;
+}
+.trgovina__tijelo { flex: 1; min-width: 0; }
+.trgovina__naziv { margin: 0; font-size: 1rem; }
+.trgovina__adresa { margin: 1px 0 0; color: var(--tekst-2); font-size: .88rem; overflow-wrap: anywhere; }
+.trgovina__desno { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.trgovina__vrijeme {
+  font-weight: 600; font-size: .9rem; white-space: nowrap;
+  padding: 3px 9px; border-radius: 999px;
+}
+.trgovina__vrijeme.otvoreno { background: var(--otvoreno-poz); color: var(--otvoreno); }
+.trgovina__vrijeme.zatvoreno { color: var(--zatvoreno); font-weight: 500; }
+.trgovina__vrijeme.nepoznato { color: var(--tekst-2); font-weight: 500; font-size: .82rem; }
+.trgovina__gumbi { display: flex; gap: 2px; color: var(--tekst-2); }
+.trgovina__gumbi .ikonski { width: 34px; height: 34px; }
+.zvjezdica[aria-pressed="true"] { color: var(--zvjezdica); }
+.trgovina.zatvorena .trgovina__lanac { filter: grayscale(.7); opacity: .6; }
+
+.prazno { text-align: center; color: var(--tekst-2); padding: 30px 10px; }
+
+.podnozje { padding: 16px 16px 28px; color: var(--tekst-2); font-size: .82rem; }
+.podnozje p { margin: 6px 0; }
+.podnozje a { color: var(--glavna); }
+
+@media (max-width: 380px) {
+  .trgovina__lanac { flex-basis: 38px; height: 38px; font-size: .7rem; }
+  .trgovina__vrijeme { font-size: .82rem; padding: 2px 7px; }
+}
