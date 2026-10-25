@@ -5,6 +5,8 @@ const LOKALNO = location.hostname === 'localhost' || location.hostname === '127.
 const PODACI_URL = LOKALNO ? 'podaci/nedjelje.json'
   : 'https://raw.githubusercontent.com/dinowuk/radne-nedjelje-medjimurje/main/docs/podaci/nedjelje.json';
 const UGRADJENI_PODACI = 'podaci/nedjelje.json'; // kopija ugrađena u aplikaciju (prvo pokretanje bez interneta)
+const U_APLIKACIJI = /androidplatform\.net$/.test(location.hostname);
+if (U_APLIKACIJI) document.documentElement.classList.add('u-aplikaciji');
 const BOJE = {
   Konzum: '#d2232a', Lidl: '#0050aa', Kaufland: '#e10915', Spar: '#00843d', Interspar: '#00843d',
   Plodine: '#e30613', Studenac: '#004a99', KTC: '#f08a00', Eurospin: '#1d3f8f', 'Trgovina Krk': '#0a5c9e', NTL: '#e2001a',
@@ -240,5 +242,5 @@ $('#osvjezi').addEventListener('click', () => ucitajPodatke(true));
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && stanje.podaci) ucitajPodatke(false); });
 
 // U Android aplikaciji su datoteke već ugrađene, service worker treba samo web verziji.
-if ('serviceWorker' in navigator && !/androidplatform\.net$/.test(location.hostname)) navigator.serviceWorker.register('sw.js').catch(() => {});
+if ('serviceWorker' in navigator && !U_APLIKACIJI) navigator.serviceWorker.register('sw.js').catch(() => {});
 ucitajPodatke(false);

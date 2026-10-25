@@ -52,6 +52,9 @@ main, .zaglavlje__red, .nedjelje, .podnozje { max-width: 720px; margin: 0 auto; 
   padding: calc(10px + env(safe-area-inset-top)) 0 0;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .zaglavlje { background: #13392d; } }
+/* U Android aplikaciji razmak za statusnu traku već dodaje sama aplikacija. */
+.u-aplikaciji .zaglavlje { padding-top: 10px; }
+.u-aplikaciji body { padding-bottom: 0; }
 .zaglavlje__red { display: flex; align-items: center; justify-content: space-between; padding: 0 16px; }
 h1 { font-size: 1.35rem; margin: 0; letter-spacing: -.01em; }
 .podnaslov { margin: 0; opacity: .85; font-size: .9rem; }
