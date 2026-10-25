@@ -1,7 +1,7 @@
 {
-  "name": "Radne nedjelje Međimurje",
-  "short_name": "Radne nedjelje",
-  "description": "Koji dućani s hranom u Međimurju rade ove nedjelje.",
+  "name": "Kam v nedelu?",
+  "short_name": "Kam v nedelu?",
+  "description": "Koji dućani i centri u Međimurju rade nedjeljom i što se događa.",
   "lang": "hr",
   "start_url": "./",
   "scope": "./",

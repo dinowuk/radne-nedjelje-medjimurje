@@ -259,6 +259,24 @@ body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
 .centar li span:first-child { flex: 1; min-width: 0; }
 .centar li .trgovina__vrijeme { font-size: .82rem; }
 
+/* Događanja */
+#dogadajiKategorije { margin: 4px 0 8px; }
+.dogadaj {
+  display: flex; gap: 12px; text-decoration: none; color: var(--tekst);
+  background: var(--povrsina); border: 1px solid var(--rub); border-radius: 14px; padding: 10px; margin: 10px 0; box-shadow: var(--sjena);
+}
+.dogadaj img, .dogadaj__bez-slike {
+  flex: 0 0 84px; width: 84px; height: 84px; border-radius: 10px; object-fit: cover; background: var(--glavna-svijetla);
+}
+.dogadaj__tijelo { flex: 1; min-width: 0; }
+.dogadaj__kada { font-size: .8rem; font-weight: 700; color: var(--glavna); text-transform: uppercase; letter-spacing: .02em; }
+.dogadaj h3 { margin: 2px 0; font-size: .98rem; line-height: 1.25; }
+.dogadaj__gdje { margin: 0; font-size: .85rem; color: var(--tekst-2); }
+.dogadaj__oznake { margin-top: 4px; display: flex; gap: 6px; flex-wrap: wrap; }
+.dogadaj__oznake span { font-size: .72rem; padding: 2px 8px; border-radius: 999px; background: var(--glavna-svijetla); color: var(--glavna); font-weight: 600; }
+.izvor-dogadanja { font-size: .8rem; color: var(--tekst-2); margin: 10px 0 0; }
+.izvor-dogadanja a { color: var(--glavna); }
+
 /* Katalozi */
 .katalozi { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 12px 0; }
 .katalog {

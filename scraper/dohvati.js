@@ -8,6 +8,7 @@ const Z = require('./zajednicko');
 const LANCI = require('./lanci');
 const { dopuniKoordinate } = require('./koordinate');
 const { centri: dohvatiCentre } = require('./centri');
+const { dogadaji: dohvatiDogadaje } = require('./dogadaji');
 
 const IZLAZ = process.argv[2] || path.join(__dirname, '..', 'docs', 'podaci', 'nedjelje.json');
 const CUVAJ_PROSLE_DANA = 70;
@@ -53,6 +54,15 @@ async function main() {
     if (st) c.nedjelje = { ...st.nedjelje, ...c.nedjelje };
   }
 
+  // Događanja (eventinfo.com.hr); ako ne uspije, ostaju prethodna
+  let dogadaji = staro.dogadaji || [];
+  try {
+    dogadaji = await dohvatiDogadaje();
+    console.log(`Događanja: ${dogadaji.length}`);
+  } catch (e) {
+    greske.push('Događanja: ' + e.message);
+  }
+
   try {
     await dopuniKoordinate([...trgovine, ...centri], upozorenja);
   } catch (e) {
@@ -78,6 +88,7 @@ async function main() {
     upozorenja,
     trgovine,
     centri,
+    dogadaji,
   };
   fs.mkdirSync(path.dirname(IZLAZ), { recursive: true });
   fs.writeFileSync(IZLAZ, JSON.stringify(izlaz, null, 1) + '\n');

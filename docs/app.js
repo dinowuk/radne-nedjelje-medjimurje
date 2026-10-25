@@ -138,8 +138,8 @@ function nacrtajSve() {
 }
 
 // ------------------------------------------------------------ kategorije (donja traka)
-stanje.kategorija = ['ducani', 'centri', 'katalozi'].includes(ucitaj('kategorija', 'ducani')) ? ucitaj('kategorija', 'ducani') : 'ducani';
-const ELEMENTI_DUCANA = ['.kartice', '#obavijestSubota', '#sazetak', '.filteri', '#popis'];
+stanje.kategorija = ['ducani', 'centri', 'dogadaji', 'katalozi'].includes(ucitaj('kategorija', 'ducani')) ? ucitaj('kategorija', 'ducani') : 'ducani';
+const ELEMENTI_DUCANA = ['main > .kartice', '#obavijestSubota', '#sazetak', '.filteri', '#popis'];
 
 function nacrtajKategoriju() {
   const k = stanje.kategorija;
@@ -152,12 +152,92 @@ function nacrtajKategoriju() {
   }
   $('#pogledCentri').hidden = k !== 'centri';
   $('#pogledKatalozi').hidden = k !== 'katalozi';
-  // Izbornik nedjelja nema smisla za kataloge
-  $('#nedjelje').hidden = k === 'katalozi';
+  $('#pogledDogadaji').hidden = k !== 'dogadaji';
+  // Izbornik nedjelja nema smisla za kataloge i događanja
+  $('#nedjelje').hidden = k === 'katalozi' || k === 'dogadaji';
   if (k === 'ducani') { nacrtajFiltere(); nacrtajPopis(); }
   else if (k === 'centri') nacrtajCentre();
+  else if (k === 'dogadaji') nacrtajDogadaje();
   else nacrtajKataloge();
 }
+
+// ------------------------------------------------------------ događanja (eventinfo.com.hr)
+stanje.razdoblje = ucitaj('razdoblje', 'vikend');
+stanje.vrstaDogadaja = '';
+const DANI_KRATKO = ['ned', 'pon', 'uto', 'sri', 'čet', 'pet', 'sub'];
+const VELIKO = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+// Ovaj vikend = petak–nedjelja ovog tjedna (od danas nadalje)
+function vikend() {
+  const nn = nadolazecaNedjelja();
+  const danas = danasZagreb();
+  const pet = dodajDane(nn, -2);
+  return { od: danas > pet ? danas : pet, do: nn };
+}
+
+function kadaDogadaj(e) {
+  const f = d => { const x = dioDatuma(d); return `${DANI_KRATKO[new Date(d + 'T12:00:00Z').getUTCDay()]} ${x.dan}.${x.mj + 1}.`; };
+  if (e.od !== e.do) {
+    const danas = danasZagreb();
+    return e.od <= danas ? `Traje do ${f(e.do)}` : `${f(e.od)} – ${f(e.do)}`;
+  }
+  return f(e.od) + (e.vrijeme ? ' · ' + e.vrijeme : '');
+}
+
+function nacrtajDogadaje() {
+  const svi = (stanje.podaci.dogadaji || []).filter(e => e.do >= danasZagreb());
+  const r = stanje.razdoblje;
+  document.querySelectorAll('[data-razdoblje]').forEach(b => b.setAttribute('aria-selected', b.dataset.razdoblje === r));
+  const vk = vikend();
+  const uRazdoblju = r === 'vikend' ? svi.filter(e => e.od <= vk.do && e.do >= vk.od) : svi;
+
+  // Vrste (kategorije) kao čipovi
+  const vrste = [...new Set(uRazdoblju.map(e => e.kategorija))].sort((a, b) => a.localeCompare(b, 'hr'));
+  if (stanje.vrstaDogadaja && !vrste.includes(stanje.vrstaDogadaja)) stanje.vrstaDogadaja = '';
+  const kat = $('#dogadajiKategorije');
+  kat.innerHTML = '';
+  for (const v of ['', ...vrste]) {
+    const b = document.createElement('button');
+    b.className = 'cip';
+    b.setAttribute('aria-pressed', stanje.vrstaDogadaja === v);
+    b.textContent = v ? VELIKO(v) : 'Sve vrste';
+    b.addEventListener('click', () => { stanje.vrstaDogadaja = v; nacrtajDogadaje(); });
+    kat.appendChild(b);
+  }
+  const prikaz = uRazdoblju.filter(e => !stanje.vrstaDogadaja || e.kategorija === stanje.vrstaDogadaja);
+
+  $('#dogadajiSazetak').innerHTML = r === 'vikend'
+    ? `<h2>Ovaj vikend u Međimurju</h2><p>${prikaz.length ? prikaz.length + ' ' + (prikaz.length === 1 ? 'događaj' : 'događanja') : 'Nema najavljenih događanja'} · ${vk.od === vk.do ? '' : dioDatuma(vk.od).dan + '.–'}${dioDatuma(vk.do).dan}. ${MJESECI_PUNO[dioDatuma(vk.do).mj]}</p>`
+    : `<h2>Sva događanja</h2><p>${prikaz.length} nadolazećih događanja u Međimurju</p>`;
+
+  const box = $('#dogadajiPopis');
+  box.innerHTML = '';
+  if (!prikaz.length && r === 'vikend') {
+    box.innerHTML = '<p class="prazno">Za ovaj vikend nema najavljenih događanja.<br><button class="gumb-glavni" data-razdoblje-idi="sve">Pogledaj sva događanja</button></p>';
+    box.querySelector('[data-razdoblje-idi]').addEventListener('click', () => { stanje.razdoblje = 'sve'; spremi('razdoblje', 'sve'); nacrtajDogadaje(); });
+    return;
+  }
+  for (const e of prikaz) {
+    const a = document.createElement('a');
+    a.className = 'dogadaj';
+    a.href = e.link;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.innerHTML = `${e.slika ? `<img src="${esc(e.slika)}" alt="" loading="lazy">` : '<span class="dogadaj__bez-slike"></span>'}
+      <div class="dogadaj__tijelo"><div class="dogadaj__kada">${esc(kadaDogadaj(e))}</div>
+      <h3>${esc(e.naslov)}</h3><p class="dogadaj__gdje">${esc(e.mjesto)}${e.grad && !e.mjesto.includes(e.grad) ? ', ' + esc(e.grad) : ''}</p>
+      <div class="dogadaj__oznake"><span>${esc(VELIKO(e.kategorija || 'ostalo'))}</span>${e.cijena ? `<span>${esc(e.cijena)}</span>` : ''}</div></div>`;
+    const img = a.querySelector('img');
+    if (img) img.onerror = () => img.replaceWith(Object.assign(document.createElement('span'), { className: 'dogadaj__bez-slike' }));
+    box.appendChild(a);
+  }
+}
+
+document.querySelectorAll('[data-razdoblje]').forEach(b => b.addEventListener('click', () => {
+  stanje.razdoblje = b.dataset.razdoblje;
+  spremi('razdoblje', stanje.razdoblje);
+  nacrtajDogadaje();
+}));
 
 document.querySelectorAll('.kategorije button').forEach(b => b.addEventListener('click', () => {
   stanje.kategorija = b.dataset.kategorija;
@@ -249,7 +329,7 @@ function nacrtajNedjelje() {
 function nacrtajFiltere() {
   const tr = stanje.podaci.trgovine;
   const p = stanje.prikaz;
-  document.querySelectorAll('.kartice button').forEach(b => b.setAttribute('aria-selected', b.dataset.prikaz === p));
+  document.querySelectorAll('.kartice [data-prikaz]').forEach(b => b.setAttribute('aria-selected', b.dataset.prikaz === p));
   posaljiPostavkeAndroidu(); // moji dućani / mjesta su se možda promijenili
   nacrtajObavijest();
   $('#brojMoji').textContent = stanje.moji.size ? `(${stanje.moji.size})` : '';
@@ -575,7 +655,7 @@ function postaviPrikaz(p) {
   nacrtajFiltere();
   nacrtajPopis();
 }
-document.querySelectorAll('.kartice button').forEach(b => b.addEventListener('click', () => postaviPrikaz(b.dataset.prikaz)));
+document.querySelectorAll('.kartice [data-prikaz]').forEach(b => b.addEventListener('click', () => postaviPrikaz(b.dataset.prikaz)));
 $('#popis').addEventListener('click', e => {
   if (e.target.closest('[data-uredi-mjesta]')) otvoriMjesta();
   const idi = e.target.closest('[data-idi]');

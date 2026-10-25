@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Radne nedjelje Međimurje</title>
-<meta name="description" content="Koji dućani u Međimurju rade ove nedjelje — Konzum, Lidl, Kaufland, Spar, Plodine, Studenac, KTC, Eurospin.">
+<title>Kam v nedelu?</title>
+<meta name="description" content="Koji dućani i centri u Međimurju rade nedjeljom i što se događa — Trgovina Krk, NTL, Konzum, Lidl, Spar, Plodine, Stop Shop, Galerija Sjever…">
 <meta name="theme-color" content="#0f6b4f">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="ikone/ikona-192.png">
@@ -15,8 +15,8 @@
 <header class="zaglavlje">
   <div class="zaglavlje__red">
     <div>
-      <h1>Radne nedjelje</h1>
-      <p class="podnaslov">Dućani s hranom u Međimurju</p>
+      <h1>Kam v nedelu?</h1>
+      <p class="podnaslov">Dućani, centri i događanja u Međimurju</p>
     </div>
     <button id="osvjezi" class="ikonski" aria-label="Osvježi podatke" title="Osvježi">
       <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M17.65 6.35A7.95 7.95 0 0 0 12 4a8 8 0 1 0 7.73 10h-2.08A6 6 0 1 1 12 6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/></svg>
@@ -75,6 +75,17 @@
   <section id="popis" class="popis"></section>
 
   <section id="pogledCentri" class="pogled" hidden></section>
+  <section id="pogledDogadaji" class="pogled" hidden>
+    <div class="kartice" role="tablist" aria-label="Razdoblje">
+      <button role="tab" data-razdoblje="vikend">Ovaj vikend</button>
+      <button role="tab" data-razdoblje="sve">Sva događanja</button>
+    </div>
+    <div id="dogadajiSazetak" class="sazetak"></div>
+    <div id="dogadajiKategorije" class="cipovi"></div>
+    <div id="dogadajiPopis"></div>
+    <p class="izvor-dogadanja">Događanja: <a href="https://eventinfo.com.hr/" target="_blank" rel="noopener">eventinfo.com.hr</a> — za sve detalje dodirni događaj.</p>
+  </section>
+
   <section id="pogledKatalozi" class="pogled" hidden>
     <div class="sazetak">
       <h2>Katalozi i akcije</h2>
@@ -92,6 +103,10 @@
   <button data-kategorija="centri">
     <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z"/></svg>
     <span>Centri</span>
+  </button>
+  <button data-kategorija="dogadaji">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg>
+    <span>Događanja</span>
   </button>
   <button data-kategorija="katalozi">
     <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M21.4 11.6 12.4 2.6C12 2.2 11.5 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .6.2 1.1.6 1.4l9 9c.4.4.9.6 1.4.6s1-.2 1.4-.6l7-7c.4-.4.6-.9.6-1.4s-.2-1-.6-1.4zM5.5 7C4.7 7 4 6.3 4 5.5S4.7 4 5.5 4 7 4.7 7 5.5 6.3 7 5.5 7z"/></svg>
