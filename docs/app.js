@@ -185,6 +185,7 @@ function nacrtajRestorane() {
   let lista = svi.filter(r => !q || mjestoOdgovara(r.naziv, q) || mjestoOdgovara(r.mjesto, q) || mjestoOdgovara(r.kuhinja || '', q))
     .map(r => ({ r, s: statusRestorana(r) }));
   const rade = lista.filter(x => x.s.tip === 'otvoreno').length;
+  const ukupno = lista.length;
   if (stanje.samoNedjeljom) lista = lista.filter(x => x.s.tip === 'otvoreno');
   const red = { otvoreno: 0, nepoznato: 1, zatvoreno: 2 };
   const blizu = stanje.restoraniBlizu && stanje.pozicija;
@@ -194,7 +195,7 @@ function nacrtajRestorane() {
   } else {
     lista.sort((a, b) => red[a.s.tip] - red[b.s.tip] || a.r.mjesto.localeCompare(b.r.mjesto, 'hr') || a.r.naziv.localeCompare(b.r.naziv, 'hr'));
   }
-  $('#restoraniSazetak').innerHTML = `<h2>Restorani u Međimurju</h2><p>Nedjelja, ${dan}. ${MJESECI_PUNO[mj]}: radi <b>${rade}</b> od ${svi.length} restorana${q ? ' (pretraga)' : ''}</p>` +
+  $('#restoraniSazetak').innerHTML = `<h2>Restorani u Međimurju</h2><p>Nedjelja, ${dan}. ${MJESECI_PUNO[mj]}: radi <b>${rade}</b> od ${ukupno} restorana${q ? ` za „${esc(q)}”` : ''}</p>` +
     (blagdan(d) ? `<div class="obavijest">${blagdan(d)} je blagdan — restorani mogu raditi drugačije, provjeri pozivom.</div>` : '');
   $('#samoNedjeljom').checked = stanje.samoNedjeljom;
   $('#ocistiRestoran').hidden = !q;
@@ -202,7 +203,11 @@ function nacrtajRestorane() {
 
   const box = $('#restoraniPopis');
   if (!lista.length) {
-    box.innerHTML = `<p class="prazno">${q ? 'Nema restorana za tu pretragu.' : 'Nema restorana s upisanim nedjeljnim radnim vremenom.'}</p>`;
+    box.innerHTML = ukupno
+      ? `<p class="prazno">Nijedan od ${ukupno} restorana nema upisano da radi nedjeljom.<br><button class="gumb-glavni" id="prikaziSveRestorane">Prikaži sve (pa nazovi)</button></p>`
+      : '<p class="prazno">Nema restorana za tu pretragu.</p>';
+    const g = $('#prikaziSveRestorane');
+    if (g) g.addEventListener('click', () => { stanje.samoNedjeljom = false; spremi('samoNedjeljom', false); nacrtajRestorane(); });
     return;
   }
   box.innerHTML = '';
