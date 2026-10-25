@@ -1,14 +1,17 @@
 package hr.dinowuk.radnenedjelje;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Insets;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.view.View;
 import android.view.WindowInsets;
+import android.webkit.GeolocationPermissions;
+import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
@@ -27,7 +30,13 @@ public class MainActivity extends Activity {
     private static final String DOMENA = "appassets.androidplatform.net";
     private static final String POCETNA = "https://" + DOMENA + "/assets/www/index.html";
 
+    private static final int ZAHTJEV_LOKACIJA = 1;
+    private static final int ZAHTJEV_OBAVIJESTI = 2;
+
     private WebView webView;
+    // Lokacija koju je stranica zatražila dok čekamo odgovor korisnika na Androidov upit
+    private GeolocationPermissions.Callback cekaLokaciju;
+    private String cekaLokacijuIzvor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +73,27 @@ public class MainActivity extends Activity {
         // Web dio po ovome zna koja je verzija instalirana (provjera ažuriranja).
         s.setUserAgentString(s.getUserAgentString() + " RadneNedjelje/" + BuildConfig.VERSION_CODE
                 + " RadneNedjeljeVerzija/" + BuildConfig.VERSION_NAME);
+        s.setGeolocationEnabled(true);
+
+        // Most prema Androidu (postavke obavijesti); stranice su samo naše ugrađene datoteke.
+        webView.addJavascriptInterface(new MostJS(this), "RadneNedjeljeApp");
+
+        webView.setWebChromeClient(new WebChromeClient() {
+            @Override
+            public void onGeolocationPermissionsShowPrompt(String izvor, GeolocationPermissions.Callback cb) {
+                if (!izvor.contains(DOMENA)) { cb.invoke(izvor, false, false); return; }
+                if (checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+                    cb.invoke(izvor, true, false);
+                } else {
+                    cekaLokaciju = cb;
+                    cekaLokacijuIzvor = izvor;
+                    requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, ZAHTJEV_LOKACIJA);
+                }
+            }
+        });
+
+        ObavijestWorker.napraviKanal(this);
+        ObavijestWorker.zakazi(this);
 
         webView.setWebViewClient(new WebViewClient() {
             @Override
@@ -96,6 +126,33 @@ public class MainActivity extends Activity {
             startActivity(intent);
         } catch (ActivityNotFoundException e) {
             // nema aplikacije koja to otvara — ništa
+        }
+    }
+
+    boolean imaDopustenjeObavijesti() {
+        return Build.VERSION.SDK_INT < 33
+                || checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) == PackageManager.PERMISSION_GRANTED;
+    }
+
+    void traziDopustenjeObavijesti() {
+        if (imaDopustenjeObavijesti()) javiStranici("obavijesti", true);
+        else requestPermissions(new String[]{Manifest.permission.POST_NOTIFICATIONS}, ZAHTJEV_OBAVIJESTI);
+    }
+
+    private void javiStranici(String vrsta, boolean dano) {
+        webView.evaluateJavascript("window.dispatchEvent(new CustomEvent('dopustenje',{detail:{vrsta:'"
+                + vrsta + "',dano:" + dano + "}}))", null);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int kod, String[] dozvole, int[] rezultati) {
+        super.onRequestPermissionsResult(kod, dozvole, rezultati);
+        boolean dano = rezultati.length > 0 && rezultati[0] == PackageManager.PERMISSION_GRANTED;
+        if (kod == ZAHTJEV_LOKACIJA && cekaLokaciju != null) {
+            cekaLokaciju.invoke(cekaLokacijuIzvor, dano, false);
+            cekaLokaciju = null;
+        } else if (kod == ZAHTJEV_OBAVIJESTI) {
+            javiStranici("obavijesti", dano);
         }
     }
 

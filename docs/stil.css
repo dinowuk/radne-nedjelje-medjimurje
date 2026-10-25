@@ -110,6 +110,11 @@ main { padding: 0 16px; }
 .kartice .broj:empty { display: none; }
 .kartice .broj { font-weight: 500; opacity: .75; }
 
+.obavijest-subota {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 10px;
+  margin: 12px 0 0; padding: 10px 12px; border-radius: 12px; background: var(--povrsina); border: 1px solid var(--rub);
+}
+.obavijest-subota p { flex-basis: 100%; margin: 0; font-size: .82rem; color: var(--tekst-2); }
 .moja-mjesta { display: flex; align-items: center; gap: 10px; width: 100%; font-size: .9rem; color: var(--tekst-2); }
 .moja-mjesta span { flex: 1; min-width: 0; }
 .gumb-tekst { font: inherit; font-weight: 600; color: var(--glavna); background: none; border: 0; padding: 6px 8px; cursor: pointer; border-radius: 8px; }
@@ -194,7 +199,19 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 }
 .trgovina__lanac.s-logom { background: #fff; border: 1px solid var(--rub); padding: 4px; overflow: hidden; }
 .trgovina__lanac img { width: 100%; height: 100%; object-fit: contain; display: block; }
-.trgovina__tijelo { flex: 1; min-width: 0; }
+.trgovina__tijelo { flex: 1; min-width: 0; cursor: pointer; }
+.trgovina { flex-wrap: wrap; }
+.trgovina__udaljenost { color: var(--glavna); font-weight: 600; white-space: nowrap; }
+.trgovina__detalji { flex-basis: 100%; border-top: 1px solid var(--rub); margin-top: 4px; padding-top: 8px; font-size: .88rem; }
+.trgovina__detalji table { width: 100%; border-collapse: collapse; }
+.trgovina__detalji td { padding: 2px 0; }
+.trgovina__detalji td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+.trgovina__detalji tr.danas td { font-weight: 700; color: var(--glavna); }
+.trgovina__detalji .zat { color: var(--zatvoreno); }
+.trgovina__detalji h4 { margin: 10px 0 4px; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--tekst-2); }
+.trgovina__detalji p { margin: 4px 0; color: var(--tekst-2); }
+.cip--blizu[aria-pressed="false"] { opacity: 1; }
+.cip--blizu[aria-pressed="true"] { background: var(--glavna); color: #fff; border-color: var(--glavna); }
 .trgovina__naziv { margin: 0; font-size: 1rem; }
 .trgovina__adresa { margin: 1px 0 0; color: var(--tekst-2); font-size: .88rem; overflow-wrap: anywhere; }
 .trgovina__desno { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }

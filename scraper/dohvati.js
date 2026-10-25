@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const Z = require('./zajednicko');
 const LANCI = require('./lanci');
+const { dopuniKoordinate } = require('./koordinate');
 
 const IZLAZ = process.argv[2] || path.join(__dirname, '..', 'docs', 'podaci', 'nedjelje.json');
 const CUVAJ_PROSLE_DANA = 70;
@@ -41,6 +42,12 @@ async function main() {
       statusLanaca[lanac] = { ok: false, poslovnica: stare.length, greska: e.message, provjereno: (staro.lanci && staro.lanci[lanac] && staro.lanci[lanac].provjereno) || null };
       console.error(`${lanac}: GREŠKA ${e.message} (zadržano ${stare.length} starih)`);
     }
+  }
+
+  try {
+    await dopuniKoordinate(trgovine, upozorenja);
+  } catch (e) {
+    upozorenja.push('Koordinate: ' + e.message);
   }
 
   // Brisanje starih nedjelja i sortiranje.

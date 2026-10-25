@@ -158,6 +158,8 @@ function nacrtajFiltere() {
   const tr = stanje.podaci.trgovine;
   const p = stanje.prikaz;
   document.querySelectorAll('.kartice button').forEach(b => b.setAttribute('aria-selected', b.dataset.prikaz === p));
+  posaljiPostavkeAndroidu(); // moji dućani / mjesta su se možda promijenili
+  nacrtajObavijest();
   $('#brojMoji').textContent = stanje.moji.size ? `(${stanje.moji.size})` : '';
   $('#brojMjesta').textContent = stanje.mojaMjesta.size ? `(${stanje.mojaMjesta.size})` : '';
   $('#poljeMjesto').hidden = p !== 'sve';
@@ -193,6 +195,44 @@ function nacrtajFiltere() {
 // Usporedba bez kvačica i velikih slova: "cakovec" nađe "Čakovec".
 const bezKvacica = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/gi, 'd').toLowerCase().trim();
 const mjestoOdgovara = (mjesto, upit) => !upit || bezKvacica(mjesto).includes(bezKvacica(upit));
+
+// ------------------------------------------------------------ detalji dućana i udaljenost
+const DANI_TJEDNA = [['pon', 'Ponedjeljak'], ['uto', 'Utorak'], ['sri', 'Srijeda'], ['cet', 'Četvrtak'], ['pet', 'Petak'], ['sub', 'Subota']];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function detaljiHtml(t) {
+  const danas = ['ned', 'pon', 'uto', 'sri', 'cet', 'pet', 'sub'][new Date(danasZagreb() + 'T12:00:00Z').getUTCDay()];
+  let h = '';
+  if (t.tjedan) {
+    h += '<h4>Radno vrijeme</h4><table>';
+    for (const [k, ime] of DANI_TJEDNA) {
+      const v = t.tjedan[k];
+      h += `<tr${k === danas ? ' class="danas"' : ''}><td>${ime}</td><td${v ? '' : ' class="zat"'}>${v ? esc(v.replace('-', ' – ')) : 'Zatvoreno'}</td></tr>`;
+    }
+    h += '</table>';
+  } else {
+    h += '<p>Trgovac ne objavljuje radno vrijeme za ostale dane.</p>';
+  }
+  const nn = nadolazecaNedjelja();
+  const buduce = Object.keys(t.nedjelje).filter(d => d >= nn).sort();
+  if (buduce.length) {
+    h += '<h4>Nedjelje</h4><table>';
+    for (const d of buduce.slice(0, 8)) {
+      const { dan, mj } = dioDatuma(d);
+      const s = statusTrgovine(t, d);
+      h += `<tr><td>${dan}. ${MJESECI_PUNO[mj]}${blagdan(d) ? ' (' + blagdan(d) + ')' : ''}</td><td${s.tip === 'otvoreno' ? '' : ' class="zat"'}>${esc(s.tekst)}</td></tr>`;
+    }
+    h += '</table>';
+  }
+  return h;
+}
+
+function udaljenostKm(a, b) {
+  const R = 6371, rad = x => x * Math.PI / 180;
+  const dLat = rad(b.lat - a.lat), dLng = rad(b.lng - a.lng);
+  const x = Math.sin(dLat / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(x));
+}
 
 function sveMjesta() {
   return [...new Set(stanje.podaci.trgovine.map(t => t.mjesto))].sort((a, b) => a.localeCompare(b, 'hr'));
@@ -243,12 +283,18 @@ function nacrtajPopis() {
     return;
   }
   const red = { otvoreno: 0, nepoznato: 1, zatvoreno: 2 };
-  prikaz.sort((a, b) => a.t.mjesto.localeCompare(b.t.mjesto, 'hr') ||
-    red[a.s.tip] - red[b.s.tip] || a.t.lanac.localeCompare(b.t.lanac, 'hr'));
+  const blizu = stanje.blizu && stanje.pozicija;
+  if (blizu) {
+    for (const x of prikaz) x.km = x.t.lat != null ? udaljenostKm(stanje.pozicija, x.t) : Infinity;
+    prikaz.sort((a, b) => a.km - b.km || red[a.s.tip] - red[b.s.tip]);
+  } else {
+    prikaz.sort((a, b) => a.t.mjesto.localeCompare(b.t.mjesto, 'hr') ||
+      red[a.s.tip] - red[b.s.tip] || a.t.lanac.localeCompare(b.t.lanac, 'hr'));
+  }
   const tpl = $('#t-trgovina');
   let zadnjaGrupa = null;
-  for (const { t, s: st } of prikaz) {
-    const grupa = t.mjesto;
+  for (const { t, s: st, km } of prikaz) {
+    const grupa = blizu ? 'Najbliže tebi' : t.mjesto;
     if (grupa !== zadnjaGrupa) {
       const h = document.createElement('h3');
       h.className = 'grupa';
@@ -274,12 +320,26 @@ function nacrtajPopis() {
       lanac.appendChild(img);
     } else kratica();
     el.querySelector('.trgovina__naziv').textContent = t.naziv === t.lanac ? t.lanac : t.naziv;
-    el.querySelector('.trgovina__adresa').textContent = `${t.adresa}, ${t.mjesto}`;
+    const adr = el.querySelector('.trgovina__adresa');
+    adr.textContent = `${t.adresa}, ${t.mjesto}`;
+    if (blizu && km !== Infinity) {
+      const s = document.createElement('span');
+      s.className = 'trgovina__udaljenost';
+      s.textContent = ' · ' + (km < 1 ? Math.round(km * 1000 / 50) * 50 + ' m' : km.toFixed(1).replace('.', ',') + ' km');
+      adr.appendChild(s);
+    }
     const v = el.querySelector('.trgovina__vrijeme');
     v.textContent = st.tekst;
     v.classList.add(st.tip);
-    const q = t.lat ? `${t.lat},${t.lng}` : `${t.lanac} ${t.adresa}, ${t.mjesto}, Hrvatska`;
+    // Karta po adresi (dio koordinata je samo središte mjesta)
+    const q = `${t.lanac}, ${t.adresa}, ${t.mjesto}, Hrvatska`;
     el.querySelector('.karta').href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q);
+    // Dodir na dućan: tjedni raspored i sljedeće nedjelje
+    const det = el.querySelector('.trgovina__detalji');
+    el.querySelector('.trgovina__tijelo').addEventListener('click', () => {
+      if (det.hidden && !det.innerHTML) det.innerHTML = detaljiHtml(t);
+      det.hidden = !det.hidden;
+    });
     const z = el.querySelector('.zvjezdica');
     z.setAttribute('aria-pressed', stanje.moji.has(t.id));
     z.setAttribute('aria-label', stanje.moji.has(t.id) ? 'Makni iz mojih dućana' : 'Dodaj u moje dućane');
@@ -340,6 +400,80 @@ $('#dijalogMjesta').addEventListener('close', () => {
   spremi('prikaz', 'mjesta');
   nacrtajFiltere();
   nacrtajPopis();
+});
+
+// ------------------------------------------------------------ obavijest subotom (samo Android aplikacija)
+const MOST = window.RadneNedjeljeApp || null;
+stanje.obavijest = ucitaj('obavijest', false);
+
+// Android pozadinski zadatak čita moje dućane/mjesta iz ovoga (ne vidi localStorage).
+function posaljiPostavkeAndroidu() {
+  if (!MOST) return;
+  try {
+    MOST.spremiPostavke(JSON.stringify({ moji: [...stanje.moji], mojaMjesta: [...stanje.mojaMjesta], obavijest: stanje.obavijest }));
+  } catch (e) {}
+}
+
+function nacrtajObavijest() {
+  const box = $('#obavijestSubota');
+  box.hidden = !MOST || stanje.prikaz === 'sve';
+  if (box.hidden) return;
+  $('#obavijestPrekidac').checked = stanje.obavijest;
+  $('#probnaObavijest').hidden = !stanje.obavijest;
+  const sto = stanje.moji.size ? 'koji tvoji dućani sutra rade'
+    : stanje.mojaMjesta.size ? 'koliko dućana u tvojim mjestima sutra radi' : 'koliko dućana u Međimurju sutra radi';
+  $('#obavijestOpis').textContent = `Subotom između 17 i 22 h javi ${sto}.`;
+}
+
+$('#obavijestPrekidac').addEventListener('change', e => {
+  stanje.obavijest = e.target.checked;
+  spremi('obavijest', stanje.obavijest);
+  posaljiPostavkeAndroidu();
+  nacrtajObavijest();
+  if (stanje.obavijest && MOST && !MOST.obavijestiDopustene()) MOST.traziObavijesti();
+  else if (stanje.obavijest) pokaziPoruku('🔔 Javit ću ti subotom navečer');
+});
+$('#probnaObavijest').addEventListener('click', () => {
+  if (!MOST) return;
+  if (!MOST.obavijestiDopustene()) { MOST.traziObavijesti(); return; }
+  MOST.probnaObavijest();
+  pokaziPoruku('Probna obavijest stiže za par sekundi');
+});
+window.addEventListener('dopustenje', e => {
+  if (e.detail.vrsta !== 'obavijesti') return;
+  if (e.detail.dano) pokaziPoruku('🔔 Javit ću ti subotom navečer');
+  else {
+    stanje.obavijest = false;
+    spremi('obavijest', false);
+    posaljiPostavkeAndroidu();
+    nacrtajObavijest();
+    pokaziPoruku('Obavijesti nisu dopuštene — uključi ih u postavkama mobitela');
+  }
+});
+posaljiPostavkeAndroidu();
+
+// ------------------------------------------------------------ blizu mene
+// Lokacija se koristi samo na mobitelu za računanje udaljenosti i nigdje se ne šalje.
+$('#blizuMene').addEventListener('click', () => {
+  const gumb = $('#blizuMene');
+  if (stanje.blizu) {
+    stanje.blizu = false;
+    gumb.setAttribute('aria-pressed', 'false');
+    nacrtajPopis();
+    return;
+  }
+  if (!navigator.geolocation) { pokaziPoruku('Lokacija nije dostupna na ovom uređaju'); return; }
+  pokaziPoruku('Tražim tvoju lokaciju…');
+  navigator.geolocation.getCurrentPosition(p => {
+    stanje.pozicija = { lat: p.coords.latitude, lng: p.coords.longitude };
+    stanje.blizu = true;
+    gumb.setAttribute('aria-pressed', 'true');
+    nacrtajPopis();
+    pokaziPoruku('Dućani su složeni po udaljenosti');
+    window.scrollTo({ top: $('#popis').offsetTop - 140, behavior: 'smooth' });
+  }, () => {
+    pokaziPoruku('Lokacija nije dopuštena ili nije dostupna');
+  }, { enableHighAccuracy: false, timeout: 15000, maximumAge: 300000 });
 });
 
 // ------------------------------------------------------------ događaji

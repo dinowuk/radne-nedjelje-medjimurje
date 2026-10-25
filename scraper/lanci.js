@@ -1,14 +1,37 @@
 // Dohvat poslovnica u Međimurju i njihovog nedjeljnog radnog vremena, po lancu.
 // Svaka funkcija vraća niz trgovina:
-//   { id, lanac, naziv, adresa, mjesto, lat, lng, nedjelje: { 'YYYY-MM-DD': '08:00-14:00' | 'otvoreno' | null } }
+//   { id, lanac, naziv, adresa, mjesto, lat, lng,
+//     nedjelje: { 'YYYY-MM-DD': '08:00-14:00' | 'otvoreno' | null },
+//     tjedan: { pon: '07:00-21:00' | null, uto, sri, cet, pet, sub } | null }
 // null = zatvoreno, 'otvoreno' = radi, ali vrijeme nije objavljeno.
-// Upisuju se samo nedjelje za koje izvor stvarno daje podatak.
+// Upisuju se samo nedjelje za koje izvor stvarno daje podatak; tjedan je redovno radno vrijeme (pon–sub).
 
 const Z = require('./zajednicko');
 
 const decode = s => String(s || '')
   .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&nbsp;/g, ' ')
   .replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+
+// ---------------------------------------------------------------- tjedni raspored
+const DANI = ['pon', 'uto', 'sri', 'cet', 'pet', 'sub'];
+const IME_DANA = [
+  [/^(pon|mon)/, 'pon'], [/^(uto|tue)/, 'uto'], [/^(sri|wed)/, 'sri'], [/^(cet|thu)/, 'cet'],
+  [/^(pet|fri)/, 'pet'], [/^(sub|sat)/, 'sub'], [/^(ned|sun)/, 'ned'],
+];
+const danKljuc = ime => { const n = Z.norm(ime); const p = IME_DANA.find(([re]) => re.test(n)); return p ? p[1] : null; };
+
+// [[ime dana ili raspon "Pon-pet", tekst vremena], ...] -> { pon..sub } (null ako ništa nije pronađeno)
+function tjedan(parovi) {
+  const t = {};
+  for (const [ime, tekst] of parovi) {
+    const raspDana = Z.norm(ime).match(/^(\w+)\s*-\s*(\w+)/);
+    const kljucevi = raspDana && danKljuc(raspDana[1]) && danKljuc(raspDana[2])
+      ? DANI.slice(DANI.indexOf(danKljuc(raspDana[1])), DANI.indexOf(danKljuc(raspDana[2])) + 1)
+      : [danKljuc(ime)];
+    for (const k of kljucevi) if (k && k !== 'ned' && !(k in t)) t[k] = Z.raspon(tekst);
+  }
+  return Object.keys(t).length ? t : null;
+}
 
 // ---------------------------------------------------------------- Konzum
 async function konzum(sada) {
@@ -37,6 +60,7 @@ async function konzum(sada) {
     out.push({
       id: 'konzum-' + l.id, lanac: 'Konzum', naziv: 'Konzum',
       adresa: m[1].trim(), mjesto, lat: l.coordinates && l.coordinates.lat, lng: l.coordinates && l.coordinates.lng, nedjelje,
+      tjedan: tjedan(dani.map(d => [d.name, d.from_hour && d.to_hour ? d.from_hour.slice(11, 16) + '-' + d.to_hour.slice(11, 16) : ''])),
     });
   }
   return out;
@@ -95,9 +119,18 @@ async function lidl() {
       const r = (it.timeRanges || [])[0];
       nedjelje[it.date] = r ? Z.hhmm(r.from.slice(11)) + '-' + Z.hhmm(r.to.slice(11)) : null;
     }
+    // "special" sadrži i buduće radne/neradne nedjelje (npr. 8.11.)
+    const opce = detalj.generalOpeningHours || {};
+    for (const sp of opce.special || []) {
+      if (!Z.jeNedjelja(sp.date) || sp.date in nedjelje) continue;
+      const r = (sp.timeRanges || [])[0];
+      nedjelje[sp.date] = r ? r.from + '-' + r.to : null;
+    }
+    const reg = opce.regular || {};
     out.push({
       id: 'lidl-' + broj, lanac: 'Lidl', naziv: 'Lidl', adresa: ulica, mjesto: Z.naselje(a.city) || a.city,
-      lat: detalj.location && detalj.location.latitude, lng: detalj.location && detalj.location.longitude, nedjelje,
+      lat: null, lng: null, nedjelje,
+      tjedan: tjedan(Object.entries(reg).map(([dan, r]) => [dan, r && r[0] ? r[0].from + '-' + r[0].to : ''])),
     });
   }
   return out;
@@ -122,6 +155,7 @@ async function kaufland(sada) {
     out.push({
       id: 'kaufland-' + s.n, lanac: 'Kaufland', naziv: 'Kaufland', adresa: s.sn, mjesto: Z.naselje(s.t) || s.t,
       lat: +s.lat, lng: +s.lng, nedjelje,
+      tjedan: tjedan((s.wod || []).map(e => { const [dan, od, doo] = String(e).split('|'); return [dan, od + '-' + doo]; })),
     });
   }
   return out;
@@ -153,6 +187,9 @@ async function spar(sada) {
     out.push({
       id: 'spar-' + s.locationId, lanac: /interspar/i.test(s.name) ? 'Interspar' : 'Spar', naziv: s.name.replace(/\s+/g, ' ').trim(),
       adresa: s.address, mjesto: Z.naselje(s.city) || s.city, lat: s.latitude, lng: s.longitude, nedjelje,
+      tjedan: tjedan((s.shopHours || [])
+        .filter(h => h.openingHours && h.timeperiod && h.timeperiod.timeperiodType === 'standard')
+        .map(h => [h.openingHours.dayType, h.openingHours.from1 ? vrijeme(h.openingHours.from1) + '-' + vrijeme(h.openingHours.to1) : ''])),
     });
   }
   return out;
@@ -178,6 +215,7 @@ async function plodine(sada) {
       id: 'plodine-' + (naslov ? naslov[1] : slug(p[0])), lanac: 'Plodine', naziv: naslov ? decode(naslov[2]) : 'Plodine',
       adresa: p[0], mjesto: Z.naselje(pm[2]) || pm[2], lat: null, lng: null,
       nedjelje: { [nn]: radi ? (vrijeme || 'otvoreno') : null },
+      tjedan: tjedan([...b.matchAll(/<span>([^<:]+?)\s*:<\/span>\s*<strong[^>]*>([^<]*)<\/strong>/g)].map(x => [x[1], x[2]])),
     });
   }
   return out;
@@ -201,16 +239,17 @@ async function studenac(sada, upozorenja) {
     }
     const radi = m[2] === 'true';
     let vrijeme = null;
-    if (radi) {
-      try {
-        const d = await Z.dohvati(m[4]);
-        const ned = d.match(/Nedjelja:\s*<strong>([^<]*)<\/strong>/);
-        vrijeme = ned ? Z.raspon(ned[1]) : null;
-      } catch (e) { /* bez vremena */ }
-    }
+    let tj = null;
+    try {
+      // Stranica trgovine: tjedni raspored "Ponedjeljak: <strong>06:30-20:30</strong>"
+      const d = await Z.dohvati(m[4]);
+      const ned = d.match(/Nedjelja:\s*<strong[^>]*>([^<]*)<\/strong>/);
+      vrijeme = ned ? Z.raspon(ned[1]) : null;
+      tj = tjedan([...d.matchAll(/<li>\s*([A-Za-zČčĆćŠšŽž]+):\s*<strong[^>]*>([^<]*)<\/strong>/g)].map(x => [x[1], x[2]]));
+    } catch (e) { /* bez detalja */ }
     out.push({
       id: 'studenac-' + m[1], lanac: 'Studenac', naziv: 'Studenac', adresa: dijelovi.join(',').trim(), mjesto,
-      lat: null, lng: null, nedjelje: { [nn]: radi ? (vrijeme || 'otvoreno') : null },
+      lat: null, lng: null, nedjelje: { [nn]: radi ? (vrijeme || 'otvoreno') : null }, tjedan: tj,
     });
   }
   return out;
@@ -228,8 +267,9 @@ async function ktc(sada) {
     if (!Z.jeMedjimurskiPostanski(o.Zip)) continue;
     const ned = String(o.WorkHoures || '').split(';').find(x => /^\s*Ned/i.test(x));
     out.push({
-      id: 'ktc-' + o.ID, lanac: 'KTC', naziv: o.Name, adresa: o.Address, mjesto: Z.naselje(o.City) || o.City,
+      id: 'ktc-' + o.ID, lanac: 'KTC', naziv: 'KTC', adresa: o.Address, mjesto: Z.naselje(o.City) || o.City,
       lat: +o.PositionX || null, lng: +o.PositionY || null, nedjelje: { [nn]: ned ? Z.raspon(ned) : null },
+      tjedan: tjedan(String(o.WorkHoures || '').split(';').map(x => x.split(':')).filter(x => x.length > 1).map(([d, ...v]) => [d.trim(), v.join(':')])),
     });
   }
   return out;
@@ -250,6 +290,7 @@ async function eurospin(sada) {
     out.push({
       id: 'eurospin-' + slug(JSON.parse('"' + m[1] + '"')), lanac: 'Eurospin', naziv: 'Eurospin', adresa: linije[0],
       mjesto: Z.naselje(pm[2]) || pm[2], lat: +m[2], lng: +m[3], nedjelje: { [nn]: ned ? Z.raspon(ned) : null },
+      tjedan: tjedan(linije.map(x => x.match(/^([A-Za-zČčĆćŠšŽž]+):\s*(.*)$/)).filter(Boolean).map(x => [x[1], x[2]])),
     });
   }
   return out;
@@ -293,7 +334,7 @@ async function trgovinaKrk() {
     }
     out.push({
       id: 'krk-' + celije['1'], lanac: 'Trgovina Krk', naziv: 'Trgovina Krk', adresa: dijelovi.join(', ').replace(/\s+/g, ' '),
-      mjesto, lat: null, lng: null, nedjelje,
+      mjesto, lat: null, lng: null, nedjelje, tjedan: null, // Trgovina Krk objavljuje samo nedjelje
     });
   }
   return out;
@@ -331,6 +372,7 @@ async function ntl(sada) {
       id: 'ntl-' + l.id, lanac: 'NTL', naziv: 'NTL', adresa, mjesto,
       lat: l.position ? +l.position.lat : null, lng: l.position ? +l.position.lng : null,
       nedjelje: { [nn]: l.open_this_sunday ? (vrijeme || 'otvoreno') : null },
+      tjedan: tjedan((l.working_hours || []).map(w => [w.name, w.time])),
     });
   }
   return out;

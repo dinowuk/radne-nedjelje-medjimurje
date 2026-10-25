@@ -37,6 +37,15 @@
     <button role="tab" data-prikaz="mjesta">Moja mjesta <span class="broj" id="brojMjesta"></span></button>
   </div>
 
+  <div class="obavijest-subota" id="obavijestSubota" hidden>
+    <label class="prekidac">
+      <input type="checkbox" id="obavijestPrekidac">
+      <span>🔔 Obavijest subotom navečer</span>
+    </label>
+    <button type="button" class="gumb-tekst" id="probnaObavijest" hidden>Probaj</button>
+    <p id="obavijestOpis"></p>
+  </div>
+
   <section id="sazetak" class="sazetak" aria-live="polite"></section>
 
   <section class="filteri" aria-label="Filteri">
@@ -57,6 +66,10 @@
       <input type="checkbox" id="samoOtvoreni" checked>
       <span>Samo otvoreni</span>
     </label>
+    <button type="button" id="blizuMene" class="cip cip--blizu" aria-pressed="false">
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm8.94 3A8.99 8.99 0 0 0 13 3.06V1h-2v2.06A8.99 8.99 0 0 0 3.06 11H1v2h2.06A8.99 8.99 0 0 0 11 20.94V23h2v-2.06A8.99 8.99 0 0 0 20.94 13H23v-2h-2.06zM12 19a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+      Blizu mene
+    </button>
   </section>
 
   <section id="popis" class="popis"></section>
@@ -103,6 +116,7 @@
         </a>
       </div>
     </div>
+    <div class="trgovina__detalji" hidden></div>
   </article>
 </template>
 
