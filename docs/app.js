@@ -250,7 +250,7 @@ function nacrtajRestorane() {
     lista.sort((a, b) => (!!b.r.istaknut - !!a.r.istaknut) || red[a.s.tip] - red[b.s.tip] || a.r.mjesto.localeCompare(b.r.mjesto, 'hr') || a.r.naziv.localeCompare(b.r.naziv, 'hr'));
   }
   $('#restoraniSazetak').innerHTML = gablec
-    ? `<h2>Gablec u Međimurju</h2><p>${ukupno ? `<b>${ukupno}</b> ${ukupno === 1 ? 'restoran nudi' : 'restorana nudi'} gablec${q ? ` za „${esc(q)}”` : ''}` : 'Još nema upisanih gableca'}</p>`
+    ? `<h2>Gableci u Međimurju</h2><p>${ukupno ? `<b>${ukupno}</b> ${ukupno === 1 ? 'restoran nudi' : 'restorana nudi'} gablec${q ? ` za „${esc(q)}”` : ''}` : 'Još nema upisanih gableca'}</p>`
     : `<h2>Restorani u Međimurju</h2><p>Nedjelja, ${dan}. ${MJESECI_PUNO[mj]}: radi <b>${rade}</b> od ${ukupno} restorana${q ? ` za „${esc(q)}”` : ''}</p>` +
       (blagdan(d) ? `<div class="obavijest">${blagdan(d)} je blagdan — restorani mogu raditi drugačije, provjeri pozivom.</div>` : '');
   $('#samoNedjeljom').checked = stanje.samoNedjeljom;
@@ -286,7 +286,7 @@ function nacrtajRestorane() {
       ${!gablec && r.opis ? `<p class="restoran__opis">${esc(r.opis)}</p>` : ''}
       ${!gablec && r.jela && r.jela.length ? `<p class="restoran__jela"><b>Preporučujemo:</b> ${r.jela.map(esc).join(', ')}</p>` : ''}
       ${!gablec && r.rucak ? `<p class="restoran__rucak"><b>Nedjeljni ručak:</b> ${esc(r.rucak)}</p>` : ''}
-      ${!gablec && g ? '<p class="restoran__rucak"><b>Nudi gablec</b> — pogledaj karticu Gablec</p>' : ''}
+      ${!gablec && g ? '<p class="restoran__rucak"><b>Nudi gablec</b> — pogledaj karticu Gableci</p>' : ''}
       <div class="restoran__gumbi">
         ${r.tel ? `<a href="tel:${esc(r.tel.replace(/[^\d+]/g, ''))}">${IKONA_TEL} Nazovi</a>` : ''}
         ${r.web ? `<a href="${esc(r.web)}" target="_blank" rel="noopener">Web</a>` : ''}
