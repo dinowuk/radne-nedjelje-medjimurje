@@ -1,0 +1,61 @@
+plugins {
+    id 'com.android.application'
+}
+
+// Podaci za potpisivanje su u kljuc/kljuc.properties (NE objavljuje se, čuvati zauvijek).
+def kljucProps = new Properties()
+def kljucFile = rootProject.file('kljuc/kljuc.properties')
+if (kljucFile.exists()) kljucFile.withInputStream { kljucProps.load(it) }
+
+android {
+    namespace 'hr.dinowuk.radnenedjelje'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'hr.dinowuk.radnenedjelje'
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName '1.0'
+    }
+
+    signingConfigs {
+        release {
+            if (kljucFile.exists()) {
+                storeFile rootProject.file('kljuc/' + kljucProps['storeFile'])
+                storePassword kljucProps['storePassword']
+                keyAlias kljucProps['keyAlias']
+                keyPassword kljucProps['keyPassword']
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    // Web aplikacija iz ../docs ugrađuje se kao assets/www
+    sourceSets {
+        main.assets.srcDirs += layout.buildDirectory.dir('generated/web')
+    }
+}
+
+def kopirajWeb = tasks.register('kopirajWeb', Copy) {
+    from(rootProject.file('../docs')) {
+        exclude 'sw.js', 'manifest.webmanifest'
+    }
+    into layout.buildDirectory.dir('generated/web/www')
+}
+tasks.named('preBuild') { dependsOn kopirajWeb }
+
+dependencies {
+    implementation 'androidx.webkit:webkit:1.12.1'
+}

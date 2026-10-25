@@ -1,6 +1,10 @@
 'use strict';
 
-const PODACI_URL = 'podaci/nedjelje.json';
+// Lokalno se čita kopija iz mape, inače (Android aplikacija) svježi podaci iz GitHub repozitorija.
+const LOKALNO = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+const PODACI_URL = LOKALNO ? 'podaci/nedjelje.json'
+  : 'https://raw.githubusercontent.com/dinowuk/radne-nedjelje-medjimurje/main/docs/podaci/nedjelje.json';
+const UGRADJENI_PODACI = 'podaci/nedjelje.json'; // kopija ugrađena u aplikaciju (prvo pokretanje bez interneta)
 const BOJE = {
   Konzum: '#d2232a', Lidl: '#0050aa', Kaufland: '#e10915', Spar: '#00843d', Interspar: '#00843d',
   Plodine: '#e30613', Studenac: '#004a99', KTC: '#f08a00', Eurospin: '#1d3f8f', 'Trgovina Krk': '#0a5c9e', NTL: '#e2001a',
@@ -56,11 +60,20 @@ function blagdan(d) {
 async function ucitajPodatke(forsiraj) {
   const gumb = $('#osvjezi');
   gumb.classList.add('vrti');
+  // Redom: mreža → zadnji spremljeni podaci → kopija ugrađena u aplikaciju. Uzima se najsvježije.
+  const svjezije = p => p && (!stanje.podaci || p.azurirano > stanje.podaci.azurirano);
   try {
     const r = await fetch(PODACI_URL + (forsiraj ? '?t=' + Date.now() : ''), { cache: forsiraj ? 'no-store' : 'default' });
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    stanje.podaci = await r.json();
+    const p = await r.json();
+    if (svjezije(p)) stanje.podaci = p;
+    try { localStorage.setItem('podaci', JSON.stringify(p)); } catch (e) {}
   } catch (e) {
+    const spremljeni = ucitaj('podaci', null);
+    if (svjezije(spremljeni)) stanje.podaci = spremljeni;
+    if (!stanje.podaci) {
+      try { stanje.podaci = await (await fetch(UGRADJENI_PODACI)).json(); } catch (e2) {}
+    }
     if (!stanje.podaci) {
       $('#popis').innerHTML = '<p class="prazno">Podaci se ne mogu učitati. Provjeri internetsku vezu i pokušaj ponovno.</p>';
       return;
@@ -226,5 +239,6 @@ $('#samoOtvoreni').addEventListener('change', e => { stanje.samoOtvoreni = e.tar
 $('#osvjezi').addEventListener('click', () => ucitajPodatke(true));
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && stanje.podaci) ucitajPodatke(false); });
 
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+// U Android aplikaciji su datoteke već ugrađene, service worker treba samo web verziji.
+if ('serviceWorker' in navigator && !/androidplatform\.net$/.test(location.hostname)) navigator.serviceWorker.register('sw.js').catch(() => {});
 ucitajPodatke(false);

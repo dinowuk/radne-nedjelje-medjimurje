@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Tema" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/zelena</item>
+        <item name="android:statusBarColor">@color/zelena</item>
+        <item name="android:navigationBarColor">@color/zelena</item>
+        <item name="android:colorPrimary">@color/zelena</item>
+        <item name="android:colorAccent">@color/zelena</item>
+        <!-- bijele ikone u statusnoj i navigacijskoj traci (pozadina je zelena) -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <color name="zelena">#0F6B4F</color>
+    <color name="ikona_pozadina">#0F6B4F</color>
+</resources>
