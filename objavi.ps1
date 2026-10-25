@@ -14,7 +14,8 @@ $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot '..\ha_config.ps1') *> $null
 $api = "https://api.github.com/repos/$Repo"
 $h = @{ Authorization = "Bearer $env:GITHUB_TOKEN"; 'User-Agent' = 'claude-code'; Accept = 'application/vnd.github+json' }
-function Post($url, $obj) { Invoke-RestMethod -Uri $url -Method Post -Headers $h -Body ($obj | ConvertTo-Json -Depth 6) -ContentType 'application/json' }
+# Tijelo se salje kao UTF-8 bajtovi (inace PS 5.1 pokvari c/c/s/z i znakove poput "x").
+function Post($url, $obj) { Invoke-RestMethod -Uri $url -Method Post -Headers $h -Body ([Text.Encoding]::UTF8.GetBytes(($obj | ConvertTo-Json -Depth 6))) -ContentType 'application/json; charset=utf-8' }
 
 # 1. sintaksa svih .js prije objave
 foreach ($js in Get-ChildItem $PSScriptRoot -Recurse -Filter *.js) {

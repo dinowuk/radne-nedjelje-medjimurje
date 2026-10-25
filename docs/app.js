@@ -168,6 +168,7 @@ function nacrtajFiltere() {
     ? [...stanje.mojaMjesta].sort((a, b) => a.localeCompare(b, 'hr')).join(', ') : 'Još nisi odabrao mjesta.';
 
   $('#mjesto').value = stanje.mjesto;
+  $('#ocistiMjesto').hidden = !stanje.mjesto;
   nacrtajPrijedloge();
 
   const lanci = [...new Set(tr.map(t => t.lanac))].sort((a, b) => a.localeCompare(b, 'hr'));
@@ -370,6 +371,7 @@ function nacrtajPrijedloge() {
       stanje.mjesto = m;
       spremi('mjesto', m);
       $('#mjesto').value = m;
+      $('#ocistiMjesto').hidden = false;
       $('#mjesto').blur(); // zatvori tipkovnicu
       nacrtajPrijedloge();
       nacrtajPopis();
@@ -378,8 +380,22 @@ function nacrtajPrijedloge() {
   }
   box.hidden = !nadjena.length;
 }
-$('#mjesto').addEventListener('input', e => { stanje.mjesto = e.target.value; spremi('mjesto', stanje.mjesto); nacrtajPrijedloge(); nacrtajPopis(); });
+// Android tipkovnice ne javljaju svako brisanje istim događajem — sluša se više njih.
+function promjenaMjesta() {
+  const v = $('#mjesto').value;
+  $('#ocistiMjesto').hidden = !v;
+  if (v === stanje.mjesto) return;
+  stanje.mjesto = v;
+  spremi('mjesto', v);
+  nacrtajPrijedloge();
+  nacrtajPopis();
+}
+for (const dog of ['input', 'change', 'keyup', 'search', 'compositionend']) $('#mjesto').addEventListener(dog, promjenaMjesta);
 $('#mjesto').addEventListener('keydown', e => { if (e.key === 'Enter') e.target.blur(); });
+$('#ocistiMjesto').addEventListener('click', () => {
+  $('#mjesto').value = '';
+  promjenaMjesta();
+});
 $('#samoOtvoreni').addEventListener('change', e => { stanje.samoOtvoreni = e.target.checked; spremi('samoOtvoreni', stanje.samoOtvoreni); nacrtajPopis(); });
 $('#osvjezi').addEventListener('click', () => ucitajPodatke(true));
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && stanje.podaci) ucitajPodatke(false); });

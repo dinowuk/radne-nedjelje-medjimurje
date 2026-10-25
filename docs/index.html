@@ -42,7 +42,10 @@
   <section class="filteri" aria-label="Filteri">
     <label class="polje polje--siroko" id="poljeMjesto">
       <span>Mjesto</span>
-      <input type="search" id="mjesto" placeholder="Upiši naselje (npr. Prelog)" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search">
+      <span class="unos">
+        <input type="text" id="mjesto" placeholder="Upiši naselje (npr. Prelog)" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search">
+        <button type="button" id="ocistiMjesto" class="unos__ocisti" aria-label="Obriši mjesto" hidden>×</button>
+      </span>
     </label>
     <div id="prijedlozi" class="prijedlozi" hidden></div>
     <div class="moja-mjesta" id="mojaMjesta" hidden>
