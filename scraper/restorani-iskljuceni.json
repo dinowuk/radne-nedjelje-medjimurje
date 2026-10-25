@@ -1,0 +1,5 @@
+{
+  "_napomena": "Restorani koji su zatvoreni, a OpenStreetMap ih još vodi. Ključ = id iz podataka (osm-…), vrijednost = razlog. Kad se ispravi na openstreetmap.org, može se maknuti odavde.",
+  "osm-n6272261472": "Ilonka, Mursko Središće — zatvoreno (dojava korisnika 25.10.2026.)",
+  "osm-w377851806": "Restoran Royal, Mursko Središće — zatvoreno (dojava korisnika 25.10.2026.)"
+}

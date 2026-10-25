@@ -12,6 +12,8 @@ area["boundary"="administrative"]["name"="Međimurska županija"]->.z;
 nwr(area.z)["amenity"~"^(restaurant|fast_food)$"]["name"];
 out tags center;`;
 const MJESTA_KES = path.join(__dirname, '..', 'docs', 'podaci', 'restorani-mjesta.json');
+// Zatvoreni restorani koje OSM još vodi (dojave korisnika)
+const ISKLJUCENI = JSON.parse(fs.readFileSync(path.join(__dirname, 'restorani-iskljuceni.json'), 'utf8'));
 
 const KUHINJE = {
   pizza: 'pizza', burger: 'burgeri', grill: 'roštilj', steak_house: 'steak', regional: 'domaća kuhinja', local: 'domaća kuhinja',
@@ -99,6 +101,7 @@ async function restorani(upozorenja) {
   const out = [];
   for (const e of j.elements) {
     const t = e.tags || {};
+    if (`osm-${e.type[0]}${e.id}` in ISKLJUCENI) continue;
     const lat = e.lat != null ? e.lat : e.center && e.center.lat;
     const lng = e.lon != null ? e.lon : e.center && e.center.lon;
     if (lat == null) continue;
