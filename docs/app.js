@@ -901,13 +901,22 @@ document.addEventListener('visibilitychange', () => { if (document.visibilitySta
 // ------------------------------------------------------------ provjera nove verzije (samo Android aplikacija)
 // Aplikacija u user-agentu šalje "RadneNedjelje/<versionCode>"; docs/verzija.json kaže koja je najnovija.
 const VERZIJA_URL = 'https://raw.githubusercontent.com/dinowuk/radne-nedjelje-medjimurje/main/docs/verzija.json';
+const VERZIJA_API = 'https://api.github.com/repos/dinowuk/radne-nedjelje-medjimurje/contents/docs/verzija.json?ref=main';
 let zadnjaProvjera = 0;
 async function provjeriAzuriranje() {
   const m = navigator.userAgent.match(/RadneNedjelje\/(\d+)/);
   if (!m || Date.now() - zadnjaProvjera < 60000) return;
   zadnjaProvjera = Date.now();
   try {
-    const v = await (await fetch(VERZIJA_URL + '?t=' + Date.now(), { cache: 'no-store' })).json();
+    // GitHub API daje trenutno stanje; raw.githubusercontent zna danima… minutama vraćati staru kopiju (CDN)
+    let v;
+    try {
+      const r = await fetch(VERZIJA_API, { cache: 'no-store', headers: { Accept: 'application/vnd.github.raw+json' } });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      v = await r.json();
+    } catch (e) {
+      v = await (await fetch(VERZIJA_URL + '?t=' + Date.now(), { cache: 'no-store' })).json();
+    }
     if (+v.versionCode > +m[1] && v.url) {
       $('#azuriranjeTekst').textContent = `Dostupna je nova verzija ${v.versionName}${v.opis ? ' — ' + v.opis : ''}.`;
       $('#azuriranjeLink').href = v.url;
