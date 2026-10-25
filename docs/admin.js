@@ -51,10 +51,10 @@ async function spremiUredjivanje(opis) {
   uredSha = (await r.json()).content.sha;
 }
 
-// Fotka: smanji na max 1200 px (JPEG) i spremi u docs/slike/
-async function posaljiFotku(datoteka) {
+// Fotka: smanji na max 1200 px (JPEG) i spremi u docs/slike/ (jelovnik do 1800 px, da se tekst može čitati)
+async function posaljiFotku(datoteka, maks = 1200) {
   const slika = await new Promise((ok, ne) => { const i = new Image(); i.onload = () => ok(i); i.onerror = ne; i.src = URL.createObjectURL(datoteka); });
-  const k = Math.min(1, 1200 / Math.max(slika.width, slika.height));
+  const k = Math.min(1, maks / Math.max(slika.width, slika.height));
   const c = document.createElement('canvas');
   c.width = Math.round(slika.width * k); c.height = Math.round(slika.height * k);
   c.getContext('2d').drawImage(slika, 0, 0, c.width, c.height);
@@ -121,6 +121,7 @@ function nacrtajRestorane() {
 $('#traziR').addEventListener('input', nacrtajRestorane);
 
 let trenutniR = null;
+let gablecSlika = '';
 function urediRestoran(r) {
   trenutniR = r;
   const iz = ured.restorani[r.id] || {};
@@ -145,11 +146,16 @@ function urediRestoran(r) {
   $('#rGablecCijena').value = g.cijena || '';
   $('#rGablecVrijeme').value = g.vrijeme || '';
   $('#rGablecMeni').value = g.meni || '';
+  gablecSlika = g.slika || '';
+  if (gablecSlika) $('#rGablecSlikaPrikaz').src = gablecSlika; else $('#rGablecSlikaPrikaz').removeAttribute('src');
+  $('#rGablecSlikaDatoteka').value = '';
   $('#greskaR').textContent = '';
   $('#dlgR').showModal();
 }
 $('#rFoto').addEventListener('input', e => { $('#rFotoPrikaz').src = e.target.value; });
 $('#rFotoDatoteka').addEventListener('change', e => { const f = e.target.files[0]; if (f) $('#rFotoPrikaz').src = URL.createObjectURL(f); });
+$('#rGablecSlikaDatoteka').addEventListener('change', e => { const f = e.target.files[0]; if (f) { $('#rGablecSlikaPrikaz').src = URL.createObjectURL(f); $('#rGablec').checked = true; } });
+$('#rGablecSlikaMakni').addEventListener('click', () => { gablecSlika = ''; $('#rGablecSlikaDatoteka').value = ''; $('#rGablecSlikaPrikaz').removeAttribute('src'); });
 $('#rFotoMakni').addEventListener('click', () => { $('#rFoto').value = ''; $('#rFotoDatoteka').value = ''; $('#rFotoPrikaz').removeAttribute('src'); });
 
 $('#noviRestoran').addEventListener('click', () => urediRestoran({ id: 'ru-' + Date.now().toString(36), naziv: '', mjesto: '', rucni: true, novi: true }));
@@ -163,9 +169,11 @@ $('#dlgR').addEventListener('close', async () => {
     const dat = $('#rFotoDatoteka').files[0];
     if (dat) foto = await posaljiFotku(dat);
     const jela = $('#rJela').value.split('\n').map(s => s.trim()).filter(Boolean);
+    const datJelovnik = $('#rGablecSlikaDatoteka').files[0];
+    if (datJelovnik) gablecSlika = await posaljiFotku(datJelovnik, 1800);
     const gablec = $('#rGablec').checked ? {
       cijena: $('#rGablecCijena').value.trim(), vrijeme: $('#rGablecVrijeme').value.trim(),
-      meni: $('#rGablecMeni').value.trim(), azurirano: new Date().toISOString().slice(0, 10),
+      meni: $('#rGablecMeni').value.trim(), slika: gablecSlika || null, azurirano: new Date().toISOString().slice(0, 10),
     } : undefined;
     if (r.rucni) {
       // ručno dodani restoran: cijeli zapis u noviRestorani

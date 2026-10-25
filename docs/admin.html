@@ -82,7 +82,15 @@
     <fieldset class="gablec-polje">
       <label class="prekidac"><input type="checkbox" id="rGablec"><span><b>Nudi gablec</b></span></label>
       <div class="dva"><label>Cijena <input id="rGablecCijena" placeholder="npr. 9 €"></label><label>Vrijeme <input id="rGablecVrijeme" placeholder="npr. pon–pet 10–14 h"></label></div>
-      <label>Gablec — jelovnik (dnevni ili tjedni; npr. "PON: grah s kobasicom, UTO: …") <textarea id="rGablecMeni" rows="4"></textarea></label>
+      <label>Fotka tjednog jelovnika (screenshot s Facebooka ili fotka)</label>
+      <div class="foto-polje">
+        <img id="rGablecSlikaPrikaz" alt="">
+        <div>
+          <input type="file" id="rGablecSlikaDatoteka" accept="image/*">
+          <button type="button" class="gumb-tekst" id="rGablecSlikaMakni">Makni jelovnik</button>
+        </div>
+      </div>
+      <label>…ili jelovnik tekstom (npr. "PON: grah s kobasicom, UTO: …") <textarea id="rGablecMeni" rows="4"></textarea></label>
     </fieldset>
     <div class="kvacice">
       <label class="prekidac"><input type="checkbox" id="rIstaknut"><span>Istaknut (na vrhu popisa)</span></label>

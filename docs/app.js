@@ -226,6 +226,17 @@ function statusDanas(r) {
   return r.tjedan[k] ? { tip: 'otvoreno', tekst: 'Danas ' + r.tjedan[k].replace('-', ' – ') } : { tip: 'zatvoreno', tekst: 'Danas ne radi' };
 }
 
+// Prikaz slike preko cijelog ekrana (jelovnik); dodir ili natrag zatvara
+function povecajSliku(src) {
+  const d = document.createElement('dialog');
+  d.className = 'povecanje';
+  d.innerHTML = `<img src="${esc(src)}" alt="Jelovnik"><button class="ikonski" aria-label="Zatvori">✕</button>`;
+  d.addEventListener('click', () => d.close());
+  d.addEventListener('close', () => d.remove());
+  document.body.appendChild(d);
+  d.showModal();
+}
+
 function nacrtajRestorane() {
   const gablec = stanje.restoraniNacin === 'gablec';
   document.querySelectorAll('[data-rnacin]').forEach(b => b.setAttribute('aria-selected', b.dataset.rnacin === stanje.restoraniNacin));
@@ -282,6 +293,7 @@ function nacrtajRestorane() {
       <div class="restoran__glava"><div>${r.istaknut ? '<span class="restoran__preporuka">★ Preporuka</span>' : ''}<h3>${esc(r.naziv)}</h3><p class="restoran__info">${esc(info)}</p></div>
         <span class="trgovina__vrijeme ${s.tip}">${esc(s.tekst)}</span></div>
       ${gablec && g ? `<div class="restoran__gablec"><strong>Gablec${g.cijena ? ' · ' + esc(g.cijena) : ''}</strong>${g.vrijeme ? ` <small>${esc(g.vrijeme)}</small>` : ''}
+        ${g.slika ? `<img class="gablec-slika" src="${esc(g.slika)}" alt="Tjedni jelovnik" loading="lazy" title="Dodirni za povećanje">` : ''}
         ${g.meni ? `<p>${esc(g.meni)}</p>` : ''}${g.azurirano ? `<small>Upisano ${dioDatuma(g.azurirano).dan}.${dioDatuma(g.azurirano).mj + 1}.</small>` : ''}</div>` : ''}
       ${!gablec && r.opis ? `<p class="restoran__opis">${esc(r.opis)}</p>` : ''}
       ${!gablec && r.jela && r.jela.length ? `<p class="restoran__jela"><b>Preporučujemo:</b> ${r.jela.map(esc).join(', ')}</p>` : ''}
@@ -295,6 +307,8 @@ function nacrtajRestorane() {
       <div class="trgovina__detalji" hidden></div>`;
     const foto = el.querySelector('.restoran__foto');
     if (foto) foto.onerror = () => foto.remove();
+    const jelovnik = el.querySelector('.gablec-slika');
+    if (jelovnik) jelovnik.addEventListener('click', () => povecajSliku(jelovnik.src));
     const det = el.querySelector('.trgovina__detalji');
     el.querySelector('.restoran__glava').addEventListener('click', () => {
       if (!det.innerHTML) {
