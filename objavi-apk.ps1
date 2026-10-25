@@ -1,4 +1,4 @@
-# Objavi novu verziju Android aplikacije:
+﻿# Objavi novu verziju Android aplikacije:
 #   1. izgradi APK/AAB u WSL-u (android/izgradi.sh)
 #   2. napravi GitHub release v<verzija> s datotekom radne-nedjelje.apk
 #   3. upise docs/verzija.json i objavi kod -> instalirane aplikacije pokazu "Dostupna je nova verzija"
@@ -26,12 +26,12 @@ if ($LASTEXITCODE -ne 0) { throw 'Izgradnja nije uspjela.' }
 $apk = Join-Path $PSScriptRoot "izlaz\radne-nedjelje-$ime.apk"
 if (-not (Test-Path $apk)) { throw "Nema $apk" }
 
-# 2. release s dvije kopije: kam-v-nedelu-<verzija>.apk (za ažuriranje — ime se ne miješa sa starima
+# 2. release s dvije kopije: kam-f-nedelu-<verzija>.apk (za ažuriranje — ime se ne miješa sa starima
 #    u mapi Preuzimanja na mobitelu) i radne-nedjelje.apk (stalni link .../releases/latest/download/radne-nedjelje.apk)
-$tijelo = @{ tag_name = "v$ime"; target_commitish = 'main'; name = "Kam v nedelu? $ime"; body = $Opis } | ConvertTo-Json
+$tijelo = @{ tag_name = "v$ime"; target_commitish = 'main'; name = "Kam f nedelu? $ime"; body = $Opis } | ConvertTo-Json
 $rel = Invoke-RestMethod "$api/releases" -Method Post -Headers $h -Body ([Text.Encoding]::UTF8.GetBytes($tijelo)) -ContentType 'application/json; charset=utf-8'
 $up = $rel.upload_url -replace '\{.*\}', ''
-$a = Invoke-RestMethod "$($up)?name=kam-v-nedelu-$ime.apk" -Method Post -Headers $h -InFile $apk -ContentType 'application/vnd.android.package-archive'
+$a = Invoke-RestMethod "$($up)?name=kam-f-nedelu-$ime.apk" -Method Post -Headers $h -InFile $apk -ContentType 'application/vnd.android.package-archive'
 Invoke-RestMethod "$($up)?name=radne-nedjelje.apk" -Method Post -Headers $h -InFile $apk -ContentType 'application/vnd.android.package-archive' | Out-Null
 Write-Host "APK: $($a.browser_download_url)"
 
