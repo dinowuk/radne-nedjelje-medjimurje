@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-25T13:04:15.973Z",
+ "azurirano": "2026-10-25T13:18:54.005Z",
  "nadolazeca": "2026-10-25",
  "nedjelje": [
   "2026-08-16",
@@ -27,52 +27,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-25T13:04:15.973Z"
+   "provjereno": "2026-10-25T13:18:54.005Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-25T13:04:15.973Z"
+   "provjereno": "2026-10-25T13:18:54.005Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-25T13:04:15.973Z"
+   "provjereno": "2026-10-25T13:18:54.005Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T13:04:15.973Z"
+   "provjereno": "2026-10-25T13:18:54.005Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T13:04:15.973Z"
+   "provjereno": "2026-10-25T13:18:54.005Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T13:04:15.973Z"
+   "provjereno": "2026-10-25T13:18:54.005Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T13:04:15.973Z"
+   "provjereno": "2026-10-25T13:18:54.005Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-25T13:04:15.973Z"
+   "provjereno": "2026-10-25T13:18:54.005Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T13:04:15.973Z"
+   "provjereno": "2026-10-25T13:18:54.005Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T13:04:15.973Z"
+   "provjereno": "2026-10-25T13:18:54.005Z"
   }
  },
  "greske": [],
@@ -4490,6 +4490,62 @@
    "opis": "Božićna čarolija veličanstvenog Orašara ponovno u Čakovcu! Uoči božićnih blagdana na pozornicu Centra za kulturu Čakovec vraća se najomiljeniji božićni balet svih vremena – Orašar P. I. Čajkovskog, u raskošnoj i očaravajućoj izvedbi ansambla UCB Ballet (Ukrajinski klasični…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/p__i___ajkovski__ora_ar_1791984752.png",
    "link": "https://eventinfo.com.hr/dogadaj/p-i-cajkovski-orasar"
+  }
+ ],
+ "najave": [
+  {
+   "id": "na-LW1lZGltdXJqYS8=",
+   "naslov": "Otvorena 16. bijenalna izložba Udruženja arhitekata Međimurja",
+   "opcina": "Čakovec",
+   "objavljeno": "2026-10-23",
+   "opis": "U Izložbenom salonu Centra za kulturu Čakovec u četvrtak navečer otvorena je 16. bijenalna izložba Udruge arhitekata Međimurja. Pod nazivom „Projekti i realizacije 2024. – 2025.“ izloženi nacrti i vizualizacije…",
+   "link": "https://www.cakovec.hr/odrzana-16-bijenalna-izlozba-udruge-arhitekata-medimurja/",
+   "slika": null
+  },
+  {
+   "id": "na-bmEtei1icmFqZGkv",
+   "naslov": "Poziv vinarima na manifestaciju „Vina z brajdi”",
+   "opcina": "Selnica",
+   "objavljeno": "2026-10-21",
+   "opis": "Općina Selnica i Turistička zajednica područja Mura i gorice pozivaju vinare s područja Selnice i okolice da predstave svoja vina na manifestaciji „Vina z brajdi”, koja će se održati u nedjelju, 8. studenoga 2026.…",
+   "link": "https://www.selnica.hr/poziv-vinarima-na-manifestaciju-vina-z-brajdi/",
+   "slika": null
+  },
+  {
+   "id": "na-aXItaXZhbmVjLw==",
+   "naslov": "18. MEMORIJALNI KARATE TURNIR IVANEC",
+   "opcina": "Šenkovec",
+   "objavljeno": "2026-10-19",
+   "opis": "U Ivancu je 17.10.2026. održan 18. Memorijalni karate turnir Ivanec na kojem je nastupilo 415 natjecatelja iz 47 klubova. Članovi karate centra Šenkovec nastupili su samo u pojedinačnim kategorijama, a najbolji rezultat…",
+   "link": "https://senkovec.hr/2026/10/19/18-memorijalni-karate-turnir-ivanec/",
+   "slika": "https://senkovec.hr/wp-content/uploads/2026/10/20261018_185455-733x1024.jpg"
+  },
+  {
+   "id": "na-cC1ocnZhdHNrZS8=",
+   "naslov": "Kup Hrvatske",
+   "opcina": "Šenkovec",
+   "objavljeno": "2026-10-14",
+   "opis": "U subotu, 10. listopada 2026. godine održan je Kup Hrvatske u karateu za kadete, juniore, mlađe seniore i seniore. Natjecanje je održano u dvorani OŠ Ivanja Reka. KC Šenkovec nastupio je u 13 pojedinačnih kategorija i…",
+   "link": "https://senkovec.hr/2026/10/14/kup-hrvatske/",
+   "slika": null
+  },
+  {
+   "id": "na-b3N0dmFyaS1pdi8=",
+   "naslov": "JESENSKO DRUŽENJE KORISNIKA PROJEKTA„SNAŽNO ZAŽELI I OSTVARI-IV“",
+   "opcina": "Donji Kraljevec",
+   "objavljeno": "2026-10-03",
+   "opis": "",
+   "link": "https://www.donjikraljevec.hr/2026/10/03/jesensko-druzenje-korisnika-projektasnazno-zazeli-i-ostvari-iv/",
+   "slika": "https://www.donjikraljevec.hr/web2019/wp-content/uploads/2026/10/Druzenje-projekt-Zazeli-Opcina-Donji-Kraljevec-13-400x284.jpg"
+  },
+  {
+   "id": "na-aW5lLXNlbG5pY2Ev",
+   "naslov": "Svečanost povodom obilježavanja 10. obljetnice KUD-a Općine Selnica",
+   "opcina": "Selnica",
+   "objavljeno": "2026-09-28",
+   "opis": "Nakon mnogobrojnih manifestacija kroz godinu, ove subote, 03.10.2026 u 18 sati u sportskoj školskoj dvorani OŠ Selnica održat će se centralna svečanost povodom obilježavanja 10. obljetnice KUD-a Selnica. Pet sekcija…",
+   "link": "https://www.selnica.hr/svecanost-povodom-obiljezavanja-10-obljetnice-kud-a-opcine-selnica/",
+   "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/09/plakat_KUD_Selnica_10.-obljetnica-2-scaled.webp"
   }
  ],
  "restorani": [
