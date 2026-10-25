@@ -1,0 +1,512 @@
+{
+ "Eugena Kvaternika 7, Čakovec": {
+  "lat": 46.388952,
+  "lng": 16.440565,
+  "tocnost": "ulica"
+ },
+ "Preloška 68, Čakovec": {
+  "lat": 46.377533,
+  "lng": 16.452214,
+  "tocnost": "ulica"
+ },
+ "Vukovarska 1, Čakovec": {
+  "lat": 46.386736,
+  "lng": 16.428949,
+  "tocnost": "ulica"
+ },
+ "Josipa Bajkovca 2, Savska Ves": {
+  "lat": 46.375296,
+  "lng": 16.425568,
+  "tocnost": "ulica"
+ },
+ "Mihovljanska 46 B, Čakovec": {
+  "lat": 46.394964,
+  "lng": 16.445598,
+  "tocnost": "ulica"
+ },
+ "V. Morandinija 21, Čakovec": {
+  "lat": 46.388665,
+  "lng": 16.437535,
+  "tocnost": "ulica"
+ },
+ "M. Tita 62, Nedelišće": {
+  "lat": 46.375975,
+  "lng": 16.385387,
+  "tocnost": "ulica"
+ },
+ "M. Viljevca 2, Nedelišće": {
+  "lat": 46.375956,
+  "lng": 16.378539,
+  "tocnost": "ulica"
+ },
+ "Dr. Ljudevita Gaja 23, Belica": {
+  "lat": 46.400398,
+  "lng": 16.520055,
+  "tocnost": "ulica"
+ },
+ "Trg M. Blazinarića 26 B, G. Kur, Nedelišće": {
+  "lat": 46.376116,
+  "lng": 16.385914,
+  "tocnost": "mjesto"
+ },
+ "MALINSKA 1, Čakovec": {
+  "lat": 46.38923,
+  "lng": 16.436859,
+  "tocnost": "mjesto"
+ },
+ "V. Morandinija 35, Čakovec": {
+  "lat": 46.388414,
+  "lng": 16.437933,
+  "tocnost": "ulica"
+ },
+ "Čakovečka 37 c, Čakovec": {
+  "lat": 46.333586,
+  "lng": 16.403131,
+  "tocnost": "ulica"
+ },
+ "Zrinsko Frankopanska 12, Čakovec": {
+  "lat": 46.389414,
+  "lng": 16.428506,
+  "tocnost": "ulica"
+ },
+ "I.G. Kovačića 38, Čakovec": {
+  "lat": 46.394392,
+  "lng": 16.435689,
+  "tocnost": "ulica"
+ },
+ "M. Gupca 1, Strahoninec": {
+  "lat": 46.374172,
+  "lng": 16.408219,
+  "tocnost": "ulica"
+ },
+ "Travnička 35, Čakovec": {
+  "lat": 46.379707,
+  "lng": 16.43692,
+  "tocnost": "ulica"
+ },
+ "Glavna 102, Kuršanec": {
+  "lat": 46.329635,
+  "lng": 16.399383,
+  "tocnost": "ulica"
+ },
+ "Dravska 6, Strahoninec": {
+  "lat": 46.367058,
+  "lng": 16.412856,
+  "tocnost": "ulica"
+ },
+ "Nikole Tesle 1 a, Pušćine": {
+  "lat": 46.344113,
+  "lng": 16.362563,
+  "tocnost": "ulica"
+ },
+ "S. Radića 22, Čakovec": {
+  "lat": 46.388372,
+  "lng": 16.445621,
+  "tocnost": "ulica"
+ },
+ "Zrinskih 26, Štefanec": {
+  "lat": 46.373595,
+  "lng": 16.494486,
+  "tocnost": "ulica"
+ },
+ "Braće Radića 54, Pribislavec": {
+  "lat": 46.393982,
+  "lng": 16.478037,
+  "tocnost": "ulica"
+ },
+ "J.B. Jelačića 114, Mačkovec": {
+  "lat": 46.421501,
+  "lng": 16.432831,
+  "tocnost": "ulica"
+ },
+ "Krištanovec 122, Krištanovec": {
+  "lat": 46.442255,
+  "lng": 16.452704,
+  "tocnost": "ulica"
+ },
+ "Pleškovec 30, Pleškovec": {
+  "lat": 46.440163,
+  "lng": 16.377861,
+  "tocnost": "ulica"
+ },
+ "I.G. Kovačića 17, Lopatinec": {
+  "lat": 46.425067,
+  "lng": 16.389823,
+  "tocnost": "ulica"
+ },
+ "Trg Sv. Martina 13, Sveti Martin na Muri": {
+  "lat": 46.525065,
+  "lng": 16.361856,
+  "tocnost": "mjesto"
+ },
+ "Slakovec 61, Slakovec": {
+  "lat": 46.405001,
+  "lng": 16.372886,
+  "tocnost": "mjesto"
+ },
+ "Rade Končara 23, Mali Mihaljevec": {
+  "lat": 46.433909,
+  "lng": 16.40005,
+  "tocnost": "ulica"
+ },
+ "Glavna 164, Domašinec": {
+  "lat": 46.434342,
+  "lng": 16.600741,
+  "tocnost": "ulica"
+ },
+ "Trg bana Jelačića 4, Selnica": {
+  "lat": 46.492675,
+  "lng": 16.398213,
+  "tocnost": "ulica"
+ },
+ "Črečan 42, Črečan": {
+  "lat": 46.393454,
+  "lng": 16.342285,
+  "tocnost": "ulica"
+ },
+ "Dr. V. Žganca 2, Vratišinec": {
+  "lat": 46.47703,
+  "lng": 16.456351,
+  "tocnost": "ulica"
+ },
+ "Frankopanska 1, Mursko Središće": {
+  "lat": 46.513225,
+  "lng": 16.440113,
+  "tocnost": "ulica"
+ },
+ "Čakovečka 52, Gornji Hrašćan": {
+  "lat": 46.378095,
+  "lng": 16.347251,
+  "tocnost": "ulica"
+ },
+ "Zasadbreg 153 a, Lopatinec": {
+  "lat": 46.446375,
+  "lng": 16.410149,
+  "tocnost": "ulica"
+ },
+ "Hlapičina 172, Hlapičina": {
+  "lat": 46.519759,
+  "lng": 16.399004,
+  "tocnost": "ulica"
+ },
+ "Glavna 21, Dunjkovec": {
+  "lat": 46.388729,
+  "lng": 16.371964,
+  "tocnost": "ulica"
+ },
+ "Glavna 72, Žiškovec": {
+  "lat": 46.448751,
+  "lng": 16.431294,
+  "tocnost": "mjesto"
+ },
+ "Frkanovec 84, Frkanovec": {
+  "lat": 46.457258,
+  "lng": 16.381139,
+  "tocnost": "ulica"
+ },
+ "M. Tita 49, Novo Selo Rok": {
+  "lat": 46.428053,
+  "lng": 16.462219,
+  "tocnost": "ulica"
+ },
+ "Prvomajska 92, Mihovljan": {
+  "lat": 46.40609,
+  "lng": 16.446472,
+  "tocnost": "ulica"
+ },
+ "Štrigova 25 a, Štrigova": {
+  "lat": 46.500526,
+  "lng": 16.286416,
+  "tocnost": "ulica"
+ },
+ "Selska ulica, Novakovec": {
+  "lat": 46.455748,
+  "lng": 16.575228,
+  "tocnost": "ulica"
+ },
+ "Križovec 17, Križovec": {
+  "lat": 46.489677,
+  "lng": 16.494202,
+  "tocnost": "ulica"
+ },
+ "Potočna 4, Gornji Kraljevec": {
+  "lat": 46.4614,
+  "lng": 16.470886,
+  "tocnost": "mjesto"
+ },
+ "J. Bedekovića 2, Šenkovec": {
+  "lat": 46.406304,
+  "lng": 16.41957,
+  "tocnost": "ulica"
+ },
+ "Brodec 49, Vratišinec": {
+  "lat": 46.483003,
+  "lng": 16.450552,
+  "tocnost": "ulica"
+ },
+ "Ivana Grčića 6, Podturen": {
+  "lat": 46.465769,
+  "lng": 16.545832,
+  "tocnost": "mjesto"
+ },
+ "Zebanec Selo 11, Zebanec Selo": {
+  "lat": 46.479551,
+  "lng": 16.411562,
+  "tocnost": "ulica"
+ },
+ "Ryderova 31, Celine": {
+  "lat": 46.458164,
+  "lng": 16.503883,
+  "tocnost": "ulica"
+ },
+ "Trnovec 11, Trnovec": {
+  "lat": 46.382793,
+  "lng": 16.308852,
+  "tocnost": "ulica"
+ },
+ "Gornji Mihaljevec 74a, Macinec": {
+  "lat": 46.42981,
+  "lng": 16.3211,
+  "tocnost": "ulica"
+ },
+ "Turčišće 21, Dekanovec": {
+  "lat": 46.446544,
+  "lng": 16.581848,
+  "tocnost": "mjesto"
+ },
+ "Čakovečka 7, Ivanovec": {
+  "lat": 46.365667,
+  "lng": 16.471731,
+  "tocnost": "ulica"
+ },
+ "Josipa Broza 85, Ivanovec": {
+  "lat": 46.371183,
+  "lng": 16.473894,
+  "tocnost": "ulica"
+ },
+ "Augusta Šenoe 42, Sveti Križ": {
+  "lat": 46.339444,
+  "lng": 16.539871,
+  "tocnost": "ulica"
+ },
+ "Marka Kovača 42, Podbrest": {
+  "lat": 46.331694,
+  "lng": 16.542649,
+  "tocnost": "ulica"
+ },
+ "Nikole Tesle 23, Orehovica": {
+  "lat": 46.329129,
+  "lng": 16.506318,
+  "tocnost": "ulica"
+ },
+ "Trg Slobode 1, Prelog": {
+  "lat": 46.337579,
+  "lng": 16.616166,
+  "tocnost": "ulica"
+ },
+ "Kneza Domagoja 19, Prelog": {
+  "lat": 46.33272,
+  "lng": 16.61266,
+  "tocnost": "ulica"
+ },
+ "Jug 1, Prelog": {
+  "lat": 46.325938,
+  "lng": 16.621191,
+  "tocnost": "ulica"
+ },
+ "Glavna 1, Prelog": {
+  "lat": 46.370195,
+  "lng": 16.616414,
+  "tocnost": "ulica"
+ },
+ "GLAVNA 19, Mala Subotica": {
+  "lat": 46.388745,
+  "lng": 16.548402,
+  "tocnost": "ulica"
+ },
+ "Glavna 29a, Mala Subotica": {
+  "lat": 46.376258,
+  "lng": 16.528578,
+  "tocnost": "ulica"
+ },
+ "Glavna 43, Palovec": {
+  "lat": 46.387749,
+  "lng": 16.547718,
+  "tocnost": "ulica"
+ },
+ "Držimurec 98, Mala Subotica": {
+  "lat": 46.375885,
+  "lng": 16.529556,
+  "tocnost": "mjesto"
+ },
+ "Palinovec 183 a, Palinovec": {
+  "lat": 46.3949,
+  "lng": 16.597876,
+  "tocnost": "mjesto"
+ },
+ "Glavna ulica 131, Čehovec": {
+  "lat": 46.362568,
+  "lng": 16.617765,
+  "tocnost": "ulica"
+ },
+ "Čakovečka 1, Donji Kraljevec": {
+  "lat": 46.367991,
+  "lng": 16.648717,
+  "tocnost": "ulica"
+ },
+ "Donji Hrašćan 51, Donji Hrašćan": {
+  "lat": 46.409813,
+  "lng": 16.623637,
+  "tocnost": "mjesto"
+ },
+ "Cvjetna ulica 1, Hodošan": {
+  "lat": 46.395234,
+  "lng": 16.642411,
+  "tocnost": "ulica"
+ },
+ "Školska ulica 15, Goričan": {
+  "lat": 46.38416,
+  "lng": 16.673072,
+  "tocnost": "ulica"
+ },
+ "MAKOVICA 6, Goričan": {
+  "lat": 46.386158,
+  "lng": 16.678044,
+  "tocnost": "ulica"
+ },
+ "Kralja Tomislava 98, Kotoriba": {
+  "lat": 46.353677,
+  "lng": 16.812409,
+  "tocnost": "ulica"
+ },
+ "Sajmišna 2a, Kotoriba": {
+  "lat": 46.352738,
+  "lng": 16.818304,
+  "tocnost": "ulica"
+ },
+ "Trg Republike 16, Donja Dubrava": {
+  "lat": 46.315733,
+  "lng": 16.811459,
+  "tocnost": "ulica"
+ },
+ "Prvomajska 22, Vularija": {
+  "lat": 46.328967,
+  "lng": 16.479081,
+  "tocnost": "mjesto"
+ },
+ "Čakovečka 23a, Totovec": {
+  "lat": 46.338567,
+  "lng": 16.444623,
+  "tocnost": "ulica"
+ },
+ "Vladimira Nazora 2, Šandorovec": {
+  "lat": 46.330703,
+  "lng": 16.414701,
+  "tocnost": "mjesto"
+ },
+ "Glavna 262, Gardinovec": {
+  "lat": 46.427653,
+  "lng": 16.557955,
+  "tocnost": "mjesto"
+ },
+ "Oporovec 152, Draškovec": {
+  "lat": 46.346699,
+  "lng": 16.676656,
+  "tocnost": "mjesto"
+ },
+ "Trg sv. Lovre 4, Cirkovljan": {
+  "lat": 46.343152,
+  "lng": 16.646047,
+  "tocnost": "mjesto"
+ },
+ "Draškovićeva 13, Draškovec": {
+  "lat": 46.345899,
+  "lng": 16.674624,
+  "tocnost": "ulica"
+ },
+ "Glavna 45, Donji Vidovec": {
+  "lat": 46.322739,
+  "lng": 16.780758,
+  "tocnost": "ulica"
+ },
+ "R. Končara 9, Donji Vidovec": {
+  "lat": 46.330073,
+  "lng": 16.787477,
+  "tocnost": "ulica"
+ },
+ "Braće Radića 28, Sveta Marija": {
+  "lat": 46.332131,
+  "lng": 16.744358,
+  "tocnost": "ulica"
+ },
+ "Športska 7, Čakovec": {
+  "lat": 46.387781,
+  "lng": 16.420611,
+  "tocnost": "ulica"
+ },
+ "Stjepana Radića 31, Čakovec": {
+  "lat": 46.388544,
+  "lng": 16.447757,
+  "tocnost": "ulica"
+ },
+ "Ulica Franje Glada 13, Prelog": {
+  "lat": 46.343635,
+  "lng": 16.610452,
+  "tocnost": "ulica"
+ },
+ "Zagrebačka ulica 2, Čakovec": {
+  "lat": 46.383315,
+  "lng": 16.429641,
+  "tocnost": "ulica"
+ },
+ "Ulica 34. Inženjerijske bojne 2, Čakovec": {
+  "lat": 46.389725,
+  "lng": 16.447738,
+  "tocnost": "ulica"
+ },
+ "ulica Antuna Mihanovića 82, Prelog": {
+  "lat": 46.342389,
+  "lng": 16.600259,
+  "tocnost": "ulica"
+ },
+ "Uska ulica 1, Čakovec": {
+  "lat": 46.388987,
+  "lng": 16.437622,
+  "tocnost": "ulica"
+ },
+ "Črečan 2D, Črečan": {
+  "lat": 46.394187,
+  "lng": 16.34308,
+  "tocnost": "mjesto"
+ },
+ "Glavna ulica 16, Čukovec": {
+  "lat": 46.346884,
+  "lng": 16.707408,
+  "tocnost": "mjesto"
+ },
+ "Trg Republike 23, Donja Dubrava": {
+  "lat": 46.315544,
+  "lng": 16.811561,
+  "tocnost": "ulica"
+ },
+ "Ulica Gornji Kraj 10, Donji Kraljevec": {
+  "lat": 46.367274,
+  "lng": 16.649552,
+  "tocnost": "mjesto"
+ },
+ "Ulica Kralja Tomislava 139, Kotoriba": {
+  "lat": 46.357317,
+  "lng": 16.815646,
+  "tocnost": "ulica"
+ },
+ "Glavna ulica 151, Mala Subotica": {
+  "lat": 46.388745,
+  "lng": 16.548402,
+  "tocnost": "ulica"
+ },
+ "Bana Jelačića 33, Pribislavec": {
+  "lat": 46.396252,
+  "lng": 16.488104,
+  "tocnost": "ulica"
+ }
+}

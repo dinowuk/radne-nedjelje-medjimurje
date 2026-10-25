@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-25T11:11:37.594Z",
+ "azurirano": "2026-10-25T11:47:28.134Z",
  "nadolazeca": "2026-10-25",
  "nedjelje": [
   "2026-09-06",
@@ -24,52 +24,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-25T11:11:37.594Z"
+   "provjereno": "2026-10-25T11:47:28.134Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-25T11:11:37.594Z"
+   "provjereno": "2026-10-25T11:47:28.134Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-25T11:11:37.594Z"
+   "provjereno": "2026-10-25T11:47:28.134Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T11:11:37.594Z"
+   "provjereno": "2026-10-25T11:47:28.134Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T11:11:37.594Z"
+   "provjereno": "2026-10-25T11:47:28.134Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T11:11:37.594Z"
+   "provjereno": "2026-10-25T11:47:28.134Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T11:11:37.594Z"
+   "provjereno": "2026-10-25T11:47:28.134Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-25T11:11:37.594Z"
+   "provjereno": "2026-10-25T11:47:28.134Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T11:11:37.594Z"
+   "provjereno": "2026-10-25T11:47:28.134Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T11:11:37.594Z"
+   "provjereno": "2026-10-25T11:47:28.134Z"
   }
  },
  "greske": [],
@@ -90,6 +90,14 @@
    "lng": 16.522122,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "06:30-13:30",
+    "uto": "06:30-13:30",
+    "sri": "06:30-13:30",
+    "cet": "06:30-13:30",
+    "pet": "06:30-13:30",
+    "sub": "07:00-13:00"
    }
   },
   {
@@ -102,6 +110,14 @@
    "lng": 16.5017079,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -110,8 +126,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Dr. Ljudevita Gaja 23",
    "mjesto": "Belica",
-   "lat": null,
-   "lng": null,
+   "lat": 46.400398,
+   "lng": 16.520055,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -130,7 +146,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121653",
@@ -138,8 +155,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Ryderova 31",
    "mjesto": "Celine",
-   "lat": null,
-   "lng": null,
+   "lat": 46.458164,
+   "lng": 16.503883,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -158,7 +175,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121654",
@@ -166,8 +184,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Trg sv. Lovre 4",
    "mjesto": "Cirkovljan",
-   "lat": null,
-   "lng": null,
+   "lat": 46.343152,
+   "lng": 16.646047,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -186,7 +204,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "eurospin-cakovec",
@@ -198,6 +217,14 @@
    "lng": 16.4142719,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -210,6 +237,14 @@
    "lng": 16.413936,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -223,6 +258,14 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -236,6 +279,14 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -249,18 +300,34 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
    "id": "ktc-6",
    "lanac": "KTC",
-   "naziv": "Supermarket Čakovec",
+   "naziv": "KTC",
    "adresa": "Športska ul. 4",
    "mjesto": "Čakovec",
    "lat": 46.3896796849,
    "lng": 16.4189068114,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -269,8 +336,20 @@
    "naziv": "Lidl",
    "adresa": "Stjepana Radića 31",
    "mjesto": "Čakovec",
+   "lat": 46.388544,
+   "lng": 16.447757,
    "nedjelje": {
-    "2026-10-25": "08:00-18:00"
+    "2026-10-25": "08:00-18:00",
+    "2026-11-01": null,
+    "2026-11-08": "08:00-18:00"
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -279,8 +358,19 @@
    "naziv": "Lidl",
    "adresa": "Športska 7",
    "mjesto": "Čakovec",
+   "lat": 46.387781,
+   "lng": 16.420611,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "08:00-21:00",
+    "uto": "08:00-21:00",
+    "sri": "08:00-21:00",
+    "cet": "08:00-21:00",
+    "pet": "08:00-21:00",
+    "sub": "08:00-21:00"
    }
   },
   {
@@ -289,10 +379,18 @@
    "naziv": "Plodine Čakovec Stop Shop",
    "adresa": "Ulica 34. Inženjerijske bojne 2",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.389725,
+   "lng": 16.447738,
    "nedjelje": {
     "2026-10-25": "07:00-21:00"
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -301,10 +399,18 @@
    "naziv": "Plodine Čakovec",
    "adresa": "Zagrebačka ulica 2",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.383315,
+   "lng": 16.429641,
    "nedjelje": {
     "2026-10-25": "07:00-21:00"
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -318,6 +424,14 @@
    "nedjelje": {
     "2026-10-25": "07:00-14:00",
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -331,6 +445,14 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -339,10 +461,18 @@
    "naziv": "Studenac",
    "adresa": "Uska ulica 1",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.388987,
+   "lng": 16.437622,
    "nedjelje": {
     "2026-10-25": "08:00-20:00"
+   },
+   "tjedan": {
+    "pon": "06:30-20:30",
+    "uto": "06:30-20:30",
+    "sri": "06:30-20:30",
+    "cet": "06:30-20:30",
+    "pet": "06:30-20:30",
+    "sub": "06:30-20:30"
    }
   },
   {
@@ -351,8 +481,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Čakovečka 37 c",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.333586,
+   "lng": 16.403131,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -371,7 +501,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121501",
@@ -379,8 +510,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Eugena Kvaternika 7",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.388952,
+   "lng": 16.440565,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -399,7 +530,8 @@
     "2026-12-13": "07:00-19:00",
     "2026-12-20": "07:00-19:00",
     "2026-12-27": "07:00-19:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121571",
@@ -407,8 +539,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "I.G. Kovačića 38",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.394392,
+   "lng": 16.435689,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -427,7 +559,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121547",
@@ -435,8 +568,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "MALINSKA 1",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.38923,
+   "lng": 16.436859,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -455,7 +588,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121508",
@@ -463,8 +597,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Mihovljanska 46 B",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.394964,
+   "lng": 16.445598,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -483,7 +617,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121504",
@@ -491,8 +626,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Preloška 68",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.377533,
+   "lng": 16.452214,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -511,7 +646,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121655",
@@ -519,8 +655,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "S. Radića 22",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.388372,
+   "lng": 16.445621,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -539,7 +675,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121594",
@@ -547,8 +684,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Travnička 35",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.379707,
+   "lng": 16.43692,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -567,7 +704,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121509",
@@ -575,8 +713,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "V. Morandinija 21",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.388665,
+   "lng": 16.437535,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -595,7 +733,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121548",
@@ -603,8 +742,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "V. Morandinija 35",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.388414,
+   "lng": 16.437933,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -623,7 +762,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121506",
@@ -631,8 +771,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Vukovarska 1",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.386736,
+   "lng": 16.428949,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -651,7 +791,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121566",
@@ -659,8 +800,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Zrinsko Frankopanska 12",
    "mjesto": "Čakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.389414,
+   "lng": 16.428506,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -679,7 +820,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121528",
@@ -687,8 +829,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Glavna ulica 131",
    "mjesto": "Čehovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.362568,
+   "lng": 16.617765,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": null,
@@ -707,7 +849,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "studenac-1171",
@@ -715,10 +858,18 @@
    "naziv": "Studenac",
    "adresa": "Črečan 2D",
    "mjesto": "Črečan",
-   "lat": null,
-   "lng": null,
+   "lat": 46.394187,
+   "lng": 16.34308,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": null,
+    "uto": null,
+    "sri": null,
+    "cet": null,
+    "pet": null,
+    "sub": null
    }
   },
   {
@@ -727,8 +878,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Črečan 42",
    "mjesto": "Črečan",
-   "lat": null,
-   "lng": null,
+   "lat": 46.393454,
+   "lng": 16.342285,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -747,7 +898,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "studenac-1203",
@@ -755,10 +907,18 @@
    "naziv": "Studenac",
    "adresa": "Glavna ulica 16",
    "mjesto": "Čukovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.346884,
+   "lng": 16.707408,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": null,
+    "uto": null,
+    "sri": null,
+    "cet": null,
+    "pet": null,
+    "sub": null
    }
   },
   {
@@ -771,6 +931,14 @@
    "lng": 16.5813936,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "06:30-20:30",
+    "uto": "06:30-20:30",
+    "sri": "06:30-20:30",
+    "cet": "06:30-20:30",
+    "pet": "06:30-20:30",
+    "sub": "06:30-20:30"
    }
   },
   {
@@ -779,8 +947,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Turčišće 21",
    "mjesto": "Dekanovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.446544,
+   "lng": 16.581848,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -799,7 +967,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2141",
@@ -811,6 +980,14 @@
    "lng": 16.5984493,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "06:30-20:00",
+    "uto": "06:30-20:00",
+    "sri": "06:30-20:00",
+    "cet": "06:30-20:00",
+    "pet": "06:30-20:00",
+    "sub": "06:30-20:00"
    }
   },
   {
@@ -823,6 +1000,14 @@
    "lng": 16.593367,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -831,8 +1016,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Glavna 164",
    "mjesto": "Domašinec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.434342,
+   "lng": 16.600741,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -851,7 +1036,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "konzum-3261",
@@ -864,6 +1050,14 @@
    "nedjelje": {
     "2026-10-25": "08:00-14:00",
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -876,6 +1070,14 @@
    "lng": 16.809842,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -884,10 +1086,18 @@
    "naziv": "Studenac",
    "adresa": "Trg Republike 23",
    "mjesto": "Donja Dubrava",
-   "lat": null,
-   "lng": null,
+   "lat": 46.315544,
+   "lng": 16.811561,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": null,
+    "uto": null,
+    "sri": null,
+    "cet": null,
+    "pet": null,
+    "sub": null
    }
   },
   {
@@ -896,8 +1106,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Trg Republike 16",
    "mjesto": "Donja Dubrava",
-   "lat": null,
-   "lng": null,
+   "lat": 46.315733,
+   "lng": 16.811459,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": null,
@@ -916,7 +1126,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121632",
@@ -924,8 +1135,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Donji Hrašćan 51",
    "mjesto": "Donji Hrašćan",
-   "lat": null,
-   "lng": null,
+   "lat": 46.409813,
+   "lng": 16.623637,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -944,7 +1155,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2341",
@@ -956,6 +1168,14 @@
    "lng": 16.6497978,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:30",
+    "uto": "07:00-20:30",
+    "sri": "07:00-20:30",
+    "cet": "07:00-20:30",
+    "pet": "07:00-20:30",
+    "sub": "07:00-20:30"
    }
   },
   {
@@ -964,10 +1184,18 @@
    "naziv": "Studenac",
    "adresa": "Ulica Gornji Kraj 10",
    "mjesto": "Donji Kraljevec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.367274,
+   "lng": 16.649552,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": null,
+    "uto": null,
+    "sri": null,
+    "cet": null,
+    "pet": null,
+    "sub": null
    }
   },
   {
@@ -976,8 +1204,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Čakovečka 1",
    "mjesto": "Donji Kraljevec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.367991,
+   "lng": 16.648717,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -996,7 +1224,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2292",
@@ -1008,6 +1237,14 @@
    "lng": 16.7839037,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "06:30-20:00",
+    "uto": "06:30-20:00",
+    "sri": "06:30-20:00",
+    "cet": "06:30-20:00",
+    "pet": "06:30-20:00",
+    "sub": "06:30-20:00"
    }
   },
   {
@@ -1016,8 +1253,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Glavna 45",
    "mjesto": "Donji Vidovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.322739,
+   "lng": 16.780758,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1036,7 +1273,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121626",
@@ -1044,8 +1282,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "R. Končara 9",
    "mjesto": "Donji Vidovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.330073,
+   "lng": 16.787477,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": null,
@@ -1064,7 +1302,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121519",
@@ -1072,8 +1311,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Draškovićeva 13",
    "mjesto": "Draškovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.345899,
+   "lng": 16.674624,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": "07:00-11:00",
@@ -1092,7 +1331,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121675",
@@ -1100,8 +1340,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Oporovec 152",
    "mjesto": "Draškovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.346699,
+   "lng": 16.676656,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1120,7 +1360,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121569",
@@ -1128,8 +1369,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Glavna 21",
    "mjesto": "Dunjkovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.388729,
+   "lng": 16.371964,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1148,7 +1389,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121575",
@@ -1156,8 +1398,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Frkanovec 84",
    "mjesto": "Frkanovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.457258,
+   "lng": 16.381139,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1176,7 +1418,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2293",
@@ -1188,6 +1431,14 @@
    "lng": 16.5637185,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -1196,8 +1447,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Glavna 262",
    "mjesto": "Gardinovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.427653,
+   "lng": 16.557955,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": null,
@@ -1216,7 +1467,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "konzum-3257",
@@ -1229,6 +1481,14 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -1241,6 +1501,14 @@
    "lng": 16.6791184,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:30",
+    "uto": "07:00-20:30",
+    "sri": "07:00-20:30",
+    "cet": "07:00-20:30",
+    "pet": "07:00-20:30",
+    "sub": "07:00-20:30"
    }
   },
   {
@@ -1249,8 +1517,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "MAKOVICA 6",
    "mjesto": "Goričan",
-   "lat": null,
-   "lng": null,
+   "lat": 46.386158,
+   "lng": 16.678044,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1269,7 +1537,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121568",
@@ -1277,8 +1546,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Školska ulica 15",
    "mjesto": "Goričan",
-   "lat": null,
-   "lng": null,
+   "lat": 46.38416,
+   "lng": 16.673072,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": null,
@@ -1297,7 +1566,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121543",
@@ -1305,8 +1575,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Čakovečka 52",
    "mjesto": "Gornji Hrašćan",
-   "lat": null,
-   "lng": null,
+   "lat": 46.378095,
+   "lng": 16.347251,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -1325,7 +1595,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121593",
@@ -1333,8 +1604,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Potočna 4",
    "mjesto": "Gornji Kraljevec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.4614,
+   "lng": 16.470886,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1353,7 +1624,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121546",
@@ -1361,8 +1633,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Hlapičina 172",
    "mjesto": "Hlapičina",
-   "lat": null,
-   "lng": null,
+   "lat": 46.519759,
+   "lng": 16.399004,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -1381,7 +1653,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2339",
@@ -1393,6 +1666,14 @@
    "lng": 16.6420352,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:30",
+    "uto": "07:00-20:30",
+    "sri": "07:00-20:30",
+    "cet": "07:00-20:30",
+    "pet": "07:00-20:30",
+    "sub": "07:00-20:30"
    }
   },
   {
@@ -1401,8 +1682,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Cvjetna ulica 1",
    "mjesto": "Hodošan",
-   "lat": null,
-   "lng": null,
+   "lat": 46.395234,
+   "lng": 16.642411,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1421,7 +1702,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121502",
@@ -1429,8 +1711,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Čakovečka 7",
    "mjesto": "Ivanovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.365667,
+   "lng": 16.471731,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1449,7 +1731,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121660",
@@ -1457,8 +1740,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Josipa Broza 85",
    "mjesto": "Ivanovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.371183,
+   "lng": 16.473894,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1477,7 +1760,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2118",
@@ -1489,6 +1773,14 @@
    "lng": 16.3436868,
    "nedjelje": {
     "2026-10-25": "07:00-12:00"
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -1502,6 +1794,14 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -1514,6 +1814,14 @@
    "lng": 16.8272093,
    "nedjelje": {
     "2026-10-25": "07:00-12:00"
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -1522,10 +1830,18 @@
    "naziv": "Studenac",
    "adresa": "Ulica Kralja Tomislava 139",
    "mjesto": "Kotoriba",
-   "lat": null,
-   "lng": null,
+   "lat": 46.357317,
+   "lng": 16.815646,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": null,
+    "uto": null,
+    "sri": null,
+    "cet": null,
+    "pet": null,
+    "sub": null
    }
   },
   {
@@ -1534,8 +1850,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Kralja Tomislava 98",
    "mjesto": "Kotoriba",
-   "lat": null,
-   "lng": null,
+   "lat": 46.353677,
+   "lng": 16.812409,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": null,
@@ -1554,7 +1870,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121588",
@@ -1562,8 +1879,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Sajmišna 2a",
    "mjesto": "Kotoriba",
-   "lat": null,
-   "lng": null,
+   "lat": 46.352738,
+   "lng": 16.818304,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": "07:00-11:00",
@@ -1582,7 +1899,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121522",
@@ -1590,8 +1908,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Krištanovec 122",
    "mjesto": "Krištanovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.442255,
+   "lng": 16.452704,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1610,7 +1928,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121591",
@@ -1618,8 +1937,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Križovec 17",
    "mjesto": "Križovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.489677,
+   "lng": 16.494202,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1638,7 +1957,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121627",
@@ -1646,8 +1966,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Glavna 102",
    "mjesto": "Kuršanec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.329635,
+   "lng": 16.399383,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1666,7 +1986,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121524",
@@ -1674,8 +1995,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "I.G. Kovačića 17",
    "mjesto": "Lopatinec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.425067,
+   "lng": 16.389823,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1694,7 +2015,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121544",
@@ -1702,8 +2024,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Zasadbreg 153 a",
    "mjesto": "Lopatinec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.446375,
+   "lng": 16.410149,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -1722,7 +2044,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2134",
@@ -1734,6 +2057,14 @@
    "lng": 16.3236983,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -1742,8 +2073,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Gornji Mihaljevec 74a",
    "mjesto": "Macinec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.42981,
+   "lng": 16.3211,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -1762,7 +2093,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121521",
@@ -1770,8 +2102,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "J.B. Jelačića 114",
    "mjesto": "Mačkovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.421501,
+   "lng": 16.432831,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1790,7 +2122,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "studenac-1699",
@@ -1798,10 +2131,18 @@
    "naziv": "Studenac",
    "adresa": "Glavna ulica 151",
    "mjesto": "Mala Subotica",
-   "lat": null,
-   "lng": null,
+   "lat": 46.388745,
+   "lng": 16.548402,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": null,
+    "uto": null,
+    "sri": null,
+    "cet": null,
+    "pet": null,
+    "sub": null
    }
   },
   {
@@ -1810,8 +2151,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Držimurec 98",
    "mjesto": "Mala Subotica",
-   "lat": null,
-   "lng": null,
+   "lat": 46.375885,
+   "lng": 16.529556,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1830,7 +2171,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121642",
@@ -1838,8 +2180,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "GLAVNA 19",
    "mjesto": "Mala Subotica",
-   "lat": null,
-   "lng": null,
+   "lat": 46.388745,
+   "lng": 16.548402,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1858,7 +2200,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121610",
@@ -1866,8 +2209,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Glavna 29a",
    "mjesto": "Mala Subotica",
-   "lat": null,
-   "lng": null,
+   "lat": 46.376258,
+   "lng": 16.528578,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1886,7 +2229,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": "07:00-11:00",
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121532",
@@ -1894,8 +2238,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Rade Končara 23",
    "mjesto": "Mali Mihaljevec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.433909,
+   "lng": 16.40005,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1914,7 +2258,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121577",
@@ -1922,8 +2267,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Prvomajska 92",
    "mjesto": "Mihovljan",
-   "lat": null,
-   "lng": null,
+   "lat": 46.40609,
+   "lng": 16.446472,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -1942,7 +2287,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2179",
@@ -1954,6 +2300,14 @@
    "lng": 16.5044266,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:30",
+    "uto": "07:00-20:30",
+    "sri": "07:00-20:30",
+    "cet": "07:00-20:30",
+    "pet": "07:00-20:30",
+    "sub": "07:00-20:30"
    }
   },
   {
@@ -1967,18 +2321,34 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
    "id": "ktc-18",
    "lanac": "KTC",
-   "naziv": "Supermarket Mursko Središće",
+   "naziv": "KTC",
    "adresa": "Tekstilna ul. 1a",
    "mjesto": "Mursko Središće",
    "lat": 46.5081327433,
    "lng": 16.4282814826,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -1991,6 +2361,14 @@
    "lng": 16.4416207,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -2003,6 +2381,14 @@
    "lng": 16.4327582,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:30",
+    "uto": "07:00-20:30",
+    "sri": "07:00-20:30",
+    "cet": "07:00-20:30",
+    "pet": "07:00-20:30",
+    "sub": "07:00-20:30"
    }
   },
   {
@@ -2011,8 +2397,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Frankopanska 1",
    "mjesto": "Mursko Središće",
-   "lat": null,
-   "lng": null,
+   "lat": 46.513225,
+   "lng": 16.440113,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2031,7 +2417,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121510",
@@ -2039,8 +2426,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "M. Tita 62",
    "mjesto": "Nedelišće",
-   "lat": null,
-   "lng": null,
+   "lat": 46.375975,
+   "lng": 16.385387,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2059,7 +2446,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121511",
@@ -2067,8 +2455,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "M. Viljevca 2",
    "mjesto": "Nedelišće",
-   "lat": null,
-   "lng": null,
+   "lat": 46.375956,
+   "lng": 16.378539,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -2087,7 +2475,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121527",
@@ -2095,8 +2484,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Trg M. Blazinarića 26 B, G. Kur",
    "mjesto": "Nedelišće",
-   "lat": null,
-   "lng": null,
+   "lat": 46.376116,
+   "lng": 16.385914,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2115,7 +2504,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2127",
@@ -2127,6 +2517,14 @@
    "lng": 16.5656984,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -2135,8 +2533,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Selska ulica",
    "mjesto": "Novakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.455748,
+   "lng": 16.575228,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2155,7 +2553,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121576",
@@ -2163,8 +2562,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "M. Tita 49",
    "mjesto": "Novo Selo Rok",
-   "lat": null,
-   "lng": null,
+   "lat": 46.428053,
+   "lng": 16.462219,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2183,7 +2582,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2219",
@@ -2195,6 +2595,14 @@
    "lng": 16.3527629,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-19:00",
+    "uto": "07:00-19:00",
+    "sri": "07:00-19:00",
+    "cet": "07:00-19:00",
+    "pet": "07:00-19:00",
+    "sub": "07:00-19:00"
    }
   },
   {
@@ -2207,6 +2615,14 @@
    "lng": 16.50641,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:30",
+    "uto": "07:00-20:30",
+    "sri": "07:00-20:30",
+    "cet": "07:00-20:30",
+    "pet": "07:00-20:30",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -2215,8 +2631,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Nikole Tesle 23",
    "mjesto": "Orehovica",
-   "lat": null,
-   "lng": null,
+   "lat": 46.329129,
+   "lng": 16.506318,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -2235,7 +2651,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121551",
@@ -2243,8 +2660,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Palinovec 183 a",
    "mjesto": "Palinovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.3949,
+   "lng": 16.597876,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2263,7 +2680,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": "07:00-11:00",
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2203",
@@ -2275,6 +2693,14 @@
    "lng": 16.5473678,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:30",
+    "uto": "07:00-20:30",
+    "sri": "07:00-20:30",
+    "cet": "07:00-20:30",
+    "pet": "07:00-20:30",
+    "sub": "07:00-20:30"
    }
   },
   {
@@ -2283,8 +2709,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Glavna 43",
    "mjesto": "Palovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.387749,
+   "lng": 16.547718,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -2303,7 +2729,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2295",
@@ -2315,6 +2742,14 @@
    "lng": 16.4704135,
    "nedjelje": {
     "2026-10-25": "07:00-12:00"
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -2327,6 +2762,14 @@
    "lng": 16.3599771,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -2335,8 +2778,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Pleškovec 30",
    "mjesto": "Pleškovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.440163,
+   "lng": 16.377861,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -2355,7 +2798,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121595",
@@ -2363,8 +2807,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Marka Kovača 42",
    "mjesto": "Podbrest",
-   "lat": null,
-   "lng": null,
+   "lat": 46.331694,
+   "lng": 16.542649,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2383,7 +2827,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2169",
@@ -2395,6 +2840,14 @@
    "lng": 16.5441573,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -2403,8 +2856,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Ivana Grčića 6",
    "mjesto": "Podturen",
-   "lat": null,
-   "lng": null,
+   "lat": 46.465769,
+   "lng": 16.545832,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2423,7 +2876,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "konzum-3258",
@@ -2436,6 +2890,14 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -2448,18 +2910,34 @@
    "lng": 16.6278437,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": null,
+    "uto": null,
+    "sri": null,
+    "cet": null,
+    "pet": null,
+    "sub": null
    }
   },
   {
    "id": "ktc-23",
    "lanac": "KTC",
-   "naziv": "Supermarket Prelog",
+   "naziv": "KTC",
    "adresa": "Zrinskih ul.",
    "mjesto": "Prelog",
    "lat": 46.3251244174,
    "lng": 16.6149194646,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -2468,8 +2946,20 @@
    "naziv": "Lidl",
    "adresa": "Ulica Franje Glada 13",
    "mjesto": "Prelog",
+   "lat": 46.343635,
+   "lng": 16.610452,
    "nedjelje": {
-    "2026-10-25": "08:00-18:00"
+    "2026-10-25": "08:00-18:00",
+    "2026-11-01": null,
+    "2026-11-08": "08:00-18:00"
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -2478,10 +2968,18 @@
    "naziv": "Plodine Prelog",
    "adresa": "ulica Antuna Mihanovića 82",
    "mjesto": "Prelog",
-   "lat": null,
-   "lng": null,
+   "lat": 46.342389,
+   "lng": 16.600259,
    "nedjelje": {
     "2026-10-25": "07:00-21:00"
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -2495,6 +2993,14 @@
    "nedjelje": {
     "2026-10-25": "08:00-15:00",
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -2503,8 +3009,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Glavna 1",
    "mjesto": "Prelog",
-   "lat": null,
-   "lng": null,
+   "lat": 46.370195,
+   "lng": 16.616414,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2523,7 +3029,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121572",
@@ -2531,8 +3038,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Jug 1",
    "mjesto": "Prelog",
-   "lat": null,
-   "lng": null,
+   "lat": 46.325938,
+   "lng": 16.621191,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2551,7 +3058,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121621",
@@ -2559,8 +3067,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Kneza Domagoja 19",
    "mjesto": "Prelog",
-   "lat": null,
-   "lng": null,
+   "lat": 46.33272,
+   "lng": 16.61266,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -2579,7 +3087,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121611",
@@ -2587,8 +3096,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Trg Slobode 1",
    "mjesto": "Prelog",
-   "lat": null,
-   "lng": null,
+   "lat": 46.337579,
+   "lng": 16.616166,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2607,7 +3116,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "konzum-1400",
@@ -2620,6 +3130,14 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -2628,10 +3146,18 @@
    "naziv": "Studenac",
    "adresa": "Bana Jelačića 33",
    "mjesto": "Pribislavec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.396252,
+   "lng": 16.488104,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": null,
+    "uto": null,
+    "sri": null,
+    "cet": null,
+    "pet": null,
+    "sub": null
    }
   },
   {
@@ -2640,8 +3166,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Braće Radića 54",
    "mjesto": "Pribislavec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.393982,
+   "lng": 16.478037,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -2660,7 +3186,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2204",
@@ -2672,6 +3199,14 @@
    "lng": 16.3691778,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-15:00",
+    "uto": "07:00-15:00",
+    "sri": "07:00-15:00",
+    "cet": "07:00-15:00",
+    "pet": "07:00-15:00",
+    "sub": "07:00-15:00"
    }
   },
   {
@@ -2680,8 +3215,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Nikole Tesle 1 a",
    "mjesto": "Pušćine",
-   "lat": null,
-   "lng": null,
+   "lat": 46.344113,
+   "lng": 16.362563,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -2700,7 +3235,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": "07:00-11:00",
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2172",
@@ -2712,6 +3248,14 @@
    "lng": 16.4253689,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -2720,8 +3264,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Josipa Bajkovca 2",
    "mjesto": "Savska Ves",
-   "lat": null,
-   "lng": null,
+   "lat": 46.375296,
+   "lng": 16.425568,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2740,7 +3284,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121535",
@@ -2748,8 +3293,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Trg bana Jelačića 4",
    "mjesto": "Selnica",
-   "lat": null,
-   "lng": null,
+   "lat": 46.492675,
+   "lng": 16.398213,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": null,
@@ -2768,7 +3313,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2181",
@@ -2780,6 +3326,14 @@
    "lng": 16.5019081,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-19:30",
+    "uto": "07:00-19:30",
+    "sri": "07:00-19:30",
+    "cet": "07:00-19:30",
+    "pet": "07:00-19:30",
+    "sub": "07:00-19:30"
    }
   },
   {
@@ -2788,8 +3342,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Slakovec 61",
    "mjesto": "Slakovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.405001,
+   "lng": 16.372886,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2808,7 +3362,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121638",
@@ -2816,8 +3371,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Dravska 6",
    "mjesto": "Strahoninec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.367058,
+   "lng": 16.412856,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2836,7 +3391,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121573",
@@ -2844,8 +3400,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "M. Gupca 1",
    "mjesto": "Strahoninec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.374172,
+   "lng": 16.408219,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2864,7 +3420,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2393",
@@ -2876,6 +3433,14 @@
    "lng": 16.7534436,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-19:00",
+    "uto": "07:00-19:00",
+    "sri": "07:00-19:00",
+    "cet": "07:00-19:00",
+    "pet": "07:00-19:00",
+    "sub": "07:00-19:00"
    }
   },
   {
@@ -2884,8 +3449,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Braće Radića 28",
    "mjesto": "Sveta Marija",
-   "lat": null,
-   "lng": null,
+   "lat": 46.332131,
+   "lng": 16.744358,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": "07:00-11:00",
@@ -2904,7 +3469,8 @@
     "2026-12-13": "07:00-11:00",
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2357",
@@ -2916,6 +3482,14 @@
    "lng": 16.6085746,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "06:30-20:00",
+    "uto": "06:30-20:00",
+    "sri": "06:30-20:00",
+    "cet": "06:30-20:00",
+    "pet": "06:30-20:00",
+    "sub": "06:30-20:00"
    }
   },
   {
@@ -2924,8 +3498,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Augusta Šenoe 42",
    "mjesto": "Sveti Križ",
-   "lat": null,
-   "lng": null,
+   "lat": 46.339444,
+   "lng": 16.539871,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -2944,7 +3518,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121525",
@@ -2952,8 +3527,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Trg Sv. Martina 13",
    "mjesto": "Sveti Martin na Muri",
-   "lat": null,
-   "lng": null,
+   "lat": 46.525065,
+   "lng": 16.361856,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -2972,7 +3547,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-15286",
@@ -2984,6 +3560,14 @@
    "lng": 16.26828139026819,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -2992,8 +3576,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Vladimira Nazora 2",
    "mjesto": "Šandorovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.330703,
+   "lng": 16.414701,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -3012,7 +3596,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121636",
@@ -3020,8 +3605,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "J. Bedekovića 2",
    "mjesto": "Šenkovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.406304,
+   "lng": 16.41957,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -3040,7 +3625,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121503",
@@ -3048,8 +3634,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Zrinskih 26",
    "mjesto": "Štefanec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.373595,
+   "lng": 16.494486,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -3068,7 +3654,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2291",
@@ -3080,6 +3667,14 @@
    "lng": 16.3238183,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -3088,8 +3683,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Štrigova 25 a",
    "mjesto": "Štrigova",
-   "lat": null,
-   "lng": null,
+   "lat": 46.500526,
+   "lng": 16.286416,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -3108,7 +3703,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2197",
@@ -3120,6 +3716,14 @@
    "lng": 16.4441162,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-14:00",
+    "uto": "07:00-14:00",
+    "sri": "07:00-14:00",
+    "cet": "07:00-14:00",
+    "pet": "07:00-14:00",
+    "sub": "07:00-14:00"
    }
   },
   {
@@ -3128,8 +3732,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Čakovečka 23a",
    "mjesto": "Totovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.338567,
+   "lng": 16.444623,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -3148,7 +3752,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121665",
@@ -3156,8 +3761,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Trnovec 11",
    "mjesto": "Trnovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.382793,
+   "lng": 16.308852,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -3176,7 +3781,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2157",
@@ -3188,6 +3794,14 @@
    "lng": 16.4556461,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -3196,8 +3810,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Brodec 49",
    "mjesto": "Vratišinec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.483003,
+   "lng": 16.450552,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": null,
@@ -3216,7 +3830,8 @@
     "2026-12-13": null,
     "2026-12-20": null,
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121539",
@@ -3224,8 +3839,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Dr. V. Žganca 2",
    "mjesto": "Vratišinec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.47703,
+   "lng": 16.456351,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -3244,7 +3859,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": null
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "ntl-2257",
@@ -3256,6 +3872,14 @@
    "lng": 16.3674945,
    "nedjelje": {
     "2026-10-25": null
+   },
+   "tjedan": {
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -3264,8 +3888,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Prvomajska 22",
    "mjesto": "Vularija",
-   "lat": null,
-   "lng": null,
+   "lat": 46.328967,
+   "lng": 16.479081,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -3284,7 +3908,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121652",
@@ -3292,8 +3917,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Zebanec Selo 11",
    "mjesto": "Zebanec Selo",
-   "lat": null,
-   "lng": null,
+   "lat": 46.479551,
+   "lng": 16.411562,
    "nedjelje": {
     "2026-09-06": null,
     "2026-09-13": null,
@@ -3312,7 +3937,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   },
   {
    "id": "krk-121574",
@@ -3320,8 +3946,8 @@
    "naziv": "Trgovina Krk",
    "adresa": "Glavna 72",
    "mjesto": "Žiškovec",
-   "lat": null,
-   "lng": null,
+   "lat": 46.448751,
+   "lng": 16.431294,
    "nedjelje": {
     "2026-09-06": "07:00-11:00",
     "2026-09-13": "07:00-11:00",
@@ -3340,7 +3966,8 @@
     "2026-12-13": null,
     "2026-12-20": "07:00-11:00",
     "2026-12-27": "07:00-11:00"
-   }
+   },
+   "tjedan": null
   }
  ]
 }
