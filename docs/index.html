@@ -42,9 +42,9 @@
   <section class="filteri" aria-label="Filteri">
     <label class="polje polje--siroko" id="poljeMjesto">
       <span>Mjesto</span>
-      <input type="search" id="mjesto" list="mjestaLista" placeholder="Upiši naselje (npr. Prelog)" autocomplete="off" enterkeyhint="search">
-      <datalist id="mjestaLista"></datalist>
+      <input type="search" id="mjesto" placeholder="Upiši naselje (npr. Prelog)" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search">
     </label>
+    <div id="prijedlozi" class="prijedlozi" hidden></div>
     <div class="moja-mjesta" id="mojaMjesta" hidden>
       <span id="mojaMjestaPopis"></span>
       <button class="gumb-tekst" id="urediMjesta">Uredi</button>

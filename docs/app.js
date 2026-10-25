@@ -162,8 +162,8 @@ function nacrtajFiltere() {
   $('#mojaMjestaPopis').textContent = stanje.mojaMjesta.size
     ? [...stanje.mojaMjesta].sort((a, b) => a.localeCompare(b, 'hr')).join(', ') : 'Još nisi odabrao mjesta.';
 
-  $('#mjestaLista').innerHTML = sveMjesta().map(m => `<option value="${m}"></option>`).join('');
   $('#mjesto').value = stanje.mjesto;
+  nacrtajPrijedloge();
 
   const lanci = [...new Set(tr.map(t => t.lanac))].sort((a, b) => a.localeCompare(b, 'hr'));
   const box = $('#lanci');
@@ -337,7 +337,32 @@ $('#popis').addEventListener('click', e => {
   const idi = e.target.closest('[data-idi]');
   if (idi) postaviPrikaz(idi.dataset.idi);
 });
-$('#mjesto').addEventListener('input', e => { stanje.mjesto = e.target.value; spremi('mjesto', stanje.mjesto); nacrtajPopis(); });
+// Prijedlozi mjesta: tek kad se nešto upiše, najviše 6, i ne kad je upisano točno ime mjesta.
+function nacrtajPrijedloge() {
+  const box = $('#prijedlozi');
+  const q = stanje.mjesto.trim();
+  const tocno = sveMjesta().some(m => bezKvacica(m) === bezKvacica(q));
+  const nadjena = q && !tocno ? sveMjesta().filter(m => mjestoOdgovara(m, q))
+    .sort((a, b) => bezKvacica(b).startsWith(bezKvacica(q)) - bezKvacica(a).startsWith(bezKvacica(q))).slice(0, 6) : [];
+  box.innerHTML = '';
+  for (const m of nadjena) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = m;
+    b.addEventListener('click', () => {
+      stanje.mjesto = m;
+      spremi('mjesto', m);
+      $('#mjesto').value = m;
+      $('#mjesto').blur(); // zatvori tipkovnicu
+      nacrtajPrijedloge();
+      nacrtajPopis();
+    });
+    box.appendChild(b);
+  }
+  box.hidden = !nadjena.length;
+}
+$('#mjesto').addEventListener('input', e => { stanje.mjesto = e.target.value; spremi('mjesto', stanje.mjesto); nacrtajPrijedloge(); nacrtajPopis(); });
+$('#mjesto').addEventListener('keydown', e => { if (e.key === 'Enter') e.target.blur(); });
 $('#samoOtvoreni').addEventListener('change', e => { stanje.samoOtvoreni = e.target.checked; spremi('samoOtvoreni', stanje.samoOtvoreni); nacrtajPopis(); });
 $('#osvjezi').addEventListener('click', () => ucitajPodatke(true));
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && stanje.podaci) ucitajPodatke(false); });
