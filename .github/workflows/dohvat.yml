@@ -7,6 +7,12 @@ on:
     - cron: '20 14 * * 5,6'  # petak i subota popodne (trgovci često objave tek pred vikend)
     - cron: '40 4 * * 0'     # nedjelja ujutro, zadnja provjera
   workflow_dispatch:
+  # i odmah kad se promijeni skripta za dohvat (bot sprema samo docs/podaci, pa nema petlje)
+  push:
+    branches: [main]
+    paths:
+      - 'scraper/**'
+      - '.github/workflows/dohvat.yml'
 
 permissions:
   contents: write
