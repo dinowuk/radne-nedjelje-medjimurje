@@ -1,0 +1,15 @@
+{
+ "restoran": "osm-n13281245922",
+ "od": "2026-10-19",
+ "do": "2026-10-23",
+ "izvor": "https://www.bajzovidvori.com/tjednigableci/bajzovi_dvori_mursko_sredisce_19102026.jpg",
+ "napomena": "Ponuda vrijedi od 09:00 do 15:00 · dostava 040/550-047 (ambalaža 0,30 €) · primamo narudžbe za pizze i à la carte",
+ "svakiDan": [["Špek fileki, kruh", "7,50 €"], ["Topli sendvič classic", "7,00 €"], ["Topli sendvič lovački", "7,00 €"], ["Topli sendvič Bajzovi dvori", "7,00 €"], ["Topli sendvič kebab", "7,50 €"]],
+ "dani": {
+  "2026-10-19": { "glavna": [["Pileći file na Orly, dinstana riža, salata, kruh", "7,00 €"], ["Pileći bečki, pommes, tartar umak, kruh", "7,00 €"]] },
+  "2026-10-20": { "glavna": [["Svinjska rolada punjena povrćem, tjestenina, salata, kruh", "7,00 €"], ["Pileći bečki, pommes, tartar umak, kruh", "7,00 €"]] },
+  "2026-10-21": { "glavna": [["Pizza party (Capricciosa, Margarita, Vesuvio, Salami)", "7,00 €"], ["Pileći bečki, pommes, tartar umak, kruh", "7,00 €"]] },
+  "2026-10-22": { "glavna": [["Pečeni batak-zabatak, mlinci, salata, kruh", "7,00 €"], ["Pileći bečki, pommes, tartar umak, kruh", "7,00 €"]] },
+  "2026-10-23": { "glavna": [["Pečene krvavice, restani krumpir, salata, kruh", "7,00 €"], ["Pileći bečki, pommes, tartar umak, kruh", "7,00 €"]] }
+ }
+}
