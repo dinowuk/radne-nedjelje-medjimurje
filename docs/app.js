@@ -12,6 +12,11 @@ const BOJE = {
   Plodine: '#e30613', Studenac: '#004a99', KTC: '#f08a00', Eurospin: '#1d3f8f', 'Trgovina Krk': '#0a5c9e', NTL: '#e2001a',
 };
 const KRATICE = { 'Trgovina Krk': 'KRK', Interspar: 'INTER SPAR', Studenac: 'STU', Kaufland: 'KAUF', Eurospin: 'EURO', Plodine: 'PLO', Konzum: 'KON' };
+// Logotipi su ikone sa službenih stranica trgovaca (alati/logotipi.js), samo za prepoznavanje dućana.
+const LOGOTIPI = {
+  Konzum: 'konzum.png', Lidl: 'lidl.png', Kaufland: 'kaufland.png', Spar: 'spar.png', Interspar: 'spar.png',
+  Plodine: 'plodine.svg', Studenac: 'studenac.png', KTC: 'ktc.png', Eurospin: 'eurospin.svg', 'Trgovina Krk': 'krk.png', NTL: 'ntl.jpg',
+};
 const MJESECI = ['sij', 'velj', 'ožu', 'tra', 'svi', 'lip', 'srp', 'kol', 'ruj', 'lis', 'stu', 'pro'];
 const MJESECI_PUNO = ['siječnja', 'veljače', 'ožujka', 'travnja', 'svibnja', 'lipnja', 'srpnja', 'kolovoza', 'rujna', 'listopada', 'studenoga', 'prosinca'];
 
@@ -253,8 +258,20 @@ function nacrtajPopis() {
     const el = tpl.content.firstElementChild.cloneNode(true);
     if (st.tip === 'zatvoreno') el.classList.add('zatvorena');
     const lanac = el.querySelector('.trgovina__lanac');
-    lanac.style.background = BOJE[t.lanac] || '#666';
-    lanac.textContent = KRATICE[t.lanac] || t.lanac.toUpperCase();
+    const kratica = () => {
+      lanac.classList.remove('s-logom');
+      lanac.style.background = BOJE[t.lanac] || '#666';
+      lanac.textContent = KRATICE[t.lanac] || t.lanac.toUpperCase();
+    };
+    if (LOGOTIPI[t.lanac]) {
+      const img = document.createElement('img');
+      img.src = 'logotipi/' + LOGOTIPI[t.lanac];
+      img.alt = t.lanac;
+      img.loading = 'lazy';
+      img.onerror = kratica;
+      lanac.classList.add('s-logom');
+      lanac.appendChild(img);
+    } else kratica();
     el.querySelector('.trgovina__naziv').textContent = t.naziv === t.lanac ? t.lanac : t.naziv;
     el.querySelector('.trgovina__adresa').textContent = `${t.adresa}, ${t.mjesto}`;
     const v = el.querySelector('.trgovina__vrijeme');
@@ -370,9 +387,11 @@ document.addEventListener('visibilitychange', () => { if (document.visibilitySta
 // ------------------------------------------------------------ provjera nove verzije (samo Android aplikacija)
 // Aplikacija u user-agentu šalje "RadneNedjelje/<versionCode>"; docs/verzija.json kaže koja je najnovija.
 const VERZIJA_URL = 'https://raw.githubusercontent.com/dinowuk/radne-nedjelje-medjimurje/main/docs/verzija.json';
+let zadnjaProvjera = 0;
 async function provjeriAzuriranje() {
   const m = navigator.userAgent.match(/RadneNedjelje\/(\d+)/);
-  if (!m) return;
+  if (!m || Date.now() - zadnjaProvjera < 60000) return;
+  zadnjaProvjera = Date.now();
   try {
     const v = await (await fetch(VERZIJA_URL + '?t=' + Date.now(), { cache: 'no-store' })).json();
     if (+v.versionCode > +m[1] && v.url) {
@@ -383,6 +402,12 @@ async function provjeriAzuriranje() {
   } catch (e) { /* bez interneta — provjerit će sljedeći put */ }
 }
 provjeriAzuriranje();
+// i kad se aplikacija vrati iz pozadine (Android je često ne pokreće ispočetka)
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') provjeriAzuriranje(); });
+{
+  const v = navigator.userAgent.match(/RadneNedjeljeVerzija\/([\w.]+)/);
+  if (v) $('#verzijaAplikacije').textContent = 'Verzija aplikacije: ' + v[1];
+}
 
 // U Android aplikaciji su datoteke već ugrađene, service worker treba samo web verziji.
 if ('serviceWorker' in navigator && !U_APLIKACIJI) navigator.serviceWorker.register('sw.js').catch(() => {});
