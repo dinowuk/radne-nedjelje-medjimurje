@@ -228,6 +228,46 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .trgovina.zatvorena .trgovina__lanac { filter: grayscale(.7); opacity: .6; }
 .trgovina.zatvorena .trgovina__lanac.s-logom { filter: grayscale(1); opacity: .5; }
 
+/* Donja traka s kategorijama */
+body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
+.u-aplikaciji body { padding-bottom: 68px; }
+.kategorije {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+  display: flex; justify-content: center; background: var(--povrsina); border-top: 1px solid var(--rub);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.u-aplikaciji .kategorije { padding-bottom: 0; }
+.kategorije button {
+  flex: 1; max-width: 200px; display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 8px 4px 10px; border: 0; background: none; color: var(--tekst-2); font: inherit; font-size: .78rem; cursor: pointer;
+}
+.kategorije button[aria-current="page"] { color: var(--glavna); font-weight: 700; }
+.kategorije button[aria-current="page"] svg { background: var(--glavna-svijetla); border-radius: 999px; padding: 2px 14px; box-sizing: content-box; }
+.poruka { bottom: calc(84px + env(safe-area-inset-bottom)); }
+
+/* Centri */
+.centar { background: var(--povrsina); border: 1px solid var(--rub); border-radius: 14px; padding: 14px; margin: 12px 0; box-shadow: var(--sjena); }
+.centar__glava { display: flex; align-items: flex-start; gap: 10px; }
+.centar__glava div { flex: 1; min-width: 0; }
+.centar h3 { margin: 0; font-size: 1.1rem; }
+.centar__adresa { margin: 2px 0 0; color: var(--tekst-2); font-size: .88rem; }
+.centar__opis { margin: 8px 0 6px; color: var(--tekst-2); font-size: .85rem; }
+.centar ul { list-style: none; margin: 6px 0 0; padding: 0; }
+.centar li { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-top: 1px solid var(--rub); font-size: .92rem; }
+.centar li b { font-weight: 600; }
+.centar li small { color: var(--tekst-2); }
+.centar li span:first-child { flex: 1; min-width: 0; }
+.centar li .trgovina__vrijeme { font-size: .82rem; }
+
+/* Katalozi */
+.katalozi { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 12px 0; }
+.katalog {
+  display: flex; align-items: center; gap: 10px; padding: 12px; border-radius: 14px; text-decoration: none; color: var(--tekst);
+  background: var(--povrsina); border: 1px solid var(--rub); box-shadow: var(--sjena); font-weight: 600;
+}
+.katalog .trgovina__lanac { flex: 0 0 40px; height: 40px; }
+.katalog small { display: block; font-weight: 400; color: var(--tekst-2); font-size: .78rem; }
+
 .prazno { text-align: center; color: var(--tekst-2); padding: 30px 10px; }
 
 .podnozje { padding: 16px 16px 28px; color: var(--tekst-2); font-size: .82rem; }

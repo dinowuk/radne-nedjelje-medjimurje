@@ -7,6 +7,7 @@ const path = require('path');
 const Z = require('./zajednicko');
 const LANCI = require('./lanci');
 const { dopuniKoordinate } = require('./koordinate');
+const { centri: dohvatiCentre } = require('./centri');
 
 const IZLAZ = process.argv[2] || path.join(__dirname, '..', 'docs', 'podaci', 'nedjelje.json');
 const CUVAJ_PROSLE_DANA = 70;
@@ -44,8 +45,16 @@ async function main() {
     }
   }
 
+  // Trgovački centri (zaseban popis u aplikaciji)
+  const centri = await dohvatiCentre(sada, upozorenja);
+  const stariCentri = new Map((staro.centri || []).map(c => [c.id, c]));
+  for (const c of centri) {
+    const st = stariCentri.get(c.id);
+    if (st) c.nedjelje = { ...st.nedjelje, ...c.nedjelje };
+  }
+
   try {
-    await dopuniKoordinate(trgovine, upozorenja);
+    await dopuniKoordinate([...trgovine, ...centri], upozorenja);
   } catch (e) {
     upozorenja.push('Koordinate: ' + e.message);
   }
@@ -53,7 +62,7 @@ async function main() {
   // Brisanje starih nedjelja i sortiranje.
   const granica = Z.dodajDane(danas, -CUVAJ_PROSLE_DANA);
   const sveNedjelje = new Set();
-  for (const t of trgovine) {
+  for (const t of [...trgovine, ...centri]) {
     const n = {};
     for (const d of Object.keys(t.nedjelje).sort()) if (d >= granica) { n[d] = t.nedjelje[d]; sveNedjelje.add(d); }
     t.nedjelje = n;
@@ -68,6 +77,7 @@ async function main() {
     greske,
     upozorenja,
     trgovine,
+    centri,
   };
   fs.mkdirSync(path.dirname(IZLAZ), { recursive: true });
   fs.writeFileSync(IZLAZ, JSON.stringify(izlaz, null, 1) + '\n');

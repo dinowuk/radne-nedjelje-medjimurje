@@ -1,0 +1,40 @@
+{
+  "_napomena": "Ručno upisani rasporedi koje trgovci objavljuju samo kao sliku/PDF. Kad skripta javi da je objavljen novi raspored, prepiši datume ovdje.",
+  "stop-shop-cakovec": {
+    "izvor": "https://stop-shop.com/hr/hrvatska/cakovec",
+    "pdf": "https://drive.google.com/file/d/1VtbtMUDKUIL404KMSltPDyeA-q3kOdaZ/view",
+    "pdfId": "1VtbtMUDKUIL404KMSltPDyeA-q3kOdaZ",
+    "vrijedi_od": "2026-07-01",
+    "vrijedi_do": "2026-12-31",
+    "vrijeme": "09:00-14:00",
+    "radne_nedjelje": [
+      "2026-09-06", "2026-09-13",
+      "2026-10-04", "2026-10-11", "2026-10-25",
+      "2026-11-08", "2026-11-15", "2026-11-22", "2026-11-29",
+      "2026-12-06", "2026-12-13", "2026-12-20", "2026-12-27"
+    ],
+    "_trgovine": "Nedjeljno vrijeme sa stop-shop.com/hr/hrvatska/cakovec/radno-vrijeme (25.10.2026.); 'veza' = trgovina iz dohvata koja ima vlastiti raspored.",
+    "trgovine": [
+      { "naziv": "Plodine", "vrsta": "Supermarket", "ned": "07:00-21:00", "veza": "plodine-128" },
+      { "naziv": "dm", "vrsta": "Drogerija", "ned": "09:00-14:00" },
+      { "naziv": "Sinsay", "vrsta": "Odjeća", "ned": "09:00-14:00" },
+      { "naziv": "Sport Vision", "vrsta": "Sport", "ned": "09:00-14:00" },
+      { "naziv": "KiK", "vrsta": "Odjeća i dom", "ned": "09:00-14:00" },
+      { "naziv": "NKD", "vrsta": "Odjeća", "ned": "09:00-14:00" },
+      { "naziv": "PittaRosso", "vrsta": "Obuća", "ned": "09:00-14:00" },
+      { "naziv": "TEDi", "vrsta": "Dom i sitnice", "ned": "09:00-14:00" },
+      { "naziv": "Zoo City", "vrsta": "Kućni ljubimci", "ned": "09:00-14:00" },
+      { "naziv": "Vacom", "vrsta": "Elektronika", "ned": "09:00-15:00" },
+      { "naziv": "Mandis Pharm", "vrsta": "Ljekarna", "ned": "09:00-14:00" },
+      { "naziv": "Optika Anda", "vrsta": "Optika", "ned": "09:00-14:00" },
+      { "naziv": "ReStart Caffe Bar", "vrsta": "Kafić", "ned": "08:00-14:00" }
+    ]
+  },
+  "galerija-sjever": {
+    "_trgovine": "Zasad samo poznate trgovine; dopuniti popis.",
+    "trgovine": [
+      { "naziv": "SPAR", "vrsta": "Supermarket", "veza": "spar-28" },
+      { "naziv": "C&A", "vrsta": "Odjeća", "veza": "centar-galerija-sjever" }
+    ]
+  }
+}

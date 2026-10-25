@@ -73,7 +73,31 @@
   </section>
 
   <section id="popis" class="popis"></section>
+
+  <section id="pogledCentri" class="pogled" hidden></section>
+  <section id="pogledKatalozi" class="pogled" hidden>
+    <div class="sazetak">
+      <h2>Katalozi i akcije</h2>
+      <p>Aktualni letci i akcije trgovaca — otvaraju se na njihovim službenim stranicama.</p>
+    </div>
+    <div id="katalozi" class="katalozi"></div>
+  </section>
 </main>
+
+<nav class="kategorije" aria-label="Kategorije">
+  <button data-kategorija="ducani" aria-current="page">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M7 18c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM7.2 14.6 7.2 14.5 8.1 13h7.5c.8 0 1.4-.4 1.7-1l3.9-7-1.7-1-3.9 7H8.5L4.3 2H1v2h2l3.6 7.6-1.4 2.4C5.1 14.3 5 14.7 5 15c0 1.1.9 2 2 2h12v-2H7.4c-.1 0-.2-.1-.2-.4z"/></svg>
+    <span>Dućani</span>
+  </button>
+  <button data-kategorija="centri">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z"/></svg>
+    <span>Centri</span>
+  </button>
+  <button data-kategorija="katalozi">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M21.4 11.6 12.4 2.6C12 2.2 11.5 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .6.2 1.1.6 1.4l9 9c.4.4.9.6 1.4.6s1-.2 1.4-.6l7-7c.4-.4.6-.9.6-1.4s-.2-1-.6-1.4zM5.5 7C4.7 7 4 6.3 4 5.5S4.7 4 5.5 4 7 4.7 7 5.5 6.3 7 5.5 7z"/></svg>
+    <span>Katalozi</span>
+  </button>
+</nav>
 
 <footer class="podnozje">
   <p id="azurirano"></p>

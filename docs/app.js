@@ -132,9 +132,101 @@ function statusTrgovine(t, d) {
 function nacrtajSve() {
   nacrtajNedjelje();
   nacrtajFiltere();
-  nacrtajPopis();
+  nacrtajKategoriju();
   const az = new Date(stanje.podaci.azurirano);
   $('#azurirano').textContent = 'Zadnje ažuriranje: ' + az.toLocaleString('hr-HR', { dateStyle: 'medium', timeStyle: 'short' });
+}
+
+// ------------------------------------------------------------ kategorije (donja traka)
+stanje.kategorija = ['ducani', 'centri', 'katalozi'].includes(ucitaj('kategorija', 'ducani')) ? ucitaj('kategorija', 'ducani') : 'ducani';
+const ELEMENTI_DUCANA = ['.kartice', '#obavijestSubota', '#sazetak', '.filteri', '#popis'];
+
+function nacrtajKategoriju() {
+  const k = stanje.kategorija;
+  document.querySelectorAll('.kategorije button').forEach(b =>
+    b.dataset.kategorija === k ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
+  for (const s of ELEMENTI_DUCANA) {
+    const el = $(s);
+    if (k !== 'ducani') el.dataset.skriven = '1', el.hidden = true;
+    else if (el.dataset.skriven) { delete el.dataset.skriven; el.hidden = false; }
+  }
+  $('#pogledCentri').hidden = k !== 'centri';
+  $('#pogledKatalozi').hidden = k !== 'katalozi';
+  // Izbornik nedjelja nema smisla za kataloge
+  $('#nedjelje').hidden = k === 'katalozi';
+  if (k === 'ducani') { nacrtajFiltere(); nacrtajPopis(); }
+  else if (k === 'centri') nacrtajCentre();
+  else nacrtajKataloge();
+}
+
+document.querySelectorAll('.kategorije button').forEach(b => b.addEventListener('click', () => {
+  stanje.kategorija = b.dataset.kategorija;
+  spremi('kategorija', stanje.kategorija);
+  nacrtajKategoriju();
+  window.scrollTo(0, 0);
+}));
+
+// Trgovina u centru: s "veza" prati vlastiti raspored, inače radi kad radi centar (svojim nedjeljnim vremenom).
+function statusUCentru(tr, c, d) {
+  if (tr.veza) {
+    const t = stanje.podaci.trgovine.find(x => x.id === tr.veza) || (stanje.podaci.centri || []).find(x => x.id === tr.veza);
+    if (t) return statusTrgovine(t, d);
+  }
+  const sc = statusTrgovine(c, d);
+  if (sc.tip !== 'otvoreno') return sc;
+  return tr.ned ? { tip: 'otvoreno', tekst: tr.ned.replace('-', ' – ') } : sc;
+}
+
+function nacrtajCentre() {
+  const d = stanje.nedjelja;
+  const { dan, mj, god } = dioDatuma(d);
+  const box = $('#pogledCentri');
+  const centri = stanje.podaci.centri || [];
+  let h = `<div class="sazetak"><h2>Trgovački centri</h2><p>Nedjelja, ${dan}. ${MJESECI_PUNO[mj]} ${god}.${blagdan(d) ? ' — blagdan (' + blagdan(d) + ')' : ''}</p></div>`;
+  if (!centri.length) h += '<p class="prazno">Podaci o centrima još nisu dostupni.</p>';
+  for (const c of centri) {
+    const s = statusTrgovine(c, d);
+    const trg = (c.trgovine || []).map(tr => ({ tr, s: statusUCentru(tr, c, d) }));
+    const rade = trg.filter(x => x.s.tip === 'otvoreno').length;
+    const karta = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(`${c.naziv}, ${c.adresa}, ${c.mjesto}`);
+    h += `<article class="centar"><div class="centar__glava"><div><h3>${esc(c.naziv)}</h3>
+      <p class="centar__adresa">${esc(c.adresa)}, ${esc(c.mjesto)}</p></div>
+      <span class="trgovina__vrijeme ${s.tip}">${esc(s.tekst)}</span>
+      <a class="ikonski karta" href="${karta}" target="_blank" rel="noopener" aria-label="Otvori na karti"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></a></div>
+      <p class="centar__opis">${esc(c.opis || '')}${trg.length ? ` Radi ${rade} od ${trg.length} trgovina.` : ''}</p><ul>`;
+    for (const { tr, s: st } of trg.sort((a, b) => (a.s.tip !== 'otvoreno') - (b.s.tip !== 'otvoreno'))) {
+      h += `<li><span><b>${esc(tr.naziv)}</b> <small>${esc(tr.vrsta || '')}</small></span><span class="trgovina__vrijeme ${st.tip}">${esc(st.tekst)}</span></li>`;
+    }
+    h += '</ul></article>';
+  }
+  box.innerHTML = h;
+}
+
+// Službene stranice s aktualnim katalozima (KTC ih mijenja svaki tjedan, pa vodi na naslovnicu).
+const KATALOZI = [
+  ['Trgovina Krk', 'https://trgovina-krk.hr/katalozi/'],
+  ['NTL', 'https://ntl.hr/aktualna-ponuda/katalog-ntl-sjever/'],
+  ['Konzum', 'https://www.konzum.hr/katalozi'],
+  ['Lidl', 'https://www.lidl.hr/c/online-katalog/s10027538'],
+  ['Kaufland', 'https://www.kaufland.hr/aktualni-katalozi.html'],
+  ['Spar', 'https://www.spar.hr/letci-i-katalozi'],
+  ['Plodine', 'https://www.plodine.hr/aktualni-katalozi'],
+  ['Studenac', 'https://www.studenac.hr/pregled-kataloga/'],
+  ['KTC', 'https://www.ktc.hr/'],
+  ['Eurospin', 'https://www.eurospin.hr/katalog-eurospin/'],
+];
+function nacrtajKataloge() {
+  const box = $('#katalozi');
+  if (box.children.length) return;
+  for (const [lanac, url] of KATALOZI) {
+    const a = document.createElement('a');
+    a.className = 'katalog';
+    a.href = url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.innerHTML = `<span class="trgovina__lanac s-logom"><img alt="" src="logotipi/${LOGOTIPI[lanac]}"></span><span>${esc(lanac)}<small>Otvori katalog</small></span>`;
+    box.appendChild(a);
+  }
 }
 
 function nacrtajNedjelje() {
@@ -148,7 +240,7 @@ function nacrtajNedjelje() {
     b.setAttribute('aria-pressed', d === stanje.nedjelja);
     const oznaka = d === nn ? (d === danasZagreb() ? 'Danas' : 'Ova ned.') : d === dodajDane(nn, 7) ? 'Sljedeća' : 'Nedjelja';
     b.innerHTML = `<small>${oznaka}</small><b>${dan}. ${MJESECI[mj]}</b>`;
-    b.addEventListener('click', () => { stanje.nedjelja = d; nacrtajNedjelje(); nacrtajPopis(); });
+    b.addEventListener('click', () => { stanje.nedjelja = d; nacrtajNedjelje(); nacrtajKategoriju(); });
     nav.appendChild(b);
     if (d === stanje.nedjelja) requestAnimationFrame(() => b.scrollIntoView({ inline: 'center', block: 'nearest' }));
   }
