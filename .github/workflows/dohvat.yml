@@ -1,0 +1,39 @@
+name: Dohvat radnih nedjelja
+
+on:
+  schedule:
+    # Vrijeme je UTC (Hrvatska = UTC+1 zimi, UTC+2 ljeti).
+    - cron: '20 2 * * *'     # svaki dan oko 3-4 h
+    - cron: '20 14 * * 5,6'  # petak i subota popodne (trgovci često objave tek pred vikend)
+    - cron: '40 4 * * 0'     # nedjelja ujutro, zadnja provjera
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dohvat
+  cancel-in-progress: false
+
+jobs:
+  dohvat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Dohvati podatke
+        run: node scraper/dohvati.js
+      - name: Spremi promjene
+        run: |
+          if git diff --quiet -- docs/podaci; then
+            echo "Nema promjena."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/podaci
+          git commit -m "Podaci $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
