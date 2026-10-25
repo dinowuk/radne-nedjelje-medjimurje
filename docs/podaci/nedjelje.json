@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-25T12:52:43.633Z",
+ "azurirano": "2026-10-25T13:04:15.973Z",
  "nadolazeca": "2026-10-25",
  "nedjelje": [
   "2026-08-16",
@@ -27,52 +27,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-25T12:52:43.633Z"
+   "provjereno": "2026-10-25T13:04:15.973Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-25T12:52:43.633Z"
+   "provjereno": "2026-10-25T13:04:15.973Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-25T12:52:43.633Z"
+   "provjereno": "2026-10-25T13:04:15.973Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T12:52:43.633Z"
+   "provjereno": "2026-10-25T13:04:15.973Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T12:52:43.633Z"
+   "provjereno": "2026-10-25T13:04:15.973Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T12:52:43.633Z"
+   "provjereno": "2026-10-25T13:04:15.973Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T12:52:43.633Z"
+   "provjereno": "2026-10-25T13:04:15.973Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-25T12:52:43.633Z"
+   "provjereno": "2026-10-25T13:04:15.973Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T12:52:43.633Z"
+   "provjereno": "2026-10-25T13:04:15.973Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T12:52:43.633Z"
+   "provjereno": "2026-10-25T13:04:15.973Z"
   }
  },
  "greske": [],
@@ -5487,27 +5487,6 @@
    }
   },
   {
-   "id": "osm-n6272261472",
-   "naziv": "Ilonka",
-   "vrsta": "restoran",
-   "kuhinja": "",
-   "mjesto": "Mursko Središće",
-   "adresa": "Ulica Matije Gupca 15",
-   "lat": 46.514707,
-   "lng": 16.436015,
-   "tel": null,
-   "web": "https://www.ilonka.hr/",
-   "tjedan": {
-    "pon": "09:00-24:00",
-    "uto": "09:00-24:00",
-    "sri": "09:00-24:00",
-    "cet": "09:00-24:00",
-    "pet": "09:00-24:00",
-    "sub": "09:00-24:00",
-    "ned": "09:00-24:00"
-   }
-  },
-  {
    "id": "osm-w1473342316",
    "naziv": "Me Gusta",
    "vrsta": "restoran",
@@ -5546,27 +5525,6 @@
     "cet": "07:00-15:00",
     "pet": "07:00-15:00",
     "sub": "07:00-15:00"
-   }
-  },
-  {
-   "id": "osm-w377851806",
-   "naziv": "Restoran Royal",
-   "vrsta": "restoran",
-   "kuhinja": "domaća kuhinja",
-   "mjesto": "Mursko Središće",
-   "adresa": "Prečna 1",
-   "lat": 46.473633,
-   "lng": 16.454145,
-   "tel": "+385 40 866 477",
-   "web": "http://www.royal.com.hr/",
-   "tjedan": {
-    "pon": "08:00-24:00",
-    "uto": "08:00-24:00",
-    "sri": "08:00-24:00",
-    "cet": "08:00-24:00",
-    "pet": "08:00-24:00",
-    "sub": "08:00-24:00",
-    "ned": "08:00-24:00"
    }
   },
   {
