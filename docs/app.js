@@ -226,21 +226,39 @@ function statusDanas(r) {
   return r.tjedan[k] ? { tip: 'otvoreno', tekst: 'Danas ' + r.tjedan[k].replace('-', ' – ') } : { tip: 'zatvoreno', tekst: 'Danas ne radi' };
 }
 
-// Prikaz slike preko cijelog ekrana (jelovnik); dodir ili natrag zatvara
-function povecajSliku(src) {
-  const d = document.createElement('dialog');
-  d.className = 'povecanje';
-  d.innerHTML = `<img src="${esc(src)}" alt="Jelovnik"><button class="ikonski" aria-label="Zatvori">✕</button>`;
-  d.addEventListener('click', () => d.close());
-  d.addEventListener('close', () => d.remove());
-  document.body.appendChild(d);
-  d.showModal();
+// Tjedni jelovnik (gablec) izvučen iz slike: danas + cijeli tjedan
+const DAN_IME = ['Nedjelja', 'Ponedjeljak', 'Utorak', 'Srijeda', 'Četvrtak', 'Petak', 'Subota'];
+function danNaslov(d) { const x = dioDatuma(d); return `${DAN_IME[new Date(d + 'T12:00:00Z').getUTCDay()]}, ${x.dan}.${x.mj + 1}.`; }
+function jelaHtml(dan) {
+  const grupa = (naslov, lista) => lista && lista.length
+    ? `<div class="jelovnik__grupa"><span>${naslov}</span><ul>${lista.map(([n, c]) => `<li><span>${esc(n)}</span><b>${esc(c || '')}</b></li>`).join('')}</ul></div>` : '';
+  return grupa('Glavna jela', dan.glavna) + grupa('Vege', dan.vege) + grupa('Prilozi', dan.prilozi);
+}
+function jelovnikHtml(j) {
+  const danas = danasZagreb();
+  const dani = Object.keys(j.dani).sort();
+  let h = '<div class="jelovnik">';
+  if (j.dani[danas]) {
+    h += `<div class="jelovnik__naslov">Danas · ${danNaslov(danas)}</div>` + jelaHtml(j.dani[danas]);
+  } else if (danas < j.od) {
+    h += `<div class="jelovnik__naslov">Od ${danNaslov(dani[0])}</div>` + jelaHtml(j.dani[dani[0]]);
+  } else {
+    const x = dioDatuma(j.od), y = dioDatuma(j.do);
+    h += `<div class="jelovnik__naslov">${new Date(danas + 'T12:00:00Z').getUTCDay() === 0 ? 'Nedjeljom nema gableca' : 'Danas nema gableca'}</div>
+      <p class="jelovnik__info">Zadnji objavljeni jelovnik: ${x.dan}.${x.mj + 1}.–${y.dan}.${y.mj + 1}.</p>`;
+  }
+  if (j.svakiDan && j.svakiDan.length) h += `<div class="jelovnik__grupa"><span>Svaki dan</span><ul>${j.svakiDan.map(([n, c]) => `<li><span>${esc(n)}</span><b>${esc(c)}</b></li>`).join('')}</ul></div>`;
+  if (j.napomena) h += `<p class="jelovnik__info">${esc(j.napomena)}</p>`;
+  h += `<button type="button" class="gumb-tekst jelovnik__tjedan-gumb">Cijeli tjedan ▾</button><div class="jelovnik__tjedan" hidden>`;
+  for (const d of dani) h += `<div class="jelovnik__dan${d === danas ? ' danas' : ''}"><div class="jelovnik__naslov">${danNaslov(d)}</div>${jelaHtml(j.dani[d])}</div>`;
+  return h + '</div></div>';
 }
 
 function nacrtajRestorane() {
   const gablec = stanje.restoraniNacin === 'gablec';
   document.querySelectorAll('[data-rnacin]').forEach(b => b.setAttribute('aria-selected', b.dataset.rnacin === stanje.restoraniNacin));
-  const svi = (stanje.podaci.restorani || []).filter(r => !gablec || r.gablec);
+  const jelovnici = stanje.podaci.jelovnici || {};
+  const svi = (stanje.podaci.restorani || []).filter(r => !gablec || r.gablec || jelovnici[r.id]);
   const q = stanje.traziRestoran;
   const d = stanje.nedjelja;
   const { dan, mj } = dioDatuma(d);
@@ -289,16 +307,17 @@ function nacrtajRestorane() {
       (blizu ? ` · ${km < 1 ? Math.round(km * 1000 / 50) * 50 + ' m' : km.toFixed(1).replace('.', ',') + ' km'}` : '');
     const karta = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(`${r.naziv}, ${r.adresa ? r.adresa + ', ' : ''}${r.mjesto}, Hrvatska`);
     const g = r.gablec;
+    const jel = jelovnici[r.id];
     el.innerHTML = `${r.foto ? `<img class="restoran__foto" src="${esc(r.foto)}" alt="" loading="lazy">` : ''}
       <div class="restoran__glava"><div>${r.istaknut ? '<span class="restoran__preporuka">★ Preporuka</span>' : ''}<h3>${esc(r.naziv)}</h3><p class="restoran__info">${esc(info)}</p></div>
         <span class="trgovina__vrijeme ${s.tip}">${esc(s.tekst)}</span></div>
-      ${gablec && g ? `<div class="restoran__gablec"><strong>Gablec${g.cijena ? ' · ' + esc(g.cijena) : ''}</strong>${g.vrijeme ? ` <small>${esc(g.vrijeme)}</small>` : ''}
-        ${g.slika ? `<img class="gablec-slika" src="${esc(g.slika)}" alt="Tjedni jelovnik" loading="lazy" title="Dodirni za povećanje">` : ''}
+      ${gablec && jel ? jelovnikHtml(jel) : ''}
+      ${gablec && g && !jel ? `<div class="restoran__gablec"><strong>Gablec${g.cijena ? ' · ' + esc(g.cijena) : ''}</strong>${g.vrijeme ? ` <small>${esc(g.vrijeme)}</small>` : ''}
         ${g.meni ? `<p>${esc(g.meni)}</p>` : ''}${g.azurirano ? `<small>Upisano ${dioDatuma(g.azurirano).dan}.${dioDatuma(g.azurirano).mj + 1}.</small>` : ''}</div>` : ''}
       ${!gablec && r.opis ? `<p class="restoran__opis">${esc(r.opis)}</p>` : ''}
       ${!gablec && r.jela && r.jela.length ? `<p class="restoran__jela"><b>Preporučujemo:</b> ${r.jela.map(esc).join(', ')}</p>` : ''}
       ${!gablec && r.rucak ? `<p class="restoran__rucak"><b>Nedjeljni ručak:</b> ${esc(r.rucak)}</p>` : ''}
-      ${!gablec && g ? '<p class="restoran__rucak"><b>Nudi gablec</b> — pogledaj karticu Gableci</p>' : ''}
+      ${!gablec && (g || jel) ? '<p class="restoran__rucak"><b>Nudi gablec</b> — jelovnik je pod karticom Gableci</p>' : ''}
       <div class="restoran__gumbi">
         ${r.tel ? `<a href="tel:${esc(r.tel.replace(/[^\d+]/g, ''))}">${IKONA_TEL} Nazovi</a>` : ''}
         ${r.web ? `<a href="${esc(r.web)}" target="_blank" rel="noopener">Web</a>` : ''}
@@ -307,8 +326,12 @@ function nacrtajRestorane() {
       <div class="trgovina__detalji" hidden></div>`;
     const foto = el.querySelector('.restoran__foto');
     if (foto) foto.onerror = () => foto.remove();
-    const jelovnik = el.querySelector('.gablec-slika');
-    if (jelovnik) jelovnik.addEventListener('click', () => povecajSliku(jelovnik.src));
+    const tj = el.querySelector('.jelovnik__tjedan-gumb');
+    if (tj) tj.addEventListener('click', () => {
+      const t = el.querySelector('.jelovnik__tjedan');
+      t.hidden = !t.hidden;
+      tj.textContent = t.hidden ? 'Cijeli tjedan ▾' : 'Sakrij tjedan ▴';
+    });
     const det = el.querySelector('.trgovina__detalji');
     el.querySelector('.restoran__glava').addEventListener('click', () => {
       if (!det.innerHTML) {

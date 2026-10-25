@@ -83,6 +83,23 @@ async function main() {
     greske.push('Restorani: ' + e.message);
   }
 
+  // Restorani kojih nema u OSM-u + tjedni jelovnici (gablec) izvučeni iz slika (scraper/jelovnici/*.json)
+  try {
+    const dodatni = JSON.parse(fs.readFileSync(path.join(__dirname, 'restorani-dodatni.json'), 'utf8'));
+    const ids = new Set(restorani.map(r => r.id));
+    for (const r of dodatni) if (!ids.has(r.id)) { const { _napomena, ...cist } = r; restorani.push(cist); }
+  } catch (e) { upozorenja.push('Dodatni restorani: ' + e.message); }
+  const jelovnici = {};
+  try {
+    const mapa = path.join(__dirname, 'jelovnici');
+    for (const f of fs.existsSync(mapa) ? fs.readdirSync(mapa).filter(x => x.endsWith('.json')) : []) {
+      const j = JSON.parse(fs.readFileSync(path.join(mapa, f), 'utf8'));
+      // samo noviji od 2 tjedna; po restoranu zadnji tjedan
+      if (j.do < Z.dodajDane(danas, -14)) continue;
+      if (!jelovnici[j.restoran] || jelovnici[j.restoran].od < j.od) jelovnici[j.restoran] = j;
+    }
+  } catch (e) { upozorenja.push('Jelovnici: ' + e.message); }
+
   try {
     await dopuniKoordinate([...trgovine, ...centri], upozorenja);
   } catch (e) {
@@ -111,6 +128,7 @@ async function main() {
     dogadaji,
     najave,
     restorani,
+    jelovnici,
   };
   fs.mkdirSync(path.dirname(IZLAZ), { recursive: true });
   fs.writeFileSync(IZLAZ, JSON.stringify(izlaz, null, 1) + '\n');
