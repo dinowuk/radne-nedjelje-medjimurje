@@ -86,6 +86,28 @@
     <p class="izvor-dogadanja">Događanja: <a href="https://eventinfo.com.hr/" target="_blank" rel="noopener">eventinfo.com.hr</a> — za sve detalje dodirni događaj.</p>
   </section>
 
+  <section id="pogledRestorani" class="pogled" hidden>
+    <div id="restoraniSazetak" class="sazetak"></div>
+    <section class="filteri">
+      <label class="polje polje--siroko">
+        <span class="unos">
+          <input type="text" id="traziRestoran" placeholder="Traži restoran ili mjesto…" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search">
+          <button type="button" id="ocistiRestoran" class="unos__ocisti" aria-label="Obriši pretragu" hidden>×</button>
+        </span>
+      </label>
+      <label class="prekidac">
+        <input type="checkbox" id="samoNedjeljom" checked>
+        <span>Samo koji rade</span>
+      </label>
+      <button type="button" id="restoraniBlizu" class="cip cip--blizu" aria-pressed="false">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm8.94 3A8.99 8.99 0 0 0 13 3.06V1h-2v2.06A8.99 8.99 0 0 0 3.06 11H1v2h2.06A8.99 8.99 0 0 0 11 20.94V23h2v-2.06A8.99 8.99 0 0 0 20.94 13H23v-2h-2.06zM12 19a7 7 0 1 1 0-14 7 7 0 0 1 0 14z"/></svg>
+        Blizu mene
+      </button>
+    </section>
+    <div id="restoraniPopis"></div>
+    <p class="izvor-dogadanja">Podaci o restoranima: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> suradnici. Fali restoran ili je krivo vrijeme? Svatko ga može dodati ili ispraviti na openstreetmap.org.</p>
+  </section>
+
   <section id="pogledKatalozi" class="pogled" hidden>
     <div class="sazetak">
       <h2>Katalozi i akcije</h2>
@@ -107,6 +129,10 @@
   <button data-kategorija="dogadaji">
     <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg>
     <span>Događanja</span>
+  </button>
+  <button data-kategorija="restorani">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/></svg>
+    <span>Restorani</span>
   </button>
   <button data-kategorija="katalozi">
     <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M21.4 11.6 12.4 2.6C12 2.2 11.5 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .6.2 1.1.6 1.4l9 9c.4.4.9.6 1.4.6s1-.2 1.4-.6l7-7c.4-.4.6-.9.6-1.4s-.2-1-.6-1.4zM5.5 7C4.7 7 4 6.3 4 5.5S4.7 4 5.5 4 7 4.7 7 5.5 6.3 7 5.5 7z"/></svg>

@@ -138,7 +138,7 @@ function nacrtajSve() {
 }
 
 // ------------------------------------------------------------ kategorije (donja traka)
-stanje.kategorija = ['ducani', 'centri', 'dogadaji', 'katalozi'].includes(ucitaj('kategorija', 'ducani')) ? ucitaj('kategorija', 'ducani') : 'ducani';
+stanje.kategorija = ['ducani', 'centri', 'dogadaji', 'restorani', 'katalozi'].includes(ucitaj('kategorija', 'ducani')) ? ucitaj('kategorija', 'ducani') : 'ducani';
 const ELEMENTI_DUCANA = ['main > .kartice', '#obavijestSubota', '#sazetak', '.filteri', '#popis'];
 
 function nacrtajKategoriju() {
@@ -153,13 +153,105 @@ function nacrtajKategoriju() {
   $('#pogledCentri').hidden = k !== 'centri';
   $('#pogledKatalozi').hidden = k !== 'katalozi';
   $('#pogledDogadaji').hidden = k !== 'dogadaji';
+  $('#pogledRestorani').hidden = k !== 'restorani';
   // Izbornik nedjelja nema smisla za kataloge i događanja
   $('#nedjelje').hidden = k === 'katalozi' || k === 'dogadaji';
   if (k === 'ducani') { nacrtajFiltere(); nacrtajPopis(); }
   else if (k === 'centri') nacrtajCentre();
   else if (k === 'dogadaji') nacrtajDogadaje();
+  else if (k === 'restorani') nacrtajRestorane();
   else nacrtajKataloge();
 }
+
+// ------------------------------------------------------------ restorani (OpenStreetMap)
+stanje.traziRestoran = '';
+stanje.samoNedjeljom = ucitaj('samoNedjeljom', true);
+stanje.restoraniBlizu = false;
+const IKONA_TEL = '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>';
+
+// Radno vrijeme restorana odabrane nedjelje (ili blagdana): iz OSM-a je poznat samo redovni raspored.
+function statusRestorana(r) {
+  if (!r.tjedan) return { tip: 'nepoznato', tekst: 'Vrijeme nije upisano' };
+  if (!('ned' in r.tjedan)) return { tip: 'nepoznato', tekst: 'Nedjelja nije upisana' };
+  const v = r.tjedan.ned;
+  return v ? { tip: 'otvoreno', tekst: v.replace('-', ' – ') } : { tip: 'zatvoreno', tekst: 'Nedjeljom ne radi' };
+}
+
+function nacrtajRestorane() {
+  const svi = stanje.podaci.restorani || [];
+  const q = stanje.traziRestoran;
+  const d = stanje.nedjelja;
+  const { dan, mj } = dioDatuma(d);
+  let lista = svi.filter(r => !q || mjestoOdgovara(r.naziv, q) || mjestoOdgovara(r.mjesto, q) || mjestoOdgovara(r.kuhinja || '', q))
+    .map(r => ({ r, s: statusRestorana(r) }));
+  const rade = lista.filter(x => x.s.tip === 'otvoreno').length;
+  if (stanje.samoNedjeljom) lista = lista.filter(x => x.s.tip === 'otvoreno');
+  const red = { otvoreno: 0, nepoznato: 1, zatvoreno: 2 };
+  const blizu = stanje.restoraniBlizu && stanje.pozicija;
+  if (blizu) {
+    for (const x of lista) x.km = udaljenostKm(stanje.pozicija, x.r);
+    lista.sort((a, b) => a.km - b.km);
+  } else {
+    lista.sort((a, b) => red[a.s.tip] - red[b.s.tip] || a.r.mjesto.localeCompare(b.r.mjesto, 'hr') || a.r.naziv.localeCompare(b.r.naziv, 'hr'));
+  }
+  $('#restoraniSazetak').innerHTML = `<h2>Restorani u Međimurju</h2><p>Nedjelja, ${dan}. ${MJESECI_PUNO[mj]}: radi <b>${rade}</b> od ${svi.length} restorana${q ? ' (pretraga)' : ''}</p>` +
+    (blagdan(d) ? `<div class="obavijest">${blagdan(d)} je blagdan — restorani mogu raditi drugačije, provjeri pozivom.</div>` : '');
+  $('#samoNedjeljom').checked = stanje.samoNedjeljom;
+  $('#ocistiRestoran').hidden = !q;
+  $('#restoraniBlizu').setAttribute('aria-pressed', !!blizu);
+
+  const box = $('#restoraniPopis');
+  if (!lista.length) {
+    box.innerHTML = `<p class="prazno">${q ? 'Nema restorana za tu pretragu.' : 'Nema restorana s upisanim nedjeljnim radnim vremenom.'}</p>`;
+    return;
+  }
+  box.innerHTML = '';
+  for (const { r, s, km } of lista) {
+    const el = document.createElement('article');
+    el.className = 'restoran';
+    const info = [r.kuhinja || r.vrsta, r.mjesto].filter(Boolean).join(' · ') +
+      (blizu ? ` · ${km < 1 ? Math.round(km * 1000 / 50) * 50 + ' m' : km.toFixed(1).replace('.', ',') + ' km'}` : '');
+    const karta = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(`${r.naziv}, ${r.adresa ? r.adresa + ', ' : ''}${r.mjesto}, Hrvatska`);
+    el.innerHTML = `<div class="restoran__glava"><div><h3>${esc(r.naziv)}</h3><p class="restoran__info">${esc(info)}</p></div>
+        <span class="trgovina__vrijeme ${s.tip}">${esc(s.tekst)}</span></div>
+      <div class="restoran__gumbi">
+        ${r.tel ? `<a href="tel:${esc(r.tel.replace(/[^\d+]/g, ''))}">${IKONA_TEL} Nazovi</a>` : ''}
+        ${r.web ? `<a href="${esc(r.web)}" target="_blank" rel="noopener">Web</a>` : ''}
+        <a href="${karta}" target="_blank" rel="noopener">Karta</a>
+      </div>
+      <div class="trgovina__detalji" hidden></div>`;
+    const det = el.querySelector('.trgovina__detalji');
+    el.querySelector('.restoran__glava').addEventListener('click', () => {
+      if (!det.innerHTML) {
+        if (r.tjedan) {
+          let h = '<h4>Radno vrijeme</h4><table>';
+          for (const [k, ime] of [...DANI_TJEDNA, ['ned', 'Nedjelja']]) {
+            const v = r.tjedan[k];
+            h += `<tr><td>${ime}</td><td${v ? '' : ' class="zat"'}>${k in r.tjedan ? (v ? esc(v.replace('-', ' – ')) : 'Zatvoreno') : '—'}</td></tr>`;
+          }
+          det.innerHTML = h + '</table>';
+        } else det.innerHTML = '<p>Radno vrijeme nije upisano — najbolje nazovi.</p>';
+      }
+      det.hidden = !det.hidden;
+    });
+    box.appendChild(el);
+  }
+}
+
+$('#traziRestoran').addEventListener('input', e => { stanje.traziRestoran = e.target.value; nacrtajRestorane(); });
+$('#ocistiRestoran').addEventListener('click', () => { $('#traziRestoran').value = ''; stanje.traziRestoran = ''; nacrtajRestorane(); });
+$('#samoNedjeljom').addEventListener('change', e => { stanje.samoNedjeljom = e.target.checked; spremi('samoNedjeljom', stanje.samoNedjeljom); nacrtajRestorane(); });
+$('#restoraniBlizu').addEventListener('click', () => {
+  if (stanje.restoraniBlizu) { stanje.restoraniBlizu = false; nacrtajRestorane(); return; }
+  if (!navigator.geolocation) { pokaziPoruku('Lokacija nije dostupna na ovom uređaju'); return; }
+  pokaziPoruku('Tražim tvoju lokaciju…');
+  navigator.geolocation.getCurrentPosition(p => {
+    stanje.pozicija = { lat: p.coords.latitude, lng: p.coords.longitude };
+    stanje.restoraniBlizu = true;
+    nacrtajRestorane();
+    pokaziPoruku('Restorani su složeni po udaljenosti');
+  }, () => pokaziPoruku('Lokacija nije dopuštena ili nije dostupna'), { enableHighAccuracy: false, timeout: 15000, maximumAge: 300000 });
+});
 
 // ------------------------------------------------------------ događanja (eventinfo.com.hr)
 stanje.razdoblje = ucitaj('razdoblje', 'vikend');

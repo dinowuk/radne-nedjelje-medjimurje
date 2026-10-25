@@ -277,6 +277,19 @@ body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
 .izvor-dogadanja { font-size: .8rem; color: var(--tekst-2); margin: 10px 0 0; }
 .izvor-dogadanja a { color: var(--glavna); }
 
+/* Restorani */
+.restoran { background: var(--povrsina); border: 1px solid var(--rub); border-radius: 14px; padding: 12px; margin: 10px 0; box-shadow: var(--sjena); }
+.restoran__glava { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; }
+.restoran__glava div { flex: 1; min-width: 0; }
+.restoran h3 { margin: 0; font-size: 1rem; }
+.restoran__info { margin: 2px 0 0; color: var(--tekst-2); font-size: .86rem; }
+.restoran__gumbi { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+.restoran__gumbi a {
+  display: inline-flex; align-items: center; gap: 4px; text-decoration: none; font-size: .82rem; font-weight: 600;
+  color: var(--glavna); background: var(--glavna-svijetla); padding: 5px 10px; border-radius: 999px;
+}
+.kategorije button { min-width: 0; font-size: .72rem; }
+
 /* Katalozi */
 .katalozi { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 12px 0; }
 .katalog {

@@ -9,6 +9,7 @@ const LANCI = require('./lanci');
 const { dopuniKoordinate } = require('./koordinate');
 const { centri: dohvatiCentre } = require('./centri');
 const { dogadaji: dohvatiDogadaje } = require('./dogadaji');
+const { restorani: dohvatiRestorane } = require('./restorani');
 
 const IZLAZ = process.argv[2] || path.join(__dirname, '..', 'docs', 'podaci', 'nedjelje.json');
 const CUVAJ_PROSLE_DANA = 70;
@@ -63,6 +64,15 @@ async function main() {
     greske.push('Događanja: ' + e.message);
   }
 
+  // Restorani (OpenStreetMap); ako ne uspije, ostaju prethodni
+  let restorani = staro.restorani || [];
+  try {
+    restorani = await dohvatiRestorane(upozorenja);
+    console.log(`Restorani: ${restorani.length}`);
+  } catch (e) {
+    greske.push('Restorani: ' + e.message);
+  }
+
   try {
     await dopuniKoordinate([...trgovine, ...centri], upozorenja);
   } catch (e) {
@@ -89,6 +99,7 @@ async function main() {
     trgovine,
     centri,
     dogadaji,
+    restorani,
   };
   fs.mkdirSync(path.dirname(IZLAZ), { recursive: true });
   fs.writeFileSync(IZLAZ, JSON.stringify(izlaz, null, 1) + '\n');
