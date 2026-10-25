@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-25T12:08:46.183Z",
+ "azurirano": "2026-10-25T12:17:32.825Z",
  "nadolazeca": "2026-10-25",
  "nedjelje": [
   "2026-08-16",
@@ -27,52 +27,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-25T12:08:46.183Z"
+   "provjereno": "2026-10-25T12:17:32.825Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-25T12:08:46.183Z"
+   "provjereno": "2026-10-25T12:17:32.825Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-25T12:08:46.183Z"
+   "provjereno": "2026-10-25T12:17:32.825Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T12:08:46.183Z"
+   "provjereno": "2026-10-25T12:17:32.825Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T12:08:46.183Z"
+   "provjereno": "2026-10-25T12:17:32.825Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T12:08:46.183Z"
+   "provjereno": "2026-10-25T12:17:32.825Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T12:08:46.183Z"
+   "provjereno": "2026-10-25T12:17:32.825Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-25T12:08:46.183Z"
+   "provjereno": "2026-10-25T12:17:32.825Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T12:08:46.183Z"
+   "provjereno": "2026-10-25T12:17:32.825Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T12:08:46.183Z"
+   "provjereno": "2026-10-25T12:17:32.825Z"
   }
  },
  "greske": [],
@@ -4120,6 +4120,376 @@
      "veza": "centar-galerija-sjever"
     }
    ]
+  }
+ ],
+ "dogadaji": [
+  {
+   "id": "ei-4878",
+   "naslov": "Dijana Nazor Čorda, Crni ciklus - iza vidljivoga",
+   "od": "2026-09-11",
+   "do": "2026-10-31",
+   "vrijeme": null,
+   "mjesto": "Izložbeni salon Muzeja Međimurja Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.389113,
+   "lng": 16.431804,
+   "kategorija": "kazalište",
+   "cijena": null,
+   "opis": "Mjesto održavanja: Izložbeni salon Muzeja Međimurja Čakovec Trajanje izložbe: 11.9.2026. – 31.10.2026. Otvorenje: 11.9.2026. u 19 sati Kustosica izložbe: Marta Horvat, kustosica likovnih zbirki Stoljećima je slikarstvo bilo umjetnost vidljivoga – bilježilo je svjetlo, boju i…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/dijana_nazor__orda__crni_ciklus___iza_vidljivoga_1788184774.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/dijana-nazor-corda-crni-ciklus-iza-vidljivoga"
+  },
+  {
+   "id": "ei-4915",
+   "naslov": "Izložba poezije Josipa Mihalkovića u fotostripu",
+   "od": "2026-10-16",
+   "do": "2026-11-13",
+   "vrijeme": "10:00",
+   "mjesto": "Multimedijalna dvorana Riznice Međimurja",
+   "grad": "Čakovec",
+   "lat": 46.389277,
+   "lng": 16.432363,
+   "kategorija": "izložba",
+   "cijena": null,
+   "opis": "Otvorenje izložbe poezije Josipa Mihalkovića u fotostripu u Multimedijalnoj dvorani Riznice Međimurja 16. listopada 2026. godine s početkom u 18:00 sati povodom 13. međunarodnog festivala stripa udruge STRIPoblaČAK. zložba poezije Josipa Mihalkovića u fotostripu nastala je u…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/izlo_ba_poezije_josipa_mihalkovi_a_u_fotostripu_1792071615.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/izlozba-poezije-josipa-mihalkovica-u-fotostripu"
+  },
+  {
+   "id": "ei-4918",
+   "naslov": "Heidi: od književne junakinje do svjetske ikone",
+   "od": "2026-10-19",
+   "do": "2026-11-06",
+   "vrijeme": null,
+   "mjesto": "Knjižnica Nikola Zrinski, Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.390284,
+   "lng": 16.434269,
+   "kategorija": "izložba",
+   "cijena": null,
+   "opis": "Sjećate li se još uvijek mirisa planinskog zraka, toplog djedovog doma i bezbrižnih dana provedenih na pašnjacima sa simpatičnom djevojčicom iz Švicarske? U Knjižnici „Nikola Zrinski” Čakovec gostuje međunarodna putujuća izložba „Heidi: od književne junakinje do svjetske ikone“…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/heidi__od_knji_evne_junakinje_do_svjetske_ikone_1792150110.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/heidi-od-knjizevne-junakinje-do-svjetske-ikone"
+  },
+  {
+   "id": "ei-4911",
+   "naslov": "16. BIJENALNA IZLOŽBA - UDRUŽENJE ARHITEKATA MEĐIMURJA",
+   "od": "2026-10-22",
+   "do": "2026-11-23",
+   "vrijeme": null,
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "izložba",
+   "cijena": null,
+   "opis": "Otvorenje izložbe: četvrtak, 22. listopada u 18.00 sati | Galerija Centra za kulturu Čakovec 16. BIJENALNA IZLOŽBA | PROJEKTI I REALIZACIJE 2024. – 2025. ČLANOVA UDRUŽENJA ARHITEKATA MEĐIMURJA 16. bijenalna izložba članova Udruženja arhitekata Međimurja Projekti i realizacije…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/16__bijenalna_izlo_ba___udru_enje_arhitekata_me_imurja_1791979368.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
+  },
+  {
+   "id": "ei-4927",
+   "naslov": "Besplatne radionice izrade cekara",
+   "od": "2026-10-25",
+   "do": "2026-10-25",
+   "vrijeme": "10:30",
+   "mjesto": "Multimedijalna dvorana Riznice Međimurja",
+   "grad": "Čakovec",
+   "lat": 46.389277,
+   "lng": 16.432363,
+   "kategorija": "ostalo",
+   "cijena": "Besplatno",
+   "opis": "Muzej Međimurja Čakovec poziva na besplatne radionice izrade cekara u nedjelju 25. listopada 2026. godine s početkom u 10:30 sati u Multimedijalnoj dvorani Riznice Međimurja. Radionicu će voditi Dušanka Medved iz Nedelišća. Na poticaj Lokalne akcijske grupe „Međimurski doli i…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/besplatne_radionice_izrade_cekara_1792578632.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/besplatne-radionice-izrade-cekara"
+  },
+  {
+   "id": "ei-4899",
+   "naslov": "SVJETSKI DAN AUDIOVIZUALNE BAŠTINE UZ VLAK U SNIJEGU I H-8",
+   "od": "2026-10-25",
+   "do": "2026-10-26",
+   "vrijeme": "18:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "film",
+   "cijena": "Besplatno",
+   "opis": "SVJETSKI DAN AUDIOVIZUALNE BAŠTINE U SURADNJI S HRVATSKIM DRŽAVNIM ARHIVOM – HRVATSKOM KINOTEKOM Svjetski dan audiovizualne baštine obilježava se svake godine 27. listopada s ciljem podizanja svijesti o važnosti očuvanja filmskih, radijskih i televizijskih zapisa. Centar za…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/svjetski_dan_audiovizualne_ba_tine_uz_vlak_u_snijegu_i_h_8_1790930215.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/svjetski-dan-audiovizualne-bastine-uz-vlak-u-snijegu-i-h8"
+  },
+  {
+   "id": "ei-4913",
+   "naslov": "LAJNAP COMEDY slavi 10 godina – stand up comedy",
+   "od": "2026-10-28",
+   "do": "2026-10-28",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": "15,00 EUR",
+   "opis": "Čini se tako davna ta 2016. godina kad je LAJNAP COMEDY došao na scenu. U početku je projekt najpopularnijeg domaćeg stand-up kolektiva bila samo ideja. Četvorica komičara, Aleks Curać Šarić, Tomislav Kozačinski, Vlatko Štampar i Goran Vugrinec, već tada s višegodišnjim iskustvom…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/lajnap_comedy_slavi_10_godina___stand_up_comedy_1791979772.png",
+   "link": "https://eventinfo.com.hr/dogadaj/lajnap-comedy-slavi-10-godina-stand-up-comedy"
+  },
+  {
+   "id": "ei-4887",
+   "naslov": "KAZALIŠTE KEREMPUH: PUTUJUĆE KAZALIŠTE ŠOPALOVIĆ",
+   "od": "2026-10-29",
+   "do": "2026-10-29",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": null,
+   "opis": "Dosta vam je dnevne politike i ratnih zbivanja? Dođite u Kerempuh i sagledajte stvarnost iz drugog kuta: kroz smijeh, ironiju i kazališnu čaroliju. Ako tražite predstavu koja će vas istovremeno nasmijati, uznemiriti i natjerati na razmišljanje, Putujuće kazalište Šopalović pravi…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/kazali_te_kerempuh__putuju_e_kazali_te__opalovi__1789121782.png",
+   "link": "https://eventinfo.com.hr/dogadaj/kazaliste-kerempuh-putujuce-kazaliste-sopalovic"
+  },
+  {
+   "id": "ei-4897",
+   "naslov": "Ansambl LADO: Vrijeme plesa",
+   "od": "2026-11-05",
+   "do": "2026-11-05",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": "25,00 EUR",
+   "opis": "Ansambl LADO: Vrijeme plesa Ansambl LADO poziva čakovečku publiku na premijeru svečanog godišnjeg koncerta “Vrijeme plesa”, koja će se održati 5. studenoga 2026. u Čakovcu. Ovogodišnji program otkriva ono što publika rijetko ima priliku vidjeti – unutarnji proces nastanka jedne…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/ansambl_lado__vrijeme_plesa_1790154590.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/ansambl-lado-vrijeme-plesa"
+  },
+  {
+   "id": "ei-4902",
+   "naslov": "MARTINJE I SVETOMARTINSKA GULAŠIJADA",
+   "od": "2026-11-06",
+   "do": "2026-11-11",
+   "vrijeme": null,
+   "mjesto": "Sveti Martin na Muri",
+   "grad": "Sveti Martin na Muri",
+   "lat": 46.525084,
+   "lng": 16.362768,
+   "kategorija": "zabava",
+   "cijena": "Besplatno",
+   "opis": "6. – 11. studenoga 2026. Sveti Martin na Muri zove vas na dane mladog vina, domaćih okusa i običaja koji se prenose generacijama! Od procesije s lampionima i krštenja mošta do Svetomartinske gulašijade i martinskih fešti kod naših ugostitelja, očekuje vas program uz koji ćemo…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/martinje_i_svetomartinska_gula_ijada_1791278867.jpeg",
+   "link": "https://eventinfo.com.hr/dogadaj/martinje-i-svetomartinska-gulasijada2026"
+  },
+  {
+   "id": "ei-4928",
+   "naslov": "Dječje kazalište Dubrava: LUDA ŠUMA",
+   "od": "2026-11-08",
+   "do": "2026-11-08",
+   "vrijeme": "16:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": null,
+   "opis": "Koprodukcija / Gledališče Glej i Federacija (SLO) i Dječje kazalište Dubrava, Zagreb (HR) lutkarsko-glazbena predstava uzrast: 4+ trajanje: 45 minuta Prema motivima basni Sergeja Kozlova. Koncept, režija i glazba: Peter Kus Tekst i dramaturgija: Ajda Rooss Igraju: Andrea Giordani…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/dje_je_kazali_te_dubrava__luda__uma_1792745810.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/djecje-kazaliste-dubrava-luda-suma"
+  },
+  {
+   "id": "ei-4895",
+   "naslov": "KAZALIŠTE VIROVITICA: UJAK VANJA",
+   "od": "2026-11-12",
+   "do": "2026-11-12",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": null,
+   "opis": "Maksim Gorki je 1898., pisao Čehovu o Ujaku Vanji: „Vidite, meni se čini da ste vi, u ovoj drami, prema ljudima hladniji od demona.“ Točno je da u Čehovljevim dramama vidimo neka od najstrašnijih zala koja se mogu naći u jednom društvu: nemogućnost da se na bilo koji način…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/kazali_te_virovitica__ujak_vanja_1790154364.png",
+   "link": "https://eventinfo.com.hr/dogadaj/kazaliste-virovitica-ujak-vanja"
+  },
+  {
+   "id": "ei-4929",
+   "naslov": "GRLICE I ROŽICE - Treća večer amatera",
+   "od": "2026-11-14",
+   "do": "2026-11-14",
+   "vrijeme": "16:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": null,
+   "opis": "Kazališta tribina za djecu i mlade Cukorek | Treća večer amatera GRLICE I ROŽICE U PLESNIM PAPUČICAMA U sklopu programa Četiri večeri amatera, u studenom se najprije družimo s plesnim skupinama i školama iz našeg grada. Puno razigranih ritmova, boja, veselja i zanimljivih…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/grlice_i_ro_ice___tre_a_ve_er_amatera_1792746175.png",
+   "link": "https://eventinfo.com.hr/dogadaj/grlice-i-rozice-treca-vecer-amatera"
+  },
+  {
+   "id": "ei-4920",
+   "naslov": "BARBARA UNPLUGGED",
+   "od": "2026-11-16",
+   "do": "2026-11-16",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": "29,00 EUR",
+   "opis": "BARBARA UNPLUGGED – BEDRA PUNA RIŽE Live storytelling, bez scenarija. Barbara Udovičić prvi put svoju priču donosi na pozornicu. Osobno, britko, duhovito i neugodno iskreno. Večer sastavljena od priča koje se obično ne pričaju pred punom dvoranom. Smijat ćete se na mjestima na…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/barbara_unplugged_1792150742.png",
+   "link": "https://eventinfo.com.hr/dogadaj/barbara-unplugged"
+  },
+  {
+   "id": "ei-4907",
+   "naslov": "OBRADOVIĆ-TIXIER DUO, HOMAGE COLLECTIVE PLAYS MILES DAVIS",
+   "od": "2026-11-19",
+   "do": "2026-11-19",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "20,00 EUR",
+   "opis": "OBRADOVIĆ-TIXIER DUO Lada Obradović rodom je iz Siska, školovala se u Grazu, a potom i Bernu, da bi se konačno smjestila Francuskoj. S pijanistom Davidom Tixierom, kolegom iz Švicarske, pokrenula je duo, koji je svoju zvučnu i izražajnu paletu ubrzo počeo proširivati nizom…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/obradovi__tixier_duo__homage_collective_plays_miles_davis_1791282057.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/obradovictixier-duo-homage-collective-plays-miles-davis-"
+  },
+  {
+   "id": "ei-4900",
+   "naslov": "32. JAZZ FAIR ČAKOVEC",
+   "od": "2026-11-19",
+   "do": "2026-11-21",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "40,00 EUR (festivalska ulaznica)",
+   "opis": "Od 19. do 21. studenoga 2026. Čakovec ponovno postaje središte jazza sjeverne Hrvatske. 32. Jazz Fair donosi tri koncertne večeri u kojima se susreću vrhunski domaći i inozemni glazbenici, nekoliko generacija izvođača i različiti glazbeni svjetovi. Festival otvara četvrtak, 19.…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/32__jazz_fair__akovec_1790933745.png",
+   "link": "https://eventinfo.com.hr/dogadaj/32-jazz-fair-cakovec"
+  },
+  {
+   "id": "ei-4931",
+   "naslov": "5. dani smijeha",
+   "od": "2026-11-20",
+   "do": "2026-11-22",
+   "vrijeme": "10:00",
+   "mjesto": "Centar za kulturu &quot;Rudar&quot;",
+   "grad": "Mursko Središće",
+   "lat": 46.513704,
+   "lng": 16.439224,
+   "kategorija": "kazalište",
+   "cijena": null,
+   "opis": "Od 20. do 22. studenoga Centar za kulturu „Rudar” ponovno postaje središte kazališnog smijeha! Publiku očekuju četiri odlične predstave, poznata glumačka imena i večeri ispunjene humorom, a jedna od predstava bit će potpuno besplatna! Centar za kulturu „Rudar” u suradnji s…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/5__dani_smijeha_1792747287.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/5-dani-smijeha"
+  },
+  {
+   "id": "ei-4908",
+   "naslov": "TBF &amp; JAZZ ORKESTAR HRT-a",
+   "od": "2026-11-20",
+   "do": "2026-11-20",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "30,00 EUR",
+   "opis": "TBF je od nastanka 1990. u Splitu razvio vlastiti, jedinstveni i prepoznatljivi stil koji spaja različite, naizgled udaljene žanrove, od hip hopa i funka preko popa i rocka do klapskog pjevanja. Skeniranje i kritika društveno-političkih zbivanja, prikaz svakodnevice, nepogrešivi…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/tbf__amp__jazz_orkestar_hrt_a_1791376639.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/tbf-jazz-orkestar-hrta"
+  },
+  {
+   "id": "ei-4906",
+   "naslov": "BIG BAND ČAKOVEC &amp; NEXT GEN JAZZ",
+   "od": "2026-11-21",
+   "do": "2026-11-21",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "Besplatno",
+   "opis": "Pomladak Big Band Orkestra Čakovec i mladi glazbenici povezani s Glazbenom školom u Varaždinu predstavljaju talentirane generacije učenika i mladih umjetnika koji razvijaju jazz i puhačku glazbenu scenu sjeverne Hrvatske. Pomladak Big Banda Čakovec: Mladi sastav proizašao iz Big…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/big_band__akovec__amp__next_gen_jazz_1791281339.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/big-band-cakovec-next-gen-jazz"
+  },
+  {
+   "id": "ei-4930",
+   "naslov": "DA NAM PAK DOJDE TO VREME - Četvrta večer amatera",
+   "od": "2026-11-25",
+   "do": "2026-11-25",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": null,
+   "opis": "Program Četiri večeri amatera ove godine zatvaramo s folklornom večeri na kojoj će se ponovno predstaviti članice Gradske zajednice kulture Grada Čakovca i prikazati nam ono najbolje što su napravili unazad godinu dana. Bogat program, od folklora, tradicijskih napjeva, nastupa…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/da_nam_pak_dojde_to_vreme____etvrta_ve_er_amatera_1792747033.png",
+   "link": "https://eventinfo.com.hr/dogadaj/da-nam-pak-dojde-to-vreme-cetvrta-vecer-amatera"
+  },
+  {
+   "id": "ei-4896",
+   "naslov": "KAZALIŠTE MORUZGVA: USPJEŠNA.HR",
+   "od": "2026-12-03",
+   "do": "2026-12-03",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": null,
+   "opis": "Što zapravo znači biti uspješna? I koja je cijena tog uspjeha? Nova predstava Kazališta Moruzgva vodi nas ravno na glamuroznu dodjelu nagrada imaginarnog portala Uspješna.hr – večer punu reflektora, velikih očekivanja i još većih tajni. Dok laureatkinje drže svoje govore zahvale,…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/kazali_te_moruzgva__uspje_na_hr_1790154481.png",
+   "link": "https://eventinfo.com.hr/dogadaj/kazaliste-moruzgva-uspjesnahr"
+  },
+  {
+   "id": "ei-4884",
+   "naslov": "VLATKO STEFANOVSKI &amp; MIROSLAV TADIĆ",
+   "od": "2026-12-11",
+   "do": "2026-12-11",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "41,50 EUR",
+   "opis": "Susret dvojice vrhunskih gitarista, Vlatka Stefanovskog i Miroslava Tadića, donosi jedinstveni glazbeni doživljaj koji briše granice između žanrova i kultura. Njihova dugogodišnja suradnja temelji se na iznimnoj muzikalnosti, improvizaciji i akustičnom dijalogu dviju gitara,…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/vlatko_stefanovski__amp__miroslav_tadi__1788944393.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/vlatko-stefanovski-miroslav-tadic"
+  },
+  {
+   "id": "ei-4914",
+   "naslov": "P. I. ČAJKOVSKI: ORAŠAR",
+   "od": "2026-12-21",
+   "do": "2026-12-21",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": "40,00 EUR",
+   "opis": "Božićna čarolija veličanstvenog Orašara ponovno u Čakovcu! Uoči božićnih blagdana na pozornicu Centra za kulturu Čakovec vraća se najomiljeniji božićni balet svih vremena – Orašar P. I. Čajkovskog, u raskošnoj i očaravajućoj izvedbi ansambla UCB Ballet (Ukrajinski klasični…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/p__i___ajkovski__ora_ar_1791984752.png",
+   "link": "https://eventinfo.com.hr/dogadaj/p-i-cajkovski-orasar"
   }
  ]
 }
