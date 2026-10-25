@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-25T15:51:24.232Z",
+ "azurirano": "2026-10-25T17:21:49.515Z",
  "nadolazeca": "2026-10-25",
  "nedjelje": [
   "2026-08-16",
@@ -27,52 +27,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-25T15:51:24.232Z"
+   "provjereno": "2026-10-25T17:21:49.515Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-25T15:51:24.232Z"
+   "provjereno": "2026-10-25T17:21:49.515Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-25T15:51:24.232Z"
+   "provjereno": "2026-10-25T17:21:49.515Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T15:51:24.232Z"
+   "provjereno": "2026-10-25T17:21:49.515Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T15:51:24.232Z"
+   "provjereno": "2026-10-25T17:21:49.515Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T15:51:24.232Z"
+   "provjereno": "2026-10-25T17:21:49.515Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T15:51:24.232Z"
+   "provjereno": "2026-10-25T17:21:49.515Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-25T15:51:24.232Z"
+   "provjereno": "2026-10-25T17:21:49.515Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T15:51:24.232Z"
+   "provjereno": "2026-10-25T17:21:49.515Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T15:51:24.232Z"
+   "provjereno": "2026-10-25T17:21:49.515Z"
   }
  },
  "greske": [],
@@ -80,8 +80,7 @@
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Najave Štrigova: HTTP 403 za https://opcinastrigova.hr/feed/"
+  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)"
  ],
  "trgovine": [
   {
@@ -6158,6 +6157,228 @@
   }
  ],
  "jelovnici": {
+  "osm-n3906333895": {
+   "restoran": "osm-n3906333895",
+   "od": "2026-10-19",
+   "do": "2026-10-23",
+   "izvor": "https://www.bajzovidvori.com/tjednigableci/bajzovi_dvori_dekanovec_19102026.jpg",
+   "napomena": "Gablece poslužujemo od 10:00 do 14:00 ili do isteka zaliha · dostava 040/310-555 · primamo narudžbe za pizze i à la carte",
+   "svakiDan": [
+    [
+     "Pileći bečki, pommes, tartar umak, kruh",
+     "6,50 €"
+    ],
+    [
+     "Topli sendvič classic",
+     "7,00 €"
+    ],
+    [
+     "Topli sendvič lovački",
+     "7,00 €"
+    ],
+    [
+     "Topli sendvič Bajzovi dvori",
+     "7,00 €"
+    ],
+    [
+     "Topli sendvič kebab",
+     "7,50 €"
+    ]
+   ],
+   "dani": {
+    "2026-10-19": {
+     "glavna": [
+      [
+       "Pileći ragu s gljivama i povrćem, široki rezanci, salata, kruh",
+       "6,50 €"
+      ],
+      [
+       "Špek fileki, kruh",
+       "7,00 €"
+      ],
+      [
+       "Domaći burger, krumpirići",
+       "6,50 €"
+      ],
+      [
+       "Chicken burger, krumpirići",
+       "7,00 €"
+      ]
+     ]
+    },
+    "2026-10-20": {
+     "glavna": [
+      [
+       "Ćevapi u somunu, ajvar, luk",
+       "6,50 €"
+      ],
+      [
+       "Špek fileki, kruh",
+       "7,00 €"
+      ],
+      [
+       "Domaći burger, krumpirići",
+       "6,50 €"
+      ],
+      [
+       "Chicken burger, krumpirići",
+       "7,00 €"
+      ]
+     ]
+    },
+    "2026-10-21": {
+     "glavna": [
+      [
+       "Grah varivo sa suhim mesom, kruh",
+       "6,50 €"
+      ],
+      [
+       "Špek fileki, kruh",
+       "7,00 €"
+      ],
+      [
+       "Domaći burger, krumpirići",
+       "6,50 €"
+      ],
+      [
+       "Chicken burger, krumpirići",
+       "7,00 €"
+      ]
+     ]
+    },
+    "2026-10-22": {
+     "glavna": [
+      [
+       "Pileći panirani otkošteni batak-zabatak, rizi-bizi, salata, kruh",
+       "6,50 €"
+      ],
+      [
+       "Špek fileki, kruh",
+       "7,00 €"
+      ],
+      [
+       "Domaći burger, krumpirići",
+       "6,50 €"
+      ],
+      [
+       "Chicken burger, krumpirići",
+       "7,00 €"
+      ]
+     ]
+    },
+    "2026-10-23": {
+     "glavna": [
+      [
+       "Ćufte u umaku od rajčice, pire krumpir, salata, kruh",
+       "6,50 €"
+      ],
+      [
+       "Špek fileki, kruh",
+       "7,00 €"
+      ],
+      [
+       "Domaći burger, krumpirići",
+       "6,50 €"
+      ],
+      [
+       "Chicken burger, krumpirići",
+       "7,00 €"
+      ]
+     ]
+    }
+   }
+  },
+  "osm-n13281245922": {
+   "restoran": "osm-n13281245922",
+   "od": "2026-10-19",
+   "do": "2026-10-23",
+   "izvor": "https://www.bajzovidvori.com/tjednigableci/bajzovi_dvori_mursko_sredisce_19102026.jpg",
+   "napomena": "Ponuda vrijedi od 09:00 do 15:00 · dostava 040/550-047 (ambalaža 0,30 €) · primamo narudžbe za pizze i à la carte",
+   "svakiDan": [
+    [
+     "Špek fileki, kruh",
+     "7,50 €"
+    ],
+    [
+     "Topli sendvič classic",
+     "7,00 €"
+    ],
+    [
+     "Topli sendvič lovački",
+     "7,00 €"
+    ],
+    [
+     "Topli sendvič Bajzovi dvori",
+     "7,00 €"
+    ],
+    [
+     "Topli sendvič kebab",
+     "7,50 €"
+    ]
+   ],
+   "dani": {
+    "2026-10-19": {
+     "glavna": [
+      [
+       "Pileći file na Orly, dinstana riža, salata, kruh",
+       "7,00 €"
+      ],
+      [
+       "Pileći bečki, pommes, tartar umak, kruh",
+       "7,00 €"
+      ]
+     ]
+    },
+    "2026-10-20": {
+     "glavna": [
+      [
+       "Svinjska rolada punjena povrćem, tjestenina, salata, kruh",
+       "7,00 €"
+      ],
+      [
+       "Pileći bečki, pommes, tartar umak, kruh",
+       "7,00 €"
+      ]
+     ]
+    },
+    "2026-10-21": {
+     "glavna": [
+      [
+       "Pizza party (Capricciosa, Margarita, Vesuvio, Salami)",
+       "7,00 €"
+      ],
+      [
+       "Pileći bečki, pommes, tartar umak, kruh",
+       "7,00 €"
+      ]
+     ]
+    },
+    "2026-10-22": {
+     "glavna": [
+      [
+       "Pečeni batak-zabatak, mlinci, salata, kruh",
+       "7,00 €"
+      ],
+      [
+       "Pileći bečki, pommes, tartar umak, kruh",
+       "7,00 €"
+      ]
+     ]
+    },
+    "2026-10-23": {
+     "glavna": [
+      [
+       "Pečene krvavice, restani krumpir, salata, kruh",
+       "7,00 €"
+      ],
+      [
+       "Pileći bečki, pommes, tartar umak, kruh",
+       "7,00 €"
+      ]
+     ]
+    }
+   }
+  },
   "osm-n12196789233": {
    "restoran": "osm-n12196789233",
    "od": "2026-10-19",
