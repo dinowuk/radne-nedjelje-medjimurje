@@ -79,6 +79,49 @@ async function mjestoIzKoordinata(lat, lng, kes) {
   return kes[k];
 }
 
+// ---------------------------------------------------------------- fotka i opis s weba restorana
+// Kao pregled linka (og:image / og:description) — samo s vlastite stranice restorana, ne s Facebooka.
+// Keš: docs/podaci/restorani-web.json, osvježava se svakih 7 dana.
+const WEB_KES = path.join(__dirname, '..', 'docs', 'podaci', 'restorani-web.json');
+const meta = (html, ime) => {
+  const m = html.match(new RegExp(`<meta[^>]+(?:property|name)=["']${ime}["'][^>]*content=["']([^"']+)["']`, 'i'))
+    || html.match(new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["']${ime}["']`, 'i'));
+  return m ? m[1].replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/\s+/g, ' ').trim() : null;
+};
+async function webPregled(url) {
+  const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130.0 Safari/537.36' }, redirect: 'follow', signal: AbortSignal.timeout(12000) });
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  const html = (await r.text()).slice(0, 300000);
+  let foto = meta(html, 'og:image') || meta(html, 'twitter:image');
+  if (foto) foto = new URL(foto, r.url).href;
+  // aplikacija učitava samo https; odbaci neispravne adrese (npr. "https://img/logo.png")
+  if (foto && (!/^https:/.test(foto) || !new URL(foto).hostname.includes('.'))) foto = null;
+  let opis = meta(html, 'og:description') || meta(html, 'description');
+  if (opis && opis.length > 200) opis = opis.slice(0, opis.lastIndexOf(' ', 200)) + '…';
+  return { foto, opis };
+}
+
+async function dopuniSWeba(lista) {
+  let kes = {};
+  try { kes = JSON.parse(fs.readFileSync(WEB_KES, 'utf8')); } catch (e) { /* prvi put */ }
+  const tjedan = Date.now() - 7 * 86400000;
+  const zaDohvat = lista.filter(r => r.web && /^https?:/.test(r.web) && !/facebook|instagram/i.test(r.web)
+    && !(kes[r.web] && Date.parse(kes[r.web].provjereno) > tjedan));
+  // po 6 istovremeno, da ne traje predugo
+  for (let i = 0; i < zaDohvat.length; i += 6) {
+    await Promise.all(zaDohvat.slice(i, i + 6).map(async r => {
+      try { kes[r.web] = { ...(await webPregled(r.web)), provjereno: new Date().toISOString() }; }
+      catch (e) { kes[r.web] = { foto: null, opis: null, greska: e.message, provjereno: new Date().toISOString() }; }
+    }));
+  }
+  for (const r of lista) {
+    const k = r.web && kes[r.web];
+    r.foto = k && k.foto || null;
+    r.opis = k && k.opis || null;
+  }
+  fs.writeFileSync(WEB_KES, JSON.stringify(kes, null, 1) + '\n');
+}
+
 async function restorani(upozorenja) {
   let j = null, zadnja;
   // Javni Overpass zna biti preopterećen: dva kruga po svim poslužiteljima, s pauzom.
@@ -124,6 +167,7 @@ async function restorani(upozorenja) {
     });
   }
   fs.writeFileSync(MJESTA_KES, JSON.stringify(kes, null, 1) + '\n');
+  try { await dopuniSWeba(out); } catch (e) { upozorenja.push('Restorani, web: ' + e.message); }
   out.sort((a, b) => a.mjesto.localeCompare(b.mjesto, 'hr') || a.naziv.localeCompare(b.naziv, 'hr'));
   return out;
 }

@@ -280,6 +280,8 @@ body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
 /* Restorani */
 .restoran { background: var(--povrsina); border: 1px solid var(--rub); border-radius: 14px; padding: 12px; margin: 10px 0; box-shadow: var(--sjena); }
 .restoran__glava { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; }
+.restoran__foto { display: block; width: calc(100% + 24px); margin: -12px -12px 10px; height: 150px; object-fit: cover; border-radius: 14px 14px 0 0; background: var(--glavna-svijetla); }
+.restoran__opis { margin: 6px 0 0; font-size: .85rem; color: var(--tekst-2); }
 .restoran__glava div { flex: 1; min-width: 0; }
 .restoran h3 { margin: 0; font-size: 1rem; }
 .restoran__info { margin: 2px 0 0; color: var(--tekst-2); font-size: .86rem; }

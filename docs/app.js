@@ -218,14 +218,18 @@ function nacrtajRestorane() {
     const info = [r.kuhinja || r.vrsta, r.mjesto].filter(Boolean).join(' · ') +
       (blizu ? ` · ${km < 1 ? Math.round(km * 1000 / 50) * 50 + ' m' : km.toFixed(1).replace('.', ',') + ' km'}` : '');
     const karta = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(`${r.naziv}, ${r.adresa ? r.adresa + ', ' : ''}${r.mjesto}, Hrvatska`);
-    el.innerHTML = `<div class="restoran__glava"><div><h3>${esc(r.naziv)}</h3><p class="restoran__info">${esc(info)}</p></div>
+    el.innerHTML = `${r.foto ? `<img class="restoran__foto" src="${esc(r.foto)}" alt="" loading="lazy">` : ''}
+      <div class="restoran__glava"><div><h3>${esc(r.naziv)}</h3><p class="restoran__info">${esc(info)}</p></div>
         <span class="trgovina__vrijeme ${s.tip}">${esc(s.tekst)}</span></div>
+      ${r.opis ? `<p class="restoran__opis">${esc(r.opis)}</p>` : ''}
       <div class="restoran__gumbi">
         ${r.tel ? `<a href="tel:${esc(r.tel.replace(/[^\d+]/g, ''))}">${IKONA_TEL} Nazovi</a>` : ''}
         ${r.web ? `<a href="${esc(r.web)}" target="_blank" rel="noopener">Web</a>` : ''}
         <a href="${karta}" target="_blank" rel="noopener">Karta</a>
       </div>
       <div class="trgovina__detalji" hidden></div>`;
+    const foto = el.querySelector('.restoran__foto');
+    if (foto) foto.onerror = () => foto.remove();
     const det = el.querySelector('.trgovina__detalji');
     el.querySelector('.restoran__glava').addEventListener('click', () => {
       if (!det.innerHTML) {
