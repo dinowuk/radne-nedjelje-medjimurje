@@ -10,6 +10,7 @@ const { dopuniKoordinate } = require('./koordinate');
 const { centri: dohvatiCentre } = require('./centri');
 const { dogadaji: dohvatiDogadaje } = require('./dogadaji');
 const { restorani: dohvatiRestorane } = require('./restorani');
+const { najave: dohvatiNajave } = require('./najave');
 
 const IZLAZ = process.argv[2] || path.join(__dirname, '..', 'docs', 'podaci', 'nedjelje.json');
 const CUVAJ_PROSLE_DANA = 70;
@@ -64,6 +65,15 @@ async function main() {
     greske.push('Događanja: ' + e.message);
   }
 
+  // Najave događanja sa stranica općina i gradova (RSS)
+  let najave = staro.najave || [];
+  try {
+    najave = await dohvatiNajave(upozorenja);
+    console.log(`Najave općina: ${najave.length}`);
+  } catch (e) {
+    greske.push('Najave općina: ' + e.message);
+  }
+
   // Restorani (OpenStreetMap); ako ne uspije, ostaju prethodni
   let restorani = staro.restorani || [];
   try {
@@ -99,6 +109,7 @@ async function main() {
     trgovine,
     centri,
     dogadaji,
+    najave,
     restorani,
   };
   fs.mkdirSync(path.dirname(IZLAZ), { recursive: true });

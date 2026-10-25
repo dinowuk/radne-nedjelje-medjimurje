@@ -138,7 +138,8 @@ function nacrtajSve() {
 }
 
 // ------------------------------------------------------------ kategorije (donja traka)
-stanje.kategorija = ['ducani', 'centri', 'dogadaji', 'restorani', 'katalozi'].includes(ucitaj('kategorija', 'ducani')) ? ucitaj('kategorija', 'ducani') : 'ducani';
+// Aplikacija se uvijek otvara na događanjima (glavna namjena); dućani, centri i katalozi su dodatak.
+stanje.kategorija = 'dogadaji';
 const ELEMENTI_DUCANA = ['main > .kartice', '#obavijestSubota', '#sazetak', '.filteri', '#popis'];
 
 function nacrtajKategoriju() {
@@ -281,10 +282,34 @@ function kadaDogadaj(e) {
   return f(e.od) + (e.vrijeme ? ' · ' + e.vrijeme : '');
 }
 
+// Najave sa službenih stranica općina/gradova: datum objave, a ne događanja (RSS ga ne daje)
+function nacrtajNajave() {
+  const najave = stanje.podaci.najave || [];
+  $('#dogadajiKategorije').innerHTML = '';
+  $('#dogadajiSazetak').innerHTML = `<h2>Najave općina i gradova</h2><p>Najave događanja sa službenih stranica općina i gradova (zadnjih 30 dana). Datum događanja je u objavi.</p>`;
+  const box = $('#dogadajiPopis');
+  box.innerHTML = najave.length ? '' : '<p class="prazno">Trenutno nema novih najava.</p>';
+  for (const n of najave) {
+    const a = document.createElement('a');
+    a.className = 'dogadaj';
+    a.href = n.link;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    const { dan, mj } = dioDatuma(n.objavljeno);
+    a.innerHTML = `${n.slika ? `<img src="${esc(n.slika)}" alt="" loading="lazy">` : '<span class="dogadaj__bez-slike"></span>'}
+      <div class="dogadaj__tijelo"><div class="dogadaj__kada">${esc(n.opcina)} · objavljeno ${dan}.${mj + 1}.</div>
+      <h3>${esc(n.naslov)}</h3>${n.opis ? `<p class="dogadaj__gdje">${esc(n.opis)}</p>` : ''}</div>`;
+    const img = a.querySelector('img');
+    if (img) img.onerror = () => img.replaceWith(Object.assign(document.createElement('span'), { className: 'dogadaj__bez-slike' }));
+    box.appendChild(a);
+  }
+}
+
 function nacrtajDogadaje() {
   const svi = (stanje.podaci.dogadaji || []).filter(e => e.do >= danasZagreb());
   const r = stanje.razdoblje;
   document.querySelectorAll('[data-razdoblje]').forEach(b => b.setAttribute('aria-selected', b.dataset.razdoblje === r));
+  if (r === 'najave') { nacrtajNajave(); return; }
   const vk = vikend();
   const uRazdoblju = r === 'vikend' ? svi.filter(e => e.od <= vk.do && e.do >= vk.od) : svi;
 
