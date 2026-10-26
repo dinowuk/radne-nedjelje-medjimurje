@@ -1,8 +1,7 @@
 {
- "azurirano": "2026-10-25T17:26:34.281Z",
- "nadolazeca": "2026-10-25",
+ "azurirano": "2026-10-26T07:54:33.634Z",
+ "nadolazeca": "2026-11-01",
  "nedjelje": [
-  "2026-08-16",
   "2026-08-23",
   "2026-08-30",
   "2026-09-06",
@@ -27,52 +26,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-25T17:26:34.281Z"
+   "provjereno": "2026-10-26T07:54:33.634Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-25T17:26:34.281Z"
+   "provjereno": "2026-10-26T07:54:33.634Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-25T17:26:34.281Z"
+   "provjereno": "2026-10-26T07:54:33.634Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T17:26:34.281Z"
+   "provjereno": "2026-10-26T07:54:33.634Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T17:26:34.281Z"
+   "provjereno": "2026-10-26T07:54:33.634Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T17:26:34.281Z"
+   "provjereno": "2026-10-26T07:54:33.634Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T17:26:34.281Z"
+   "provjereno": "2026-10-26T07:54:33.634Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-25T17:26:34.281Z"
+   "provjereno": "2026-10-26T07:54:33.634Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-25T17:26:34.281Z"
+   "provjereno": "2026-10-26T07:54:33.634Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-25T17:26:34.281Z"
+   "provjereno": "2026-10-26T07:54:33.634Z"
   }
  },
  "greske": [],
@@ -92,7 +91,8 @@
    "lat": 46.4081785,
    "lng": 16.522122,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "06:30-13:30",
@@ -112,7 +112,8 @@
    "lat": 46.4011131,
    "lng": 16.5017079,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -219,7 +220,8 @@
    "lat": 46.3897328060728,
    "lng": 16.4142719,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -239,7 +241,8 @@
    "lat": 46.3887923,
    "lng": 16.413936,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -322,7 +325,8 @@
    "lat": 46.3896796849,
    "lng": 16.4189068114,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -385,7 +389,8 @@
    "lat": 46.389725,
    "lng": 16.447738,
    "nedjelje": {
-    "2026-10-25": "07:00-21:00"
+    "2026-10-25": "07:00-21:00",
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -405,7 +410,8 @@
    "lat": 46.383315,
    "lng": 16.429641,
    "nedjelje": {
-    "2026-10-25": "07:00-21:00"
+    "2026-10-25": "07:00-21:00",
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -467,7 +473,8 @@
    "lat": 46.388987,
    "lng": 16.437622,
    "nedjelje": {
-    "2026-10-25": "08:00-20:00"
+    "2026-10-25": "08:00-20:00",
+    "2026-11-01": "otvoreno"
    },
    "tjedan": {
     "pon": "06:30-20:30",
@@ -864,7 +871,8 @@
    "lat": 46.394187,
    "lng": 16.34308,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": null,
@@ -913,7 +921,8 @@
    "lat": 46.346884,
    "lng": 16.707408,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": null,
@@ -933,7 +942,8 @@
    "lat": 46.4460692,
    "lng": 16.5813936,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "06:30-20:30",
@@ -982,7 +992,8 @@
    "lat": 46.4300813,
    "lng": 16.5984493,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "06:30-20:00",
@@ -1002,7 +1013,8 @@
    "lat": 46.4362655,
    "lng": 16.593367,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -1072,7 +1084,8 @@
    "lat": 46.3135692,
    "lng": 16.809842,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -1092,7 +1105,8 @@
    "lat": 46.315544,
    "lng": 16.811561,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": null,
@@ -1170,7 +1184,8 @@
    "lat": 46.3638992,
    "lng": 16.6497978,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -1190,7 +1205,8 @@
    "lat": 46.367274,
    "lng": 16.649552,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": null,
@@ -1239,7 +1255,8 @@
    "lat": 46.3324633,
    "lng": 16.7839037,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "06:30-20:00",
@@ -1433,7 +1450,8 @@
    "lat": 46.428793,
    "lng": 16.5637185,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -1503,7 +1521,8 @@
    "lat": 46.3842421,
    "lng": 16.6791184,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -1668,7 +1687,8 @@
    "lat": 46.3954404,
    "lng": 16.6420352,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -1775,7 +1795,8 @@
    "lat": 46.5216721,
    "lng": 16.3436868,
    "nedjelje": {
-    "2026-10-25": "07:00-12:00"
+    "2026-10-25": "07:00-12:00",
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -1816,7 +1837,8 @@
    "lat": 46.3593199,
    "lng": 16.8272093,
    "nedjelje": {
-    "2026-10-25": "07:00-12:00"
+    "2026-10-25": "07:00-12:00",
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -1836,7 +1858,8 @@
    "lat": 46.357317,
    "lng": 16.815646,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": null,
@@ -2059,7 +2082,8 @@
    "lat": 46.3908577,
    "lng": 16.3236983,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -2137,7 +2161,8 @@
    "lat": 46.388745,
    "lng": 16.548402,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": null,
@@ -2302,7 +2327,8 @@
    "lat": 46.482512,
    "lng": 16.5044266,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -2343,7 +2369,8 @@
    "lat": 46.5081327433,
    "lng": 16.4282814826,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -2363,7 +2390,8 @@
    "lat": 46.512655,
    "lng": 16.4416207,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -2383,7 +2411,8 @@
    "lat": 46.51383,
    "lng": 16.4327582,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -2519,7 +2548,8 @@
    "lat": 46.4532197,
    "lng": 16.5656984,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -2597,7 +2627,8 @@
    "lat": 46.428236,
    "lng": 16.3527629,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-19:00",
@@ -2617,7 +2648,8 @@
    "lat": 46.3326779,
    "lng": 16.50641,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -2695,7 +2727,8 @@
    "lat": 46.3864864,
    "lng": 16.5473678,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -2744,7 +2777,8 @@
    "lat": 46.4968821,
    "lng": 16.4704135,
    "nedjelje": {
-    "2026-10-25": "07:00-12:00"
+    "2026-10-25": "07:00-12:00",
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -2764,7 +2798,8 @@
    "lat": 46.4557589,
    "lng": 16.3599771,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -2842,7 +2877,8 @@
    "lat": 46.468343,
    "lng": 16.5441573,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -2912,7 +2948,8 @@
    "lat": 46.3393467,
    "lng": 16.6278437,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": null,
@@ -2932,7 +2969,8 @@
    "lat": 46.3251244174,
    "lng": 16.6149194646,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -2974,7 +3012,8 @@
    "lat": 46.342389,
    "lng": 16.600259,
    "nedjelje": {
-    "2026-10-25": "07:00-21:00"
+    "2026-10-25": "07:00-21:00",
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -3152,7 +3191,8 @@
    "lat": 46.396252,
    "lng": 16.488104,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": null,
@@ -3201,7 +3241,8 @@
    "lat": 46.352467,
    "lng": 16.3691778,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-15:00",
@@ -3250,7 +3291,8 @@
    "lat": 46.3717966,
    "lng": 16.4253689,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -3328,7 +3370,8 @@
    "lat": 46.4466729,
    "lng": 16.5019081,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-19:30",
@@ -3435,7 +3478,8 @@
    "lat": 46.3298194,
    "lng": 16.7534436,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-19:00",
@@ -3484,7 +3528,8 @@
    "lat": 46.3760879,
    "lng": 16.6085746,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "06:30-20:00",
@@ -3562,7 +3607,8 @@
    "lat": 46.47572952895383,
    "lng": 16.26828139026819,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -3669,7 +3715,8 @@
    "lat": 46.3971854,
    "lng": 16.3238183,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -3718,7 +3765,8 @@
    "lat": 46.3393192,
    "lng": 16.4441162,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-14:00",
@@ -3796,7 +3844,8 @@
    "lat": 46.4771803,
    "lng": 16.4556461,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -3874,7 +3923,8 @@
    "lat": 46.5242488,
    "lng": 16.3674945,
    "nedjelje": {
-    "2026-10-25": null
+    "2026-10-25": null,
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -3986,7 +4036,6 @@
    "opis": "Retail park. Radne nedjelje od 9 do 14 h; supermarket i kafić mogu imati drugačije vrijeme.",
    "izvor": "https://stop-shop.com/hr/hrvatska/cakovec",
    "nedjelje": {
-    "2026-08-16": null,
     "2026-08-23": null,
     "2026-08-30": null,
     "2026-09-06": "09:00-14:00",
@@ -4186,22 +4235,6 @@
    "opis": "Otvorenje izložbe: četvrtak, 22. listopada u 18.00 sati | Galerija Centra za kulturu Čakovec 16. BIJENALNA IZLOŽBA | PROJEKTI I REALIZACIJE 2024. – 2025. ČLANOVA UDRUŽENJA ARHITEKATA MEĐIMURJA 16. bijenalna izložba članova Udruženja arhitekata Međimurja Projekti i realizacije…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/16__bijenalna_izlo_ba___udru_enje_arhitekata_me_imurja_1791979368.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
-  },
-  {
-   "id": "ei-4927",
-   "naslov": "Besplatne radionice izrade cekara",
-   "od": "2026-10-25",
-   "do": "2026-10-25",
-   "vrijeme": "10:30",
-   "mjesto": "Multimedijalna dvorana Riznice Međimurja",
-   "grad": "Čakovec",
-   "lat": 46.389277,
-   "lng": 16.432363,
-   "kategorija": "ostalo",
-   "cijena": "Besplatno",
-   "opis": "Muzej Međimurja Čakovec poziva na besplatne radionice izrade cekara u nedjelju 25. listopada 2026. godine s početkom u 10:30 sati u Multimedijalnoj dvorani Riznice Međimurja. Radionicu će voditi Dušanka Medved iz Nedelišća. Na poticaj Lokalne akcijske grupe „Međimurski doli i…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/besplatne_radionice_izrade_cekara_1792578632.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/besplatne-radionice-izrade-cekara"
   },
   {
    "id": "ei-4899",
@@ -4494,12 +4527,12 @@
  ],
  "najave": [
   {
-   "id": "na-LW1lZGltdXJqYS8=",
-   "naslov": "Otvorena 16. bijenalna izložba Udruženja arhitekata Međimurja",
-   "opcina": "Čakovec",
-   "objavljeno": "2026-10-23",
-   "opis": "U Izložbenom salonu Centra za kulturu Čakovec u četvrtak navečer otvorena je 16. bijenalna izložba Udruge arhitekata Međimurja. Pod nazivom „Projekti i realizacije 2024. – 2025.“ izloženi nacrti i vizualizacije…",
-   "link": "https://www.cakovec.hr/odrzana-16-bijenalna-izlozba-udruge-arhitekata-medimurja/",
+   "id": "na-dHNrb20tZ3JhZHUv",
+   "naslov": "Osnovan Biciklistički klub Black Gold – novi zamah biciklizmu u najsjevernijem hrvatskom gradu",
+   "opcina": "Mursko Središće",
+   "objavljeno": "2026-10-25",
+   "opis": "Biciklizam u Murskom Središću posljednjih godina doživljava sve veći zamah, a ljubitelji rekreacije na dva kotača odsad imaju i novi klub koji će ih okupljati. Osnovan je Biciklistički klub Black Gold, za čijeg je…",
+   "link": "https://mursko-sredisce.hr/osnovan-biciklisticki-klub-black-gold-novi-zamah-biciklizmu-u-najsjevernijem-hrvatskom-gradu/",
    "slika": null
   },
   {
