@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-26T07:54:33.634Z",
+ "azurirano": "2026-10-27T08:00:19.498Z",
  "nadolazeca": "2026-11-01",
  "nedjelje": [
   "2026-08-23",
@@ -26,52 +26,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-26T07:54:33.634Z"
+   "provjereno": "2026-10-27T08:00:19.498Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-26T07:54:33.634Z"
+   "provjereno": "2026-10-27T08:00:19.498Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-26T07:54:33.634Z"
+   "provjereno": "2026-10-27T08:00:19.498Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-26T07:54:33.634Z"
+   "provjereno": "2026-10-27T08:00:19.498Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-26T07:54:33.634Z"
+   "provjereno": "2026-10-27T08:00:19.498Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-26T07:54:33.634Z"
+   "provjereno": "2026-10-27T08:00:19.498Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-26T07:54:33.634Z"
+   "provjereno": "2026-10-27T08:00:19.498Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-26T07:54:33.634Z"
+   "provjereno": "2026-10-27T08:00:19.498Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-26T07:54:33.634Z"
+   "provjereno": "2026-10-27T08:00:19.498Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-26T07:54:33.634Z"
+   "provjereno": "2026-10-27T08:00:19.498Z"
   }
  },
  "greske": [],
@@ -266,12 +266,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -287,12 +287,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -308,12 +308,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -474,7 +474,7 @@
    "lng": 16.437622,
    "nedjelje": {
     "2026-10-25": "08:00-20:00",
-    "2026-11-01": "otvoreno"
+    "2026-11-01": null
    },
    "tjedan": {
     "pon": "06:30-20:30",
@@ -1067,12 +1067,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -1504,12 +1504,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -1820,12 +1820,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -2352,12 +2352,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -2931,12 +2931,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -2952,12 +2952,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pon": null,
     "uto": null,
     "sri": null,
     "cet": null,
     "pet": null,
-    "sub": null
+    "sub": null,
+    "pon": null
    }
   },
   {
@@ -3174,12 +3174,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -4237,22 +4237,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
   },
   {
-   "id": "ei-4899",
-   "naslov": "SVJETSKI DAN AUDIOVIZUALNE BAŠTINE UZ VLAK U SNIJEGU I H-8",
-   "od": "2026-10-25",
-   "do": "2026-10-26",
-   "vrijeme": "18:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "film",
-   "cijena": "Besplatno",
-   "opis": "SVJETSKI DAN AUDIOVIZUALNE BAŠTINE U SURADNJI S HRVATSKIM DRŽAVNIM ARHIVOM – HRVATSKOM KINOTEKOM Svjetski dan audiovizualne baštine obilježava se svake godine 27. listopada s ciljem podizanja svijesti o važnosti očuvanja filmskih, radijskih i televizijskih zapisa. Centar za…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/svjetski_dan_audiovizualne_ba_tine_uz_vlak_u_snijegu_i_h_8_1790930215.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/svjetski-dan-audiovizualne-bastine-uz-vlak-u-snijegu-i-h8"
-  },
-  {
    "id": "ei-4913",
    "naslov": "LAJNAP COMEDY slavi 10 godina – stand up comedy",
    "od": "2026-10-28",
@@ -4283,6 +4267,22 @@
    "opis": "Dosta vam je dnevne politike i ratnih zbivanja? Dođite u Kerempuh i sagledajte stvarnost iz drugog kuta: kroz smijeh, ironiju i kazališnu čaroliju. Ako tražite predstavu koja će vas istovremeno nasmijati, uznemiriti i natjerati na razmišljanje, Putujuće kazalište Šopalović pravi…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/kazali_te_kerempuh__putuju_e_kazali_te__opalovi__1789121782.png",
    "link": "https://eventinfo.com.hr/dogadaj/kazaliste-kerempuh-putujuce-kazaliste-sopalovic"
+  },
+  {
+   "id": "ei-4932",
+   "naslov": "Popularno predavanje petkom – Denis Perčić: Snaga autorskog dizajna",
+   "od": "2026-10-30",
+   "do": "2026-10-30",
+   "vrijeme": "19:00",
+   "mjesto": "Multimedijalna dvorana Riznice Međimurja",
+   "grad": "Čakovec",
+   "lat": 46.389277,
+   "lng": 16.432363,
+   "kategorija": "predstavljanje",
+   "cijena": "Besplatno",
+   "opis": "Posljednjeg petka u listopadu očekuje nas novo predavanje u sklopu Popularnih predavanja petkom. Gost predavač je Denis Perčić, nagrađivani grafički dizajner i fotograf. Denis Perčić je grafički dizajner, fotograf i osnivač kreativnog studija Next Design. Njegova priča započinje…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/popularno_predavanje_petkom___denis_per_i___snaga_autorskog_dizajna_1793010914.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/popularno-predavanje-petkom-denis-percic-snaga-autorskog-dizajna"
   },
   {
    "id": "ei-4897",
@@ -4526,6 +4526,15 @@
   }
  ],
  "najave": [
+  {
+   "id": "na-PTImYWlkPTEwNTgw",
+   "naslov": "U Muzeju Croata insulanus predstavljena knjiga „Moje priče“ Vesne Kalšan",
+   "opcina": "Prelog",
+   "objavljeno": "2026-10-27",
+   "opis": "",
+   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10580",
+   "slika": "http://www.prelog.hr/articlefiles/thumb_10580_80075_vipro021.jpg"
+  },
   {
    "id": "na-dHNrb20tZ3JhZHUv",
    "naslov": "Osnovan Biciklistički klub Black Gold – novi zamah biciklizmu u najsjevernijem hrvatskom gradu",
