@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-27T08:00:19.498Z",
+ "azurirano": "2026-10-28T08:42:56.525Z",
  "nadolazeca": "2026-11-01",
  "nedjelje": [
   "2026-08-23",
@@ -26,52 +26,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-27T08:00:19.498Z"
+   "provjereno": "2026-10-28T08:42:56.525Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-27T08:00:19.498Z"
+   "provjereno": "2026-10-28T08:42:56.525Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-27T08:00:19.498Z"
+   "provjereno": "2026-10-28T08:42:56.525Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-27T08:00:19.498Z"
+   "provjereno": "2026-10-28T08:42:56.525Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-27T08:00:19.498Z"
+   "provjereno": "2026-10-28T08:42:56.525Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-27T08:00:19.498Z"
+   "provjereno": "2026-10-28T08:42:56.525Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-27T08:00:19.498Z"
+   "provjereno": "2026-10-28T08:42:56.525Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-27T08:00:19.498Z"
+   "provjereno": "2026-10-28T08:42:56.525Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-27T08:00:19.498Z"
+   "provjereno": "2026-10-28T08:42:56.525Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-27T08:00:19.498Z"
+   "provjereno": "2026-10-28T08:42:56.525Z"
   }
  },
  "greske": [],
@@ -266,12 +266,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -287,12 +287,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
-    "pon": "07:00-21:00"
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00"
    }
   },
   {
@@ -308,12 +308,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
-    "pon": "07:00-21:00"
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00"
    }
   },
   {
@@ -432,7 +432,9 @@
    "lng": 16.430429,
    "nedjelje": {
     "2026-10-25": "07:00-14:00",
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-22": null,
+    "2026-11-29": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -453,7 +455,10 @@
    "lng": 16.443668,
    "nedjelje": {
     "2026-10-25": null,
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-15": null,
+    "2026-11-22": null,
+    "2026-11-29": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -1067,12 +1072,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -1504,12 +1509,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -1820,12 +1825,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -2352,12 +2357,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
-    "pon": "07:00-21:00"
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00"
    }
   },
   {
@@ -2931,12 +2936,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -2952,12 +2957,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "uto": null,
     "sri": null,
     "cet": null,
     "pet": null,
     "sub": null,
-    "pon": null
+    "pon": null,
+    "uto": null
    }
   },
   {
@@ -3034,7 +3039,10 @@
    "lng": 16.605366,
    "nedjelje": {
     "2026-10-25": "08:00-15:00",
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-08": null,
+    "2026-11-15": null,
+    "2026-11-22": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -3174,12 +3182,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -4527,13 +4535,49 @@
  ],
  "najave": [
   {
+   "id": "na-PTImYWlkPTEwNTg1",
+   "naslov": "Čehovec obilježio Dan mjesta uz tradicionalno druženje, kestene i tamburaše",
+   "opcina": "Prelog",
+   "objavljeno": "2026-10-28",
+   "opis": "",
+   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10585",
+   "slika": "http://www.prelog.hr/articlefiles/thumb_10585_80155_dscn1304.jpg"
+  },
+  {
    "id": "na-PTImYWlkPTEwNTgw",
    "naslov": "U Muzeju Croata insulanus predstavljena knjiga „Moje priče“ Vesne Kalšan",
    "opcina": "Prelog",
-   "objavljeno": "2026-10-27",
+   "objavljeno": "2026-10-28",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10580",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10580_80075_vipro021.jpg"
+  },
+  {
+   "id": "na-cmVkaXNjdS0yLw==",
+   "naslov": "Martinje na Šetnici svete Barbare u Murskom Središću",
+   "opcina": "Mursko Središće",
+   "objavljeno": "2026-10-27",
+   "opis": "U Murskom Središću će se u subotu 7. Studenog 2026.godine s početkom u 16:00 sati, na Šetnici svete Barbare održati tradicionalna proslava Martinja – blagdana svetog Martina, zaštitnika vinogradara i vinara. Središnji…",
+   "link": "https://mursko-sredisce.hr/martinje-na-setnici-svete-barbare-u-murskom-srediscu-2/",
+   "slika": null
+  },
+  {
+   "id": "na-LWRydXplbmphLw==",
+   "naslov": "Martinje na Međimurskoj vinskoj cesti – Tri dana tradicije, vina i dobrog druženja!",
+   "opcina": "Selnica",
+   "objavljeno": "2026-10-27",
+   "opis": "Od 6. do 8. studenoga 2026. godine Međimurje će ponovno živjeti u znaku Martinja! Bogat program manifestacije „Martinje na Međimurskoj vinskoj cesti“ donosi tri dana veselja, druženja, domaćih okusa i njegovanja bogate…",
+   "link": "https://www.selnica.hr/martinje-na-medimurskoj-vinskoj-cesti-tri-dana-tradicije-vina-i-dobrog-druzenja/",
+   "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/10/Martinje-na-MVC-plakat-scaled.webp"
+  },
+  {
+   "id": "na-Y2UtZGVsaWNpamUv",
+   "naslov": "Vina z brajdi u Selnici – Poziv na veselo druženje uz vino, glazbu i domaće delicije",
+   "opcina": "Selnica",
+   "objavljeno": "2026-10-27",
+   "opis": "U nedjelju, 8. studenoga 2026. godine, s početkom u 16 sati, u Domu kulture Selnica održat će se manifestacija „Vina z brajdi“, koja donosi ugodno druženje, bogatstvo domaćih okusa i veselu atmosferu u duhu međimurske…",
+   "link": "https://www.selnica.hr/vina-z-brajdi-u-selnici-poziv-na-veselo-druzenje-uz-vino-glazbu-i-domace-delicije/",
+   "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/10/Martinje-2026.webp"
   },
   {
    "id": "na-dHNrb20tZ3JhZHUv",
@@ -4579,15 +4623,6 @@
    "opis": "",
    "link": "https://www.donjikraljevec.hr/2026/10/03/jesensko-druzenje-korisnika-projektasnazno-zazeli-i-ostvari-iv/",
    "slika": "https://www.donjikraljevec.hr/web2019/wp-content/uploads/2026/10/Druzenje-projekt-Zazeli-Opcina-Donji-Kraljevec-13-400x284.jpg"
-  },
-  {
-   "id": "na-aW5lLXNlbG5pY2Ev",
-   "naslov": "Svečanost povodom obilježavanja 10. obljetnice KUD-a Općine Selnica",
-   "opcina": "Selnica",
-   "objavljeno": "2026-09-28",
-   "opis": "Nakon mnogobrojnih manifestacija kroz godinu, ove subote, 03.10.2026 u 18 sati u sportskoj školskoj dvorani OŠ Selnica održat će se centralna svečanost povodom obilježavanja 10. obljetnice KUD-a Selnica. Pet sekcija…",
-   "link": "https://www.selnica.hr/svecanost-povodom-obiljezavanja-10-obljetnice-kud-a-opcine-selnica/",
-   "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/09/plakat_KUD_Selnica_10.-obljetnica-2-scaled.webp"
   }
  ],
  "restorani": [
