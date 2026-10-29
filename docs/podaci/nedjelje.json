@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-28T08:42:56.525Z",
+ "azurirano": "2026-10-29T08:38:46.197Z",
  "nadolazeca": "2026-11-01",
  "nedjelje": [
   "2026-08-23",
@@ -26,55 +26,57 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-28T08:42:56.525Z"
+   "provjereno": "2026-10-29T08:38:46.197Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-28T08:42:56.525Z"
+   "provjereno": "2026-10-29T08:38:46.197Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-28T08:42:56.525Z"
+   "provjereno": "2026-10-29T08:38:46.197Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-28T08:42:56.525Z"
+   "provjereno": "2026-10-29T08:38:46.197Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-28T08:42:56.525Z"
+   "provjereno": "2026-10-29T08:38:46.197Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-28T08:42:56.525Z"
+   "provjereno": "2026-10-29T08:38:46.197Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-28T08:42:56.525Z"
+   "provjereno": "2026-10-29T08:38:46.197Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-28T08:42:56.525Z"
+   "provjereno": "2026-10-29T08:38:46.197Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-28T08:42:56.525Z"
+   "provjereno": "2026-10-29T08:38:46.197Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-28T08:42:56.525Z"
+   "provjereno": "2026-10-29T08:38:46.197Z"
   }
  },
- "greske": [],
+ "greske": [
+  "Restorani: Overpass: HTTP 504"
+ ],
  "upozorenja": [
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
@@ -266,12 +268,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -287,12 +289,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00"
    }
   },
   {
@@ -308,12 +310,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00"
    }
   },
   {
@@ -1072,12 +1074,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -1509,12 +1511,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -1825,12 +1827,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -2357,12 +2359,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00"
    }
   },
   {
@@ -2936,12 +2938,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -2957,12 +2959,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sri": null,
     "cet": null,
     "pet": null,
     "sub": null,
     "pon": null,
-    "uto": null
+    "uto": null,
+    "sri": null
    }
   },
   {
@@ -3182,12 +3184,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -4245,22 +4247,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
   },
   {
-   "id": "ei-4913",
-   "naslov": "LAJNAP COMEDY slavi 10 godina – stand up comedy",
-   "od": "2026-10-28",
-   "do": "2026-10-28",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "kazalište",
-   "cijena": "15,00 EUR",
-   "opis": "Čini se tako davna ta 2016. godina kad je LAJNAP COMEDY došao na scenu. U početku je projekt najpopularnijeg domaćeg stand-up kolektiva bila samo ideja. Četvorica komičara, Aleks Curać Šarić, Tomislav Kozačinski, Vlatko Štampar i Goran Vugrinec, već tada s višegodišnjim iskustvom…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/lajnap_comedy_slavi_10_godina___stand_up_comedy_1791979772.png",
-   "link": "https://eventinfo.com.hr/dogadaj/lajnap-comedy-slavi-10-godina-stand-up-comedy"
-  },
-  {
    "id": "ei-4887",
    "naslov": "KAZALIŠTE KEREMPUH: PUTUJUĆE KAZALIŠTE ŠOPALOVIĆ",
    "od": "2026-10-29",
@@ -4389,22 +4375,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/barbara-unplugged"
   },
   {
-   "id": "ei-4907",
-   "naslov": "OBRADOVIĆ-TIXIER DUO, HOMAGE COLLECTIVE PLAYS MILES DAVIS",
-   "od": "2026-11-19",
-   "do": "2026-11-19",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "koncert",
-   "cijena": "20,00 EUR",
-   "opis": "OBRADOVIĆ-TIXIER DUO Lada Obradović rodom je iz Siska, školovala se u Grazu, a potom i Bernu, da bi se konačno smjestila Francuskoj. S pijanistom Davidom Tixierom, kolegom iz Švicarske, pokrenula je duo, koji je svoju zvučnu i izražajnu paletu ubrzo počeo proširivati nizom…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/obradovi__tixier_duo__homage_collective_plays_miles_davis_1791282057.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/obradovictixier-duo-homage-collective-plays-miles-davis-"
-  },
-  {
    "id": "ei-4900",
    "naslov": "32. JAZZ FAIR ČAKOVEC",
    "od": "2026-11-19",
@@ -4419,6 +4389,22 @@
    "opis": "Od 19. do 21. studenoga 2026. Čakovec ponovno postaje središte jazza sjeverne Hrvatske. 32. Jazz Fair donosi tri koncertne večeri u kojima se susreću vrhunski domaći i inozemni glazbenici, nekoliko generacija izvođača i različiti glazbeni svjetovi. Festival otvara četvrtak, 19.…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/32__jazz_fair__akovec_1790933745.png",
    "link": "https://eventinfo.com.hr/dogadaj/32-jazz-fair-cakovec"
+  },
+  {
+   "id": "ei-4907",
+   "naslov": "OBRADOVIĆ-TIXIER DUO, HOMAGE COLLECTIVE PLAYS MILES DAVIS",
+   "od": "2026-11-19",
+   "do": "2026-11-19",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "20,00 EUR",
+   "opis": "OBRADOVIĆ-TIXIER DUO Lada Obradović rodom je iz Siska, školovala se u Grazu, a potom i Bernu, da bi se konačno smjestila Francuskoj. S pijanistom Davidom Tixierom, kolegom iz Švicarske, pokrenula je duo, koji je svoju zvučnu i izražajnu paletu ubrzo počeo proširivati nizom…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/obradovi__tixier_duo__homage_collective_plays_miles_davis_1791282057.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/obradovictixier-duo-homage-collective-plays-miles-davis-"
   },
   {
    "id": "ei-4931",
@@ -4538,7 +4524,7 @@
    "id": "na-PTImYWlkPTEwNTg1",
    "naslov": "Čehovec obilježio Dan mjesta uz tradicionalno druženje, kestene i tamburaše",
    "opcina": "Prelog",
-   "objavljeno": "2026-10-28",
+   "objavljeno": "2026-10-29",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10585",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10585_80155_dscn1304.jpg"
@@ -4547,7 +4533,7 @@
    "id": "na-PTImYWlkPTEwNTgw",
    "naslov": "U Muzeju Croata insulanus predstavljena knjiga „Moje priče“ Vesne Kalšan",
    "opcina": "Prelog",
-   "objavljeno": "2026-10-28",
+   "objavljeno": "2026-10-29",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10580",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10580_80075_vipro021.jpg"
@@ -4578,6 +4564,15 @@
    "opis": "U nedjelju, 8. studenoga 2026. godine, s početkom u 16 sati, u Domu kulture Selnica održat će se manifestacija „Vina z brajdi“, koja donosi ugodno druženje, bogatstvo domaćih okusa i veselu atmosferu u duhu međimurske…",
    "link": "https://www.selnica.hr/vina-z-brajdi-u-selnici-poziv-na-veselo-druzenje-uz-vino-glazbu-i-domace-delicije/",
    "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/10/Martinje-2026.webp"
+  },
+  {
+   "id": "na-b3ZpLWdsYXNpLw==",
+   "naslov": "Međimurska priroda predstavila peto, jubilarno izdanje biltena ‘Matulovi glasi’",
+   "opcina": "Sveti Juraj na Bregu",
+   "objavljeno": "2026-10-26",
+   "opis": "Međimurska priroda – Javna ustanova za zaštitu prirode predstavlja peto, jubilarno izdanje biltena Matulovi glasi. Objavljeni su u digitalnom obliku odnosno u PDF izdanju na 28 stranica. Matulovi glasi u cijelosti su…",
+   "link": "https://www.svetijurajnabregu.hr/2026/10/26/medimurska-priroda-predstavila-peto-jubilarno-izdanje-biltena-matulovi-glasi/",
+   "slika": null
   },
   {
    "id": "na-dHNrb20tZ3JhZHUv",
