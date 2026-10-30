@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-29T08:38:46.197Z",
+ "azurirano": "2026-10-30T08:45:30.983Z",
  "nadolazeca": "2026-11-01",
  "nedjelje": [
   "2026-08-23",
@@ -26,57 +26,55 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-29T08:38:46.197Z"
+   "provjereno": "2026-10-30T08:45:30.983Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-29T08:38:46.197Z"
+   "provjereno": "2026-10-30T08:45:30.983Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-29T08:38:46.197Z"
+   "provjereno": "2026-10-30T08:45:30.983Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-29T08:38:46.197Z"
+   "provjereno": "2026-10-30T08:45:30.983Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-29T08:38:46.197Z"
+   "provjereno": "2026-10-30T08:45:30.983Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-29T08:38:46.197Z"
+   "provjereno": "2026-10-30T08:45:30.983Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-29T08:38:46.197Z"
+   "provjereno": "2026-10-30T08:45:30.983Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-29T08:38:46.197Z"
+   "provjereno": "2026-10-30T08:45:30.983Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-29T08:38:46.197Z"
+   "provjereno": "2026-10-30T08:45:30.983Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-29T08:38:46.197Z"
+   "provjereno": "2026-10-30T08:45:30.983Z"
   }
  },
- "greske": [
-  "Restorani: Overpass: HTTP 504"
- ],
+ "greske": [],
  "upozorenja": [
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
@@ -265,15 +263,16 @@
    "lng": 16.4340568,
    "nedjelje": {
     "2026-10-25": null,
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-08": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -286,15 +285,16 @@
    "lng": 16.4159931,
    "nedjelje": {
     "2026-10-25": null,
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-08": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": "07:00-21:00"
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -307,15 +307,16 @@
    "lng": 16.424776,
    "nedjelje": {
     "2026-10-25": null,
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-08": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": "07:00-21:00"
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -1071,15 +1072,16 @@
    "lng": 16.8077065,
    "nedjelje": {
     "2026-10-25": "08:00-14:00",
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-08": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -1508,15 +1510,16 @@
    "lng": 16.6758093,
    "nedjelje": {
     "2026-10-25": null,
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-08": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -1824,15 +1827,16 @@
    "lng": 16.812358,
    "nedjelje": {
     "2026-10-25": null,
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-08": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -2356,15 +2360,16 @@
    "lng": 16.4316551,
    "nedjelje": {
     "2026-10-25": null,
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-08": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": "07:00-21:00"
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -2935,15 +2940,16 @@
    "lng": 16.6140445,
    "nedjelje": {
     "2026-10-25": null,
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-08": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -2959,12 +2965,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "cet": null,
     "pet": null,
     "sub": null,
     "pon": null,
     "uto": null,
-    "sri": null
+    "sri": null,
+    "cet": null
    }
   },
   {
@@ -3160,14 +3166,14 @@
     "2026-10-18": null,
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null,
+    "2026-11-08": "07:00-11:00",
     "2026-11-15": null,
     "2026-11-22": null,
     "2026-11-29": null,
     "2026-12-06": null,
     "2026-12-13": null,
     "2026-12-20": null,
-    "2026-12-27": "07:00-11:00"
+    "2026-12-27": null
    },
    "tjedan": null
   },
@@ -3181,15 +3187,16 @@
    "lng": 16.4769461,
    "nedjelje": {
     "2026-10-25": null,
-    "2026-11-01": null
+    "2026-11-01": null,
+    "2026-11-08": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -4247,22 +4254,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
   },
   {
-   "id": "ei-4887",
-   "naslov": "KAZALIŠTE KEREMPUH: PUTUJUĆE KAZALIŠTE ŠOPALOVIĆ",
-   "od": "2026-10-29",
-   "do": "2026-10-29",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "kazalište",
-   "cijena": null,
-   "opis": "Dosta vam je dnevne politike i ratnih zbivanja? Dođite u Kerempuh i sagledajte stvarnost iz drugog kuta: kroz smijeh, ironiju i kazališnu čaroliju. Ako tražite predstavu koja će vas istovremeno nasmijati, uznemiriti i natjerati na razmišljanje, Putujuće kazalište Šopalović pravi…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/kazali_te_kerempuh__putuju_e_kazali_te__opalovi__1789121782.png",
-   "link": "https://eventinfo.com.hr/dogadaj/kazaliste-kerempuh-putujuce-kazaliste-sopalovic"
-  },
-  {
    "id": "ei-4932",
    "naslov": "Popularno predavanje petkom – Denis Perčić: Snaga autorskog dizajna",
    "od": "2026-10-30",
@@ -4279,6 +4270,22 @@
    "link": "https://eventinfo.com.hr/dogadaj/popularno-predavanje-petkom-denis-percic-snaga-autorskog-dizajna"
   },
   {
+   "id": "ei-4934",
+   "naslov": "IMPUT / IMProvizacije UTorkom - KOME ZVONO ZVONI",
+   "od": "2026-11-03",
+   "do": "2026-11-03",
+   "vrijeme": "20:00",
+   "mjesto": "Klub Prostor, Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.384778,
+   "lng": 16.430318,
+   "kategorija": "kazalište",
+   "cijena": "7,00 EUR",
+   "opis": "Ove sezone prva hrvatska profesionalna imorovizacijska grupa naziva improvgrupa.002 vraća svoju poznatu Tribinu IMPUT / IMProvizacije Utorkom na još poznatije, staro mjesto, tamo gdje je sve i počelo– Klub PROSTOR!! Princip je i dalje isti – jedno zvono, 4-7 improvizatora, 12…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/imput___improvizacije_utorkom___kome_zvono_zvoni_1793348719.jpeg",
+   "link": "https://eventinfo.com.hr/dogadaj/imput-improvizacije-utorkom-kome-zvono-zvoni"
+  },
+  {
    "id": "ei-4897",
    "naslov": "Ansambl LADO: Vrijeme plesa",
    "od": "2026-11-05",
@@ -4293,6 +4300,22 @@
    "opis": "Ansambl LADO: Vrijeme plesa Ansambl LADO poziva čakovečku publiku na premijeru svečanog godišnjeg koncerta “Vrijeme plesa”, koja će se održati 5. studenoga 2026. u Čakovcu. Ovogodišnji program otkriva ono što publika rijetko ima priliku vidjeti – unutarnji proces nastanka jedne…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/ansambl_lado__vrijeme_plesa_1790154590.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/ansambl-lado-vrijeme-plesa"
+  },
+  {
+   "id": "ei-4933",
+   "naslov": "MLADO. Međimurje",
+   "od": "2026-11-06",
+   "do": "2026-11-06",
+   "vrijeme": "18:00",
+   "mjesto": "Dom kulture Štrigova",
+   "grad": "Štrigova",
+   "lat": 46.500062,
+   "lng": 16.289957,
+   "kategorija": "zabava",
+   "cijena": "15,00 EUR",
+   "opis": "I ove godine MLADO. Međimurje dolazi u Štrigovu. U petak, 06. studenog u Domu kulture predstavit će se devet vinarija Međimurske vinske ceste: Cmrečnjak, Horvat, Knehtl- Medenjak, Kovač, Kunčić, Novak, Preiner, Štampar i Vina Čapalija. MLADO. Međimurje je nježno, živahno i…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/mlado__me_imurje_1793348041.jpeg",
+   "link": "https://eventinfo.com.hr/dogadaj/mlado-medimurje"
   },
   {
    "id": "ei-4902",
@@ -4524,7 +4547,7 @@
    "id": "na-PTImYWlkPTEwNTg1",
    "naslov": "Čehovec obilježio Dan mjesta uz tradicionalno druženje, kestene i tamburaše",
    "opcina": "Prelog",
-   "objavljeno": "2026-10-29",
+   "objavljeno": "2026-10-30",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10585",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10585_80155_dscn1304.jpg"
@@ -4533,7 +4556,7 @@
    "id": "na-PTImYWlkPTEwNTgw",
    "naslov": "U Muzeju Croata insulanus predstavljena knjiga „Moje priče“ Vesne Kalšan",
    "opcina": "Prelog",
-   "objavljeno": "2026-10-29",
+   "objavljeno": "2026-10-30",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10580",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10580_80075_vipro021.jpg"
