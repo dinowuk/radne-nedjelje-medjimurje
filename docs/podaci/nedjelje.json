@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-30T08:45:30.983Z",
+ "azurirano": "2026-10-30T19:27:49.538Z",
  "nadolazeca": "2026-11-01",
  "nedjelje": [
   "2026-08-23",
@@ -26,55 +26,57 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-30T08:45:30.983Z"
+   "provjereno": "2026-10-30T19:27:49.538Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-30T08:45:30.983Z"
+   "provjereno": "2026-10-30T19:27:49.538Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-30T08:45:30.983Z"
+   "provjereno": "2026-10-30T19:27:49.538Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-30T08:45:30.983Z"
+   "provjereno": "2026-10-30T19:27:49.538Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-30T08:45:30.983Z"
+   "provjereno": "2026-10-30T19:27:49.538Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-30T08:45:30.983Z"
+   "provjereno": "2026-10-30T19:27:49.538Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-30T08:45:30.983Z"
+   "provjereno": "2026-10-30T19:27:49.538Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-30T08:45:30.983Z"
+   "provjereno": "2026-10-30T19:27:49.538Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-30T08:45:30.983Z"
+   "provjereno": "2026-10-30T19:27:49.538Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-30T08:45:30.983Z"
+   "provjereno": "2026-10-30T19:27:49.538Z"
   }
  },
- "greske": [],
+ "greske": [
+  "Događanja: fetch failed"
+ ],
  "upozorenja": [
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
