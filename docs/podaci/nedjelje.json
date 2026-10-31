@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-31T08:31:45.793Z",
+ "azurirano": "2026-10-31T18:38:02.764Z",
  "nadolazeca": "2026-11-01",
  "nedjelje": [
   "2026-08-23",
@@ -26,52 +26,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-31T08:31:45.793Z"
+   "provjereno": "2026-10-31T18:38:02.764Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-31T08:31:45.793Z"
+   "provjereno": "2026-10-31T18:38:02.764Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-31T08:31:45.793Z"
+   "provjereno": "2026-10-31T18:38:02.764Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-31T08:31:45.793Z"
+   "provjereno": "2026-10-31T18:38:02.764Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-31T08:31:45.793Z"
+   "provjereno": "2026-10-31T18:38:02.764Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-31T08:31:45.793Z"
+   "provjereno": "2026-10-31T18:38:02.764Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-31T08:31:45.793Z"
+   "provjereno": "2026-10-31T18:38:02.764Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-31T08:31:45.793Z"
+   "provjereno": "2026-10-31T18:38:02.764Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-31T08:31:45.793Z"
+   "provjereno": "2026-10-31T18:38:02.764Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-31T08:31:45.793Z"
+   "provjereno": "2026-10-31T18:38:02.764Z"
   }
  },
  "greske": [],
@@ -79,7 +79,8 @@
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)"
+  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
+  "Najave Štrigova: HTTP 403 za https://opcinastrigova.hr/feed/"
  ],
  "trgovine": [
   {
