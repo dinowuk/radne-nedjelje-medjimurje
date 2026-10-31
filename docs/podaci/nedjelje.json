@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-30T19:27:49.538Z",
+ "azurirano": "2026-10-31T08:31:45.793Z",
  "nadolazeca": "2026-11-01",
  "nedjelje": [
   "2026-08-23",
@@ -26,57 +26,55 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-30T19:27:49.538Z"
+   "provjereno": "2026-10-31T08:31:45.793Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-30T19:27:49.538Z"
+   "provjereno": "2026-10-31T08:31:45.793Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-30T19:27:49.538Z"
+   "provjereno": "2026-10-31T08:31:45.793Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-30T19:27:49.538Z"
+   "provjereno": "2026-10-31T08:31:45.793Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-30T19:27:49.538Z"
+   "provjereno": "2026-10-31T08:31:45.793Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-30T19:27:49.538Z"
+   "provjereno": "2026-10-31T08:31:45.793Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-30T19:27:49.538Z"
+   "provjereno": "2026-10-31T08:31:45.793Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-30T19:27:49.538Z"
+   "provjereno": "2026-10-31T08:31:45.793Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-30T19:27:49.538Z"
+   "provjereno": "2026-10-31T08:31:45.793Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-30T19:27:49.538Z"
+   "provjereno": "2026-10-31T08:31:45.793Z"
   }
  },
- "greske": [
-  "Događanja: fetch failed"
- ],
+ "greske": [],
  "upozorenja": [
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
@@ -269,12 +267,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -291,12 +289,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -313,12 +311,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -1078,12 +1076,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -1516,12 +1514,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -1833,12 +1831,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -2366,12 +2364,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -2946,12 +2944,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -2967,12 +2965,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "pet": null,
     "sub": null,
     "pon": null,
     "uto": null,
     "sri": null,
-    "cet": null
+    "cet": null,
+    "pet": null
    }
   },
   {
@@ -3193,12 +3191,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -4256,22 +4254,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
   },
   {
-   "id": "ei-4932",
-   "naslov": "Popularno predavanje petkom – Denis Perčić: Snaga autorskog dizajna",
-   "od": "2026-10-30",
-   "do": "2026-10-30",
-   "vrijeme": "19:00",
-   "mjesto": "Multimedijalna dvorana Riznice Međimurja",
-   "grad": "Čakovec",
-   "lat": 46.389277,
-   "lng": 16.432363,
-   "kategorija": "predstavljanje",
-   "cijena": "Besplatno",
-   "opis": "Posljednjeg petka u listopadu očekuje nas novo predavanje u sklopu Popularnih predavanja petkom. Gost predavač je Denis Perčić, nagrađivani grafički dizajner i fotograf. Denis Perčić je grafički dizajner, fotograf i osnivač kreativnog studija Next Design. Njegova priča započinje…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/popularno_predavanje_petkom___denis_per_i___snaga_autorskog_dizajna_1793010914.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/popularno-predavanje-petkom-denis-percic-snaga-autorskog-dizajna"
-  },
-  {
    "id": "ei-4934",
    "naslov": "IMPUT / IMProvizacije UTorkom - KOME ZVONO ZVONI",
    "od": "2026-11-03",
@@ -4316,7 +4298,7 @@
    "kategorija": "zabava",
    "cijena": "15,00 EUR",
    "opis": "I ove godine MLADO. Međimurje dolazi u Štrigovu. U petak, 06. studenog u Domu kulture predstavit će se devet vinarija Međimurske vinske ceste: Cmrečnjak, Horvat, Knehtl- Medenjak, Kovač, Kunčić, Novak, Preiner, Štampar i Vina Čapalija. MLADO. Međimurje je nježno, živahno i…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/mlado__me_imurje_1793348041.jpeg",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/mlado__me_imurje_1793359654.jpeg",
    "link": "https://eventinfo.com.hr/dogadaj/mlado-medimurje"
   },
   {
@@ -4549,7 +4531,7 @@
    "id": "na-PTImYWlkPTEwNTg1",
    "naslov": "Čehovec obilježio Dan mjesta uz tradicionalno druženje, kestene i tamburaše",
    "opcina": "Prelog",
-   "objavljeno": "2026-10-30",
+   "objavljeno": "2026-10-31",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10585",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10585_80155_dscn1304.jpg"
@@ -4558,7 +4540,7 @@
    "id": "na-PTImYWlkPTEwNTgw",
    "naslov": "U Muzeju Croata insulanus predstavljena knjiga „Moje priče“ Vesne Kalšan",
    "opcina": "Prelog",
-   "objavljeno": "2026-10-30",
+   "objavljeno": "2026-10-31",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10580",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10580_80075_vipro021.jpg"
