@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-01T09:23:50.425Z",
+ "azurirano": "2026-11-01T11:27:31.626Z",
  "nadolazeca": "2026-11-01",
  "nedjelje": [
   "2026-08-23",
@@ -26,52 +26,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-01T09:23:50.425Z"
+   "provjereno": "2026-11-01T11:27:31.626Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-01T09:23:50.425Z"
+   "provjereno": "2026-11-01T11:27:31.626Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-01T09:23:50.425Z"
+   "provjereno": "2026-11-01T11:27:31.626Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-01T09:23:50.425Z"
+   "provjereno": "2026-11-01T11:27:31.626Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-01T09:23:50.425Z"
+   "provjereno": "2026-11-01T11:27:31.626Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-01T09:23:50.425Z"
+   "provjereno": "2026-11-01T11:27:31.626Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-01T09:23:50.425Z"
+   "provjereno": "2026-11-01T11:27:31.626Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-01T09:23:50.425Z"
+   "provjereno": "2026-11-01T11:27:31.626Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-01T09:23:50.425Z"
+   "provjereno": "2026-11-01T11:27:31.626Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-01T09:23:50.425Z"
+   "provjereno": "2026-11-01T11:27:31.626Z"
   }
  },
  "greske": [],
@@ -79,7 +79,8 @@
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)"
+  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
+  "Najave Štrigova: HTTP 403 za https://opcinastrigova.hr/feed/"
  ],
  "trgovine": [
   {
@@ -4639,7 +4640,7 @@
   },
   {
    "id": "osm-n1748069161",
-   "naziv": "Batak Čakovec",
+   "naziv": "Batak",
    "vrsta": "restoran",
    "kuhinja": "roštilj",
    "mjesto": "Čakovec",
@@ -5843,15 +5844,7 @@
    "lng": 16.386719,
    "tel": null,
    "web": "https://restoran-lipa.com/",
-   "tjedan": {
-    "pon": "07:30-23:00",
-    "uto": "07:30-23:00",
-    "sri": "07:30-23:00",
-    "cet": "07:30-23:00",
-    "pet": "07:30-23:00",
-    "sub": "07:30-23:00",
-    "ned": "07:30-23:00"
-   },
+   "tjedan": null,
    "foto": null,
    "opis": null
   },
@@ -5869,29 +5862,6 @@
    "tjedan": null,
    "foto": null,
    "opis": null
-  },
-  {
-   "id": "osm-w327152058",
-   "naziv": "Kavana Cobra",
-   "vrsta": "restoran",
-   "kuhinja": "pizza, burgeri, domaća kuhinja, kava, sendviči, piletina",
-   "mjesto": "Podturen",
-   "adresa": "Čakovečka ulica 18",
-   "lat": 46.463776,
-   "lng": 16.543868,
-   "tel": null,
-   "web": "https://www.kavanacobra.hr",
-   "tjedan": {
-    "pon": "10:00-22:00",
-    "uto": "10:00-22:00",
-    "sri": "10:00-22:00",
-    "cet": "10:00-22:00",
-    "pet": "10:00-22:00",
-    "sub": "10:00-22:00",
-    "ned": "10:00-22:00"
-   },
-   "foto": null,
-   "opis": "Kavana Cobra: Catering | Organizirane proslave | Krizma | Vjenčanje | Godišnjica | Rođendan | Pizzeria | Plate | Međimurje | Čakovec | Proslava |"
   },
   {
    "id": "osm-w625719529",
@@ -6013,7 +5983,7 @@
    "kuhinja": "",
    "mjesto": "Pušćine",
    "adresa": "Čakovečka ulica 106",
-   "lat": 46.341972,
+   "lat": 46.341969,
    "lng": 16.361568,
    "tel": "+38540895163",
    "web": null,
@@ -6138,7 +6108,7 @@
    "mjesto": "Štrigova",
    "adresa": "Štrigova 76",
    "lat": 46.501045,
-   "lng": 16.284522,
+   "lng": 16.284529,
    "tel": "+38540851093",
    "web": null,
    "tjedan": {
