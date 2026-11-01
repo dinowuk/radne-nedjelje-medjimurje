@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-10-31T18:38:02.764Z",
+ "azurirano": "2026-11-01T09:23:50.425Z",
  "nadolazeca": "2026-11-01",
  "nedjelje": [
   "2026-08-23",
@@ -26,52 +26,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-10-31T18:38:02.764Z"
+   "provjereno": "2026-11-01T09:23:50.425Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-10-31T18:38:02.764Z"
+   "provjereno": "2026-11-01T09:23:50.425Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-10-31T18:38:02.764Z"
+   "provjereno": "2026-11-01T09:23:50.425Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-31T18:38:02.764Z"
+   "provjereno": "2026-11-01T09:23:50.425Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-31T18:38:02.764Z"
+   "provjereno": "2026-11-01T09:23:50.425Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-31T18:38:02.764Z"
+   "provjereno": "2026-11-01T09:23:50.425Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-31T18:38:02.764Z"
+   "provjereno": "2026-11-01T09:23:50.425Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-10-31T18:38:02.764Z"
+   "provjereno": "2026-11-01T09:23:50.425Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-10-31T18:38:02.764Z"
+   "provjereno": "2026-11-01T09:23:50.425Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-10-31T18:38:02.764Z"
+   "provjereno": "2026-11-01T09:23:50.425Z"
   }
  },
  "greske": [],
@@ -79,8 +79,7 @@
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Najave Štrigova: HTTP 403 za https://opcinastrigova.hr/feed/"
+  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)"
  ],
  "trgovine": [
   {
@@ -268,12 +267,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -290,12 +289,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
-    "pet": "07:00-21:00"
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -312,12 +311,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
-    "pet": "07:00-21:00"
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -352,7 +351,8 @@
    "nedjelje": {
     "2026-10-25": "08:00-18:00",
     "2026-11-01": null,
-    "2026-11-08": "08:00-18:00"
+    "2026-11-08": "08:00-18:00",
+    "2026-11-15": "08:00-18:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -1077,12 +1077,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -1515,12 +1515,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -1832,12 +1832,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -2365,12 +2365,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
-    "pet": "07:00-21:00"
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -2945,12 +2945,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -2966,12 +2966,12 @@
     "2026-11-01": null
    },
    "tjedan": {
-    "sub": null,
     "pon": null,
     "uto": null,
     "sri": null,
     "cet": null,
-    "pet": null
+    "pet": null,
+    "sub": null
    }
   },
   {
@@ -3006,7 +3006,8 @@
    "nedjelje": {
     "2026-10-25": "08:00-18:00",
     "2026-11-01": null,
-    "2026-11-08": "08:00-18:00"
+    "2026-11-08": "08:00-18:00",
+    "2026-11-15": "08:00-18:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -3192,12 +3193,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -4191,22 +4192,6 @@
  ],
  "dogadaji": [
   {
-   "id": "ei-4878",
-   "naslov": "Dijana Nazor Čorda, Crni ciklus - iza vidljivoga",
-   "od": "2026-09-11",
-   "do": "2026-10-31",
-   "vrijeme": null,
-   "mjesto": "Izložbeni salon Muzeja Međimurja Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.389113,
-   "lng": 16.431804,
-   "kategorija": "kazalište",
-   "cijena": null,
-   "opis": "Mjesto održavanja: Izložbeni salon Muzeja Međimurja Čakovec Trajanje izložbe: 11.9.2026. – 31.10.2026. Otvorenje: 11.9.2026. u 19 sati Kustosica izložbe: Marta Horvat, kustosica likovnih zbirki Stoljećima je slikarstvo bilo umjetnost vidljivoga – bilježilo je svjetlo, boju i…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/dijana_nazor__orda__crni_ciklus___iza_vidljivoga_1788184774.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/dijana-nazor-corda-crni-ciklus-iza-vidljivoga"
-  },
-  {
    "id": "ei-4915",
    "naslov": "Izložba poezije Josipa Mihalkovića u fotostripu",
    "od": "2026-10-16",
@@ -4383,22 +4368,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/barbara-unplugged"
   },
   {
-   "id": "ei-4900",
-   "naslov": "32. JAZZ FAIR ČAKOVEC",
-   "od": "2026-11-19",
-   "do": "2026-11-21",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "koncert",
-   "cijena": "40,00 EUR (festivalska ulaznica)",
-   "opis": "Od 19. do 21. studenoga 2026. Čakovec ponovno postaje središte jazza sjeverne Hrvatske. 32. Jazz Fair donosi tri koncertne večeri u kojima se susreću vrhunski domaći i inozemni glazbenici, nekoliko generacija izvođača i različiti glazbeni svjetovi. Festival otvara četvrtak, 19.…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/32__jazz_fair__akovec_1790933745.png",
-   "link": "https://eventinfo.com.hr/dogadaj/32-jazz-fair-cakovec"
-  },
-  {
    "id": "ei-4907",
    "naslov": "OBRADOVIĆ-TIXIER DUO, HOMAGE COLLECTIVE PLAYS MILES DAVIS",
    "od": "2026-11-19",
@@ -4413,6 +4382,22 @@
    "opis": "OBRADOVIĆ-TIXIER DUO Lada Obradović rodom je iz Siska, školovala se u Grazu, a potom i Bernu, da bi se konačno smjestila Francuskoj. S pijanistom Davidom Tixierom, kolegom iz Švicarske, pokrenula je duo, koji je svoju zvučnu i izražajnu paletu ubrzo počeo proširivati nizom…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/obradovi__tixier_duo__homage_collective_plays_miles_davis_1791282057.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/obradovictixier-duo-homage-collective-plays-miles-davis-"
+  },
+  {
+   "id": "ei-4900",
+   "naslov": "32. JAZZ FAIR ČAKOVEC",
+   "od": "2026-11-19",
+   "do": "2026-11-21",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "40,00 EUR (festivalska ulaznica)",
+   "opis": "Od 19. do 21. studenoga 2026. Čakovec ponovno postaje središte jazza sjeverne Hrvatske. 32. Jazz Fair donosi tri koncertne večeri u kojima se susreću vrhunski domaći i inozemni glazbenici, nekoliko generacija izvođača i različiti glazbeni svjetovi. Festival otvara četvrtak, 19.…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/32__jazz_fair__akovec_1790933745.png",
+   "link": "https://eventinfo.com.hr/dogadaj/32-jazz-fair-cakovec"
   },
   {
    "id": "ei-4931",
@@ -4532,7 +4517,7 @@
    "id": "na-PTImYWlkPTEwNTg1",
    "naslov": "Čehovec obilježio Dan mjesta uz tradicionalno druženje, kestene i tamburaše",
    "opcina": "Prelog",
-   "objavljeno": "2026-10-31",
+   "objavljeno": "2026-11-01",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10585",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10585_80155_dscn1304.jpg"
@@ -4541,7 +4526,7 @@
    "id": "na-PTImYWlkPTEwNTgw",
    "naslov": "U Muzeju Croata insulanus predstavljena knjiga „Moje priče“ Vesne Kalšan",
    "opcina": "Prelog",
-   "objavljeno": "2026-10-31",
+   "objavljeno": "2026-11-01",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10580",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10580_80075_vipro021.jpg"
