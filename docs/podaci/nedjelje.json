@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-02T09:38:15.647Z",
+ "azurirano": "2026-11-03T09:41:35.410Z",
  "nadolazeca": "2026-11-08",
  "nedjelje": [
   "2026-08-30",
@@ -25,52 +25,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-02T09:38:15.647Z"
+   "provjereno": "2026-11-03T09:41:35.410Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-02T09:38:15.647Z"
+   "provjereno": "2026-11-03T09:41:35.410Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-02T09:38:15.647Z"
+   "provjereno": "2026-11-03T09:41:35.410Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-02T09:38:15.647Z"
+   "provjereno": "2026-11-03T09:41:35.410Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-02T09:38:15.647Z"
+   "provjereno": "2026-11-03T09:41:35.410Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-02T09:38:15.647Z"
+   "provjereno": "2026-11-03T09:41:35.410Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-02T09:38:15.647Z"
+   "provjereno": "2026-11-03T09:41:35.410Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-02T09:38:15.647Z"
+   "provjereno": "2026-11-03T09:41:35.410Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-02T09:38:15.647Z"
+   "provjereno": "2026-11-03T09:41:35.410Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-02T09:38:15.647Z"
+   "provjereno": "2026-11-03T09:41:35.410Z"
   }
  },
  "greske": [],
@@ -270,12 +270,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -292,12 +292,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -314,12 +314,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -1092,12 +1092,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -1536,12 +1536,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -1856,12 +1856,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -2394,12 +2394,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -2984,12 +2984,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -3006,12 +3006,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pon": null,
     "uto": null,
     "sri": null,
     "cet": null,
     "pet": null,
-    "sub": null
+    "sub": null,
+    "pon": null
    }
   },
   {
@@ -3235,12 +3235,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -4566,22 +4566,22 @@
  ],
  "najave": [
   {
+   "id": "na-PTImYWlkPTEwNTkw",
+   "naslov": "Tradicionalna Kestenijada Rotary Cluba donijela jesensko druženje u znaku humanosti i zajedništva",
+   "opcina": "Prelog",
+   "objavljeno": "2026-11-03",
+   "opis": "",
+   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10590",
+   "slika": "http://www.prelog.hr/articlefiles/thumb_10590_80212_vipro025.jpg"
+  },
+  {
    "id": "na-PTImYWlkPTEwNTg1",
    "naslov": "Čehovec obilježio Dan mjesta uz tradicionalno druženje, kestene i tamburaše",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-02",
+   "objavljeno": "2026-11-03",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10585",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10585_80155_dscn1304.jpg"
-  },
-  {
-   "id": "na-PTImYWlkPTEwNTgw",
-   "naslov": "U Muzeju Croata insulanus predstavljena knjiga „Moje priče“ Vesne Kalšan",
-   "opcina": "Prelog",
-   "objavljeno": "2026-11-02",
-   "opis": "",
-   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10580",
-   "slika": "http://www.prelog.hr/articlefiles/thumb_10580_80075_vipro021.jpg"
   },
   {
    "id": "na-cmVkaXNjdS0yLw==",
@@ -4654,15 +4654,6 @@
    "opis": "U subotu, 10. listopada 2026. godine održan je Kup Hrvatske u karateu za kadete, juniore, mlađe seniore i seniore. Natjecanje je održano u dvorani OŠ Ivanja Reka. KC Šenkovec nastupio je u 13 pojedinačnih kategorija i…",
    "link": "https://senkovec.hr/2026/10/14/kup-hrvatske/",
    "slika": null
-  },
-  {
-   "id": "na-b3N0dmFyaS1pdi8=",
-   "naslov": "JESENSKO DRUŽENJE KORISNIKA PROJEKTA„SNAŽNO ZAŽELI I OSTVARI-IV“",
-   "opcina": "Donji Kraljevec",
-   "objavljeno": "2026-10-03",
-   "opis": "",
-   "link": "https://www.donjikraljevec.hr/2026/10/03/jesensko-druzenje-korisnika-projektasnazno-zazeli-i-ostvari-iv/",
-   "slika": "https://www.donjikraljevec.hr/web2019/wp-content/uploads/2026/10/Druzenje-projekt-Zazeli-Opcina-Donji-Kraljevec-13-400x284.jpg"
   }
  ],
  "restorani": [
