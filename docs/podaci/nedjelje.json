@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-03T09:41:35.410Z",
+ "azurirano": "2026-11-04T09:28:28.661Z",
  "nadolazeca": "2026-11-08",
  "nedjelje": [
   "2026-08-30",
@@ -25,52 +25,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-03T09:41:35.410Z"
+   "provjereno": "2026-11-04T09:28:28.661Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-03T09:41:35.410Z"
+   "provjereno": "2026-11-04T09:28:28.661Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-03T09:41:35.410Z"
+   "provjereno": "2026-11-04T09:28:28.661Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-03T09:41:35.410Z"
+   "provjereno": "2026-11-04T09:28:28.661Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-03T09:41:35.410Z"
+   "provjereno": "2026-11-04T09:28:28.661Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-03T09:41:35.410Z"
+   "provjereno": "2026-11-04T09:28:28.661Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-03T09:41:35.410Z"
+   "provjereno": "2026-11-04T09:28:28.661Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-03T09:41:35.410Z"
+   "provjereno": "2026-11-04T09:28:28.661Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-03T09:41:35.410Z"
+   "provjereno": "2026-11-04T09:28:28.661Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-03T09:41:35.410Z"
+   "provjereno": "2026-11-04T09:28:28.661Z"
   }
  },
  "greske": [],
@@ -270,12 +270,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -292,12 +292,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
-    "pon": "07:00-21:00"
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00"
    }
   },
   {
@@ -314,12 +314,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
-    "pon": "07:00-21:00"
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00"
    }
   },
   {
@@ -1092,12 +1092,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -1536,12 +1536,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -1856,12 +1856,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -2394,12 +2394,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
-    "pon": "07:00-21:00"
+    "pon": "07:00-21:00",
+    "uto": "07:00-21:00"
    }
   },
   {
@@ -2984,12 +2984,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -3006,12 +3006,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "uto": null,
     "sri": null,
     "cet": null,
     "pet": null,
     "sub": null,
-    "pon": null
+    "pon": null,
+    "uto": null
    }
   },
   {
@@ -3235,12 +3235,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
-    "pon": "07:00-20:00"
+    "pon": "07:00-20:00",
+    "uto": "07:00-20:00"
    }
   },
   {
@@ -4292,22 +4292,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
   },
   {
-   "id": "ei-4934",
-   "naslov": "IMPUT / IMProvizacije UTorkom - KOME ZVONO ZVONI",
-   "od": "2026-11-03",
-   "do": "2026-11-03",
-   "vrijeme": "20:00",
-   "mjesto": "Klub Prostor, Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.384778,
-   "lng": 16.430318,
-   "kategorija": "kazalište",
-   "cijena": "7,00 EUR",
-   "opis": "Ove sezone prva hrvatska profesionalna imorovizacijska grupa naziva improvgrupa.002 vraća svoju poznatu Tribinu IMPUT / IMProvizacije Utorkom na još poznatije, staro mjesto, tamo gdje je sve i počelo– Klub PROSTOR!! Princip je i dalje isti – jedno zvono, 4-7 improvizatora, 12…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/imput___improvizacije_utorkom___kome_zvono_zvoni_1793348719.jpeg",
-   "link": "https://eventinfo.com.hr/dogadaj/imput-improvizacije-utorkom-kome-zvono-zvoni"
-  },
-  {
    "id": "ei-4897",
    "naslov": "Ansambl LADO: Vrijeme plesa",
    "od": "2026-11-05",
@@ -4338,6 +4322,22 @@
    "opis": "I ove godine MLADO. Međimurje dolazi u Štrigovu. U petak, 06. studenog u Domu kulture predstavit će se devet vinarija Međimurske vinske ceste: Cmrečnjak, Horvat, Knehtl- Medenjak, Kovač, Kunčić, Novak, Preiner, Štampar i Vina Čapalija. MLADO. Međimurje je nježno, živahno i…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/mlado__me_imurje_1793359654.jpeg",
    "link": "https://eventinfo.com.hr/dogadaj/mlado-medimurje"
+  },
+  {
+   "id": "ei-4935",
+   "naslov": "MARTINJE NA MEĐIMURSKOJ VINSKOJ CESTI",
+   "od": "2026-11-06",
+   "do": "2026-11-08",
+   "vrijeme": null,
+   "mjesto": "Međimurje",
+   "grad": "",
+   "lat": 46.418417,
+   "lng": 16.460623,
+   "kategorija": "zabava",
+   "cijena": "Besplatno",
+   "opis": "Međimurje u studenom ponovno postaje pozornica jednog od svojih najživopisnijih običaja – Martinja, blagdana svetog Martina. Pod zajedničkim projektom “Martinje na Međimurskoj vinskoj cesti”, koji organiziraju Turistička zajednica8 područja „Mura i gorice“, Turistička zajednica…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/martinje_na_me_imurskoj_vinskoj_cesti_1793720127.jpeg",
+   "link": "https://eventinfo.com.hr/dogadaj/martinje-na-medimurskoj-vinskoj-cesti2026"
   },
   {
    "id": "ei-4902",
@@ -4569,7 +4569,7 @@
    "id": "na-PTImYWlkPTEwNTkw",
    "naslov": "Tradicionalna Kestenijada Rotary Cluba donijela jesensko druženje u znaku humanosti i zajedništva",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-03",
+   "objavljeno": "2026-11-04",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10590",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10590_80212_vipro025.jpg"
@@ -4578,10 +4578,46 @@
    "id": "na-PTImYWlkPTEwNTg1",
    "naslov": "Čehovec obilježio Dan mjesta uz tradicionalno druženje, kestene i tamburaše",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-03",
+   "objavljeno": "2026-11-04",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10585",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10585_80155_dscn1304.jpg"
+  },
+  {
+   "id": "na-LWktZHJ1emVuamUv",
+   "naslov": "SRC „Mladost” uskoro dobiva novu zonu za sport, rekreaciju i druženje",
+   "opcina": "Čakovec",
+   "objavljeno": "2026-11-04",
+   "opis": "U sklopu projekta „ITU – Revitalizacija 3 zone aktivnog življenja”, prostor uz Gradske bazene „Marija Ružić” u Čakovcu, uređuje se u modernu sportsku, rekreativnu i društvenu zonu, namijenjenu svim generacijama. Riječ je…",
+   "link": "https://www.cakovec.hr/src-mladost-uskoro-dobiva-novu-zonu-za-sport-rekreaciju-i-druzenje/",
+   "slika": null
+  },
+  {
+   "id": "na-b2JyYS16YWJhdmEv",
+   "naslov": "Martinje ove subote na Šetnici svete Barbare – mlada vina, domaći okusi i dobra zabava",
+   "opcina": "Mursko Središće",
+   "objavljeno": "2026-11-03",
+   "opis": "Još nas samo četiri dana dijele od tradicionalnog Martinja na Šetnici svete Barbare u Murskom Središću! U subotu, 7. studenoga 2026. godine, s početkom u 16:00 sati, ponovno ćemo zajedno obilježiti blagdan svetog…",
+   "link": "https://mursko-sredisce.hr/martinje-ove-subote-na-setnici-svete-barbare-mlada-vina-domaci-okusi-i-dobra-zabava/",
+   "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/10/martinje-2026-1.webp"
+  },
+  {
+   "id": "na-YS1tZWRpbXVyamEv",
+   "naslov": "Gradonačelnik Dražen Srpak održao sastanak s predstavnicima Udruge studenata Međimurja",
+   "opcina": "Mursko Središće",
+   "objavljeno": "2026-11-03",
+   "opis": "Gradonačelnik Grada Mursko Središće Dražen Srpak danas je održao sastanak s predsjednikom Udruge studenata Međimurja Timonom Kozarom i dopredsjednicom Stelom Horvat, koji su mu predstavili rad Udruge, dosadašnje…",
+   "link": "https://mursko-sredisce.hr/gradonacelnik-drazen-srpak-odrzao-sastanak-s-predstavnicima-udruge-studenata-medimurja/",
+   "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/11/srpakstudenti.webp"
+  },
+  {
+   "id": "na-LXBsZXNrb3ZjdS8=",
+   "naslov": "Šest disciplina i druženje na 20. Hrvatskom festivalu sportske rekreacije žena u Pleškovcu",
+   "opcina": "Sveti Juraj na Bregu",
+   "objavljeno": "2026-11-02",
+   "opis": "U subotu, 7. studenoga 2026. godine, Udruga sportske rekreacije „Sport za sve” Sveti Juraj na Bregu bit će domaćin 20. Hrvatskog festivala sportske rekreacije žena. Festival će se održati u sportskoj dvorani Osnovne…",
+   "link": "https://www.svetijurajnabregu.hr/2026/11/02/sest-disciplina-i-druzenje-na-20-hrvatskom-festivalu-sportske-rekreacije-zena-u-pleskovcu/",
+   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/Plakat_2-683x1024.jpg"
   },
   {
    "id": "na-cmVkaXNjdS0yLw==",
@@ -4609,24 +4645,6 @@
    "opis": "U nedjelju, 8. studenoga 2026. godine, s početkom u 16 sati, u Domu kulture Selnica održat će se manifestacija „Vina z brajdi“, koja donosi ugodno druženje, bogatstvo domaćih okusa i veselu atmosferu u duhu međimurske…",
    "link": "https://www.selnica.hr/vina-z-brajdi-u-selnici-poziv-na-veselo-druzenje-uz-vino-glazbu-i-domace-delicije/",
    "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/10/Martinje-2026.webp"
-  },
-  {
-   "id": "na-b3ZpLWdsYXNpLw==",
-   "naslov": "Međimurska priroda predstavila peto, jubilarno izdanje biltena ‘Matulovi glasi’",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-10-26",
-   "opis": "Međimurska priroda – Javna ustanova za zaštitu prirode predstavlja peto, jubilarno izdanje biltena Matulovi glasi. Objavljeni su u digitalnom obliku odnosno u PDF izdanju na 28 stranica. Matulovi glasi u cijelosti su…",
-   "link": "https://www.svetijurajnabregu.hr/2026/10/26/medimurska-priroda-predstavila-peto-jubilarno-izdanje-biltena-matulovi-glasi/",
-   "slika": null
-  },
-  {
-   "id": "na-dHNrb20tZ3JhZHUv",
-   "naslov": "Osnovan Biciklistički klub Black Gold – novi zamah biciklizmu u najsjevernijem hrvatskom gradu",
-   "opcina": "Mursko Središće",
-   "objavljeno": "2026-10-25",
-   "opis": "Biciklizam u Murskom Središću posljednjih godina doživljava sve veći zamah, a ljubitelji rekreacije na dva kotača odsad imaju i novi klub koji će ih okupljati. Osnovan je Biciklistički klub Black Gold, za čijeg je…",
-   "link": "https://mursko-sredisce.hr/osnovan-biciklisticki-klub-black-gold-novi-zamah-biciklizmu-u-najsjevernijem-hrvatskom-gradu/",
-   "slika": null
   },
   {
    "id": "na-bmEtei1icmFqZGkv",
