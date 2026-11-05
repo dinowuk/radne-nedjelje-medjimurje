@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-04T09:28:28.661Z",
+ "azurirano": "2026-11-05T09:37:45.792Z",
  "nadolazeca": "2026-11-08",
  "nedjelje": [
   "2026-08-30",
@@ -25,52 +25,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-04T09:28:28.661Z"
+   "provjereno": "2026-11-05T09:37:45.792Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-04T09:28:28.661Z"
+   "provjereno": "2026-11-05T09:37:45.792Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-04T09:28:28.661Z"
+   "provjereno": "2026-11-05T09:37:45.792Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-04T09:28:28.661Z"
+   "provjereno": "2026-11-05T09:37:45.792Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-04T09:28:28.661Z"
+   "provjereno": "2026-11-05T09:37:45.792Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-04T09:28:28.661Z"
+   "provjereno": "2026-11-05T09:37:45.792Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-04T09:28:28.661Z"
+   "provjereno": "2026-11-05T09:37:45.792Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-04T09:28:28.661Z"
+   "provjereno": "2026-11-05T09:37:45.792Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-04T09:28:28.661Z"
+   "provjereno": "2026-11-05T09:37:45.792Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-04T09:28:28.661Z"
+   "provjereno": "2026-11-05T09:37:45.792Z"
   }
  },
  "greske": [],
@@ -270,12 +270,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -292,12 +292,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00"
    }
   },
   {
@@ -314,12 +314,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00"
    }
   },
   {
@@ -1092,12 +1092,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -1536,12 +1536,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -1856,12 +1856,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -2394,12 +2394,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00"
    }
   },
   {
@@ -2984,12 +2984,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -3006,12 +3006,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sri": null,
     "cet": null,
     "pet": null,
     "sub": null,
     "pon": null,
-    "uto": null
+    "uto": null,
+    "sri": null
    }
   },
   {
@@ -3235,12 +3235,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -4500,6 +4500,22 @@
    "link": "https://eventinfo.com.hr/dogadaj/big-band-cakovec-next-gen-jazz"
   },
   {
+   "id": "ei-4939",
+   "naslov": "Linkin Park tribute Piknik Park",
+   "od": "2026-11-21",
+   "do": "2026-11-21",
+   "vrijeme": "21:00",
+   "mjesto": "Caffe &amp; Noćni bar Meta",
+   "grad": "Čakovec",
+   "lat": 46.386387,
+   "lng": 16.423788,
+   "kategorija": "koncert",
+   "cijena": "15,00 EUR",
+   "opis": "Piknik Park ponovo u Čakovcu? Da, nakon dugih, predugih sedam godina! Mađari iz Linkin Park tribute benda Piknik Park još će jednom prirediti večer za pamćenje, baš kako samo oni to znaju. U pametne telefone valja upisati subotu, 21. studenog, a lokacija održavanja ove iznimne…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/linkin_park_tribute_piknik_park_1793796705.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/linkin-park-tribute-piknik-park"
+  },
+  {
    "id": "ei-4930",
    "naslov": "DA NAM PAK DOJDE TO VREME - Četvrta večer amatera",
    "od": "2026-11-25",
@@ -4514,6 +4530,38 @@
    "opis": "Program Četiri večeri amatera ove godine zatvaramo s folklornom večeri na kojoj će se ponovno predstaviti članice Gradske zajednice kulture Grada Čakovca i prikazati nam ono najbolje što su napravili unazad godinu dana. Bogat program, od folklora, tradicijskih napjeva, nastupa…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/da_nam_pak_dojde_to_vreme____etvrta_ve_er_amatera_1792747033.png",
    "link": "https://eventinfo.com.hr/dogadaj/da-nam-pak-dojde-to-vreme-cetvrta-vecer-amatera"
+  },
+  {
+   "id": "ei-4938",
+   "naslov": "Movember Run - brkati trk!",
+   "od": "2026-11-27",
+   "do": "2026-11-27",
+   "vrijeme": "17:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "sport",
+   "cijena": "Besplatno",
+   "opis": "Mjesec studeni je mjesec podizanja svijesti (i) o muškom zdravlju. Globalno se svaki studeni - novembar obilježava kao Movember, a muškarci (i oni koji se tako osjećaju) simbolično puštaju brkove. Prvi brkati trk bit će kao i uvijek laganih 5 kilometara u dobrom društvu, a…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/movember_run___brkati_trk__1793796486.jpeg",
+   "link": "https://eventinfo.com.hr/dogadaj/movember-run-brkati-trk"
+  },
+  {
+   "id": "ei-4937",
+   "naslov": "Čehaj Fest",
+   "od": "2026-11-28",
+   "do": "2026-11-28",
+   "vrijeme": null,
+   "mjesto": "MESAP Nedelišće",
+   "grad": "Nedelišće",
+   "lat": 46.38171,
+   "lng": 16.3879,
+   "kategorija": "koncert",
+   "cijena": "15,00 EUR",
+   "opis": "Čehaj Fest se vraća. Nakon nekoliko godina ponovno se vidimo na MESAP-u u Nedelišću. Line-up: Jelusick Opća Opasnost Pastiri Kao što smo najavili — bit će glasno. Ulaznice u prodaji od 12.10.2026. Regular 15€ VIP 25€ Gradska Kavana Čakovec, Meta bar, te online Entrio.hr",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/_ehaj_fest_1793795140.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/cehaj-fest"
   },
   {
    "id": "ei-4896",
@@ -4562,6 +4610,22 @@
    "opis": "Božićna čarolija veličanstvenog Orašara ponovno u Čakovcu! Uoči božićnih blagdana na pozornicu Centra za kulturu Čakovec vraća se najomiljeniji božićni balet svih vremena – Orašar P. I. Čajkovskog, u raskošnoj i očaravajućoj izvedbi ansambla UCB Ballet (Ukrajinski klasični…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/p__i___ajkovski__ora_ar_1791984752.png",
    "link": "https://eventinfo.com.hr/dogadaj/p-i-cajkovski-orasar"
+  },
+  {
+   "id": "ei-4936",
+   "naslov": "Xmas Lights Run",
+   "od": "2026-12-22",
+   "do": "2026-12-22",
+   "vrijeme": "17:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "sport",
+   "cijena": "Besplatno",
+   "opis": "Trčanje s lampicama nikad nije bilo zabavnije! I ove godine CK10 ekipa uz podrčku TK Međimurje Runners trči s lampicama. Pridruži se našoj ekipi, omotaj se lampicama, obuci crveno i završi najšareniji 5k run! Jesi spreman/a za trčati za Božić? Ne trebaš ništa osim volje,…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/xmas_lights_run_1793794270.jpeg",
+   "link": "https://eventinfo.com.hr/dogadaj/xmas-lights-run"
   }
  ],
  "najave": [
@@ -4569,28 +4633,10 @@
    "id": "na-PTImYWlkPTEwNTkw",
    "naslov": "Tradicionalna Kestenijada Rotary Cluba donijela jesensko druženje u znaku humanosti i zajedništva",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-04",
+   "objavljeno": "2026-11-05",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10590",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10590_80212_vipro025.jpg"
-  },
-  {
-   "id": "na-PTImYWlkPTEwNTg1",
-   "naslov": "Čehovec obilježio Dan mjesta uz tradicionalno druženje, kestene i tamburaše",
-   "opcina": "Prelog",
-   "objavljeno": "2026-11-04",
-   "opis": "",
-   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10585",
-   "slika": "http://www.prelog.hr/articlefiles/thumb_10585_80155_dscn1304.jpg"
-  },
-  {
-   "id": "na-LWktZHJ1emVuamUv",
-   "naslov": "SRC „Mladost” uskoro dobiva novu zonu za sport, rekreaciju i druženje",
-   "opcina": "Čakovec",
-   "objavljeno": "2026-11-04",
-   "opis": "U sklopu projekta „ITU – Revitalizacija 3 zone aktivnog življenja”, prostor uz Gradske bazene „Marija Ružić” u Čakovcu, uređuje se u modernu sportsku, rekreativnu i društvenu zonu, namijenjenu svim generacijama. Riječ je…",
-   "link": "https://www.cakovec.hr/src-mladost-uskoro-dobiva-novu-zonu-za-sport-rekreaciju-i-druzenje/",
-   "slika": null
   },
   {
    "id": "na-b2JyYS16YWJhdmEv",
