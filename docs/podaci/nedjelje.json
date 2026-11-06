@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-06T09:30:14.095Z",
+ "azurirano": "2026-11-06T20:28:07.359Z",
  "nadolazeca": "2026-11-08",
  "nedjelje": [
   "2026-08-30",
@@ -25,52 +25,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-06T09:30:14.095Z"
+   "provjereno": "2026-11-06T20:28:07.359Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-06T09:30:14.095Z"
+   "provjereno": "2026-11-06T20:28:07.359Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-06T09:30:14.095Z"
+   "provjereno": "2026-11-06T20:28:07.359Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-06T09:30:14.095Z"
+   "provjereno": "2026-11-06T20:28:07.359Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-06T09:30:14.095Z"
+   "provjereno": "2026-11-06T20:28:07.359Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-06T09:30:14.095Z"
+   "provjereno": "2026-11-06T20:28:07.359Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-06T09:30:14.095Z"
+   "provjereno": "2026-11-06T20:28:07.359Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-06T09:30:14.095Z"
+   "provjereno": "2026-11-06T20:28:07.359Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-06T09:30:14.095Z"
+   "provjereno": "2026-11-06T20:28:07.359Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-06T09:30:14.095Z"
+   "provjereno": "2026-11-06T20:28:07.359Z"
   }
  },
  "greske": [],
@@ -4632,6 +4632,15 @@
    "slika": "http://www.prelog.hr/articlefiles/thumb_10590_80212_vipro025.jpg"
   },
   {
+   "id": "na-ZGltdXJqYS0zLw==",
+   "naslov": "MARTINJE U GRADU RUDARA – BESPLATNA DEGUSTACIJA MLADIH VINA MEĐIMURJA",
+   "opcina": "Mursko Središće",
+   "objavljeno": "2026-11-06",
+   "opis": "Martinje u Murskom Središću i ove će godine biti posebno svečano, odajući počast svetom Martinu, zaštitniku vinara i vinogradara, u srcu Međimurja. Tradicija proslave Martinja ovdje ima duboke korijene, jer su još u…",
+   "link": "https://mursko-sredisce.hr/martinje-u-gradu-rudara-besplatna-degustacija-mladih-vina-medimurja-3/",
+   "slika": null
+  },
+  {
    "id": "na-bG9wYXRpbmN1Lw==",
    "naslov": "Koncert „Pjesme i sjećanja” u župnoj crkvi u Lopatincu",
    "opcina": "Sveti Juraj na Bregu",
@@ -5053,6 +5062,21 @@
     "pet": "16:00-02:00",
     "sub": "16:00-02:00"
    },
+   "foto": null,
+   "opis": null
+  },
+  {
+   "id": "osm-n14355203971",
+   "naziv": "Klopan",
+   "vrsta": "brza hrana",
+   "kuhinja": "",
+   "mjesto": "Čakovec",
+   "adresa": "",
+   "lat": 46.382072,
+   "lng": 16.430415,
+   "tel": null,
+   "web": null,
+   "tjedan": null,
    "foto": null,
    "opis": null
   },
