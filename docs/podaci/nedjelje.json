@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-05T09:37:45.792Z",
+ "azurirano": "2026-11-06T09:30:14.095Z",
  "nadolazeca": "2026-11-08",
  "nedjelje": [
   "2026-08-30",
@@ -25,52 +25,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-05T09:37:45.792Z"
+   "provjereno": "2026-11-06T09:30:14.095Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-05T09:37:45.792Z"
+   "provjereno": "2026-11-06T09:30:14.095Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-05T09:37:45.792Z"
+   "provjereno": "2026-11-06T09:30:14.095Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-05T09:37:45.792Z"
+   "provjereno": "2026-11-06T09:30:14.095Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-05T09:37:45.792Z"
+   "provjereno": "2026-11-06T09:30:14.095Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-05T09:37:45.792Z"
+   "provjereno": "2026-11-06T09:30:14.095Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-05T09:37:45.792Z"
+   "provjereno": "2026-11-06T09:30:14.095Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-05T09:37:45.792Z"
+   "provjereno": "2026-11-06T09:30:14.095Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-05T09:37:45.792Z"
+   "provjereno": "2026-11-06T09:30:14.095Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-05T09:37:45.792Z"
+   "provjereno": "2026-11-06T09:30:14.095Z"
   }
  },
  "greske": [],
@@ -267,15 +267,16 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -289,15 +290,16 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": "07:00-21:00"
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -311,15 +313,16 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": "07:00-21:00"
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -1089,15 +1092,16 @@
    "nedjelje": {
     "2026-10-25": "08:00-14:00",
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -1533,15 +1537,16 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -1853,15 +1858,16 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -2391,15 +2397,16 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": "07:00-21:00"
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -2981,15 +2988,16 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -3006,12 +3014,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "cet": null,
     "pet": null,
     "sub": null,
     "pon": null,
     "uto": null,
-    "sri": null
+    "sri": null,
+    "cet": null
    }
   },
   {
@@ -3232,15 +3240,16 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -4292,22 +4301,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
   },
   {
-   "id": "ei-4897",
-   "naslov": "Ansambl LADO: Vrijeme plesa",
-   "od": "2026-11-05",
-   "do": "2026-11-05",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "kazalište",
-   "cijena": "25,00 EUR",
-   "opis": "Ansambl LADO: Vrijeme plesa Ansambl LADO poziva čakovečku publiku na premijeru svečanog godišnjeg koncerta “Vrijeme plesa”, koja će se održati 5. studenoga 2026. u Čakovcu. Ovogodišnji program otkriva ono što publika rijetko ima priliku vidjeti – unutarnji proces nastanka jedne…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/ansambl_lado__vrijeme_plesa_1790154590.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/ansambl-lado-vrijeme-plesa"
-  },
-  {
    "id": "ei-4933",
    "naslov": "MLADO. Međimurje",
    "od": "2026-11-06",
@@ -4633,10 +4626,19 @@
    "id": "na-PTImYWlkPTEwNTkw",
    "naslov": "Tradicionalna Kestenijada Rotary Cluba donijela jesensko druženje u znaku humanosti i zajedništva",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-05",
+   "objavljeno": "2026-11-06",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10590",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10590_80212_vipro025.jpg"
+  },
+  {
+   "id": "na-bG9wYXRpbmN1Lw==",
+   "naslov": "Koncert „Pjesme i sjećanja” u župnoj crkvi u Lopatincu",
+   "opcina": "Sveti Juraj na Bregu",
+   "objavljeno": "2026-11-05",
+   "opis": "Pjevački zbor „Sveti Juraj na Bregu” bit će u srijedu, 18. studenoga 2026. godine, domaćin koncerta pod nazivom „Pjesme i sjećanja”, koji će se održati u župnoj crkvi svetog Jurja mučenika u Lopatincu, s početkom u 18…",
+   "link": "https://www.svetijurajnabregu.hr/2026/11/05/koncert-pjesme-i-sjecanja-u-zupnoj-crkvi-u-lopatincu/",
+   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/Pjesme-i-sjecanja-2026-724x1024-1.jpg"
   },
   {
    "id": "na-b2JyYS16YWJhdmEv",
@@ -4664,6 +4666,15 @@
    "opis": "U subotu, 7. studenoga 2026. godine, Udruga sportske rekreacije „Sport za sve” Sveti Juraj na Bregu bit će domaćin 20. Hrvatskog festivala sportske rekreacije žena. Festival će se održati u sportskoj dvorani Osnovne…",
    "link": "https://www.svetijurajnabregu.hr/2026/11/02/sest-disciplina-i-druzenje-na-20-hrvatskom-festivalu-sportske-rekreacije-zena-u-pleskovcu/",
    "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/Plakat_2-683x1024.jpg"
+  },
+  {
+   "id": "na-LW1lZGltdXJqdS8=",
+   "naslov": "Edukacija i radionica izrade biodinamičkih pripravaka u Međimurju",
+   "opcina": "Sveti Juraj na Bregu",
+   "objavljeno": "2026-11-02",
+   "opis": "U sklopu manifestacije Dani biodinamike – Jesen 2026., ustanova Centar dr. Rudolfa Steinera organizira 𝗯𝗲𝘀𝗽𝗹𝗮𝘁𝗻𝘂 𝗲𝗱𝘂𝗸𝗮𝗰𝗶𝗷𝘂 𝗶 𝗽𝗿𝗮𝗸𝘁𝗶č𝗻𝘂 𝗿𝗮𝗱𝗶𝗼𝗻𝗶𝗰𝘂 𝗶𝘇𝗿𝗮𝗱𝗲 𝗯𝗶𝗼𝗱𝗶𝗻𝗮𝗺𝗶č𝗸𝗶𝗵…",
+   "link": "https://www.svetijurajnabregu.hr/2026/11/02/edukacija-i-radionica-izrade-biodinamickih-pripravaka-u-medimurju/",
+   "slika": "blob:https://www.svetijurajnabregu.hr/d34e20b7-8105-496a-a9b4-cc95fb9d6fe3"
   },
   {
    "id": "na-cmVkaXNjdS0yLw==",
