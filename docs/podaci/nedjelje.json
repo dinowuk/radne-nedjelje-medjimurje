@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-06T20:28:07.359Z",
+ "azurirano": "2026-11-07T08:55:15.099Z",
  "nadolazeca": "2026-11-08",
  "nedjelje": [
   "2026-08-30",
@@ -25,52 +25,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-06T20:28:07.359Z"
+   "provjereno": "2026-11-07T08:55:15.099Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-06T20:28:07.359Z"
+   "provjereno": "2026-11-07T08:55:15.099Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-06T20:28:07.359Z"
+   "provjereno": "2026-11-07T08:55:15.099Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-06T20:28:07.359Z"
+   "provjereno": "2026-11-07T08:55:15.099Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-06T20:28:07.359Z"
+   "provjereno": "2026-11-07T08:55:15.099Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-06T20:28:07.359Z"
+   "provjereno": "2026-11-07T08:55:15.099Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-06T20:28:07.359Z"
+   "provjereno": "2026-11-07T08:55:15.099Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-06T20:28:07.359Z"
+   "provjereno": "2026-11-07T08:55:15.099Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-06T20:28:07.359Z"
+   "provjereno": "2026-11-07T08:55:15.099Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-06T20:28:07.359Z"
+   "provjereno": "2026-11-07T08:55:15.099Z"
   }
  },
  "greske": [],
@@ -271,12 +271,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -294,12 +294,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -317,12 +317,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -1096,12 +1096,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -1541,12 +1541,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -1862,12 +1862,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -2401,12 +2401,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -2992,12 +2992,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -3014,12 +3014,12 @@
     "2026-11-08": null
    },
    "tjedan": {
-    "pet": null,
     "sub": null,
     "pon": null,
     "uto": null,
     "sri": null,
-    "cet": null
+    "cet": null,
+    "pet": null
    }
   },
   {
@@ -3244,12 +3244,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -4269,22 +4269,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/izlozba-poezije-josipa-mihalkovica-u-fotostripu"
   },
   {
-   "id": "ei-4918",
-   "naslov": "Heidi: od književne junakinje do svjetske ikone",
-   "od": "2026-10-19",
-   "do": "2026-11-06",
-   "vrijeme": null,
-   "mjesto": "Knjižnica Nikola Zrinski, Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.390284,
-   "lng": 16.434269,
-   "kategorija": "izložba",
-   "cijena": null,
-   "opis": "Sjećate li se još uvijek mirisa planinskog zraka, toplog djedovog doma i bezbrižnih dana provedenih na pašnjacima sa simpatičnom djevojčicom iz Švicarske? U Knjižnici „Nikola Zrinski” Čakovec gostuje međunarodna putujuća izložba „Heidi: od književne junakinje do svjetske ikone“…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/heidi__od_knji_evne_junakinje_do_svjetske_ikone_1792150110.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/heidi-od-knjizevne-junakinje-do-svjetske-ikone"
-  },
-  {
    "id": "ei-4911",
    "naslov": "16. BIJENALNA IZLOŽBA - UDRUŽENJE ARHITEKATA MEĐIMURJA",
    "od": "2026-10-22",
@@ -4299,22 +4283,6 @@
    "opis": "Otvorenje izložbe: četvrtak, 22. listopada u 18.00 sati | Galerija Centra za kulturu Čakovec 16. BIJENALNA IZLOŽBA | PROJEKTI I REALIZACIJE 2024. – 2025. ČLANOVA UDRUŽENJA ARHITEKATA MEĐIMURJA 16. bijenalna izložba članova Udruženja arhitekata Međimurja Projekti i realizacije…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/16__bijenalna_izlo_ba___udru_enje_arhitekata_me_imurja_1791979368.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
-  },
-  {
-   "id": "ei-4933",
-   "naslov": "MLADO. Međimurje",
-   "od": "2026-11-06",
-   "do": "2026-11-06",
-   "vrijeme": "18:00",
-   "mjesto": "Dom kulture Štrigova",
-   "grad": "Štrigova",
-   "lat": 46.500062,
-   "lng": 16.289957,
-   "kategorija": "zabava",
-   "cijena": "15,00 EUR",
-   "opis": "I ove godine MLADO. Međimurje dolazi u Štrigovu. U petak, 06. studenog u Domu kulture predstavit će se devet vinarija Međimurske vinske ceste: Cmrečnjak, Horvat, Knehtl- Medenjak, Kovač, Kunčić, Novak, Preiner, Štampar i Vina Čapalija. MLADO. Međimurje je nježno, živahno i…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/mlado__me_imurje_1793359654.jpeg",
-   "link": "https://eventinfo.com.hr/dogadaj/mlado-medimurje"
   },
   {
    "id": "ei-4935",
@@ -4622,15 +4590,6 @@
   }
  ],
  "najave": [
-  {
-   "id": "na-PTImYWlkPTEwNTkw",
-   "naslov": "Tradicionalna Kestenijada Rotary Cluba donijela jesensko druženje u znaku humanosti i zajedništva",
-   "opcina": "Prelog",
-   "objavljeno": "2026-11-06",
-   "opis": "",
-   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10590",
-   "slika": "http://www.prelog.hr/articlefiles/thumb_10590_80212_vipro025.jpg"
-  },
   {
    "id": "na-ZGltdXJqYS0zLw==",
    "naslov": "MARTINJE U GRADU RUDARA – BESPLATNA DEGUSTACIJA MLADIH VINA MEĐIMURJA",
@@ -6364,228 +6323,6 @@
   }
  ],
  "jelovnici": {
-  "osm-n3906333895": {
-   "restoran": "osm-n3906333895",
-   "od": "2026-10-19",
-   "do": "2026-10-23",
-   "izvor": "https://www.bajzovidvori.com/tjednigableci/bajzovi_dvori_dekanovec_19102026.jpg",
-   "napomena": "Gablece poslužujemo od 10:00 do 14:00 ili do isteka zaliha · dostava 040/310-555 · primamo narudžbe za pizze i à la carte",
-   "svakiDan": [
-    [
-     "Pileći bečki, pommes, tartar umak, kruh",
-     "6,50 €"
-    ],
-    [
-     "Topli sendvič classic",
-     "7,00 €"
-    ],
-    [
-     "Topli sendvič lovački",
-     "7,00 €"
-    ],
-    [
-     "Topli sendvič Bajzovi dvori",
-     "7,00 €"
-    ],
-    [
-     "Topli sendvič kebab",
-     "7,50 €"
-    ]
-   ],
-   "dani": {
-    "2026-10-19": {
-     "glavna": [
-      [
-       "Pileći ragu s gljivama i povrćem, široki rezanci, salata, kruh",
-       "6,50 €"
-      ],
-      [
-       "Špek fileki, kruh",
-       "7,00 €"
-      ],
-      [
-       "Domaći burger, krumpirići",
-       "6,50 €"
-      ],
-      [
-       "Chicken burger, krumpirići",
-       "7,00 €"
-      ]
-     ]
-    },
-    "2026-10-20": {
-     "glavna": [
-      [
-       "Ćevapi u somunu, ajvar, luk",
-       "6,50 €"
-      ],
-      [
-       "Špek fileki, kruh",
-       "7,00 €"
-      ],
-      [
-       "Domaći burger, krumpirići",
-       "6,50 €"
-      ],
-      [
-       "Chicken burger, krumpirići",
-       "7,00 €"
-      ]
-     ]
-    },
-    "2026-10-21": {
-     "glavna": [
-      [
-       "Grah varivo sa suhim mesom, kruh",
-       "6,50 €"
-      ],
-      [
-       "Špek fileki, kruh",
-       "7,00 €"
-      ],
-      [
-       "Domaći burger, krumpirići",
-       "6,50 €"
-      ],
-      [
-       "Chicken burger, krumpirići",
-       "7,00 €"
-      ]
-     ]
-    },
-    "2026-10-22": {
-     "glavna": [
-      [
-       "Pileći panirani otkošteni batak-zabatak, rizi-bizi, salata, kruh",
-       "6,50 €"
-      ],
-      [
-       "Špek fileki, kruh",
-       "7,00 €"
-      ],
-      [
-       "Domaći burger, krumpirići",
-       "6,50 €"
-      ],
-      [
-       "Chicken burger, krumpirići",
-       "7,00 €"
-      ]
-     ]
-    },
-    "2026-10-23": {
-     "glavna": [
-      [
-       "Ćufte u umaku od rajčice, pire krumpir, salata, kruh",
-       "6,50 €"
-      ],
-      [
-       "Špek fileki, kruh",
-       "7,00 €"
-      ],
-      [
-       "Domaći burger, krumpirići",
-       "6,50 €"
-      ],
-      [
-       "Chicken burger, krumpirići",
-       "7,00 €"
-      ]
-     ]
-    }
-   }
-  },
-  "osm-n13281245922": {
-   "restoran": "osm-n13281245922",
-   "od": "2026-10-19",
-   "do": "2026-10-23",
-   "izvor": "https://www.bajzovidvori.com/tjednigableci/bajzovi_dvori_mursko_sredisce_19102026.jpg",
-   "napomena": "Ponuda vrijedi od 09:00 do 15:00 · dostava 040/550-047 (ambalaža 0,30 €) · primamo narudžbe za pizze i à la carte",
-   "svakiDan": [
-    [
-     "Špek fileki, kruh",
-     "7,50 €"
-    ],
-    [
-     "Topli sendvič classic",
-     "7,00 €"
-    ],
-    [
-     "Topli sendvič lovački",
-     "7,00 €"
-    ],
-    [
-     "Topli sendvič Bajzovi dvori",
-     "7,00 €"
-    ],
-    [
-     "Topli sendvič kebab",
-     "7,50 €"
-    ]
-   ],
-   "dani": {
-    "2026-10-19": {
-     "glavna": [
-      [
-       "Pileći file na Orly, dinstana riža, salata, kruh",
-       "7,00 €"
-      ],
-      [
-       "Pileći bečki, pommes, tartar umak, kruh",
-       "7,00 €"
-      ]
-     ]
-    },
-    "2026-10-20": {
-     "glavna": [
-      [
-       "Svinjska rolada punjena povrćem, tjestenina, salata, kruh",
-       "7,00 €"
-      ],
-      [
-       "Pileći bečki, pommes, tartar umak, kruh",
-       "7,00 €"
-      ]
-     ]
-    },
-    "2026-10-21": {
-     "glavna": [
-      [
-       "Pizza party (Capricciosa, Margarita, Vesuvio, Salami)",
-       "7,00 €"
-      ],
-      [
-       "Pileći bečki, pommes, tartar umak, kruh",
-       "7,00 €"
-      ]
-     ]
-    },
-    "2026-10-22": {
-     "glavna": [
-      [
-       "Pečeni batak-zabatak, mlinci, salata, kruh",
-       "7,00 €"
-      ],
-      [
-       "Pileći bečki, pommes, tartar umak, kruh",
-       "7,00 €"
-      ]
-     ]
-    },
-    "2026-10-23": {
-     "glavna": [
-      [
-       "Pečene krvavice, restani krumpir, salata, kruh",
-       "7,00 €"
-      ],
-      [
-       "Pileći bečki, pommes, tartar umak, kruh",
-       "7,00 €"
-      ]
-     ]
-    }
-   }
-  },
   "osm-n12196789233": {
    "restoran": "osm-n12196789233",
    "od": "2026-10-19",
