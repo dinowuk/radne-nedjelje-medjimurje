@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-08T09:09:33.642Z",
+ "azurirano": "2026-11-08T11:29:00.975Z",
  "nadolazeca": "2026-11-08",
  "nedjelje": [
   "2026-08-30",
@@ -25,52 +25,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-08T09:09:33.642Z"
+   "provjereno": "2026-11-08T11:29:00.975Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-08T09:09:33.642Z"
+   "provjereno": "2026-11-08T11:29:00.975Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-08T09:09:33.642Z"
+   "provjereno": "2026-11-08T11:29:00.975Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-08T09:09:33.642Z"
+   "provjereno": "2026-11-08T11:29:00.975Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-08T09:09:33.642Z"
+   "provjereno": "2026-11-08T11:29:00.975Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-08T09:09:33.642Z"
+   "provjereno": "2026-11-08T11:29:00.975Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-08T09:09:33.642Z"
+   "provjereno": "2026-11-08T11:29:00.975Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-08T09:09:33.642Z"
+   "provjereno": "2026-11-08T11:29:00.975Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-08T09:09:33.642Z"
+   "provjereno": "2026-11-08T11:29:00.975Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-08T09:09:33.642Z"
+   "provjereno": "2026-11-08T11:29:00.975Z"
   }
  },
  "greske": [],
@@ -4720,7 +4720,7 @@
   },
   {
    "id": "osm-n1748069161",
-   "naziv": "Batak Čakovec",
+   "naziv": "Batak",
    "vrsta": "restoran",
    "kuhinja": "roštilj",
    "mjesto": "Čakovec",
@@ -4786,7 +4786,7 @@
    "adresa": "Trg Republike 5",
    "lat": 46.388873,
    "lng": 16.432008,
-   "tel": "+385 40 341 099",
+   "tel": "+385 40 341-099",
    "web": "https://stari-grad.com/",
    "tjedan": null,
    "foto": "https://stari-grad.com/wp-content/uploads/2026/02/Otkrijte-nasu-pricu-11.jpg",
@@ -5020,21 +5020,6 @@
    "opis": null
   },
   {
-   "id": "osm-n14355203971",
-   "naziv": "Klopan",
-   "vrsta": "brza hrana",
-   "kuhinja": "",
-   "mjesto": "Čakovec",
-   "adresa": "",
-   "lat": 46.382072,
-   "lng": 16.430415,
-   "tel": null,
-   "web": null,
-   "tjedan": null,
-   "foto": null,
-   "opis": null
-  },
-  {
    "id": "osm-n6024472851",
    "naziv": "Laganini",
    "vrsta": "restoran",
@@ -5221,7 +5206,7 @@
    "adresa": "Ulica Nikole Pavića 2",
    "lat": 46.378992,
    "lng": 16.443246,
-   "tel": "+385 95 130 0400",
+   "tel": "095 130 0400",
    "web": "https://www.facebook.com/pizzeriaspizza/?locale=hr_HR",
    "tjedan": {
     "pon": "08:00-23:00",
@@ -5861,21 +5846,6 @@
    "opis": null
   },
   {
-   "id": "osm-w673966510",
-   "naziv": "Restoran Schloss",
-   "vrsta": "restoran",
-   "kuhinja": "",
-   "mjesto": "Mursko Središće",
-   "adresa": "Ulica Josipa Šajnovića 1",
-   "lat": 46.505462,
-   "lng": 16.431194,
-   "tel": null,
-   "web": null,
-   "tjedan": null,
-   "foto": null,
-   "opis": null
-  },
-  {
    "id": "osm-n7201177987",
    "naziv": "Atlantik",
    "vrsta": "restoran",
@@ -5939,15 +5909,7 @@
    "lng": 16.386719,
    "tel": null,
    "web": "https://restoran-lipa.com/",
-   "tjedan": {
-    "pon": "07:30-23:00",
-    "uto": "07:30-23:00",
-    "sri": "07:30-23:00",
-    "cet": "07:30-23:00",
-    "pet": "07:30-23:00",
-    "sub": "07:30-23:00",
-    "ned": "07:30-23:00"
-   },
+   "tjedan": null,
    "foto": null,
    "opis": null
   },
@@ -5965,29 +5927,6 @@
    "tjedan": null,
    "foto": null,
    "opis": null
-  },
-  {
-   "id": "osm-w327152058",
-   "naziv": "Kavana Cobra",
-   "vrsta": "restoran",
-   "kuhinja": "pizza, burgeri, domaća kuhinja, kava, sendviči, piletina",
-   "mjesto": "Podturen",
-   "adresa": "Čakovečka ulica 18",
-   "lat": 46.463776,
-   "lng": 16.543868,
-   "tel": null,
-   "web": "https://www.kavanacobra.hr",
-   "tjedan": {
-    "pon": "10:00-22:00",
-    "uto": "10:00-22:00",
-    "sri": "10:00-22:00",
-    "cet": "10:00-22:00",
-    "pet": "10:00-22:00",
-    "sub": "10:00-22:00",
-    "ned": "10:00-22:00"
-   },
-   "foto": null,
-   "opis": "Kavana Cobra: Catering | Organizirane proslave | Krizma | Vjenčanje | Godišnjica | Rođendan | Pizzeria | Plate | Međimurje | Čakovec | Proslava |"
   },
   {
    "id": "osm-w625719529",
@@ -6051,7 +5990,7 @@
    "adresa": "Glavna ulica 41",
    "lat": 46.337297,
    "lng": 16.615339,
-   "tel": "+385 40 295 704",
+   "tel": "040295704",
    "web": "https://www.trattoriarossa.com",
    "tjedan": null,
    "foto": null,
@@ -6064,8 +6003,8 @@
    "kuhinja": "pizza",
    "mjesto": "Pretetinec",
    "adresa": "Pretetinec 147",
-   "lat": 46.393332,
-   "lng": 16.37029,
+   "lat": 46.393374,
+   "lng": 16.370301,
    "tel": "+385 40 829 394",
    "web": "https://www.visitmedimurje.com/backend/opsirnije-nedelisce.asp?id=200",
    "tjedan": null,
@@ -6088,44 +6027,14 @@
    "opis": null
   },
   {
-   "id": "osm-w310191340",
+   "id": "osm-n1997363641",
    "naziv": "Mamica",
    "vrsta": "restoran",
    "kuhinja": "domaća kuhinja",
    "mjesto": "Pušćine",
-   "adresa": "Čakovečka 47",
-   "lat": 46.347698,
-   "lng": 16.362008,
-   "tel": null,
-   "web": "https://www.mamica.com.hr/en",
-   "tjedan": null,
-   "foto": null,
-   "opis": "U idiličnom zelenom okruženju na pola puta između Čakovca i Varaždina, Mamica Pansion & Restoran nudi iznimno udobne sobe, doručak za pamćenje, a restoran odlikuje domaća međimurska kuhinja s modernim…"
-  },
-  {
-   "id": "osm-w317781063",
-   "naziv": "Restoran Palma",
-   "vrsta": "restoran",
-   "kuhinja": "",
-   "mjesto": "Pušćine",
-   "adresa": "Čakovečka ulica 106",
-   "lat": 46.341972,
-   "lng": 16.361568,
-   "tel": "+38540895163",
-   "web": null,
-   "tjedan": null,
-   "foto": null,
-   "opis": null
-  },
-  {
-   "id": "osm-n13910575543",
-   "naziv": "Pizzerija Krug",
-   "vrsta": "restoran",
-   "kuhinja": "",
-   "mjesto": "Selnica",
    "adresa": "",
-   "lat": 46.493208,
-   "lng": 16.398052,
+   "lat": 46.347707,
+   "lng": 16.361868,
    "tel": null,
    "web": null,
    "tjedan": null,
@@ -6234,7 +6143,7 @@
    "mjesto": "Štrigova",
    "adresa": "Štrigova 76",
    "lat": 46.501045,
-   "lng": 16.284522,
+   "lng": 16.284529,
    "tel": "+38540851093",
    "web": null,
    "tjedan": {
