@@ -1,8 +1,7 @@
 {
- "azurirano": "2026-11-08T11:29:00.975Z",
- "nadolazeca": "2026-11-08",
+ "azurirano": "2026-11-09T09:55:35.582Z",
+ "nadolazeca": "2026-11-15",
  "nedjelje": [
-  "2026-08-30",
   "2026-09-06",
   "2026-09-13",
   "2026-09-20",
@@ -25,52 +24,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-08T11:29:00.975Z"
+   "provjereno": "2026-11-09T09:55:35.582Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-08T11:29:00.975Z"
+   "provjereno": "2026-11-09T09:55:35.582Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-08T11:29:00.975Z"
+   "provjereno": "2026-11-09T09:55:35.582Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-08T11:29:00.975Z"
+   "provjereno": "2026-11-09T09:55:35.582Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-08T11:29:00.975Z"
+   "provjereno": "2026-11-09T09:55:35.582Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-08T11:29:00.975Z"
+   "provjereno": "2026-11-09T09:55:35.582Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-08T11:29:00.975Z"
+   "provjereno": "2026-11-09T09:55:35.582Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-08T11:29:00.975Z"
+   "provjereno": "2026-11-09T09:55:35.582Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-08T11:29:00.975Z"
+   "provjereno": "2026-11-09T09:55:35.582Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-08T11:29:00.975Z"
+   "provjereno": "2026-11-09T09:55:35.582Z"
   }
  },
  "greske": [],
@@ -78,8 +77,7 @@
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Najave Čakovec: fetch failed"
+  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)"
  ],
  "trgovine": [
   {
@@ -93,7 +91,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "06:30-13:30",
@@ -115,7 +114,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-13:00"
+    "2026-11-08": "07:00-13:00",
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -224,7 +224,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -246,7 +247,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -315,7 +317,7 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": null
+    "2026-11-15": "08:00-18:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -337,7 +339,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -384,6 +387,7 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
+    "2026-11-15": null,
     "2026-11-22": "08:00-18:00"
    },
    "tjedan": {
@@ -406,7 +410,8 @@
    "nedjelje": {
     "2026-10-25": "07:00-21:00",
     "2026-11-01": null,
-    "2026-11-08": "07:00-21:00"
+    "2026-11-08": "07:00-21:00",
+    "2026-11-15": "07:00-21:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -428,7 +433,8 @@
    "nedjelje": {
     "2026-10-25": "07:00-21:00",
     "2026-11-01": null,
-    "2026-11-08": "07:00-21:00"
+    "2026-11-08": "07:00-21:00",
+    "2026-11-15": "07:00-21:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -451,6 +457,7 @@
     "2026-10-25": "07:00-14:00",
     "2026-11-01": null,
     "2026-11-08": "07:00-14:00",
+    "2026-11-15": "07:00-14:00",
     "2026-11-22": null,
     "2026-11-29": null
    },
@@ -499,7 +506,8 @@
    "nedjelje": {
     "2026-10-25": "08:00-20:00",
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "06:30-20:30",
@@ -898,7 +906,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": null,
@@ -949,7 +958,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": null,
@@ -971,7 +981,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": "07:00-12:00"
    },
    "tjedan": {
     "pon": "06:30-20:30",
@@ -1022,7 +1033,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": "07:00-12:00"
    },
    "tjedan": {
     "pon": "06:30-20:00",
@@ -1044,7 +1056,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -1096,7 +1109,7 @@
     "2026-10-25": "08:00-14:00",
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": null
+    "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -1118,7 +1131,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -1140,7 +1154,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": null,
@@ -1220,7 +1235,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-13:00"
+    "2026-11-08": "07:00-13:00",
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -1242,7 +1258,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": null,
@@ -1293,7 +1310,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "06:30-20:00",
@@ -1489,7 +1507,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": "07:00-12:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -1563,7 +1582,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-13:00"
+    "2026-11-08": "07:00-13:00",
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -1730,7 +1750,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-13:00"
+    "2026-11-08": "07:00-13:00",
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -1839,7 +1860,8 @@
    "nedjelje": {
     "2026-10-25": "07:00-12:00",
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -1862,7 +1884,7 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": null
+    "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -1884,7 +1906,8 @@
    "nedjelje": {
     "2026-10-25": "07:00-12:00",
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -1906,7 +1929,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": null,
@@ -2131,7 +2155,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-13:00"
+    "2026-11-08": "07:00-13:00",
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -2211,7 +2236,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": null,
@@ -2378,7 +2404,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-13:00"
+    "2026-11-08": "07:00-13:00",
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -2423,7 +2450,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -2445,7 +2473,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -2467,7 +2496,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -2605,7 +2635,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": "07:00-12:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -2685,7 +2716,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-13:00"
+    "2026-11-08": "07:00-13:00",
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-19:00",
@@ -2707,7 +2739,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -2787,7 +2820,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-13:00"
+    "2026-11-08": "07:00-13:00",
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-20:30",
@@ -2838,7 +2872,8 @@
    "nedjelje": {
     "2026-10-25": "07:00-12:00",
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -2860,7 +2895,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": "07:00-12:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -2940,7 +2976,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-13:00"
+    "2026-11-08": "07:00-13:00",
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -2992,7 +3029,7 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": null
+    "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -3014,7 +3051,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": null,
@@ -3036,7 +3074,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -3082,7 +3121,8 @@
    "nedjelje": {
     "2026-10-25": "07:00-21:00",
     "2026-11-01": null,
-    "2026-11-08": "07:00-21:00"
+    "2026-11-08": "07:00-21:00",
+    "2026-11-15": "07:00-21:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -3245,7 +3285,7 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": null
+    "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -3267,7 +3307,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": null,
@@ -3318,7 +3359,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-11:00"
+    "2026-11-08": "07:00-11:00",
+    "2026-11-15": "07:00-11:00"
    },
    "tjedan": {
     "pon": "07:00-15:00",
@@ -3369,7 +3411,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": "07:00-12:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -3449,7 +3492,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": "07:00-12:00"
    },
    "tjedan": {
     "pon": "07:00-19:30",
@@ -3558,7 +3602,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-19:00",
@@ -3609,7 +3654,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": "07:00-12:00"
    },
    "tjedan": {
     "pon": "06:30-20:00",
@@ -3689,7 +3735,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": "08:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -3798,7 +3845,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": "07:00-12:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -3849,7 +3897,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": null
+    "2026-11-08": null,
+    "2026-11-15": null
    },
    "tjedan": {
     "pon": "07:00-14:00",
@@ -3929,7 +3978,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-12:00"
+    "2026-11-08": "07:00-12:00",
+    "2026-11-15": "07:00-12:00"
    },
    "tjedan": {
     "pon": "07:00-20:00",
@@ -4009,7 +4059,8 @@
    "nedjelje": {
     "2026-10-25": null,
     "2026-11-01": null,
-    "2026-11-08": "07:00-13:00"
+    "2026-11-08": "07:00-13:00",
+    "2026-11-15": "07:00-13:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -4121,7 +4172,6 @@
    "opis": "Retail park. Radne nedjelje od 9 do 14 h; supermarket i kafić mogu imati drugačije vrijeme.",
    "izvor": "https://stop-shop.com/hr/hrvatska/cakovec",
    "nedjelje": {
-    "2026-08-30": null,
     "2026-09-06": "09:00-14:00",
     "2026-09-13": "09:00-14:00",
     "2026-09-20": null,
@@ -4289,22 +4339,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
   },
   {
-   "id": "ei-4935",
-   "naslov": "MARTINJE NA MEĐIMURSKOJ VINSKOJ CESTI",
-   "od": "2026-11-06",
-   "do": "2026-11-08",
-   "vrijeme": null,
-   "mjesto": "Međimurje",
-   "grad": "",
-   "lat": 46.418417,
-   "lng": 16.460623,
-   "kategorija": "zabava",
-   "cijena": "Besplatno",
-   "opis": "Međimurje u studenom ponovno postaje pozornica jednog od svojih najživopisnijih običaja – Martinja, blagdana svetog Martina. Pod zajedničkim projektom “Martinje na Međimurskoj vinskoj cesti”, koji organiziraju Turistička zajednica8 područja „Mura i gorice“, Turistička zajednica…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/martinje_na_me_imurskoj_vinskoj_cesti_1793720127.jpeg",
-   "link": "https://eventinfo.com.hr/dogadaj/martinje-na-medimurskoj-vinskoj-cesti2026"
-  },
-  {
    "id": "ei-4902",
    "naslov": "MARTINJE I SVETOMARTINSKA GULAŠIJADA",
    "od": "2026-11-06",
@@ -4321,20 +4355,20 @@
    "link": "https://eventinfo.com.hr/dogadaj/martinje-i-svetomartinska-gulasijada2026"
   },
   {
-   "id": "ei-4928",
-   "naslov": "Dječje kazalište Dubrava: LUDA ŠUMA",
-   "od": "2026-11-08",
-   "do": "2026-11-08",
-   "vrijeme": "16:00",
+   "id": "ei-4940",
+   "naslov": "PRIJATELJI ZA MARIJU - Humanitarni koncert",
+   "od": "2026-11-11",
+   "do": "2026-11-11",
+   "vrijeme": "18:00",
    "mjesto": "CZK Čakovec",
    "grad": "Čakovec",
    "lat": 46.3904,
    "lng": 16.434567,
-   "kategorija": "kazalište",
-   "cijena": null,
-   "opis": "Koprodukcija / Gledališče Glej i Federacija (SLO) i Dječje kazalište Dubrava, Zagreb (HR) lutkarsko-glazbena predstava uzrast: 4+ trajanje: 45 minuta Prema motivima basni Sergeja Kozlova. Koncept, režija i glazba: Peter Kus Tekst i dramaturgija: Ajda Rooss Igraju: Andrea Giordani…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/dje_je_kazali_te_dubrava__luda__uma_1792745810.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/djecje-kazaliste-dubrava-luda-suma"
+   "kategorija": "koncert",
+   "cijena": "10,00 EUR",
+   "opis": "Međimurska županija i Međimurska zaklada solidarnosti Katruža organiziraju humanitarni koncert nazvan Prijatelji za Mariju koji će okupiti brojne izvođače iz našega kraja, kolege Marije Jambrošić – žene čiji su glazbeni put obilježili dobrotvornih nastupi i simbolična, uvijek…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/prijatelji_za_mariju___humanitarni_koncert_1794216843.png",
+   "link": "https://eventinfo.com.hr/dogadaj/prijatelji-za-mariju-humanitarni-koncert"
   },
   {
    "id": "ei-4895",
@@ -4385,22 +4419,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/barbara-unplugged"
   },
   {
-   "id": "ei-4907",
-   "naslov": "OBRADOVIĆ-TIXIER DUO, HOMAGE COLLECTIVE PLAYS MILES DAVIS",
-   "od": "2026-11-19",
-   "do": "2026-11-19",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "koncert",
-   "cijena": "20,00 EUR",
-   "opis": "OBRADOVIĆ-TIXIER DUO Lada Obradović rodom je iz Siska, školovala se u Grazu, a potom i Bernu, da bi se konačno smjestila Francuskoj. S pijanistom Davidom Tixierom, kolegom iz Švicarske, pokrenula je duo, koji je svoju zvučnu i izražajnu paletu ubrzo počeo proširivati nizom…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/obradovi__tixier_duo__homage_collective_plays_miles_davis_1791282057.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/obradovictixier-duo-homage-collective-plays-miles-davis-"
-  },
-  {
    "id": "ei-4900",
    "naslov": "32. JAZZ FAIR ČAKOVEC",
    "od": "2026-11-19",
@@ -4415,6 +4433,22 @@
    "opis": "Od 19. do 21. studenoga 2026. Čakovec ponovno postaje središte jazza sjeverne Hrvatske. 32. Jazz Fair donosi tri koncertne večeri u kojima se susreću vrhunski domaći i inozemni glazbenici, nekoliko generacija izvođača i različiti glazbeni svjetovi. Festival otvara četvrtak, 19.…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/32__jazz_fair__akovec_1790933745.png",
    "link": "https://eventinfo.com.hr/dogadaj/32-jazz-fair-cakovec"
+  },
+  {
+   "id": "ei-4907",
+   "naslov": "OBRADOVIĆ-TIXIER DUO, HOMAGE COLLECTIVE PLAYS MILES DAVIS",
+   "od": "2026-11-19",
+   "do": "2026-11-19",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "20,00 EUR",
+   "opis": "OBRADOVIĆ-TIXIER DUO Lada Obradović rodom je iz Siska, školovala se u Grazu, a potom i Bernu, da bi se konačno smjestila Francuskoj. S pijanistom Davidom Tixierom, kolegom iz Švicarske, pokrenula je duo, koji je svoju zvučnu i izražajnu paletu ubrzo počeo proširivati nizom…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/obradovi__tixier_duo__homage_collective_plays_miles_davis_1791282057.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/obradovictixier-duo-homage-collective-plays-miles-davis-"
   },
   {
    "id": "ei-4931",
@@ -4595,6 +4629,24 @@
  ],
  "najave": [
   {
+   "id": "na-YWNpamUtemVuYS8=",
+   "naslov": "UŠR Višnjica ukupne pobjednice jubilarnog 20. Hrvatskog festivala sportske rekreacije žena",
+   "opcina": "Sveti Juraj na Bregu",
+   "objavljeno": "2026-11-08",
+   "opis": "Jubilarni 20. Hrvatski festival sportske rekreacije žena okrunjen je u večernjim satima u čakovečkom restoranu KTC svečanom dodjelom nagrada, priznanja i pehara, čime je spušten zastor na još jedno uspješno okupljanje…",
+   "link": "https://www.svetijurajnabregu.hr/2026/11/08/usr-visnjica-ukupne-pobjednice-jubilarnog-20-hrvatskog-festivala-sportske-rekreacije-zena/",
+   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-08-at-11.57.56-1024x576.jpeg"
+  },
+  {
+   "id": "na-by0zMDAtemVuYS8=",
+   "naslov": "Na festival sportske rekreacije stiglo 300 žena!",
+   "opcina": "Sveti Juraj na Bregu",
+   "objavljeno": "2026-11-07",
+   "opis": "Dvadeseti državni festival po prvi put je, uz dvadeseti rođendan domaće udruge, održan u Pleškovcu U školskoj sportskoj dvorani u Pleškovcu je održan 20. Hrvatski festival sportske rekreacije žena. Okupilo se gotovo tri…",
+   "link": "https://www.svetijurajnabregu.hr/2026/11/07/na-festival-sportske-rekreacije-stiglo-300-zena/",
+   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/SVETI-JURAJ-NA-BREGU-festival-sportske-rekreacije-zena-1-1260x945-1-1024x768.webp"
+  },
+  {
    "id": "na-ZGltdXJqYS0zLw==",
    "naslov": "MARTINJE U GRADU RUDARA – BESPLATNA DEGUSTACIJA MLADIH VINA MEĐIMURJA",
    "opcina": "Mursko Središće",
@@ -4720,7 +4772,7 @@
   },
   {
    "id": "osm-n1748069161",
-   "naziv": "Batak",
+   "naziv": "Batak Čakovec",
    "vrsta": "restoran",
    "kuhinja": "roštilj",
    "mjesto": "Čakovec",
@@ -4786,7 +4838,7 @@
    "adresa": "Trg Republike 5",
    "lat": 46.388873,
    "lng": 16.432008,
-   "tel": "+385 40 341-099",
+   "tel": "+385 40 341 099",
    "web": "https://stari-grad.com/",
    "tjedan": null,
    "foto": "https://stari-grad.com/wp-content/uploads/2026/02/Otkrijte-nasu-pricu-11.jpg",
@@ -5020,6 +5072,21 @@
    "opis": null
   },
   {
+   "id": "osm-n14355203971",
+   "naziv": "Klopan",
+   "vrsta": "brza hrana",
+   "kuhinja": "",
+   "mjesto": "Čakovec",
+   "adresa": "",
+   "lat": 46.382072,
+   "lng": 16.430415,
+   "tel": null,
+   "web": null,
+   "tjedan": null,
+   "foto": null,
+   "opis": null
+  },
+  {
    "id": "osm-n6024472851",
    "naziv": "Laganini",
    "vrsta": "restoran",
@@ -5056,8 +5123,8 @@
    "tjedan": {
     "ned": "12:00-18:00"
    },
-   "foto": "https://mala-hiza.hr/wp-content/uploads/2017/12/malahiza-logo-e1513869532645.png",
-   "opis": "Restoran MALA HIŽA RADNO VRIJEME RESTORANA Ponedjeljak - četvrtak - 12,00 do 21,00 Petak i subota - 12,00 do 21,00 Nedjelja, blagdani i praznici - 12,00 do 16,00 Uskrs i Božić ZATVORENO RADNO VRIJEME…"
+   "foto": "https://mala-hiza.hr/assets/og-image.jpg",
+   "opis": "Autorska međimurska kuhinja u hrastovoj hiži iz 1887. Balogovec 1, Mačkovec · 040 341 101"
   },
   {
    "id": "osm-n10972433072",
@@ -5149,7 +5216,7 @@
     "sub": "08:00-24:00"
    },
    "foto": null,
-   "opis": null
+   "opis": "Javni sportski objekti za sve građane. Plivanje, sport i rekreacija na jednom mjestu."
   },
   {
    "id": "osm-n3815606868",
@@ -5206,7 +5273,7 @@
    "adresa": "Ulica Nikole Pavića 2",
    "lat": 46.378992,
    "lng": 16.443246,
-   "tel": "095 130 0400",
+   "tel": "+385 95 130 0400",
    "web": "https://www.facebook.com/pizzeriaspizza/?locale=hr_HR",
    "tjedan": {
     "pon": "08:00-23:00",
@@ -5846,6 +5913,21 @@
    "opis": null
   },
   {
+   "id": "osm-w673966510",
+   "naziv": "Restoran Schloss",
+   "vrsta": "restoran",
+   "kuhinja": "",
+   "mjesto": "Mursko Središće",
+   "adresa": "Ulica Josipa Šajnovića 1",
+   "lat": 46.505462,
+   "lng": 16.431194,
+   "tel": null,
+   "web": null,
+   "tjedan": null,
+   "foto": null,
+   "opis": null
+  },
+  {
    "id": "osm-n7201177987",
    "naziv": "Atlantik",
    "vrsta": "restoran",
@@ -5909,7 +5991,15 @@
    "lng": 16.386719,
    "tel": null,
    "web": "https://restoran-lipa.com/",
-   "tjedan": null,
+   "tjedan": {
+    "pon": "07:30-23:00",
+    "uto": "07:30-23:00",
+    "sri": "07:30-23:00",
+    "cet": "07:30-23:00",
+    "pet": "07:30-23:00",
+    "sub": "07:30-23:00",
+    "ned": "07:30-23:00"
+   },
    "foto": null,
    "opis": null
   },
@@ -5927,6 +6017,29 @@
    "tjedan": null,
    "foto": null,
    "opis": null
+  },
+  {
+   "id": "osm-w327152058",
+   "naziv": "Kavana Cobra",
+   "vrsta": "restoran",
+   "kuhinja": "pizza, burgeri, domaća kuhinja, kava, sendviči, piletina",
+   "mjesto": "Podturen",
+   "adresa": "Čakovečka ulica 18",
+   "lat": 46.463776,
+   "lng": 16.543868,
+   "tel": null,
+   "web": "https://www.kavanacobra.hr",
+   "tjedan": {
+    "pon": "10:00-22:00",
+    "uto": "10:00-22:00",
+    "sri": "10:00-22:00",
+    "cet": "10:00-22:00",
+    "pet": "10:00-22:00",
+    "sub": "10:00-22:00",
+    "ned": "10:00-22:00"
+   },
+   "foto": null,
+   "opis": "Kavana Cobra: Catering | Organizirane proslave | Krizma | Vjenčanje | Godišnjica | Rođendan | Pizzeria | Plate | Međimurje | Čakovec | Proslava |"
   },
   {
    "id": "osm-w625719529",
@@ -5990,7 +6103,7 @@
    "adresa": "Glavna ulica 41",
    "lat": 46.337297,
    "lng": 16.615339,
-   "tel": "040295704",
+   "tel": "+385 40 295 704",
    "web": "https://www.trattoriarossa.com",
    "tjedan": null,
    "foto": null,
@@ -6003,8 +6116,8 @@
    "kuhinja": "pizza",
    "mjesto": "Pretetinec",
    "adresa": "Pretetinec 147",
-   "lat": 46.393374,
-   "lng": 16.370301,
+   "lat": 46.393332,
+   "lng": 16.37029,
    "tel": "+385 40 829 394",
    "web": "https://www.visitmedimurje.com/backend/opsirnije-nedelisce.asp?id=200",
    "tjedan": null,
@@ -6027,14 +6140,44 @@
    "opis": null
   },
   {
-   "id": "osm-n1997363641",
+   "id": "osm-w310191340",
    "naziv": "Mamica",
    "vrsta": "restoran",
    "kuhinja": "domaća kuhinja",
    "mjesto": "Pušćine",
+   "adresa": "Čakovečka 47",
+   "lat": 46.347698,
+   "lng": 16.362008,
+   "tel": null,
+   "web": "https://www.mamica.com.hr/en",
+   "tjedan": null,
+   "foto": null,
+   "opis": "U idiličnom zelenom okruženju na pola puta između Čakovca i Varaždina, Mamica Pansion & Restoran nudi iznimno udobne sobe, doručak za pamćenje, a restoran odlikuje domaća međimurska kuhinja s modernim…"
+  },
+  {
+   "id": "osm-w317781063",
+   "naziv": "Restoran Palma",
+   "vrsta": "restoran",
+   "kuhinja": "",
+   "mjesto": "Pušćine",
+   "adresa": "Čakovečka ulica 106",
+   "lat": 46.341972,
+   "lng": 16.361568,
+   "tel": "+38540895163",
+   "web": null,
+   "tjedan": null,
+   "foto": null,
+   "opis": null
+  },
+  {
+   "id": "osm-n13910575543",
+   "naziv": "Pizzerija Krug",
+   "vrsta": "restoran",
+   "kuhinja": "",
+   "mjesto": "Selnica",
    "adresa": "",
-   "lat": 46.347707,
-   "lng": 16.361868,
+   "lat": 46.493208,
+   "lng": 16.398052,
    "tel": null,
    "web": null,
    "tjedan": null,
@@ -6143,7 +6286,7 @@
    "mjesto": "Štrigova",
    "adresa": "Štrigova 76",
    "lat": 46.501045,
-   "lng": 16.284529,
+   "lng": 16.284522,
    "tel": "+38540851093",
    "web": null,
    "tjedan": {
