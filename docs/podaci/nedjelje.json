@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-09T09:55:35.582Z",
+ "azurirano": "2026-11-10T09:59:34.222Z",
  "nadolazeca": "2026-11-15",
  "nedjelje": [
   "2026-09-06",
@@ -24,52 +24,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-09T09:55:35.582Z"
+   "provjereno": "2026-11-10T09:59:34.222Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-09T09:55:35.582Z"
+   "provjereno": "2026-11-10T09:59:34.222Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-09T09:55:35.582Z"
+   "provjereno": "2026-11-10T09:59:34.222Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-09T09:55:35.582Z"
+   "provjereno": "2026-11-10T09:59:34.222Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-09T09:55:35.582Z"
+   "provjereno": "2026-11-10T09:59:34.222Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-09T09:55:35.582Z"
+   "provjereno": "2026-11-10T09:59:34.222Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-09T09:55:35.582Z"
+   "provjereno": "2026-11-10T09:59:34.222Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-09T09:55:35.582Z"
+   "provjereno": "2026-11-10T09:59:34.222Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-09T09:55:35.582Z"
+   "provjereno": "2026-11-10T09:59:34.222Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-09T09:55:35.582Z"
+   "provjereno": "2026-11-10T09:59:34.222Z"
   }
  },
  "greske": [],
@@ -274,12 +274,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -297,12 +297,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -320,12 +320,12 @@
     "2026-11-15": "08:00-18:00"
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -1112,12 +1112,12 @@
     "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -1563,12 +1563,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -1887,12 +1887,12 @@
     "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -2431,12 +2431,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -3032,12 +3032,12 @@
     "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -3055,12 +3055,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pon": null,
     "uto": null,
     "sri": null,
     "cet": null,
     "pet": null,
-    "sub": null
+    "sub": null,
+    "pon": null
    }
   },
   {
@@ -3288,12 +3288,12 @@
     "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -4387,6 +4387,22 @@
    "link": "https://eventinfo.com.hr/dogadaj/kazaliste-virovitica-ujak-vanja"
   },
   {
+   "id": "ei-4947",
+   "naslov": "Mala plastika: izbor iz fundusa Galerije Murska Sobota",
+   "od": "2026-11-13",
+   "do": "2027-01-10",
+   "vrijeme": null,
+   "mjesto": "Izložbeni salon Muzeja Međimurja Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.389113,
+   "lng": 16.431804,
+   "kategorija": "izložba",
+   "cijena": null,
+   "opis": "Galerija Murska Sobota u svojem fundusu čuva posebnu zbirku male plastike koja se sustavno oblikovala otkupima i donacijama s jugoslavenskih i europskih bijenala i trijenala male plastike, održavanih u Murskoj Soboti od 1973. godine. Za pokretanje i razvoj ovih značajnih likovnih…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/mala_plastika__izbor_iz_fundusa_galerije_murska_sobota_1794233546.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/mala-plastika-izbor-iz-fundusa-galerije-murska-sobota"
+  },
+  {
    "id": "ei-4929",
    "naslov": "GRLICE I ROŽICE - Treća večer amatera",
    "od": "2026-11-14",
@@ -4531,6 +4547,54 @@
    "link": "https://eventinfo.com.hr/dogadaj/da-nam-pak-dojde-to-vreme-cetvrta-vecer-amatera"
   },
   {
+   "id": "ei-4946",
+   "naslov": "Mario Celinić - sedam vrhova, sedam kontinenata, jedna priča",
+   "od": "2026-11-26",
+   "do": "2026-11-26",
+   "vrijeme": "18:30",
+   "mjesto": "Zgrada Scheier Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.389895,
+   "lng": 16.435728,
+   "kategorija": "predstavljanje",
+   "cijena": "Besplatno",
+   "opis": "U šali sebe naziva „Vječitim drugim”, ali na festivalu CRNI IBEX upravo je on prvi. Mario Celinić otvara četverodnevni festival pričom o jednom od najvećih planinarskih ciljeva – usponima na najviše vrhove svih sedam kontinenata. Mario je drugi Hrvat koji je ostvario taj pothvat,…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/mario_celini____sedam_vrhova__sedam_kontinenata__jedna_pri_a_1794223926.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/mario-celinic-sedam-vrhova-sedam-kontinenata-jedna-prica"
+  },
+  {
+   "id": "ei-4944",
+   "naslov": "Crni Ibex - planinarski festival",
+   "od": "2026-11-26",
+   "do": "2026-11-29",
+   "vrijeme": null,
+   "mjesto": "Zgrada Scheier Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.389895,
+   "lng": 16.435728,
+   "kategorija": "predstavljanje",
+   "cijena": "Besplatno",
+   "opis": "Crni Ibex je planinarski festival koji okuplja ljude povezane planinom – kroz priče, filmove, knjige, predavanja, radionice i druženje. Od 26. do 29. studenog 2026. godine zgrada Scheier u Čakovcu postaje mjesto susreta planinara, ljubitelja prirode, filmskih autora, čitatelja i…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/crni_ibex___planinarski_festival_1794222555.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/crni-ibex-planinarski-festival"
+  },
+  {
+   "id": "ei-4941",
+   "naslov": "Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu",
+   "od": "2026-11-26",
+   "do": "2026-12-15",
+   "vrijeme": null,
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "izložba",
+   "cijena": null,
+   "opis": "Otvorenje izložbe: četvrtak, 26. studenoga 2026. u 19.00 sati Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu Na skupnoj izložbi svoje grafičke radove predstavljaju mlade umjetnice Sara Dorčić, Nina Grebenar, Viktorija Ivelja, Lucia Lukšić,…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/odsjek_za_likovnu_kulturu_i_likovnu_umjetnost_umjetni_ke_akademije_sveu_ili_ta_u_splitu_1794218346.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/odsjek-za-likovnu-kulturu-i-likovnu-umjetnost-umjetnicke-akademije-sveucilista-u-splitu"
+  },
+  {
    "id": "ei-4938",
    "naslov": "Movember Run - brkati trk!",
    "od": "2026-11-27",
@@ -4547,6 +4611,22 @@
    "link": "https://eventinfo.com.hr/dogadaj/movember-run-brkati-trk"
   },
   {
+   "id": "ei-4945",
+   "naslov": "Matija Bogdan - Od Čakovca do krova svijeta",
+   "od": "2026-11-27",
+   "do": "2026-11-27",
+   "vrijeme": "18:30",
+   "mjesto": "Zgrada Scheier Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.389895,
+   "lng": 16.435728,
+   "kategorija": "predstavljanje",
+   "cijena": "Besplatno",
+   "opis": "Kako izgleda put iz Čakovca preko profesionalne kuhinje do najvišeg vrha svijeta? U petak, 27. studenoga, u sklopu Crni Ibex Festivala u Čakovec dolazi Matija Bogdan – chef koji je profesionalno iskustvo gradio u vrhunskim svjetskim restoranima, a potom se upustio u jednu od…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/matija_bogdan___od__akovca_do_krova_svijeta_1794223065.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/matija-bogdan-od-cakovca-do-krova-svijeta"
+  },
+  {
    "id": "ei-4937",
    "naslov": "Čehaj Fest",
    "od": "2026-11-28",
@@ -4561,6 +4641,22 @@
    "opis": "Čehaj Fest se vraća. Nakon nekoliko godina ponovno se vidimo na MESAP-u u Nedelišću. Line-up: Jelusick Opća Opasnost Pastiri Kao što smo najavili — bit će glasno. Ulaznice u prodaji od 12.10.2026. Regular 15€ VIP 25€ Gradska Kavana Čakovec, Meta bar, te online Entrio.hr",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/_ehaj_fest_1793795140.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/cehaj-fest"
+  },
+  {
+   "id": "ei-4942",
+   "naslov": "KRZNENI KRADLJIVCI BOŽIĆNIH DAROVA",
+   "od": "2026-11-29",
+   "do": "2026-11-29",
+   "vrijeme": "16:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": "5,00 EUR",
+   "opis": "Božić je pred vratima, a troje neobičnih lopova već ima razrađen plan – ukrasti što više božićnih darova! Zec Zora, vjeverica Vera i rakun Roki uvjereni su da ih u njihovim kradljivskim pothvatima ništa ne može zaustaviti. No, na Sjevernom polu vilenjakinja Lena primjećuje da…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/krzneni_kradljivci_bo_i_nih_darova_1794218480.png",
+   "link": "https://eventinfo.com.hr/dogadaj/krzneni-kradljivci-bozicnih-darova"
   },
   {
    "id": "ei-4896",
@@ -4625,9 +4721,61 @@
    "opis": "Trčanje s lampicama nikad nije bilo zabavnije! I ove godine CK10 ekipa uz podrčku TK Međimurje Runners trči s lampicama. Pridruži se našoj ekipi, omotaj se lampicama, obuci crveno i završi najšareniji 5k run! Jesi spreman/a za trčati za Božić? Ne trebaš ništa osim volje,…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/xmas_lights_run_1793794270.jpeg",
    "link": "https://eventinfo.com.hr/dogadaj/xmas-lights-run"
+  },
+  {
+   "id": "ei-4943",
+   "naslov": "Novogodišnji koncert Simfonijskog orkestra Hrvatske radiotelevizije",
+   "od": "2026-12-30",
+   "do": "2026-12-30",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "30,00 EUR",
+   "opis": "Tradicionalni Novogodišnji koncert Simfonijskog orkestra Hrvatske radiotelevizije 30. prosinca vraća se u Čakovec. Večer prije Silvestrova, odnosno, na pretposljednji dan u godini imat ćemo priliku uživati u skladbama kakve se slušaju čak u i slavnom Musikvereinu te osjetiti…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/novogodi_nji_koncert_simfonijskog_orkestra_hrvatske_radiotelevizije_1794218759.png",
+   "link": "https://eventinfo.com.hr/dogadaj/novogodisnji-koncert-simfonijskog-orkestra-hrvatske-radiotelevizije2026"
   }
  ],
  "najave": [
+  {
+   "id": "na-a29sby1pbnN1bGUv",
+   "naslov": "Predstavljeno novo kolo „Insule“",
+   "opcina": "Čakovec",
+   "objavljeno": "2026-11-10",
+   "opis": "U do kraja ispunjenom predvorju Dječjeg odjela Knjižnice „Nikola Zrinski“ u Čakovcu, sinoć je održana promocija novog, 24. kola biblioteke „Insula“. U biblioteci pokrenutoj 2003. godine, namijenjenoj poticanju lokalnih…",
+   "link": "https://www.cakovec.hr/predstavljeno-novo-kolo-insule/",
+   "slika": null
+  },
+  {
+   "id": "na-ZWxpa29nLXNyY2Ev",
+   "naslov": "Glazbom za obitelj Amić – Humanitarni koncert u Ivanovcu okupio brojne ljude velikog srca",
+   "opcina": "Čakovec",
+   "objavljeno": "2026-11-09",
+   "opis": "Glazba, emocije i želja da se pomogne onima kojima je pomoć najpotrebnija obilježili su nedjeljnu večer u Domu kulture u Ivanovcu. Brojni izvođači i posjetitelji okupili su se na humanitarnom koncertu za obitelj Amić,…",
+   "link": "https://www.cakovec.hr/glazbom-za-obitelj-amic-humanitarni-koncert-u-ivanovcu-okupio-brojne-ljude-velikog-srca/",
+   "slika": null
+  },
+  {
+   "id": "na-YXRlbGpzdHZhLw==",
+   "naslov": "Forumaši iz čakovečkih škola na zajedničkom druženju u Zasadbregu: igra, suradnja i nova prijateljstva",
+   "opcina": "Čakovec",
+   "objavljeno": "2026-11-09",
+   "opis": "Učenici dječjih foruma iz čakovečkih škola proveli su nezaboravno druženje u Accredo adrenalinskom centru u Zasadbregu, gdje su kroz igru, sportske izazove i timske aktivnosti imali priliku upoznati vršnjake iz drugih…",
+   "link": "https://www.cakovec.hr/forumasi-iz-cakoveckih-skola-na-zajednickom-druzenju-u-zasadbregu-igra-suradnja-i-nova-prijateljstva/",
+   "slika": null
+  },
+  {
+   "id": "na-YS1pc2t1c3R2YS8=",
+   "naslov": "Čakovec u blagdanskom ruhu – Advent koji spaja glazbu, tradiciju i nova iskustva",
+   "opcina": "Čakovec",
+   "objavljeno": "2026-11-09",
+   "opis": "Koncerti poznatih izvođača, programi za sve generacije, povijesni ambijent, dječje radosti i blagdanski susreti – Čakovec i ove godine priprema Advent ispunjen sadržajima zbog kojih vrijedi doći, ostati i ponovno se…",
+   "link": "https://www.cakovec.hr/cakovec-u-blagdanskom-ruhu-advent-koji-spaja-glazbu-tradiciju-i-nova-iskustva/",
+   "slika": null
+  },
   {
    "id": "na-YWNpamUtemVuYS8=",
    "naslov": "UŠR Višnjica ukupne pobjednice jubilarnog 20. Hrvatskog festivala sportske rekreacije žena",
