@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-11T09:34:20.394Z",
+ "azurirano": "2026-11-12T09:56:25.663Z",
  "nadolazeca": "2026-11-15",
  "nedjelje": [
   "2026-09-06",
@@ -24,52 +24,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-11T09:34:20.394Z"
+   "provjereno": "2026-11-12T09:56:25.663Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-11T09:34:20.394Z"
+   "provjereno": "2026-11-12T09:56:25.663Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-11T09:34:20.394Z"
+   "provjereno": "2026-11-12T09:56:25.663Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-11T09:34:20.394Z"
+   "provjereno": "2026-11-12T09:56:25.663Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-11T09:34:20.394Z"
+   "provjereno": "2026-11-12T09:56:25.663Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-11T09:34:20.394Z"
+   "provjereno": "2026-11-12T09:56:25.663Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-11T09:34:20.394Z"
+   "provjereno": "2026-11-12T09:56:25.663Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-11T09:34:20.394Z"
+   "provjereno": "2026-11-12T09:56:25.663Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-11T09:34:20.394Z"
+   "provjereno": "2026-11-12T09:56:25.663Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-11T09:34:20.394Z"
+   "provjereno": "2026-11-12T09:56:25.663Z"
   }
  },
  "greske": [],
@@ -274,12 +274,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": null
    }
   },
   {
@@ -297,12 +297,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": null
    }
   },
   {
@@ -320,12 +320,12 @@
     "2026-11-15": "08:00-18:00"
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": null
    }
   },
   {
@@ -1112,12 +1112,12 @@
     "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": null
    }
   },
   {
@@ -1563,12 +1563,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": null
    }
   },
   {
@@ -1887,12 +1887,12 @@
     "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": null
    }
   },
   {
@@ -2431,12 +2431,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": null
    }
   },
   {
@@ -3032,12 +3032,12 @@
     "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": null
    }
   },
   {
@@ -3055,12 +3055,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "sri": null,
     "cet": null,
     "pet": null,
     "sub": null,
     "pon": null,
-    "uto": null
+    "uto": null,
+    "sri": null
    }
   },
   {
@@ -3288,12 +3288,12 @@
     "2026-11-15": "08:00-14:00"
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": null
    }
   },
   {
@@ -4339,38 +4339,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
   },
   {
-   "id": "ei-4902",
-   "naslov": "MARTINJE I SVETOMARTINSKA GULAŠIJADA",
-   "od": "2026-11-06",
-   "do": "2026-11-11",
-   "vrijeme": null,
-   "mjesto": "Sveti Martin na Muri",
-   "grad": "Sveti Martin na Muri",
-   "lat": 46.525084,
-   "lng": 16.362768,
-   "kategorija": "zabava",
-   "cijena": "Besplatno",
-   "opis": "6. – 11. studenoga 2026. Sveti Martin na Muri zove vas na dane mladog vina, domaćih okusa i običaja koji se prenose generacijama! Od procesije s lampionima i krštenja mošta do Svetomartinske gulašijade i martinskih fešti kod naših ugostitelja, očekuje vas program uz koji ćemo…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/martinje_i_svetomartinska_gula_ijada_1791278867.jpeg",
-   "link": "https://eventinfo.com.hr/dogadaj/martinje-i-svetomartinska-gulasijada2026"
-  },
-  {
-   "id": "ei-4940",
-   "naslov": "PRIJATELJI ZA MARIJU - Humanitarni koncert",
-   "od": "2026-11-11",
-   "do": "2026-11-11",
-   "vrijeme": "18:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "koncert",
-   "cijena": "10,00 EUR",
-   "opis": "Međimurska županija i Međimurska zaklada solidarnosti Katruža organiziraju humanitarni koncert nazvan Prijatelji za Mariju koji će okupiti brojne izvođače iz našega kraja, kolege Marije Jambrošić – žene čiji su glazbeni put obilježili dobrotvornih nastupi i simbolična, uvijek…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/prijatelji_za_mariju___humanitarni_koncert_1794216843.png",
-   "link": "https://eventinfo.com.hr/dogadaj/prijatelji-za-mariju-humanitarni-koncert"
-  },
-  {
    "id": "ei-4895",
    "naslov": "KAZALIŠTE VIROVITICA: UJAK VANJA",
    "od": "2026-11-12",
@@ -4435,22 +4403,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/barbara-unplugged"
   },
   {
-   "id": "ei-4900",
-   "naslov": "32. JAZZ FAIR ČAKOVEC",
-   "od": "2026-11-19",
-   "do": "2026-11-21",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "koncert",
-   "cijena": "40,00 EUR (festivalska ulaznica)",
-   "opis": "Od 19. do 21. studenoga 2026. Čakovec ponovno postaje središte jazza sjeverne Hrvatske. 32. Jazz Fair donosi tri koncertne večeri u kojima se susreću vrhunski domaći i inozemni glazbenici, nekoliko generacija izvođača i različiti glazbeni svjetovi. Festival otvara četvrtak, 19.…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/32__jazz_fair__akovec_1790933745.png",
-   "link": "https://eventinfo.com.hr/dogadaj/32-jazz-fair-cakovec"
-  },
-  {
    "id": "ei-4907",
    "naslov": "OBRADOVIĆ-TIXIER DUO, HOMAGE COLLECTIVE PLAYS MILES DAVIS",
    "od": "2026-11-19",
@@ -4465,6 +4417,22 @@
    "opis": "OBRADOVIĆ-TIXIER DUO Lada Obradović rodom je iz Siska, školovala se u Grazu, a potom i Bernu, da bi se konačno smjestila Francuskoj. S pijanistom Davidom Tixierom, kolegom iz Švicarske, pokrenula je duo, koji je svoju zvučnu i izražajnu paletu ubrzo počeo proširivati nizom…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/obradovi__tixier_duo__homage_collective_plays_miles_davis_1791282057.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/obradovictixier-duo-homage-collective-plays-miles-davis-"
+  },
+  {
+   "id": "ei-4900",
+   "naslov": "32. JAZZ FAIR ČAKOVEC",
+   "od": "2026-11-19",
+   "do": "2026-11-21",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "40,00 EUR (festivalska ulaznica)",
+   "opis": "Od 19. do 21. studenoga 2026. Čakovec ponovno postaje središte jazza sjeverne Hrvatske. 32. Jazz Fair donosi tri koncertne večeri u kojima se susreću vrhunski domaći i inozemni glazbenici, nekoliko generacija izvođača i različiti glazbeni svjetovi. Festival otvara četvrtak, 19.…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/32__jazz_fair__akovec_1790933745.png",
+   "link": "https://eventinfo.com.hr/dogadaj/32-jazz-fair-cakovec"
   },
   {
    "id": "ei-4931",
@@ -4563,22 +4531,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/mario-celinic-sedam-vrhova-sedam-kontinenata-jedna-prica"
   },
   {
-   "id": "ei-4944",
-   "naslov": "Crni Ibex - planinarski festival",
-   "od": "2026-11-26",
-   "do": "2026-11-29",
-   "vrijeme": null,
-   "mjesto": "Zgrada Scheier Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.389895,
-   "lng": 16.435728,
-   "kategorija": "predstavljanje",
-   "cijena": "Besplatno",
-   "opis": "Crni Ibex je planinarski festival koji okuplja ljude povezane planinom – kroz priče, filmove, knjige, predavanja, radionice i druženje. Od 26. do 29. studenog 2026. godine zgrada Scheier u Čakovcu postaje mjesto susreta planinara, ljubitelja prirode, filmskih autora, čitatelja i…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/crni_ibex___planinarski_festival_1794222555.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/crni-ibex-planinarski-festival"
-  },
-  {
    "id": "ei-4941",
    "naslov": "Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu",
    "od": "2026-11-26",
@@ -4593,6 +4545,22 @@
    "opis": "Otvorenje izložbe: četvrtak, 26. studenoga 2026. u 19.00 sati Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu Na skupnoj izložbi svoje grafičke radove predstavljaju mlade umjetnice Sara Dorčić, Nina Grebenar, Viktorija Ivelja, Lucia Lukšić,…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/odsjek_za_likovnu_kulturu_i_likovnu_umjetnost_umjetni_ke_akademije_sveu_ili_ta_u_splitu_1794218346.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/odsjek-za-likovnu-kulturu-i-likovnu-umjetnost-umjetnicke-akademije-sveucilista-u-splitu"
+  },
+  {
+   "id": "ei-4944",
+   "naslov": "Crni Ibex - planinarski festival",
+   "od": "2026-11-26",
+   "do": "2026-11-29",
+   "vrijeme": null,
+   "mjesto": "Zgrada Scheier Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.389895,
+   "lng": 16.435728,
+   "kategorija": "predstavljanje",
+   "cijena": "Besplatno",
+   "opis": "Crni Ibex je planinarski festival koji okuplja ljude povezane planinom – kroz priče, filmove, knjige, predavanja, radionice i druženje. Od 26. do 29. studenog 2026. godine zgrada Scheier u Čakovcu postaje mjesto susreta planinara, ljubitelja prirode, filmskih autora, čitatelja i…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/crni_ibex___planinarski_festival_1794222555.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/crni-ibex-planinarski-festival"
   },
   {
    "id": "ei-4938",
@@ -4747,15 +4715,6 @@
    "objavljeno": "2026-11-11",
    "opis": "Upravni odjel za financije, proračun i javnu nabavu Grada Čakovca raspisuje USMENO JAVNO NADMETANJE (LICITACIJA) ZA KORIŠTENJE JAVNE POVRŠINE I POSTAVLJANJE UNIFICIRANIH DRVENIH KUĆICA ZA PRIGODNU PRODAJU U OKVIRU…",
    "link": "https://www.cakovec.hr/usmeno-javno-nadmetanje-licitacija-za-koristenje-javne-povrsine-i-postavljanje-unificiranih-drvenih-kucica-za-prigodnu-prodaju-u-okviru-manifestacije-cakovec-u-srcu-adventa/",
-   "slika": null
-  },
-  {
-   "id": "na-a29sby1pbnN1bGUv",
-   "naslov": "Predstavljeno novo kolo „Insule“",
-   "opcina": "Čakovec",
-   "objavljeno": "2026-11-10",
-   "opis": "U do kraja ispunjenom predvorju Dječjeg odjela Knjižnice „Nikola Zrinski“ u Čakovcu, sinoć je održana promocija novog, 24. kola biblioteke „Insula“. U biblioteci pokrenutoj 2003. godine, namijenjenoj poticanju lokalnih…",
-   "link": "https://www.cakovec.hr/predstavljeno-novo-kolo-insule/",
    "slika": null
   },
   {
