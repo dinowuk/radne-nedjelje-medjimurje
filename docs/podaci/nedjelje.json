@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-13T09:42:14.830Z",
+ "azurirano": "2026-11-13T20:55:24.820Z",
  "nadolazeca": "2026-11-15",
  "nedjelje": [
   "2026-09-06",
@@ -24,52 +24,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-13T09:42:14.830Z"
+   "provjereno": "2026-11-13T20:55:24.820Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-13T09:42:14.830Z"
+   "provjereno": "2026-11-13T20:55:24.820Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-13T09:42:14.830Z"
+   "provjereno": "2026-11-13T20:55:24.820Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-13T09:42:14.830Z"
+   "provjereno": "2026-11-13T20:55:24.820Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-13T09:42:14.830Z"
+   "provjereno": "2026-11-13T20:55:24.820Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-13T09:42:14.830Z"
+   "provjereno": "2026-11-13T20:55:24.820Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-13T09:42:14.830Z"
+   "provjereno": "2026-11-13T20:55:24.820Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-13T09:42:14.830Z"
+   "provjereno": "2026-11-13T20:55:24.820Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-13T09:42:14.830Z"
+   "provjereno": "2026-11-13T20:55:24.820Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-13T09:42:14.830Z"
+   "provjereno": "2026-11-13T20:55:24.820Z"
   }
  },
  "greske": [],
@@ -279,7 +279,6 @@
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null,
     "cet": "07:00-20:00"
    }
   },
@@ -303,7 +302,6 @@
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": null,
     "cet": "07:00-21:00"
    }
   },
@@ -327,7 +325,6 @@
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": null,
     "cet": "07:00-21:00"
    }
   },
@@ -1120,7 +1117,6 @@
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null,
     "cet": "07:00-20:00"
    }
   },
@@ -1572,7 +1568,6 @@
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null,
     "cet": "07:00-20:00"
    }
   },
@@ -1897,7 +1892,6 @@
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null,
     "cet": "07:00-20:00"
    }
   },
@@ -2442,7 +2436,6 @@
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": null,
     "cet": "07:00-21:00"
    }
   },
@@ -3044,7 +3037,6 @@
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null,
     "cet": "07:00-20:00"
    }
   },
@@ -3067,7 +3059,6 @@
     "sub": null,
     "pon": null,
     "uto": null,
-    "sri": null,
     "cet": null
    }
   },
@@ -3301,7 +3292,6 @@
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null,
     "cet": "07:00-20:00"
    }
   },
@@ -4774,15 +4764,6 @@
    "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/10/martinje-2026-1.webp"
   },
   {
-   "id": "na-YS1tZWRpbXVyamEv",
-   "naslov": "Gradonačelnik Dražen Srpak održao sastanak s predstavnicima Udruge studenata Međimurja",
-   "opcina": "Mursko Središće",
-   "objavljeno": "2026-11-03",
-   "opis": "Gradonačelnik Grada Mursko Središće Dražen Srpak danas je održao sastanak s predsjednikom Udruge studenata Međimurja Timonom Kozarom i dopredsjednicom Stelom Horvat, koji su mu predstavili rad Udruge, dosadašnje…",
-   "link": "https://mursko-sredisce.hr/gradonacelnik-drazen-srpak-odrzao-sastanak-s-predstavnicima-udruge-studenata-medimurja/",
-   "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/11/srpakstudenti.webp"
-  },
-  {
    "id": "na-LWRydXplbmphLw==",
    "naslov": "Martinje na Međimurskoj vinskoj cesti – Tri dana tradicije, vina i dobrog druženja!",
    "opcina": "Selnica",
@@ -4817,15 +4798,6 @@
    "opis": "U Ivancu je 17.10.2026. održan 18. Memorijalni karate turnir Ivanec na kojem je nastupilo 415 natjecatelja iz 47 klubova. Članovi karate centra Šenkovec nastupili su samo u pojedinačnim kategorijama, a najbolji rezultat…",
    "link": "https://senkovec.hr/2026/10/19/18-memorijalni-karate-turnir-ivanec/",
    "slika": "https://senkovec.hr/wp-content/uploads/2026/10/20261018_185455-733x1024.jpg"
-  },
-  {
-   "id": "na-cC1ocnZhdHNrZS8=",
-   "naslov": "Kup Hrvatske",
-   "opcina": "Šenkovec",
-   "objavljeno": "2026-10-14",
-   "opis": "U subotu, 10. listopada 2026. godine održan je Kup Hrvatske u karateu za kadete, juniore, mlađe seniore i seniore. Natjecanje je održano u dvorani OŠ Ivanja Reka. KC Šenkovec nastupio je u 13 pojedinačnih kategorija i…",
-   "link": "https://senkovec.hr/2026/10/14/kup-hrvatske/",
-   "slika": null
   }
  ],
  "restorani": [
