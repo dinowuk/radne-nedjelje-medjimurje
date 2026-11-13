@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-12T09:56:25.663Z",
+ "azurirano": "2026-11-13T09:42:14.830Z",
  "nadolazeca": "2026-11-15",
  "nedjelje": [
   "2026-09-06",
@@ -24,52 +24,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-12T09:56:25.663Z"
+   "provjereno": "2026-11-13T09:42:14.830Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-12T09:56:25.663Z"
+   "provjereno": "2026-11-13T09:42:14.830Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-12T09:56:25.663Z"
+   "provjereno": "2026-11-13T09:42:14.830Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-12T09:56:25.663Z"
+   "provjereno": "2026-11-13T09:42:14.830Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-12T09:56:25.663Z"
+   "provjereno": "2026-11-13T09:42:14.830Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-12T09:56:25.663Z"
+   "provjereno": "2026-11-13T09:42:14.830Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-12T09:56:25.663Z"
+   "provjereno": "2026-11-13T09:42:14.830Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-12T09:56:25.663Z"
+   "provjereno": "2026-11-13T09:42:14.830Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-12T09:56:25.663Z"
+   "provjereno": "2026-11-13T09:42:14.830Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-12T09:56:25.663Z"
+   "provjereno": "2026-11-13T09:42:14.830Z"
   }
  },
  "greske": [],
@@ -271,15 +271,16 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": null
+    "2026-11-15": null,
+    "2026-11-22": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null
+    "sri": null,
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -294,15 +295,16 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": null
+    "2026-11-15": null,
+    "2026-11-22": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": null
+    "sri": null,
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -317,15 +319,16 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": "08:00-18:00"
+    "2026-11-15": "08:00-18:00",
+    "2026-11-22": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": null
+    "sri": null,
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -1109,15 +1112,16 @@
     "2026-10-25": "08:00-14:00",
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": "08:00-14:00"
+    "2026-11-15": "08:00-14:00",
+    "2026-11-22": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null
+    "sri": null,
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -1560,15 +1564,16 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": null
+    "2026-11-15": null,
+    "2026-11-22": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null
+    "sri": null,
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -1884,15 +1889,16 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": "08:00-14:00"
+    "2026-11-15": "08:00-14:00",
+    "2026-11-22": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null
+    "sri": null,
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -2428,15 +2434,16 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": null
+    "2026-11-15": null,
+    "2026-11-22": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": null
+    "sri": null,
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -3029,15 +3036,16 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": "08:00-14:00"
+    "2026-11-15": "08:00-14:00",
+    "2026-11-22": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null
+    "sri": null,
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -3055,12 +3063,12 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "cet": null,
     "pet": null,
     "sub": null,
     "pon": null,
     "uto": null,
-    "sri": null
+    "sri": null,
+    "cet": null
    }
   },
   {
@@ -3285,15 +3293,16 @@
     "2026-10-25": null,
     "2026-11-01": null,
     "2026-11-08": null,
-    "2026-11-15": "08:00-14:00"
+    "2026-11-15": "08:00-14:00",
+    "2026-11-22": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": null
+    "sri": null,
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -4339,22 +4348,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
   },
   {
-   "id": "ei-4895",
-   "naslov": "KAZALIŠTE VIROVITICA: UJAK VANJA",
-   "od": "2026-11-12",
-   "do": "2026-11-12",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "kazalište",
-   "cijena": null,
-   "opis": "Maksim Gorki je 1898., pisao Čehovu o Ujaku Vanji: „Vidite, meni se čini da ste vi, u ovoj drami, prema ljudima hladniji od demona.“ Točno je da u Čehovljevim dramama vidimo neka od najstrašnijih zala koja se mogu naći u jednom društvu: nemogućnost da se na bilo koji način…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/kazali_te_virovitica__ujak_vanja_1790154364.png",
-   "link": "https://eventinfo.com.hr/dogadaj/kazaliste-virovitica-ujak-vanja"
-  },
-  {
    "id": "ei-4947",
    "naslov": "Mala plastika: izbor iz fundusa Galerije Murska Sobota",
    "od": "2026-11-13",
@@ -4403,22 +4396,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/barbara-unplugged"
   },
   {
-   "id": "ei-4907",
-   "naslov": "OBRADOVIĆ-TIXIER DUO, HOMAGE COLLECTIVE PLAYS MILES DAVIS",
-   "od": "2026-11-19",
-   "do": "2026-11-19",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "koncert",
-   "cijena": "20,00 EUR",
-   "opis": "OBRADOVIĆ-TIXIER DUO Lada Obradović rodom je iz Siska, školovala se u Grazu, a potom i Bernu, da bi se konačno smjestila Francuskoj. S pijanistom Davidom Tixierom, kolegom iz Švicarske, pokrenula je duo, koji je svoju zvučnu i izražajnu paletu ubrzo počeo proširivati nizom…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/obradovi__tixier_duo__homage_collective_plays_miles_davis_1791282057.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/obradovictixier-duo-homage-collective-plays-miles-davis-"
-  },
-  {
    "id": "ei-4900",
    "naslov": "32. JAZZ FAIR ČAKOVEC",
    "od": "2026-11-19",
@@ -4433,6 +4410,22 @@
    "opis": "Od 19. do 21. studenoga 2026. Čakovec ponovno postaje središte jazza sjeverne Hrvatske. 32. Jazz Fair donosi tri koncertne večeri u kojima se susreću vrhunski domaći i inozemni glazbenici, nekoliko generacija izvođača i različiti glazbeni svjetovi. Festival otvara četvrtak, 19.…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/32__jazz_fair__akovec_1790933745.png",
    "link": "https://eventinfo.com.hr/dogadaj/32-jazz-fair-cakovec"
+  },
+  {
+   "id": "ei-4907",
+   "naslov": "OBRADOVIĆ-TIXIER DUO, HOMAGE COLLECTIVE PLAYS MILES DAVIS",
+   "od": "2026-11-19",
+   "do": "2026-11-19",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "20,00 EUR",
+   "opis": "OBRADOVIĆ-TIXIER DUO Lada Obradović rodom je iz Siska, školovala se u Grazu, a potom i Bernu, da bi se konačno smjestila Francuskoj. S pijanistom Davidom Tixierom, kolegom iz Švicarske, pokrenula je duo, koji je svoju zvučnu i izražajnu paletu ubrzo počeo proširivati nizom…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/obradovi__tixier_duo__homage_collective_plays_miles_davis_1791282057.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/obradovictixier-duo-homage-collective-plays-miles-davis-"
   },
   {
    "id": "ei-4931",
@@ -4709,13 +4702,31 @@
  ],
  "najave": [
   {
-   "id": "na-dS1hZHZlbnRhLw==",
-   "naslov": "USMENO JAVNO NADMETANJE (LICITACIJA) ZA KORIŠTENJE JAVNE POVRŠINE I POSTAVLJANJE UNIFICIRANIH DRVENIH KUĆICA ZA PRIGODNU PRODAJU U OKVIRU MANIFESTACIJE \"ČAKOVEC U SRCU ADVENTA\"",
-   "opcina": "Čakovec",
+   "id": "na-PTImYWlkPTEwNjE2",
+   "naslov": "Sudjelujte na tribini o katastarskoj izmjeri na području Preloga i Otoka",
+   "opcina": "Prelog",
+   "objavljeno": "2026-11-13",
+   "opis": "",
+   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10616",
+   "slika": "http://www.prelog.hr/articlefiles/thumb_10616_80425_poziv-na-javni-skup-katastarska-izmjera.jpg"
+  },
+  {
+   "id": "na-PTImYWlkPTEwNjE1",
+   "naslov": "U Muzeju Croata insulanus otvorena izložba Mihaela Bađuna \"PIZZABOX\"",
+   "opcina": "Prelog",
+   "objavljeno": "2026-11-13",
+   "opis": "",
+   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10615",
+   "slika": "http://www.prelog.hr/articlefiles/thumb_10615_80446_vipro39.jpg"
+  },
+  {
+   "id": "na-YWxpLXB0aWNlLw==",
+   "naslov": "Petaši u Svetom Jurju na Bregu na radionici stop-animacije oživljavali ptice",
+   "opcina": "Sveti Juraj na Bregu",
    "objavljeno": "2026-11-11",
-   "opis": "Upravni odjel za financije, proračun i javnu nabavu Grada Čakovca raspisuje USMENO JAVNO NADMETANJE (LICITACIJA) ZA KORIŠTENJE JAVNE POVRŠINE I POSTAVLJANJE UNIFICIRANIH DRVENIH KUĆICA ZA PRIGODNU PRODAJU U OKVIRU…",
-   "link": "https://www.cakovec.hr/usmeno-javno-nadmetanje-licitacija-za-koristenje-javne-povrsine-i-postavljanje-unificiranih-drvenih-kucica-za-prigodnu-prodaju-u-okviru-manifestacije-cakovec-u-srcu-adventa/",
-   "slika": null
+   "opis": "Učenici 5.c razreda Osnovne škole Ivana Gorana Kovačića iz Svetog Jurja na Bregu u srijedu, 11. studenoga 2026., sudjelovali su u radionici stop-animacije. Radionica je održana u sklopu projekta MURAI 2.0, a vodio ju je…",
+   "link": "https://www.svetijurajnabregu.hr/2026/11/11/petasi-u-svetom-jurju-na-bregu-na-radionici-stop-animacije-ozivljavali-ptice/",
+   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/skola-20261111-181936-0-1024x683.jpg"
   },
   {
    "id": "na-YWNpamUtemVuYS8=",
@@ -4770,24 +4781,6 @@
    "opis": "Gradonačelnik Grada Mursko Središće Dražen Srpak danas je održao sastanak s predsjednikom Udruge studenata Međimurja Timonom Kozarom i dopredsjednicom Stelom Horvat, koji su mu predstavili rad Udruge, dosadašnje…",
    "link": "https://mursko-sredisce.hr/gradonacelnik-drazen-srpak-odrzao-sastanak-s-predstavnicima-udruge-studenata-medimurja/",
    "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/11/srpakstudenti.webp"
-  },
-  {
-   "id": "na-LXBsZXNrb3ZjdS8=",
-   "naslov": "Šest disciplina i druženje na 20. Hrvatskom festivalu sportske rekreacije žena u Pleškovcu",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-02",
-   "opis": "U subotu, 7. studenoga 2026. godine, Udruga sportske rekreacije „Sport za sve” Sveti Juraj na Bregu bit će domaćin 20. Hrvatskog festivala sportske rekreacije žena. Festival će se održati u sportskoj dvorani Osnovne…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/02/sest-disciplina-i-druzenje-na-20-hrvatskom-festivalu-sportske-rekreacije-zena-u-pleskovcu/",
-   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/Plakat_2-683x1024.jpg"
-  },
-  {
-   "id": "na-LW1lZGltdXJqdS8=",
-   "naslov": "Edukacija i radionica izrade biodinamičkih pripravaka u Međimurju",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-02",
-   "opis": "U sklopu manifestacije Dani biodinamike – Jesen 2026., ustanova Centar dr. Rudolfa Steinera organizira 𝗯𝗲𝘀𝗽𝗹𝗮𝘁𝗻𝘂 𝗲𝗱𝘂𝗸𝗮𝗰𝗶𝗷𝘂 𝗶 𝗽𝗿𝗮𝗸𝘁𝗶č𝗻𝘂 𝗿𝗮𝗱𝗶𝗼𝗻𝗶𝗰𝘂 𝗶𝘇𝗿𝗮𝗱𝗲 𝗯𝗶𝗼𝗱𝗶𝗻𝗮𝗺𝗶č𝗸𝗶𝗵…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/02/edukacija-i-radionica-izrade-biodinamickih-pripravaka-u-medimurju/",
-   "slika": "blob:https://www.svetijurajnabregu.hr/d34e20b7-8105-496a-a9b4-cc95fb9d6fe3"
   },
   {
    "id": "na-LWRydXplbmphLw==",
