@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-13T20:55:24.820Z",
+ "azurirano": "2026-11-14T09:05:25.680Z",
  "nadolazeca": "2026-11-15",
  "nedjelje": [
   "2026-09-06",
@@ -24,52 +24,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-13T20:55:24.820Z"
+   "provjereno": "2026-11-14T09:05:25.680Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-13T20:55:24.820Z"
+   "provjereno": "2026-11-14T09:05:25.680Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-13T20:55:24.820Z"
+   "provjereno": "2026-11-14T09:05:25.680Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-13T20:55:24.820Z"
+   "provjereno": "2026-11-14T09:05:25.680Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-13T20:55:24.820Z"
+   "provjereno": "2026-11-14T09:05:25.680Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-13T20:55:24.820Z"
+   "provjereno": "2026-11-14T09:05:25.680Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-13T20:55:24.820Z"
+   "provjereno": "2026-11-14T09:05:25.680Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-13T20:55:24.820Z"
+   "provjereno": "2026-11-14T09:05:25.680Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-13T20:55:24.820Z"
+   "provjereno": "2026-11-14T09:05:25.680Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-13T20:55:24.820Z"
+   "provjereno": "2026-11-14T09:05:25.680Z"
   }
  },
  "greske": [],
@@ -275,11 +275,11 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -298,11 +298,11 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -321,11 +321,11 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -1113,11 +1113,11 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -1564,11 +1564,11 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -1888,11 +1888,11 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -2432,11 +2432,11 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -3033,11 +3033,11 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -3055,11 +3055,11 @@
     "2026-11-15": null
    },
    "tjedan": {
-    "pet": null,
     "sub": null,
     "pon": null,
     "uto": null,
-    "cet": null
+    "cet": null,
+    "pet": null
    }
   },
   {
@@ -3288,11 +3288,11 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -4306,22 +4306,6 @@
  ],
  "dogadaji": [
   {
-   "id": "ei-4915",
-   "naslov": "Izložba poezije Josipa Mihalkovića u fotostripu",
-   "od": "2026-10-16",
-   "do": "2026-11-13",
-   "vrijeme": "10:00",
-   "mjesto": "Multimedijalna dvorana Riznice Međimurja",
-   "grad": "Čakovec",
-   "lat": 46.389277,
-   "lng": 16.432363,
-   "kategorija": "izložba",
-   "cijena": null,
-   "opis": "Otvorenje izložbe poezije Josipa Mihalkovića u fotostripu u Multimedijalnoj dvorani Riznice Međimurja 16. listopada 2026. godine s početkom u 18:00 sati povodom 13. međunarodnog festivala stripa udruge STRIPoblaČAK. zložba poezije Josipa Mihalkovića u fotostripu nastala je u…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/izlo_ba_poezije_josipa_mihalkovi_a_u_fotostripu_1792071615.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/izlozba-poezije-josipa-mihalkovica-u-fotostripu"
-  },
-  {
    "id": "ei-4911",
    "naslov": "16. BIJENALNA IZLOŽBA - UDRUŽENJE ARHITEKATA MEĐIMURJA",
    "od": "2026-10-22",
@@ -4692,10 +4676,19 @@
  ],
  "najave": [
   {
+   "id": "na-PTImYWlkPTEwNjIw",
+   "naslov": "Predstavnici Grada Preloga na svečanom obilježavanju Dana Grada Malog Lošinja",
+   "opcina": "Prelog",
+   "objavljeno": "2026-11-14",
+   "opis": "",
+   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10620",
+   "slika": "http://www.prelog.hr/articlefiles/thumb_10620_80486_mali-loinj2.jpg"
+  },
+  {
    "id": "na-PTImYWlkPTEwNjE2",
    "naslov": "Sudjelujte na tribini o katastarskoj izmjeri na području Preloga i Otoka",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-13",
+   "objavljeno": "2026-11-14",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10616",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10616_80425_poziv-na-javni-skup-katastarska-izmjera.jpg"
@@ -4704,7 +4697,7 @@
    "id": "na-PTImYWlkPTEwNjE1",
    "naslov": "U Muzeju Croata insulanus otvorena izložba Mihaela Bađuna \"PIZZABOX\"",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-13",
+   "objavljeno": "2026-11-14",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10615",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10615_80446_vipro39.jpg"
