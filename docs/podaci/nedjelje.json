@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-14T09:05:25.680Z",
+ "azurirano": "2026-11-14T19:13:30.513Z",
  "nadolazeca": "2026-11-15",
  "nedjelje": [
   "2026-09-06",
@@ -24,52 +24,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-14T09:05:25.680Z"
+   "provjereno": "2026-11-14T19:13:30.513Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-14T09:05:25.680Z"
+   "provjereno": "2026-11-14T19:13:30.513Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-14T09:05:25.680Z"
+   "provjereno": "2026-11-14T19:13:30.513Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-14T09:05:25.680Z"
+   "provjereno": "2026-11-14T19:13:30.513Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-14T09:05:25.680Z"
+   "provjereno": "2026-11-14T19:13:30.513Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-14T09:05:25.680Z"
+   "provjereno": "2026-11-14T19:13:30.513Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-14T09:05:25.680Z"
+   "provjereno": "2026-11-14T19:13:30.513Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-14T09:05:25.680Z"
+   "provjereno": "2026-11-14T19:13:30.513Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-14T09:05:25.680Z"
+   "provjereno": "2026-11-14T19:13:30.513Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-14T09:05:25.680Z"
+   "provjereno": "2026-11-14T19:13:30.513Z"
   }
  },
  "greske": [],
@@ -4746,15 +4746,6 @@
    "opis": "Pjevački zbor „Sveti Juraj na Bregu” bit će u srijedu, 18. studenoga 2026. godine, domaćin koncerta pod nazivom „Pjesme i sjećanja”, koji će se održati u župnoj crkvi svetog Jurja mučenika u Lopatincu, s početkom u 18…",
    "link": "https://www.svetijurajnabregu.hr/2026/11/05/koncert-pjesme-i-sjecanja-u-zupnoj-crkvi-u-lopatincu/",
    "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/Pjesme-i-sjecanja-2026-724x1024-1.jpg"
-  },
-  {
-   "id": "na-b2JyYS16YWJhdmEv",
-   "naslov": "Martinje ove subote na Šetnici svete Barbare – mlada vina, domaći okusi i dobra zabava",
-   "opcina": "Mursko Središće",
-   "objavljeno": "2026-11-03",
-   "opis": "Još nas samo četiri dana dijele od tradicionalnog Martinja na Šetnici svete Barbare u Murskom Središću! U subotu, 7. studenoga 2026. godine, s početkom u 16:00 sati, ponovno ćemo zajedno obilježiti blagdan svetog…",
-   "link": "https://mursko-sredisce.hr/martinje-ove-subote-na-setnici-svete-barbare-mlada-vina-domaci-okusi-i-dobra-zabava/",
-   "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/10/martinje-2026-1.webp"
   },
   {
    "id": "na-LWRydXplbmphLw==",
