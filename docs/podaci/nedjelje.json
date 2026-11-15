@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-15T09:35:54.020Z",
+ "azurirano": "2026-11-15T12:12:28.714Z",
  "nadolazeca": "2026-11-15",
  "nedjelje": [
   "2026-09-06",
@@ -22,64 +22,65 @@
  ],
  "lanci": {
   "Trgovina Krk": {
-   "ok": true,
+   "ok": false,
    "poslovnica": 88,
+   "greska": "nema stupaca s datumima",
    "provjereno": "2026-11-15T09:35:54.020Z"
   },
   "NTL": {
-   "ok": true,
+   "ok": false,
    "poslovnica": 34,
+   "greska": "nema \"var locations\"",
    "provjereno": "2026-11-15T09:35:54.020Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-15T09:35:54.020Z"
+   "provjereno": "2026-11-15T12:12:28.714Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-15T09:35:54.020Z"
+   "provjereno": "2026-11-15T12:12:28.714Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-15T09:35:54.020Z"
+   "provjereno": "2026-11-15T12:12:28.714Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-15T09:35:54.020Z"
+   "provjereno": "2026-11-15T12:12:28.714Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-15T09:35:54.020Z"
+   "provjereno": "2026-11-15T12:12:28.714Z"
   },
   "Studenac": {
-   "ok": true,
+   "ok": false,
    "poslovnica": 8,
+   "greska": "nijedna poslovnica u Međimurju (promijenila se stranica?)",
    "provjereno": "2026-11-15T09:35:54.020Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-15T09:35:54.020Z"
+   "provjereno": "2026-11-15T12:12:28.714Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-15T09:35:54.020Z"
+   "provjereno": "2026-11-15T12:12:28.714Z"
   }
  },
- "greske": [],
- "upozorenja": [
-  "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Najave Štrigova: HTTP 403 za https://opcinastrigova.hr/feed/"
+ "greske": [
+  "Trgovina Krk: nema stupaca s datumima",
+  "NTL: nema \"var locations\"",
+  "Studenac: nijedna poslovnica u Međimurju (promijenila se stranica?)"
  ],
+ "upozorenja": [],
  "trgovine": [
   {
    "id": "ntl-2241",
@@ -4689,87 +4690,6 @@
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10615",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10615_80446_vipro39.jpg"
-  },
-  {
-   "id": "na-YWxpLXB0aWNlLw==",
-   "naslov": "Petaši u Svetom Jurju na Bregu na radionici stop-animacije oživljavali ptice",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-11",
-   "opis": "Učenici 5.c razreda Osnovne škole Ivana Gorana Kovačića iz Svetog Jurja na Bregu u srijedu, 11. studenoga 2026., sudjelovali su u radionici stop-animacije. Radionica je održana u sklopu projekta MURAI 2.0, a vodio ju je…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/11/petasi-u-svetom-jurju-na-bregu-na-radionici-stop-animacije-ozivljavali-ptice/",
-   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/skola-20261111-181936-0-1024x683.jpg"
-  },
-  {
-   "id": "na-YWNpamUtemVuYS8=",
-   "naslov": "UŠR Višnjica ukupne pobjednice jubilarnog 20. Hrvatskog festivala sportske rekreacije žena",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-08",
-   "opis": "Jubilarni 20. Hrvatski festival sportske rekreacije žena okrunjen je u večernjim satima u čakovečkom restoranu KTC svečanom dodjelom nagrada, priznanja i pehara, čime je spušten zastor na još jedno uspješno okupljanje…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/08/usr-visnjica-ukupne-pobjednice-jubilarnog-20-hrvatskog-festivala-sportske-rekreacije-zena/",
-   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-08-at-11.57.56-1024x576.jpeg"
-  },
-  {
-   "id": "na-by0zMDAtemVuYS8=",
-   "naslov": "Na festival sportske rekreacije stiglo 300 žena!",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-07",
-   "opis": "Dvadeseti državni festival po prvi put je, uz dvadeseti rođendan domaće udruge, održan u Pleškovcu U školskoj sportskoj dvorani u Pleškovcu je održan 20. Hrvatski festival sportske rekreacije žena. Okupilo se gotovo tri…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/07/na-festival-sportske-rekreacije-stiglo-300-zena/",
-   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/SVETI-JURAJ-NA-BREGU-festival-sportske-rekreacije-zena-1-1260x945-1-1024x768.webp"
-  },
-  {
-   "id": "na-ZGltdXJqYS0zLw==",
-   "naslov": "MARTINJE U GRADU RUDARA – BESPLATNA DEGUSTACIJA MLADIH VINA MEĐIMURJA",
-   "opcina": "Mursko Središće",
-   "objavljeno": "2026-11-06",
-   "opis": "Martinje u Murskom Središću i ove će godine biti posebno svečano, odajući počast svetom Martinu, zaštitniku vinara i vinogradara, u srcu Međimurja. Tradicija proslave Martinja ovdje ima duboke korijene, jer su još u…",
-   "link": "https://mursko-sredisce.hr/martinje-u-gradu-rudara-besplatna-degustacija-mladih-vina-medimurja-3/",
-   "slika": null
-  },
-  {
-   "id": "na-bG9wYXRpbmN1Lw==",
-   "naslov": "Koncert „Pjesme i sjećanja” u župnoj crkvi u Lopatincu",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-05",
-   "opis": "Pjevački zbor „Sveti Juraj na Bregu” bit će u srijedu, 18. studenoga 2026. godine, domaćin koncerta pod nazivom „Pjesme i sjećanja”, koji će se održati u župnoj crkvi svetog Jurja mučenika u Lopatincu, s početkom u 18…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/05/koncert-pjesme-i-sjecanja-u-zupnoj-crkvi-u-lopatincu/",
-   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/Pjesme-i-sjecanja-2026-724x1024-1.jpg"
-  },
-  {
-   "id": "na-LWRydXplbmphLw==",
-   "naslov": "Martinje na Međimurskoj vinskoj cesti – Tri dana tradicije, vina i dobrog druženja!",
-   "opcina": "Selnica",
-   "objavljeno": "2026-10-27",
-   "opis": "Od 6. do 8. studenoga 2026. godine Međimurje će ponovno živjeti u znaku Martinja! Bogat program manifestacije „Martinje na Međimurskoj vinskoj cesti“ donosi tri dana veselja, druženja, domaćih okusa i njegovanja bogate…",
-   "link": "https://www.selnica.hr/martinje-na-medimurskoj-vinskoj-cesti-tri-dana-tradicije-vina-i-dobrog-druzenja/",
-   "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/10/Martinje-na-MVC-plakat-scaled.webp"
-  },
-  {
-   "id": "na-Y2UtZGVsaWNpamUv",
-   "naslov": "Vina z brajdi u Selnici – Poziv na veselo druženje uz vino, glazbu i domaće delicije",
-   "opcina": "Selnica",
-   "objavljeno": "2026-10-27",
-   "opis": "U nedjelju, 8. studenoga 2026. godine, s početkom u 16 sati, u Domu kulture Selnica održat će se manifestacija „Vina z brajdi“, koja donosi ugodno druženje, bogatstvo domaćih okusa i veselu atmosferu u duhu međimurske…",
-   "link": "https://www.selnica.hr/vina-z-brajdi-u-selnici-poziv-na-veselo-druzenje-uz-vino-glazbu-i-domace-delicije/",
-   "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/10/Martinje-2026.webp"
-  },
-  {
-   "id": "na-bmEtei1icmFqZGkv",
-   "naslov": "Poziv vinarima na manifestaciju „Vina z brajdi”",
-   "opcina": "Selnica",
-   "objavljeno": "2026-10-21",
-   "opis": "Općina Selnica i Turistička zajednica područja Mura i gorice pozivaju vinare s područja Selnice i okolice da predstave svoja vina na manifestaciji „Vina z brajdi”, koja će se održati u nedjelju, 8. studenoga 2026.…",
-   "link": "https://www.selnica.hr/poziv-vinarima-na-manifestaciju-vina-z-brajdi/",
-   "slika": null
-  },
-  {
-   "id": "na-aXItaXZhbmVjLw==",
-   "naslov": "18. MEMORIJALNI KARATE TURNIR IVANEC",
-   "opcina": "Šenkovec",
-   "objavljeno": "2026-10-19",
-   "opis": "U Ivancu je 17.10.2026. održan 18. Memorijalni karate turnir Ivanec na kojem je nastupilo 415 natjecatelja iz 47 klubova. Članovi karate centra Šenkovec nastupili su samo u pojedinačnim kategorijama, a najbolji rezultat…",
-   "link": "https://senkovec.hr/2026/10/19/18-memorijalni-karate-turnir-ivanec/",
-   "slika": "https://senkovec.hr/wp-content/uploads/2026/10/20261018_185455-733x1024.jpg"
   }
  ],
  "restorani": [
@@ -4798,7 +4718,7 @@
   },
   {
    "id": "osm-n1748069161",
-   "naziv": "Batak",
+   "naziv": "Batak Čakovec",
    "vrsta": "restoran",
    "kuhinja": "roštilj",
    "mjesto": "Čakovec",
@@ -4864,7 +4784,7 @@
    "adresa": "Trg Republike 5",
    "lat": 46.388873,
    "lng": 16.432008,
-   "tel": "+385 40 341-099",
+   "tel": "+385 40 341 099",
    "web": "https://stari-grad.com/",
    "tjedan": null,
    "foto": "https://stari-grad.com/wp-content/uploads/2026/02/Otkrijte-nasu-pricu-11.jpg",
@@ -5098,6 +5018,21 @@
    "opis": null
   },
   {
+   "id": "osm-n14355203971",
+   "naziv": "Klopan",
+   "vrsta": "brza hrana",
+   "kuhinja": "",
+   "mjesto": "Čakovec",
+   "adresa": "",
+   "lat": 46.382072,
+   "lng": 16.430415,
+   "tel": null,
+   "web": null,
+   "tjedan": null,
+   "foto": null,
+   "opis": null
+  },
+  {
    "id": "osm-n6024472851",
    "naziv": "Laganini",
    "vrsta": "restoran",
@@ -5284,7 +5219,7 @@
    "adresa": "Ulica Nikole Pavića 2",
    "lat": 46.378992,
    "lng": 16.443246,
-   "tel": "095 130 0400",
+   "tel": "+385 95 130 0400",
    "web": "https://www.facebook.com/pizzeriaspizza/?locale=hr_HR",
    "tjedan": {
     "pon": "08:00-23:00",
@@ -5924,6 +5859,21 @@
    "opis": null
   },
   {
+   "id": "osm-w673966510",
+   "naziv": "Restoran Schloss",
+   "vrsta": "restoran",
+   "kuhinja": "",
+   "mjesto": "Mursko Središće",
+   "adresa": "Ulica Josipa Šajnovića 1",
+   "lat": 46.505462,
+   "lng": 16.431194,
+   "tel": null,
+   "web": null,
+   "tjedan": null,
+   "foto": null,
+   "opis": null
+  },
+  {
    "id": "osm-n7201177987",
    "naziv": "Atlantik",
    "vrsta": "restoran",
@@ -5987,7 +5937,15 @@
    "lng": 16.386719,
    "tel": null,
    "web": "https://restoran-lipa.com/",
-   "tjedan": null,
+   "tjedan": {
+    "pon": "07:30-23:00",
+    "uto": "07:30-23:00",
+    "sri": "07:30-23:00",
+    "cet": "07:30-23:00",
+    "pet": "07:30-23:00",
+    "sub": "07:30-23:00",
+    "ned": "07:30-23:00"
+   },
    "foto": null,
    "opis": null
   },
@@ -6005,6 +5963,29 @@
    "tjedan": null,
    "foto": null,
    "opis": null
+  },
+  {
+   "id": "osm-w327152058",
+   "naziv": "Kavana Cobra",
+   "vrsta": "restoran",
+   "kuhinja": "pizza, burgeri, domaća kuhinja, kava, sendviči, piletina",
+   "mjesto": "Podturen",
+   "adresa": "Čakovečka ulica 18",
+   "lat": 46.463776,
+   "lng": 16.543868,
+   "tel": null,
+   "web": "https://www.kavanacobra.hr",
+   "tjedan": {
+    "pon": "10:00-22:00",
+    "uto": "10:00-22:00",
+    "sri": "10:00-22:00",
+    "cet": "10:00-22:00",
+    "pet": "10:00-22:00",
+    "sub": "10:00-22:00",
+    "ned": "10:00-22:00"
+   },
+   "foto": null,
+   "opis": "Kavana Cobra: Catering | Organizirane proslave | Krizma | Vjenčanje | Godišnjica | Rođendan | Pizzeria | Plate | Međimurje | Čakovec | Proslava |"
   },
   {
    "id": "osm-w625719529",
@@ -6068,7 +6049,7 @@
    "adresa": "Glavna ulica 41",
    "lat": 46.337297,
    "lng": 16.615339,
-   "tel": "040295704",
+   "tel": "+385 40 295 704",
    "web": "https://www.trattoriarossa.com",
    "tjedan": null,
    "foto": null,
@@ -6081,8 +6062,8 @@
    "kuhinja": "pizza",
    "mjesto": "Pretetinec",
    "adresa": "Pretetinec 147",
-   "lat": 46.393374,
-   "lng": 16.370301,
+   "lat": 46.393332,
+   "lng": 16.37029,
    "tel": "+385 40 829 394",
    "web": "https://www.visitmedimurje.com/backend/opsirnije-nedelisce.asp?id=200",
    "tjedan": null,
@@ -6105,14 +6086,44 @@
    "opis": null
   },
   {
-   "id": "osm-n1997363641",
+   "id": "osm-w310191340",
    "naziv": "Mamica",
    "vrsta": "restoran",
    "kuhinja": "domaća kuhinja",
    "mjesto": "Pušćine",
+   "adresa": "Čakovečka 47",
+   "lat": 46.347698,
+   "lng": 16.362008,
+   "tel": null,
+   "web": "https://www.mamica.com.hr/en",
+   "tjedan": null,
+   "foto": null,
+   "opis": "U idiličnom zelenom okruženju na pola puta između Čakovca i Varaždina, Mamica Pansion & Restoran nudi iznimno udobne sobe, doručak za pamćenje, a restoran odlikuje domaća međimurska kuhinja s modernim…"
+  },
+  {
+   "id": "osm-w317781063",
+   "naziv": "Restoran Palma",
+   "vrsta": "restoran",
+   "kuhinja": "",
+   "mjesto": "Pušćine",
+   "adresa": "Čakovečka ulica 106",
+   "lat": 46.341972,
+   "lng": 16.361568,
+   "tel": "+38540895163",
+   "web": null,
+   "tjedan": null,
+   "foto": null,
+   "opis": null
+  },
+  {
+   "id": "osm-n13910575543",
+   "naziv": "Pizzerija Krug",
+   "vrsta": "restoran",
+   "kuhinja": "",
+   "mjesto": "Selnica",
    "adresa": "",
-   "lat": 46.347707,
-   "lng": 16.361868,
+   "lat": 46.493208,
+   "lng": 16.398052,
    "tel": null,
    "web": null,
    "tjedan": null,
@@ -6221,7 +6232,7 @@
    "mjesto": "Štrigova",
    "adresa": "Štrigova 76",
    "lat": 46.501045,
-   "lng": 16.284529,
+   "lng": 16.284522,
    "tel": "+38540851093",
    "web": null,
    "tjedan": {
