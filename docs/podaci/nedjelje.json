@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-18T10:19:45.833Z",
+ "azurirano": "2026-11-19T10:29:20.088Z",
  "nadolazeca": "2026-11-22",
  "nedjelje": [
   "2026-09-13",
@@ -23,52 +23,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-18T10:19:45.833Z"
+   "provjereno": "2026-11-19T10:29:20.088Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-18T10:19:45.833Z"
+   "provjereno": "2026-11-19T10:29:20.088Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-18T10:19:45.833Z"
+   "provjereno": "2026-11-19T10:29:20.088Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-18T10:19:45.833Z"
+   "provjereno": "2026-11-19T10:29:20.088Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-18T10:19:45.833Z"
+   "provjereno": "2026-11-19T10:29:20.088Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-18T10:19:45.833Z"
+   "provjereno": "2026-11-19T10:29:20.088Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-18T10:19:45.833Z"
+   "provjereno": "2026-11-19T10:29:20.088Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-18T10:19:45.833Z"
+   "provjereno": "2026-11-19T10:29:20.088Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-18T10:19:45.833Z"
+   "provjereno": "2026-11-19T10:29:20.088Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-18T10:19:45.833Z"
+   "provjereno": "2026-11-19T10:29:20.088Z"
   }
  },
  "greske": [],
@@ -4637,7 +4637,7 @@
    "id": "na-PTImYWlkPTEwNjIw",
    "naslov": "Predstavnici Grada Preloga na svečanom obilježavanju Dana Grada Malog Lošinja",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-18",
+   "objavljeno": "2026-11-19",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10620",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10620_80486_mali-loinj2.jpg"
@@ -4646,7 +4646,7 @@
    "id": "na-PTImYWlkPTEwNjE2",
    "naslov": "Sudjelujte na tribini o katastarskoj izmjeri na području Preloga i Otoka",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-18",
+   "objavljeno": "2026-11-19",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10616",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10616_80425_poziv-na-javni-skup-katastarska-izmjera.jpg"
@@ -4655,10 +4655,19 @@
    "id": "na-PTImYWlkPTEwNjE1",
    "naslov": "U Muzeju Croata insulanus otvorena izložba Mihaela Bađuna \"PIZZABOX\"",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-18",
+   "objavljeno": "2026-11-19",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10615",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10615_80446_vipro39.jpg"
+  },
+  {
+   "id": "na-dmV6aXZhbmphLw==",
+   "naslov": "GenFluence sajam u Murskoj Soboti: Dan poduzetništva, kreativnosti i prekograničnog povezivanja",
+   "opcina": "Mursko Središće",
+   "objavljeno": "2026-11-19",
+   "opis": "Četvrtak, 19. studenoga 2026. godine, u Murskoj Soboti održat će se cjelodnevni GenFluence sajam, događaj posvećen promociji poduzetništva, kreativnosti, inovativnih ideja i prekogranične suradnje. Sajam će okupiti…",
+   "link": "https://mursko-sredisce.hr/genfluence-sajam-u-murskoj-soboti-dan-poduzetnistva-kreativnosti-i-prekogranicnog-povezivanja/",
+   "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/11/fenfluence.webp"
   },
   {
    "id": "na-LWktc2thYnJuamUv",
@@ -4670,12 +4679,12 @@
    "slika": null
   },
   {
-   "id": "na-dS1jYWtvdmVjLw==",
-   "naslov": "PROSINAC NA PUČKOM – bogat program radionica i predavanja na POU Čakovec",
+   "id": "na-aW5za29nLXJhdGEv",
+   "naslov": "Čakovec odao počast Vukovaru i svim žrtvama Domovinskog rata",
    "opcina": "Čakovec",
-   "objavljeno": "2026-11-16",
-   "opis": "Pučko otvoreno učilište Čakovec posljednji mjesec u godini obilježava kao mjesec znanja, kreativnosti i novih iskustava. U sklopu programa Prosinac na Pučkom pripremili su niz raznovrsnih radionica i predavanja koja…",
-   "link": "https://www.cakovec.hr/prosinac-na-puckom-bogat-program-radionica-i-predavanja-na-pou-cakovec/",
+   "objavljeno": "2026-11-17",
+   "opis": "Večer uoči 35. obljetnice pada Vukovara, i Dana sjećanja na žrtve Domovinskog rata i Dana sjećanja na žrtvu Vukovara i Škabrnje Čakovec je bio mjesto poštovanja i dubokog pijeteta prema gradu heroju i svima koji su svoje…",
+   "link": "https://www.cakovec.hr/cakovec-odao-pocast-vukovaru-i-svim-zrtvama-domovinskog-rata/",
    "slika": null
   },
   {
@@ -4686,6 +4695,15 @@
    "opis": "",
    "link": "https://www.donjikraljevec.hr/2026/11/16/obiljezavanje-dana-sjecanja-na-zrtve-domovinskog-rata-i-zrtvu-vukovara-3/",
    "slika": null
+  },
+  {
+   "id": "na-LTEwMC1nb2RpbmEv",
+   "naslov": "Katarina Katanec iz Brezja proslavila veličanstvenih 100 godina!",
+   "opcina": "Sveti Juraj na Bregu",
+   "objavljeno": "2026-11-15",
+   "opis": "Malo se tko može pohvaliti rijetkim darom i blagoslovom da na ovoj zemlji doživi cijelo stoljeće života, a u taj ekskluzivni klub dugovječnih i iznimnih ljudi prije nekoliko je dana svečano zakoračila i Katarina Katanec…",
+   "link": "https://www.svetijurajnabregu.hr/2026/11/15/katarina-katanec-iz-brezja-proslavila-velicanstvenih-100-godina/",
+   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/Katarina-Katanec-100-godina-2_result-1024x577.jpg"
   },
   {
    "id": "na-YWxpLXB0aWNlLw==",
@@ -4704,15 +4722,6 @@
    "opis": "Jubilarni 20. Hrvatski festival sportske rekreacije žena okrunjen je u večernjim satima u čakovečkom restoranu KTC svečanom dodjelom nagrada, priznanja i pehara, čime je spušten zastor na još jedno uspješno okupljanje…",
    "link": "https://www.svetijurajnabregu.hr/2026/11/08/usr-visnjica-ukupne-pobjednice-jubilarnog-20-hrvatskog-festivala-sportske-rekreacije-zena/",
    "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-08-at-11.57.56-1024x576.jpeg"
-  },
-  {
-   "id": "na-by0zMDAtemVuYS8=",
-   "naslov": "Na festival sportske rekreacije stiglo 300 žena!",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-07",
-   "opis": "Dvadeseti državni festival po prvi put je, uz dvadeseti rođendan domaće udruge, održan u Pleškovcu U školskoj sportskoj dvorani u Pleškovcu je održan 20. Hrvatski festival sportske rekreacije žena. Okupilo se gotovo tri…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/07/na-festival-sportske-rekreacije-stiglo-300-zena/",
-   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/SVETI-JURAJ-NA-BREGU-festival-sportske-rekreacije-zena-1-1260x945-1-1024x768.webp"
   },
   {
    "id": "na-LWRydXplbmphLw==",
