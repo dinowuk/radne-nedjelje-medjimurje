@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-20T10:09:57.979Z",
+ "azurirano": "2026-11-20T21:51:39.377Z",
  "nadolazeca": "2026-11-22",
  "nedjelje": [
   "2026-09-13",
@@ -23,52 +23,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-20T10:09:57.979Z"
+   "provjereno": "2026-11-20T21:51:39.377Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-20T10:09:57.979Z"
+   "provjereno": "2026-11-20T21:51:39.377Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-20T10:09:57.979Z"
+   "provjereno": "2026-11-20T21:51:39.377Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-20T10:09:57.979Z"
+   "provjereno": "2026-11-20T21:51:39.377Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-20T10:09:57.979Z"
+   "provjereno": "2026-11-20T21:51:39.377Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-20T10:09:57.979Z"
+   "provjereno": "2026-11-20T21:51:39.377Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-20T10:09:57.979Z"
+   "provjereno": "2026-11-20T21:51:39.377Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-20T10:09:57.979Z"
+   "provjereno": "2026-11-20T21:51:39.377Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-20T10:09:57.979Z"
+   "provjereno": "2026-11-20T21:51:39.377Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-20T10:09:57.979Z"
+   "provjereno": "2026-11-20T21:51:39.377Z"
   }
  },
  "greske": [],
@@ -76,8 +76,7 @@
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Najave Štrigova: HTTP 403 za https://opcinastrigova.hr/feed/"
+  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)"
  ],
  "trgovine": [
   {
@@ -4450,22 +4449,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/mario-celinic-sedam-vrhova-sedam-kontinenata-jedna-prica"
   },
   {
-   "id": "ei-4941",
-   "naslov": "Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu",
-   "od": "2026-11-26",
-   "do": "2026-12-15",
-   "vrijeme": null,
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "izložba",
-   "cijena": null,
-   "opis": "Otvorenje izložbe: četvrtak, 26. studenoga 2026. u 19.00 sati Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu Na skupnoj izložbi svoje grafičke radove predstavljaju mlade umjetnice Sara Dorčić, Nina Grebenar, Viktorija Ivelja, Lucia Lukšić,…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/odsjek_za_likovnu_kulturu_i_likovnu_umjetnost_umjetni_ke_akademije_sveu_ili_ta_u_splitu_1794218346.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/odsjek-za-likovnu-kulturu-i-likovnu-umjetnost-umjetnicke-akademije-sveucilista-u-splitu"
-  },
-  {
    "id": "ei-4944",
    "naslov": "Crni Ibex - planinarski festival",
    "od": "2026-11-26",
@@ -4480,6 +4463,22 @@
    "opis": "Crni Ibex je planinarski festival koji okuplja ljude povezane planinom – kroz priče, filmove, knjige, predavanja, radionice i druženje. Od 26. do 29. studenog 2026. godine zgrada Scheier u Čakovcu postaje mjesto susreta planinara, ljubitelja prirode, filmskih autora, čitatelja i…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/crni_ibex___planinarski_festival_1794222555.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/crni-ibex-planinarski-festival"
+  },
+  {
+   "id": "ei-4941",
+   "naslov": "Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu",
+   "od": "2026-11-26",
+   "do": "2026-12-15",
+   "vrijeme": null,
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "izložba",
+   "cijena": null,
+   "opis": "Otvorenje izložbe: četvrtak, 26. studenoga 2026. u 19.00 sati Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu Na skupnoj izložbi svoje grafičke radove predstavljaju mlade umjetnice Sara Dorčić, Nina Grebenar, Viktorija Ivelja, Lucia Lukšić,…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/odsjek_za_likovnu_kulturu_i_likovnu_umjetnost_umjetni_ke_akademije_sveu_ili_ta_u_splitu_1794218346.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/odsjek-za-likovnu-kulturu-i-likovnu-umjetnost-umjetnicke-akademije-sveucilista-u-splitu"
   },
   {
    "id": "ei-4938",
@@ -4514,6 +4513,22 @@
    "link": "https://eventinfo.com.hr/dogadaj/matija-bogdan-od-cakovca-do-krova-svijeta"
   },
   {
+   "id": "ei-4950",
+   "naslov": "VEČER MEĐIMURSKE POPEVKE: ČIPKA, ZIPKA, TIBLICA",
+   "od": "2026-11-28",
+   "do": "2026-11-28",
+   "vrijeme": "18:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "Besplatno",
+   "opis": "VEČER MEĐIMURSKE POPEVKE UZ PREMIJERNO PREDSTAVLJANJE PROJEKTA „ČIPKA, ZIPKA, TIBLICA” Međimurske popevke ponovno će se zaoriti u Centru za kulturu Čakovec! Međimurska županija poziva vas na tradicionalnu Večer međimurske popevke, koja će se održati u subotu, 28. studenoga, s…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/ve_er_me_imurske_popevke___ipka__zipka__tiblica_1795173217.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/vecer-medimurske-popevke-cipka-zipka-tiblica"
+  },
+  {
    "id": "ei-4937",
    "naslov": "Čehaj Fest",
    "od": "2026-11-28",
@@ -4546,6 +4561,22 @@
    "link": "https://eventinfo.com.hr/dogadaj/krzneni-kradljivci-bozicnih-darova"
   },
   {
+   "id": "ei-4951",
+   "naslov": "VLATKO ŠTAMPAR: VRLO DOVOLJAN",
+   "od": "2026-12-02",
+   "do": "2026-12-02",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": "15,00 EUR",
+   "opis": "“VRLO DOVOLJAN (6) U glavi sam spojio fore u priču. Priču o odrastanju i korijenima. Priču o sreći, empatiji, vještinama, brigama i malim veseljima. I manjku istih. Priču o pitanjima. Još malo i 40ta je tu pa se lagano radi revizija života. Kuda idem? I idemo? Mi svi. Što sam…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/vlatko__tampar__vrlo_dovoljan_1795173498.png",
+   "link": "https://eventinfo.com.hr/dogadaj/vlatko-stampar-vrlo-dovoljan"
+  },
+  {
    "id": "ei-4896",
    "naslov": "KAZALIŠTE MORUZGVA: USPJEŠNA.HR",
    "od": "2026-12-03",
@@ -4562,6 +4593,22 @@
    "link": "https://eventinfo.com.hr/dogadaj/kazaliste-moruzgva-uspjesnahr"
   },
   {
+   "id": "ei-4952",
+   "naslov": "Studio suvremenog plesa “Teuta”: Božićne plesopriče",
+   "od": "2026-12-09",
+   "do": "2026-12-09",
+   "vrijeme": "19:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "kazalište",
+   "cijena": null,
+   "opis": "U ovoj blagdanskoj radosti Studio suvremenog plesa “TEUTA”, svojim plesnim stvaralaštvom i dragim gostima: Osnovnom baletnom školom Umjetničke škole Miroslav Magdalenić Čakovec Plesnom grupom III.osnovne škole Čakovec Plesno- gimnastičim klubom “FLIK” Šenkovec i Plesno- scenskom…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/studio_suvremenog_plesa__teuta___bo_i_ne_plesopri_e_1795173609.jpeg",
+   "link": "https://eventinfo.com.hr/dogadaj/studio-suvremenog-plesa-teuta-bozicne-plesoprice"
+  },
+  {
    "id": "ei-4884",
    "naslov": "VLATKO STEFANOVSKI &amp; MIROSLAV TADIĆ",
    "od": "2026-12-11",
@@ -4576,6 +4623,38 @@
    "opis": "Susret dvojice vrhunskih gitarista, Vlatka Stefanovskog i Miroslava Tadića, donosi jedinstveni glazbeni doživljaj koji briše granice između žanrova i kultura. Njihova dugogodišnja suradnja temelji se na iznimnoj muzikalnosti, improvizaciji i akustičnom dijalogu dviju gitara,…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/vlatko_stefanovski__amp__miroslav_tadi__1788944393.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/vlatko-stefanovski-miroslav-tadic"
+  },
+  {
+   "id": "ei-4949",
+   "naslov": "15. Svetomartinski Krampuslauf 2026.",
+   "od": "2026-12-12",
+   "do": "2026-12-12",
+   "vrijeme": "18:00",
+   "mjesto": "Sveti Martin na Muri",
+   "grad": "Sveti Martin na Muri",
+   "lat": 46.525084,
+   "lng": 16.362768,
+   "kategorija": "zabava",
+   "cijena": null,
+   "opis": "Pozivamo vas na 15. Svetomartinski Krampuslauf! Sveti Martin na Muri – subota 12. 12. 2026. 18:00 sati – početak laufa Ruta: od vatrogasnog doma prema centru Svetog Martina na Muri Preporučena donacija za krampuslauf: 4 € 20:00 sati – Zabava uz Privatt Band, DJ Luksi &amp; DJ…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/15__svetomartinski_krampuslauf_2026__1795172105.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/15-svetomartinski-krampuslauf-2026"
+  },
+  {
+   "id": "ei-4953",
+   "naslov": "Božićni koncert čakovečkih amatera: ZDRAVO BUDI, MLADI KRALJU!",
+   "od": "2026-12-17",
+   "do": "2026-12-17",
+   "vrijeme": "20:00",
+   "mjesto": "CZK Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.3904,
+   "lng": 16.434567,
+   "kategorija": "koncert",
+   "cijena": "10,00 EUR",
+   "opis": "Čakovec će i ove godine dočekati Božić glazbom, pjesmom i plesom. Na velikom božićnom koncertu „Zdravo budi, mladi kralju!” na jednoj će se pozornici okupiti više stotina izvođača, od najmlađih pjevača i plesača do iskusnih zborova, solista i orkestralnih glazbenika. Bit će to…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/bo_i_ni_koncert__akove_kih_amatera__zdravo_budi__mladi_kralju__1795173953.png",
+   "link": "https://eventinfo.com.hr/dogadaj/bozicni-koncert-cakoveckih-amatera-zdravo-budi-mladi-kralju"
   },
   {
    "id": "ei-4914",
@@ -4644,15 +4723,6 @@
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10616",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10616_80425_poziv-na-javni-skup-katastarska-izmjera.jpg"
-  },
-  {
-   "id": "na-PTImYWlkPTEwNjE1",
-   "naslov": "U Muzeju Croata insulanus otvorena izložba Mihaela Bađuna \"PIZZABOX\"",
-   "opcina": "Prelog",
-   "objavljeno": "2026-11-20",
-   "opis": "",
-   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10615",
-   "slika": "http://www.prelog.hr/articlefiles/thumb_10615_80446_vipro39.jpg"
   },
   {
    "id": "na-a3JhbGpldmVjLTMv",
@@ -4734,15 +4804,6 @@
    "opis": "U nedjelju, 8. studenoga 2026. godine, s početkom u 16 sati, u Domu kulture Selnica održat će se manifestacija „Vina z brajdi“, koja donosi ugodno druženje, bogatstvo domaćih okusa i veselu atmosferu u duhu međimurske…",
    "link": "https://www.selnica.hr/vina-z-brajdi-u-selnici-poziv-na-veselo-druzenje-uz-vino-glazbu-i-domace-delicije/",
    "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/10/Martinje-2026.webp"
-  },
-  {
-   "id": "na-bmEtei1icmFqZGkv",
-   "naslov": "Poziv vinarima na manifestaciju „Vina z brajdi”",
-   "opcina": "Selnica",
-   "objavljeno": "2026-10-21",
-   "opis": "Općina Selnica i Turistička zajednica područja Mura i gorice pozivaju vinare s područja Selnice i okolice da predstave svoja vina na manifestaciji „Vina z brajdi”, koja će se održati u nedjelju, 8. studenoga 2026.…",
-   "link": "https://www.selnica.hr/poziv-vinarima-na-manifestaciju-vina-z-brajdi/",
-   "slika": null
   }
  ],
  "restorani": [
@@ -4771,7 +4832,7 @@
   },
   {
    "id": "osm-n1748069161",
-   "naziv": "Batak Čakovec",
+   "naziv": "Batak",
    "vrsta": "restoran",
    "kuhinja": "roštilj",
    "mjesto": "Čakovec",
@@ -4837,7 +4898,7 @@
    "adresa": "Trg Republike 5",
    "lat": 46.388873,
    "lng": 16.432008,
-   "tel": "+385 40 341 099",
+   "tel": "+385 40 341-099",
    "web": "https://stari-grad.com/",
    "tjedan": null,
    "foto": "https://stari-grad.com/wp-content/uploads/2026/02/Otkrijte-nasu-pricu-11.jpg",
@@ -5071,21 +5132,6 @@
    "opis": null
   },
   {
-   "id": "osm-n14355203971",
-   "naziv": "Klopan",
-   "vrsta": "brza hrana",
-   "kuhinja": "",
-   "mjesto": "Čakovec",
-   "adresa": "",
-   "lat": 46.382072,
-   "lng": 16.430415,
-   "tel": null,
-   "web": null,
-   "tjedan": null,
-   "foto": null,
-   "opis": null
-  },
-  {
    "id": "osm-n6024472851",
    "naziv": "Laganini",
    "vrsta": "restoran",
@@ -5272,7 +5318,7 @@
    "adresa": "Ulica Nikole Pavića 2",
    "lat": 46.378992,
    "lng": 16.443246,
-   "tel": "+385 95 130 0400",
+   "tel": "095 130 0400",
    "web": "https://www.facebook.com/pizzeriaspizza/?locale=hr_HR",
    "tjedan": {
     "pon": "08:00-23:00",
@@ -5912,21 +5958,6 @@
    "opis": null
   },
   {
-   "id": "osm-w673966510",
-   "naziv": "Restoran Schloss",
-   "vrsta": "restoran",
-   "kuhinja": "",
-   "mjesto": "Mursko Središće",
-   "adresa": "Ulica Josipa Šajnovića 1",
-   "lat": 46.505462,
-   "lng": 16.431194,
-   "tel": null,
-   "web": null,
-   "tjedan": null,
-   "foto": null,
-   "opis": null
-  },
-  {
    "id": "osm-n7201177987",
    "naziv": "Atlantik",
    "vrsta": "restoran",
@@ -5990,15 +6021,7 @@
    "lng": 16.386719,
    "tel": null,
    "web": "https://restoran-lipa.com/",
-   "tjedan": {
-    "pon": "07:30-23:00",
-    "uto": "07:30-23:00",
-    "sri": "07:30-23:00",
-    "cet": "07:30-23:00",
-    "pet": "07:30-23:00",
-    "sub": "07:30-23:00",
-    "ned": "07:30-23:00"
-   },
+   "tjedan": null,
    "foto": null,
    "opis": null
   },
@@ -6016,29 +6039,6 @@
    "tjedan": null,
    "foto": null,
    "opis": null
-  },
-  {
-   "id": "osm-w327152058",
-   "naziv": "Kavana Cobra",
-   "vrsta": "restoran",
-   "kuhinja": "pizza, burgeri, domaća kuhinja, kava, sendviči, piletina",
-   "mjesto": "Podturen",
-   "adresa": "Čakovečka ulica 18",
-   "lat": 46.463776,
-   "lng": 16.543868,
-   "tel": null,
-   "web": "https://www.kavanacobra.hr",
-   "tjedan": {
-    "pon": "10:00-22:00",
-    "uto": "10:00-22:00",
-    "sri": "10:00-22:00",
-    "cet": "10:00-22:00",
-    "pet": "10:00-22:00",
-    "sub": "10:00-22:00",
-    "ned": "10:00-22:00"
-   },
-   "foto": "https://kavanacobra.hr/wp-content/uploads/2026/11/kavana-cobra-restoran-i-catering.jpg",
-   "opis": "Kavana Cobra: Catering | Organizirane proslave | Krizma | Vjenčanje | Godišnjica | Rođendan | Pizzeria | Plate | Međimurje | Čakovec | Proslava |"
   },
   {
    "id": "osm-w625719529",
@@ -6102,7 +6102,7 @@
    "adresa": "Glavna ulica 41",
    "lat": 46.337297,
    "lng": 16.615339,
-   "tel": "+385 40 295 704",
+   "tel": "040295704",
    "web": "https://www.trattoriarossa.com",
    "tjedan": null,
    "foto": null,
@@ -6115,8 +6115,8 @@
    "kuhinja": "pizza",
    "mjesto": "Pretetinec",
    "adresa": "Pretetinec 147",
-   "lat": 46.393332,
-   "lng": 16.37029,
+   "lat": 46.393374,
+   "lng": 16.370301,
    "tel": "+385 40 829 394",
    "web": "https://www.visitmedimurje.com/backend/opsirnije-nedelisce.asp?id=200",
    "tjedan": null,
@@ -6139,44 +6139,14 @@
    "opis": null
   },
   {
-   "id": "osm-w310191340",
+   "id": "osm-n1997363641",
    "naziv": "Mamica",
    "vrsta": "restoran",
    "kuhinja": "domaća kuhinja",
    "mjesto": "Pušćine",
-   "adresa": "Čakovečka 47",
-   "lat": 46.347698,
-   "lng": 16.362008,
-   "tel": null,
-   "web": "https://www.mamica.com.hr/en",
-   "tjedan": null,
-   "foto": null,
-   "opis": "U idiličnom zelenom okruženju na pola puta između Čakovca i Varaždina, Mamica Pansion & Restoran nudi iznimno udobne sobe, doručak za pamćenje, a restoran odlikuje domaća međimurska kuhinja s modernim…"
-  },
-  {
-   "id": "osm-w317781063",
-   "naziv": "Restoran Palma",
-   "vrsta": "restoran",
-   "kuhinja": "",
-   "mjesto": "Pušćine",
-   "adresa": "Čakovečka ulica 106",
-   "lat": 46.341972,
-   "lng": 16.361568,
-   "tel": "+38540895163",
-   "web": null,
-   "tjedan": null,
-   "foto": null,
-   "opis": null
-  },
-  {
-   "id": "osm-n13910575543",
-   "naziv": "Pizzerija Krug",
-   "vrsta": "restoran",
-   "kuhinja": "",
-   "mjesto": "Selnica",
    "adresa": "",
-   "lat": 46.493208,
-   "lng": 16.398052,
+   "lat": 46.347707,
+   "lng": 16.361868,
    "tel": null,
    "web": null,
    "tjedan": null,
@@ -6285,7 +6255,7 @@
    "mjesto": "Štrigova",
    "adresa": "Štrigova 76",
    "lat": 46.501045,
-   "lng": 16.284522,
+   "lng": 16.284529,
    "tel": "+38540851093",
    "web": null,
    "tjedan": {
