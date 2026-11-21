@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-20T21:51:39.377Z",
+ "azurirano": "2026-11-21T09:57:12.003Z",
  "nadolazeca": "2026-11-22",
  "nedjelje": [
   "2026-09-13",
@@ -23,52 +23,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-20T21:51:39.377Z"
+   "provjereno": "2026-11-21T09:57:12.003Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-20T21:51:39.377Z"
+   "provjereno": "2026-11-21T09:57:12.003Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-20T21:51:39.377Z"
+   "provjereno": "2026-11-21T09:57:12.003Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-20T21:51:39.377Z"
+   "provjereno": "2026-11-21T09:57:12.003Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-20T21:51:39.377Z"
+   "provjereno": "2026-11-21T09:57:12.003Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-20T21:51:39.377Z"
+   "provjereno": "2026-11-21T09:57:12.003Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-20T21:51:39.377Z"
+   "provjereno": "2026-11-21T09:57:12.003Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-20T21:51:39.377Z"
+   "provjereno": "2026-11-21T09:57:12.003Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-20T21:51:39.377Z"
+   "provjereno": "2026-11-21T09:57:12.003Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-20T21:51:39.377Z"
+   "provjereno": "2026-11-21T09:57:12.003Z"
   }
  },
  "greske": [],
@@ -76,7 +76,8 @@
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)"
+  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
+  "Najave Štrigova: HTTP 404 za https://opcinastrigova.hr/feed/"
  ],
  "trgovine": [
   {
@@ -276,12 +277,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -301,12 +302,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -326,12 +327,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -1115,12 +1116,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -1564,12 +1565,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -1885,12 +1886,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -2422,12 +2423,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
-    "cet": "07:00-21:00"
+    "cet": "07:00-21:00",
+    "pet": "07:00-21:00"
    }
   },
   {
@@ -3023,12 +3024,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -3047,12 +3048,12 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "pet": null,
     "sub": null,
     "pon": null,
     "uto": null,
     "sri": null,
-    "cet": null
+    "cet": null,
+    "pet": null
    }
   },
   {
@@ -3281,12 +3282,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
-    "cet": "07:00-20:00"
+    "cet": "07:00-20:00",
+    "pet": "07:00-20:00"
    }
   },
   {
@@ -4353,22 +4354,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/5-dani-smijeha"
   },
   {
-   "id": "ei-4908",
-   "naslov": "TBF &amp; JAZZ ORKESTAR HRT-a",
-   "od": "2026-11-20",
-   "do": "2026-11-20",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "koncert",
-   "cijena": "30,00 EUR",
-   "opis": "TBF je od nastanka 1990. u Splitu razvio vlastiti, jedinstveni i prepoznatljivi stil koji spaja različite, naizgled udaljene žanrove, od hip hopa i funka preko popa i rocka do klapskog pjevanja. Skeniranje i kritika društveno-političkih zbivanja, prikaz svakodnevice, nepogrešivi…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/tbf__amp__jazz_orkestar_hrt_a_1791376639.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/tbf-jazz-orkestar-hrta"
-  },
-  {
    "id": "ei-4948",
    "naslov": "Godišnja izložba članova Fotokluba Čakovec",
    "od": "2026-11-20",
@@ -4710,7 +4695,7 @@
    "id": "na-PTImYWlkPTEwNjIw",
    "naslov": "Predstavnici Grada Preloga na svečanom obilježavanju Dana Grada Malog Lošinja",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-20",
+   "objavljeno": "2026-11-21",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10620",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10620_80486_mali-loinj2.jpg"
@@ -4719,7 +4704,7 @@
    "id": "na-PTImYWlkPTEwNjE2",
    "naslov": "Sudjelujte na tribini o katastarskoj izmjeri na području Preloga i Otoka",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-20",
+   "objavljeno": "2026-11-21",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10616",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10616_80425_poziv-na-javni-skup-katastarska-izmjera.jpg"
@@ -4779,15 +4764,6 @@
    "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/Katarina-Katanec-100-godina-2_result-1024x577.jpg"
   },
   {
-   "id": "na-YWxpLXB0aWNlLw==",
-   "naslov": "Petaši u Svetom Jurju na Bregu na radionici stop-animacije oživljavali ptice",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-11",
-   "opis": "Učenici 5.c razreda Osnovne škole Ivana Gorana Kovačića iz Svetog Jurja na Bregu u srijedu, 11. studenoga 2026., sudjelovali su u radionici stop-animacije. Radionica je održana u sklopu projekta MURAI 2.0, a vodio ju je…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/11/petasi-u-svetom-jurju-na-bregu-na-radionici-stop-animacije-ozivljavali-ptice/",
-   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/skola-20261111-181936-0-1024x683.jpg"
-  },
-  {
    "id": "na-LWRydXplbmphLw==",
    "naslov": "Martinje na Međimurskoj vinskoj cesti – Tri dana tradicije, vina i dobrog druženja!",
    "opcina": "Selnica",
@@ -4832,7 +4808,7 @@
   },
   {
    "id": "osm-n1748069161",
-   "naziv": "Batak",
+   "naziv": "Batak Čakovec",
    "vrsta": "restoran",
    "kuhinja": "roštilj",
    "mjesto": "Čakovec",
@@ -4898,7 +4874,7 @@
    "adresa": "Trg Republike 5",
    "lat": 46.388873,
    "lng": 16.432008,
-   "tel": "+385 40 341-099",
+   "tel": "+385 40 341 099",
    "web": "https://stari-grad.com/",
    "tjedan": null,
    "foto": "https://stari-grad.com/wp-content/uploads/2026/02/Otkrijte-nasu-pricu-11.jpg",
@@ -5132,6 +5108,21 @@
    "opis": null
   },
   {
+   "id": "osm-n14355203971",
+   "naziv": "Klopan",
+   "vrsta": "brza hrana",
+   "kuhinja": "",
+   "mjesto": "Čakovec",
+   "adresa": "",
+   "lat": 46.382072,
+   "lng": 16.430415,
+   "tel": null,
+   "web": null,
+   "tjedan": null,
+   "foto": null,
+   "opis": null
+  },
+  {
    "id": "osm-n6024472851",
    "naziv": "Laganini",
    "vrsta": "restoran",
@@ -5318,7 +5309,7 @@
    "adresa": "Ulica Nikole Pavića 2",
    "lat": 46.378992,
    "lng": 16.443246,
-   "tel": "095 130 0400",
+   "tel": "+385 95 130 0400",
    "web": "https://www.facebook.com/pizzeriaspizza/?locale=hr_HR",
    "tjedan": {
     "pon": "08:00-23:00",
@@ -5958,6 +5949,21 @@
    "opis": null
   },
   {
+   "id": "osm-w673966510",
+   "naziv": "Restoran Schloss",
+   "vrsta": "restoran",
+   "kuhinja": "",
+   "mjesto": "Mursko Središće",
+   "adresa": "Ulica Josipa Šajnovića 1",
+   "lat": 46.505462,
+   "lng": 16.431194,
+   "tel": null,
+   "web": null,
+   "tjedan": null,
+   "foto": null,
+   "opis": null
+  },
+  {
    "id": "osm-n7201177987",
    "naziv": "Atlantik",
    "vrsta": "restoran",
@@ -6021,7 +6027,15 @@
    "lng": 16.386719,
    "tel": null,
    "web": "https://restoran-lipa.com/",
-   "tjedan": null,
+   "tjedan": {
+    "pon": "07:30-23:00",
+    "uto": "07:30-23:00",
+    "sri": "07:30-23:00",
+    "cet": "07:30-23:00",
+    "pet": "07:30-23:00",
+    "sub": "07:30-23:00",
+    "ned": "07:30-23:00"
+   },
    "foto": null,
    "opis": null
   },
@@ -6039,6 +6053,29 @@
    "tjedan": null,
    "foto": null,
    "opis": null
+  },
+  {
+   "id": "osm-w327152058",
+   "naziv": "Kavana Cobra",
+   "vrsta": "restoran",
+   "kuhinja": "pizza, burgeri, domaća kuhinja, kava, sendviči, piletina",
+   "mjesto": "Podturen",
+   "adresa": "Čakovečka ulica 18",
+   "lat": 46.463776,
+   "lng": 16.543868,
+   "tel": null,
+   "web": "https://www.kavanacobra.hr",
+   "tjedan": {
+    "pon": "10:00-22:00",
+    "uto": "10:00-22:00",
+    "sri": "10:00-22:00",
+    "cet": "10:00-22:00",
+    "pet": "10:00-22:00",
+    "sub": "10:00-22:00",
+    "ned": "10:00-22:00"
+   },
+   "foto": "https://kavanacobra.hr/wp-content/uploads/2026/11/kavana-cobra-restoran-i-catering.jpg",
+   "opis": "Kavana Cobra: Catering | Organizirane proslave | Krizma | Vjenčanje | Godišnjica | Rođendan | Pizzeria | Plate | Međimurje | Čakovec | Proslava |"
   },
   {
    "id": "osm-w625719529",
@@ -6102,7 +6139,7 @@
    "adresa": "Glavna ulica 41",
    "lat": 46.337297,
    "lng": 16.615339,
-   "tel": "040295704",
+   "tel": "+385 40 295 704",
    "web": "https://www.trattoriarossa.com",
    "tjedan": null,
    "foto": null,
@@ -6115,8 +6152,8 @@
    "kuhinja": "pizza",
    "mjesto": "Pretetinec",
    "adresa": "Pretetinec 147",
-   "lat": 46.393374,
-   "lng": 16.370301,
+   "lat": 46.393332,
+   "lng": 16.37029,
    "tel": "+385 40 829 394",
    "web": "https://www.visitmedimurje.com/backend/opsirnije-nedelisce.asp?id=200",
    "tjedan": null,
@@ -6139,14 +6176,44 @@
    "opis": null
   },
   {
-   "id": "osm-n1997363641",
+   "id": "osm-w310191340",
    "naziv": "Mamica",
    "vrsta": "restoran",
    "kuhinja": "domaća kuhinja",
    "mjesto": "Pušćine",
+   "adresa": "Čakovečka 47",
+   "lat": 46.347698,
+   "lng": 16.362008,
+   "tel": null,
+   "web": "https://www.mamica.com.hr/en",
+   "tjedan": null,
+   "foto": null,
+   "opis": "U idiličnom zelenom okruženju na pola puta između Čakovca i Varaždina, Mamica Pansion & Restoran nudi iznimno udobne sobe, doručak za pamćenje, a restoran odlikuje domaća međimurska kuhinja s modernim…"
+  },
+  {
+   "id": "osm-w317781063",
+   "naziv": "Restoran Palma",
+   "vrsta": "restoran",
+   "kuhinja": "",
+   "mjesto": "Pušćine",
+   "adresa": "Čakovečka ulica 106",
+   "lat": 46.341972,
+   "lng": 16.361568,
+   "tel": "+38540895163",
+   "web": null,
+   "tjedan": null,
+   "foto": null,
+   "opis": null
+  },
+  {
+   "id": "osm-n13910575543",
+   "naziv": "Pizzerija Krug",
+   "vrsta": "restoran",
+   "kuhinja": "",
+   "mjesto": "Selnica",
    "adresa": "",
-   "lat": 46.347707,
-   "lng": 16.361868,
+   "lat": 46.493208,
+   "lng": 16.398052,
    "tel": null,
    "web": null,
    "tjedan": null,
@@ -6255,7 +6322,7 @@
    "mjesto": "Štrigova",
    "adresa": "Štrigova 76",
    "lat": 46.501045,
-   "lng": 16.284529,
+   "lng": 16.284522,
    "tel": "+38540851093",
    "web": null,
    "tjedan": {
