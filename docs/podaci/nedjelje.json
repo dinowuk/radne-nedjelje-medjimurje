@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-21T20:34:49.327Z",
+ "azurirano": "2026-11-22T09:54:26.815Z",
  "nadolazeca": "2026-11-22",
  "nedjelje": [
   "2026-09-13",
@@ -23,52 +23,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-21T20:34:49.327Z"
+   "provjereno": "2026-11-22T09:54:26.815Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-21T20:34:49.327Z"
+   "provjereno": "2026-11-22T09:54:26.815Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-21T20:34:49.327Z"
+   "provjereno": "2026-11-22T09:54:26.815Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-21T20:34:49.327Z"
+   "provjereno": "2026-11-22T09:54:26.815Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-21T20:34:49.327Z"
+   "provjereno": "2026-11-22T09:54:26.815Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-21T20:34:49.327Z"
+   "provjereno": "2026-11-22T09:54:26.815Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-21T20:34:49.327Z"
+   "provjereno": "2026-11-22T09:54:26.815Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-21T20:34:49.327Z"
+   "provjereno": "2026-11-22T09:54:26.815Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-21T20:34:49.327Z"
+   "provjereno": "2026-11-22T09:54:26.815Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-21T20:34:49.327Z"
+   "provjereno": "2026-11-22T09:54:26.815Z"
   }
  },
  "greske": [],
@@ -277,12 +277,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -302,12 +302,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
-    "pet": "07:00-21:00"
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -327,12 +327,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
-    "pet": "07:00-21:00"
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -373,7 +373,8 @@
     "2026-11-08": "08:00-18:00",
     "2026-11-15": "08:00-18:00",
     "2026-11-22": "08:00-18:00",
-    "2026-11-29": "08:00-18:00"
+    "2026-11-29": "08:00-18:00",
+    "2026-12-06": "08:00-18:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -398,7 +399,8 @@
     "2026-11-08": null,
     "2026-11-15": null,
     "2026-11-22": "08:00-18:00",
-    "2026-11-29": "08:00-18:00"
+    "2026-11-29": "08:00-18:00",
+    "2026-12-06": "08:00-18:00"
    },
    "tjedan": {
     "pon": "08:00-21:00",
@@ -1116,12 +1118,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -1565,12 +1567,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -1886,12 +1888,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -2423,12 +2425,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
-    "pet": "07:00-21:00"
+    "pet": "07:00-21:00",
+    "sub": "07:00-21:00"
    }
   },
   {
@@ -3024,12 +3026,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -3048,12 +3050,12 @@
     "2026-11-22": null
    },
    "tjedan": {
-    "sub": null,
     "pon": null,
     "uto": null,
     "sri": null,
     "cet": null,
-    "pet": null
+    "pet": null,
+    "sub": null
    }
   },
   {
@@ -3094,7 +3096,8 @@
     "2026-11-08": "08:00-18:00",
     "2026-11-15": "08:00-18:00",
     "2026-11-22": "08:00-18:00",
-    "2026-11-29": "08:00-18:00"
+    "2026-11-29": "08:00-18:00",
+    "2026-12-06": "08:00-18:00"
    },
    "tjedan": {
     "pon": "07:00-21:00",
@@ -3282,12 +3285,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
-    "pet": "07:00-20:00"
+    "pet": "07:00-20:00",
+    "sub": "07:00-20:00"
    }
   },
   {
@@ -4322,22 +4325,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/mala-plastika-izbor-iz-fundusa-galerije-murska-sobota"
   },
   {
-   "id": "ei-4900",
-   "naslov": "32. JAZZ FAIR ČAKOVEC",
-   "od": "2026-11-19",
-   "do": "2026-11-21",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "koncert",
-   "cijena": "40,00 EUR (festivalska ulaznica)",
-   "opis": "Od 19. do 21. studenoga 2026. Čakovec ponovno postaje središte jazza sjeverne Hrvatske. 32. Jazz Fair donosi tri koncertne večeri u kojima se susreću vrhunski domaći i inozemni glazbenici, nekoliko generacija izvođača i različiti glazbeni svjetovi. Festival otvara četvrtak, 19.…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/32__jazz_fair__akovec_1790933745.png",
-   "link": "https://eventinfo.com.hr/dogadaj/32-jazz-fair-cakovec"
-  },
-  {
    "id": "ei-4931",
    "naslov": "5. dani smijeha",
    "od": "2026-11-20",
@@ -4368,38 +4355,6 @@
    "opis": "Otvorenje: petak, 20. 11. 2026. u 18 sati Godišnja izložba članova Fotokluba Čakovec središnji je događaj i žila kucavica tog fotografskog društva koje će 2027. godine napuniti 20 godina svojega postojanja. Izložba je ujedno i prilika za godišnje okupljanje angažirane i nadahnute…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/godi_nja_izlo_ba__lanova_fotokluba__akovec_1794926366.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/godisnja-izlozba-clanova-fotokluba-cakovec-"
-  },
-  {
-   "id": "ei-4906",
-   "naslov": "BIG BAND ČAKOVEC &amp; NEXT GEN JAZZ",
-   "od": "2026-11-21",
-   "do": "2026-11-21",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "koncert",
-   "cijena": "Besplatno",
-   "opis": "Pomladak Big Band Orkestra Čakovec i mladi glazbenici povezani s Glazbenom školom u Varaždinu predstavljaju talentirane generacije učenika i mladih umjetnika koji razvijaju jazz i puhačku glazbenu scenu sjeverne Hrvatske. Pomladak Big Banda Čakovec: Mladi sastav proizašao iz Big…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/big_band__akovec__amp__next_gen_jazz_1791281339.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/big-band-cakovec-next-gen-jazz"
-  },
-  {
-   "id": "ei-4939",
-   "naslov": "Linkin Park tribute Piknik Park",
-   "od": "2026-11-21",
-   "do": "2026-11-21",
-   "vrijeme": "21:00",
-   "mjesto": "Caffe &amp; Noćni bar Meta",
-   "grad": "Čakovec",
-   "lat": 46.386387,
-   "lng": 16.423788,
-   "kategorija": "koncert",
-   "cijena": "15,00 EUR",
-   "opis": "Piknik Park ponovo u Čakovcu? Da, nakon dugih, predugih sedam godina! Mađari iz Linkin Park tribute benda Piknik Park još će jednom prirediti večer za pamćenje, baš kako samo oni to znaju. U pametne telefone valja upisati subotu, 21. studenog, a lokacija održavanja ove iznimne…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/linkin_park_tribute_piknik_park_1793796705.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/linkin-park-tribute-piknik-park"
   },
   {
    "id": "ei-4930",
@@ -4434,22 +4389,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/mario-celinic-sedam-vrhova-sedam-kontinenata-jedna-prica"
   },
   {
-   "id": "ei-4944",
-   "naslov": "Crni Ibex - planinarski festival",
-   "od": "2026-11-26",
-   "do": "2026-11-29",
-   "vrijeme": null,
-   "mjesto": "Zgrada Scheier Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.389895,
-   "lng": 16.435728,
-   "kategorija": "predstavljanje",
-   "cijena": "Besplatno",
-   "opis": "Crni Ibex je planinarski festival koji okuplja ljude povezane planinom – kroz priče, filmove, knjige, predavanja, radionice i druženje. Od 26. do 29. studenog 2026. godine zgrada Scheier u Čakovcu postaje mjesto susreta planinara, ljubitelja prirode, filmskih autora, čitatelja i…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/crni_ibex___planinarski_festival_1794222555.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/crni-ibex-planinarski-festival"
-  },
-  {
    "id": "ei-4941",
    "naslov": "Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu",
    "od": "2026-11-26",
@@ -4464,6 +4403,22 @@
    "opis": "Otvorenje izložbe: četvrtak, 26. studenoga 2026. u 19.00 sati Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu Na skupnoj izložbi svoje grafičke radove predstavljaju mlade umjetnice Sara Dorčić, Nina Grebenar, Viktorija Ivelja, Lucia Lukšić,…",
    "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/odsjek_za_likovnu_kulturu_i_likovnu_umjetnost_umjetni_ke_akademije_sveu_ili_ta_u_splitu_1794218346.jpg",
    "link": "https://eventinfo.com.hr/dogadaj/odsjek-za-likovnu-kulturu-i-likovnu-umjetnost-umjetnicke-akademije-sveucilista-u-splitu"
+  },
+  {
+   "id": "ei-4944",
+   "naslov": "Crni Ibex - planinarski festival",
+   "od": "2026-11-26",
+   "do": "2026-11-29",
+   "vrijeme": null,
+   "mjesto": "Zgrada Scheier Čakovec",
+   "grad": "Čakovec",
+   "lat": 46.389895,
+   "lng": 16.435728,
+   "kategorija": "predstavljanje",
+   "cijena": "Besplatno",
+   "opis": "Crni Ibex je planinarski festival koji okuplja ljude povezane planinom – kroz priče, filmove, knjige, predavanja, radionice i druženje. Od 26. do 29. studenog 2026. godine zgrada Scheier u Čakovcu postaje mjesto susreta planinara, ljubitelja prirode, filmskih autora, čitatelja i…",
+   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/crni_ibex___planinarski_festival_1794222555.jpg",
+   "link": "https://eventinfo.com.hr/dogadaj/crni-ibex-planinarski-festival"
   },
   {
    "id": "ei-4938",
@@ -4695,7 +4650,7 @@
    "id": "na-PTImYWlkPTEwNjIw",
    "naslov": "Predstavnici Grada Preloga na svečanom obilježavanju Dana Grada Malog Lošinja",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-21",
+   "objavljeno": "2026-11-22",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10620",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10620_80486_mali-loinj2.jpg"
@@ -4704,7 +4659,7 @@
    "id": "na-PTImYWlkPTEwNjE2",
    "naslov": "Sudjelujte na tribini o katastarskoj izmjeri na području Preloga i Otoka",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-21",
+   "objavljeno": "2026-11-22",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10616",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10616_80425_poziv-na-javni-skup-katastarska-izmjera.jpg"
