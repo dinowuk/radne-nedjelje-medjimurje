@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-23T10:54:25.951Z",
+ "azurirano": "2026-11-24T12:37:40.169Z",
  "nadolazeca": "2026-11-29",
  "nedjelje": [
   "2026-09-20",
@@ -22,52 +22,52 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-23T10:54:25.951Z"
+   "provjereno": "2026-11-24T12:37:40.169Z"
   },
   "NTL": {
    "ok": true,
    "poslovnica": 34,
-   "provjereno": "2026-11-23T10:54:25.951Z"
+   "provjereno": "2026-11-24T12:37:40.169Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-23T10:54:25.951Z"
+   "provjereno": "2026-11-24T12:37:40.169Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-23T10:54:25.951Z"
+   "provjereno": "2026-11-24T12:37:40.169Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-23T10:54:25.951Z"
+   "provjereno": "2026-11-24T12:37:40.169Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-23T10:54:25.951Z"
+   "provjereno": "2026-11-24T12:37:40.169Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-23T10:54:25.951Z"
+   "provjereno": "2026-11-24T12:37:40.169Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-23T10:54:25.951Z"
+   "provjereno": "2026-11-24T12:37:40.169Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-23T10:54:25.951Z"
+   "provjereno": "2026-11-24T12:37:40.169Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-23T10:54:25.951Z"
+   "provjereno": "2026-11-24T12:37:40.169Z"
   }
  },
  "greske": [],
@@ -76,7 +76,7 @@
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Najave Štrigova: HTTP 403 za https://opcinastrigova.hr/feed/"
+  "Najave Štrigova: HTTP 404 za https://opcinastrigova.hr/feed/"
  ],
  "trgovine": [
   {
@@ -277,12 +277,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -302,12 +302,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -327,12 +327,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -1111,12 +1111,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -1556,12 +1556,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -1872,12 +1872,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -2400,12 +2400,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pon": "07:00-21:00",
     "uto": "07:00-21:00",
     "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
-    "sub": "07:00-21:00"
+    "sub": "07:00-21:00",
+    "pon": "07:00-21:00"
    }
   },
   {
@@ -2999,12 +2999,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -3024,12 +3024,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pon": null,
     "uto": null,
     "sri": null,
     "cet": null,
     "pet": null,
-    "sub": null
+    "sub": null,
+    "pon": null
    }
   },
   {
@@ -3258,12 +3258,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "pon": "07:00-20:00",
     "uto": "07:00-20:00",
     "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
-    "sub": "07:00-20:00"
+    "sub": "07:00-20:00",
+    "pon": "07:00-20:00"
    }
   },
   {
@@ -4255,22 +4255,6 @@
  ],
  "dogadaji": [
   {
-   "id": "ei-4911",
-   "naslov": "16. BIJENALNA IZLOŽBA - UDRUŽENJE ARHITEKATA MEĐIMURJA",
-   "od": "2026-10-22",
-   "do": "2026-11-23",
-   "vrijeme": null,
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "izložba",
-   "cijena": null,
-   "opis": "Otvorenje izložbe: četvrtak, 22. listopada u 18.00 sati | Galerija Centra za kulturu Čakovec 16. BIJENALNA IZLOŽBA | PROJEKTI I REALIZACIJE 2024. – 2025. ČLANOVA UDRUŽENJA ARHITEKATA MEĐIMURJA 16. bijenalna izložba članova Udruženja arhitekata Međimurja Projekti i realizacije…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/16__bijenalna_izlo_ba___udru_enje_arhitekata_me_imurja_1791979368.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/16-bijenalna-izlozba-udruzenje-arhitekata-medimurja"
-  },
-  {
    "id": "ei-4947",
    "naslov": "Mala plastika: izbor iz fundusa Galerije Murska Sobota",
    "od": "2026-11-13",
@@ -4593,22 +4577,49 @@
  ],
  "najave": [
   {
+   "id": "na-PTImYWlkPTEwNjM4",
+   "naslov": "Prva Cvirkijada Nautičkog kluba Labud okupila brojne posjetitelje uz domaće čvarke, tamburaše i dobro druženje",
+   "opcina": "Prelog",
+   "objavljeno": "2026-11-24",
+   "opis": "",
+   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10638",
+   "slika": "http://www.prelog.hr/articlefiles/thumb_10638_80671_vipro040.jpg"
+  },
+  {
    "id": "na-PTImYWlkPTEwNjMz",
    "naslov": "Hit Teatar predstavom „Mamini sinovi“ nasmijao publiku u Domu kulture Grada Preloga",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-23",
+   "objavljeno": "2026-11-24",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10633",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10633_80610_vipro019.jpg"
   },
   {
-   "id": "na-PTImYWlkPTEwNjIw",
-   "naslov": "Predstavnici Grada Preloga na svečanom obilježavanju Dana Grada Malog Lošinja",
-   "opcina": "Prelog",
-   "objavljeno": "2026-11-23",
+   "id": "na-LzI0L2FkdmVudC8=",
+   "naslov": "Advent",
+   "opcina": "Šenkovec",
+   "objavljeno": "2026-11-24",
    "opis": "",
-   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10620",
-   "slika": "http://www.prelog.hr/articlefiles/thumb_10620_80486_mali-loinj2.jpg"
+   "link": "https://senkovec.hr/2026/11/24/advent/",
+   "slika": null
+  },
+  {
+   "id": "na-ZHVicm92bmlrLw==",
+   "naslov": "Advent u gradu rudara počinje koncertom Klavirskog trija Dubrovnik",
+   "opcina": "Mursko Središće",
+   "objavljeno": "2026-11-23",
+   "opis": "Najljepše vrijeme u godini stiže u grad rudara! Advent u gradu rudara 2026. otvara se u petak, 27. studenoga, u 19 sati adventskim koncertom Klavirskog trija Dubrovnik u Centru za kulturu „Rudar“ u Murskom Središću. Već…",
+   "link": "https://mursko-sredisce.hr/advent-u-gradu-rudara-pocinje-koncertom-klavirskog-trija-dubrovnik/",
+   "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/11/advent-web-2026.webp"
+  },
+  {
+   "id": "na-ai1uYS1icmVndS8=",
+   "naslov": "Pozivnica za 13. Božićni sajam",
+   "opcina": "Sveti Juraj na Bregu",
+   "objavljeno": "2026-11-23",
+   "opis": "S velikom radošću Vas pozivamo da se predstavite na 13. Božićnom sajmu – Općine Sveti Juraj na Bregu. Sajam je izložbeno – prodajnog karaktera, a namijenjen je poslovnim subjektima, udrugama, školama te vrtićima.…",
+   "link": "https://www.svetijurajnabregu.hr/2026/11/23/pozivnica-za-13-bozicni-sajam-sveti-juraj-na-bregu/",
+   "slika": null
   },
   {
    "id": "na-ZW1samktYmFqa2kv",
@@ -4618,6 +4629,15 @@
    "opis": "Općina Selnica poziva najmlađe na veselo božićno druženje uz predstavu „Velika zbrka u zemlji bajki”, koja će se održati u subotu, 19. prosinca 2026. godine, s početkom u 14:00 sati, u Dječjem vrtiću „Selnički zvončići”.…",
    "link": "https://www.selnica.hr/bozicna-predstava-i-darovi-za-djecu-velika-zbrka-u-zemlji-bajki/",
    "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/11/priredba26.webp"
+  },
+  {
+   "id": "na-bS1wcm9zaW5jYS8=",
+   "naslov": "Advent u Općini Sveti Juraj na Bregu: Koncerti i Božićni sajam spajaju mještane tijekom prosinca",
+   "opcina": "Sveti Juraj na Bregu",
+   "objavljeno": "2026-11-22",
+   "opis": "Prosinac u Općini Sveti Juraj na Bregu donosi bogat adventski program raspoređen po gotovo svim naseljima. Turistička zajednica područja Srce Međimurja objavila je raspored događanja koji spaja glazbu, druženje na…",
+   "link": "https://www.svetijurajnabregu.hr/2026/11/22/advent-u-opcini-sveti-juraj-na-bregu-koncerti-i-bozicni-sajam-spajaju-mjestane-tijekom-prosinca/",
+   "slika": null
   },
   {
    "id": "na-a3JhbGpldmVjLTMv",
@@ -4663,15 +4683,6 @@
    "opis": "",
    "link": "https://www.donjikraljevec.hr/2026/11/16/obiljezavanje-dana-sjecanja-na-zrtve-domovinskog-rata-i-zrtvu-vukovara-3/",
    "slika": null
-  },
-  {
-   "id": "na-LTEwMC1nb2RpbmEv",
-   "naslov": "Katarina Katanec iz Brezja proslavila veličanstvenih 100 godina!",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-15",
-   "opis": "Malo se tko može pohvaliti rijetkim darom i blagoslovom da na ovoj zemlji doživi cijelo stoljeće života, a u taj ekskluzivni klub dugovječnih i iznimnih ljudi prije nekoliko je dana svečano zakoračila i Katarina Katanec…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/15/katarina-katanec-iz-brezja-proslavila-velicanstvenih-100-godina/",
-   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/Katarina-Katanec-100-godina-2_result-1024x577.jpg"
   },
   {
    "id": "na-LWRydXplbmphLw==",
