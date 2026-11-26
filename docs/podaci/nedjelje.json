@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-25T11:27:38.827Z",
+ "azurirano": "2026-11-26T11:03:14.443Z",
  "nadolazeca": "2026-11-29",
  "nedjelje": [
   "2026-09-20",
@@ -22,55 +22,58 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-25T11:27:38.827Z"
+   "provjereno": "2026-11-26T11:03:14.443Z"
   },
   "NTL": {
-   "ok": true,
+   "ok": false,
    "poslovnica": 34,
+   "greska": "fetch failed",
    "provjereno": "2026-11-25T11:27:38.827Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-25T11:27:38.827Z"
+   "provjereno": "2026-11-26T11:03:14.443Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-25T11:27:38.827Z"
+   "provjereno": "2026-11-26T11:03:14.443Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-25T11:27:38.827Z"
+   "provjereno": "2026-11-26T11:03:14.443Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-25T11:27:38.827Z"
+   "provjereno": "2026-11-26T11:03:14.443Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-25T11:27:38.827Z"
+   "provjereno": "2026-11-26T11:03:14.443Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-25T11:27:38.827Z"
+   "provjereno": "2026-11-26T11:03:14.443Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-25T11:27:38.827Z"
+   "provjereno": "2026-11-26T11:03:14.443Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-25T11:27:38.827Z"
+   "provjereno": "2026-11-26T11:03:14.443Z"
   }
  },
- "greske": [],
+ "greske": [
+  "NTL: fetch failed"
+ ],
  "upozorenja": [
   "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
@@ -277,12 +280,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -302,12 +305,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00"
    }
   },
   {
@@ -327,12 +330,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00"
    }
   },
   {
@@ -1111,12 +1114,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -1556,12 +1559,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -1872,12 +1875,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -2400,12 +2403,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sri": "07:00-21:00",
     "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
-    "uto": "07:00-21:00"
+    "uto": "07:00-21:00",
+    "sri": "07:00-21:00"
    }
   },
   {
@@ -2999,12 +3002,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -3024,12 +3027,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sri": null,
     "cet": null,
     "pet": null,
     "sub": null,
     "pon": null,
-    "uto": null
+    "uto": null,
+    "sri": null
    }
   },
   {
@@ -3258,12 +3261,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "sri": "07:00-20:00",
     "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
-    "uto": "07:00-20:00"
+    "uto": "07:00-20:00",
+    "sri": "07:00-20:00"
    }
   },
   {
@@ -4287,22 +4290,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/godisnja-izlozba-clanova-fotokluba-cakovec-"
   },
   {
-   "id": "ei-4930",
-   "naslov": "DA NAM PAK DOJDE TO VREME - Četvrta večer amatera",
-   "od": "2026-11-25",
-   "do": "2026-11-25",
-   "vrijeme": "20:00",
-   "mjesto": "CZK Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.3904,
-   "lng": 16.434567,
-   "kategorija": "koncert",
-   "cijena": null,
-   "opis": "Program Četiri večeri amatera ove godine zatvaramo s folklornom večeri na kojoj će se ponovno predstaviti članice Gradske zajednice kulture Grada Čakovca i prikazati nam ono najbolje što su napravili unazad godinu dana. Bogat program, od folklora, tradicijskih napjeva, nastupa…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/da_nam_pak_dojde_to_vreme____etvrta_ve_er_amatera_1792747033.png",
-   "link": "https://eventinfo.com.hr/dogadaj/da-nam-pak-dojde-to-vreme-cetvrta-vecer-amatera"
-  },
-  {
    "id": "ei-4946",
    "naslov": "Mario Celinić - sedam vrhova, sedam kontinenata, jedna priča",
    "od": "2026-11-26",
@@ -4580,7 +4567,7 @@
    "id": "na-PTImYWlkPTEwNjM4",
    "naslov": "Prva Cvirkijada Nautičkog kluba Labud okupila brojne posjetitelje uz domaće čvarke, tamburaše i dobro druženje",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-25",
+   "objavljeno": "2026-11-26",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10638",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10638_80671_vipro040.jpg"
@@ -4589,10 +4576,28 @@
    "id": "na-PTImYWlkPTEwNjMz",
    "naslov": "Hit Teatar predstavom „Mamini sinovi“ nasmijao publiku u Domu kulture Grada Preloga",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-25",
+   "objavljeno": "2026-11-26",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10633",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10633_80610_vipro019.jpg"
+  },
+  {
+   "id": "na-cmliaXNsYXZlYy8=",
+   "naslov": "Poziv izlagačima – 5. Božićni sajam Općine Pribislavec",
+   "opcina": "Pribislavec",
+   "objavljeno": "2026-11-25",
+   "opis": "Općina Pribislavec organizira 5. Božićni sajam, koji će se održati 12. prosinca 2026. godine, na prostoru ispred Općine Pribislavec, Braće Radića 47, Pribislavec, s početkom u 16:00 sati. Ovim putem pozivamo…",
+   "link": "https://pribislavec.hr/2026/11/25/poziv-izlagacima-5-bozicni-sajam-opcine-pribislavec/",
+   "slika": null
+  },
+  {
+   "id": "na-ZS1zdmlqZWNlLw==",
+   "naslov": "Advent u Općini Orehovica – paljenje 1. adventske svijeće",
+   "opcina": "Orehovica",
+   "objavljeno": "2026-11-25",
+   "opis": "",
+   "link": "https://orehovica.hr/advent-u-opcini-orehovica-paljenje-1-adventske-svijece/",
+   "slika": "https://orehovica.hr/wp-content/uploads/2026/11/Paljenje-1.-adventske-svijece_aa9bcee4-ffee-4f13-99f1-98e5491584f6-274x300.jpg"
   },
   {
    "id": "na-dS1uYS1icmVndS8=",
@@ -4604,15 +4609,6 @@
    "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-09.53.08-724x1024.jpeg"
   },
   {
-   "id": "na-ZHUtdGFtYnVyZS8=",
-   "naslov": "Tamburaši KUU-e Zasadbreg pozivaju na 5. samostalni koncert „U san mi dođu tambure”",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-24",
-   "opis": "Dragi prijatelji i ljubitelji tamburaške glazbe! Iza nas su četiri samostalna koncerta, mnoštvo lijepih uspomena i nezaboravnih glazbenih trenutaka. Svaki od njih imao je svoju posebnu priču, a sada je vrijeme da zajedno…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/24/tamburasi-kuu-e-zasadbreg-pozivaju-na-5-samostalni-koncert-u-san-mi-dodu-tambure/",
-   "slika": "https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png"
-  },
-  {
    "id": "na-LzI0L2FkdmVudC8=",
    "naslov": "Advent",
    "opcina": "Šenkovec",
@@ -4620,6 +4616,15 @@
    "opis": "",
    "link": "https://senkovec.hr/2026/11/24/advent/",
    "slika": null
+  },
+  {
+   "id": "na-ZHUtdGFtYnVyZS8=",
+   "naslov": "Tamburaši KUU-e Zasadbreg pozivaju na 5. samostalni koncert „U san mi dođu tambure”",
+   "opcina": "Sveti Juraj na Bregu",
+   "objavljeno": "2026-11-24",
+   "opis": "Dragi prijatelji i ljubitelji tamburaške glazbe! Iza nas su četiri samostalna koncerta, mnoštvo lijepih uspomena i nezaboravnih glazbenih trenutaka. Svaki od njih imao je svoju posebnu priču, a sada je vrijeme da zajedno…",
+   "link": "https://www.svetijurajnabregu.hr/2026/11/24/tamburasi-kuu-e-zasadbreg-pozivaju-na-5-samostalni-koncert-u-san-mi-dodu-tambure/",
+   "slika": "https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png"
   },
   {
    "id": "na-ZHVicm92bmlrLw==",
@@ -4637,15 +4642,6 @@
    "objavljeno": "2026-11-23",
    "opis": "S velikom radošću Vas pozivamo da se predstavite na 13. Božićnom sajmu – Općine Sveti Juraj na Bregu. Sajam je izložbeno – prodajnog karaktera, a namijenjen je poslovnim subjektima, udrugama, školama te vrtićima.…",
    "link": "https://www.svetijurajnabregu.hr/2026/11/23/pozivnica-za-13-bozicni-sajam-sveti-juraj-na-bregu/",
-   "slika": null
-  },
-  {
-   "id": "na-bS1wcm9zaW5jYS8=",
-   "naslov": "Advent u Općini Sveti Juraj na Bregu: Koncerti i Božićni sajam spajaju mještane tijekom prosinca",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-22",
-   "opis": "Prosinac u Općini Sveti Juraj na Bregu donosi bogat adventski program raspoređen po gotovo svim naseljima. Turistička zajednica područja Srce Međimurja objavila je raspored događanja koji spaja glazbu, druženje na…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/22/advent-u-opcini-sveti-juraj-na-bregu-koncerti-i-bozicni-sajam-spajaju-mjestane-tijekom-prosinca/",
    "slika": null
   },
   {
