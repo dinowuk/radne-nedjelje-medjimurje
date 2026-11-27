@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-27T10:59:33.556Z",
+ "azurirano": "2026-11-27T22:44:54.532Z",
  "nadolazeca": "2026-11-29",
  "nedjelje": [
   "2026-09-20",
@@ -20,67 +20,65 @@
  ],
  "lanci": {
   "Trgovina Krk": {
-   "ok": true,
+   "ok": false,
    "poslovnica": 88,
+   "greska": "nema stupaca s datumima",
    "provjereno": "2026-11-27T10:59:33.556Z"
   },
   "NTL": {
    "ok": false,
    "poslovnica": 34,
-   "greska": "fetch failed",
+   "greska": "nema \"var locations\"",
    "provjereno": "2026-11-25T11:27:38.827Z"
   },
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-27T10:59:33.556Z"
+   "provjereno": "2026-11-27T22:44:54.532Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-27T10:59:33.556Z"
+   "provjereno": "2026-11-27T22:44:54.532Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-27T10:59:33.556Z"
+   "provjereno": "2026-11-27T22:44:54.532Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-27T10:59:33.556Z"
+   "provjereno": "2026-11-27T22:44:54.532Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-27T10:59:33.556Z"
+   "provjereno": "2026-11-27T22:44:54.532Z"
   },
   "Studenac": {
-   "ok": true,
+   "ok": false,
    "poslovnica": 8,
+   "greska": "nijedna poslovnica u Međimurju (promijenila se stranica?)",
    "provjereno": "2026-11-27T10:59:33.556Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-27T10:59:33.556Z"
+   "provjereno": "2026-11-27T22:44:54.532Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-27T10:59:33.556Z"
+   "provjereno": "2026-11-27T22:44:54.532Z"
   }
  },
  "greske": [
-  "NTL: fetch failed"
+  "Trgovina Krk: nema stupaca s datumima",
+  "NTL: nema \"var locations\"",
+  "Studenac: nijedna poslovnica u Međimurju (promijenila se stranica?)"
  ],
- "upozorenja": [
-  "Studenac: preskočena \"Trg Dr. Franje Tuđmana 3, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Najave Štrigova: HTTP 403 za https://opcinastrigova.hr/feed/"
- ],
+ "upozorenja": [],
  "trgovine": [
   {
    "id": "ntl-2241",
@@ -4557,6 +4555,15 @@
  ],
  "najave": [
   {
+   "id": "na-PTImYWlkPTEwNjQ5",
+   "naslov": "Zimska bajka u Prelogu 2026. – prosinac ispunjen blagdanskim događanjima, glazbom, druženjem i veseljem",
+   "opcina": "Prelog",
+   "objavljeno": "2026-11-27",
+   "opis": "",
+   "link": "http://www.prelog.hr/?task=group&gid=2&aid=10649",
+   "slika": "http://www.prelog.hr/articlefiles/thumb_10649_80718_zimska-bajka-2026-web.jpg"
+  },
+  {
    "id": "na-PTImYWlkPTEwNjM4",
    "naslov": "Prva Cvirkijada Nautičkog kluba Labud okupila brojne posjetitelje uz domaće čvarke, tamburaše i dobro druženje",
    "opcina": "Prelog",
@@ -4575,15 +4582,6 @@
    "slika": "http://www.prelog.hr/articlefiles/thumb_10633_80610_vipro019.jpg"
   },
   {
-   "id": "na-Y3JuaS1pYmV4Lw==",
-   "naslov": "Čakovec dobio novi festival planinarske kulture – Otvoren prvi Crni Ibex",
-   "opcina": "Čakovec",
-   "objavljeno": "2026-11-27",
-   "opis": "Čakovec je u četvrtak, postao mjesto susreta planinarskih iskustava, pustolovina i priča s planinskih vrhova. U zgradi Scheier svečano je otvoreno prvo izdanje festivala Crni Ibex, novog četverodnevnog događanja…",
-   "link": "https://www.cakovec.hr/cakovec-dobio-novi-festival-planinarske-kulture-otvoren-prvi-crni-ibex/",
-   "slika": null
-  },
-  {
    "id": "na-cmliaXNsYXZlYy8=",
    "naslov": "Poziv izlagačima – 5. Božićni sajam Općine Pribislavec",
    "opcina": "Pribislavec",
@@ -4600,96 +4598,6 @@
    "opis": "",
    "link": "https://orehovica.hr/advent-u-opcini-orehovica-paljenje-1-adventske-svijece/",
    "slika": "https://orehovica.hr/wp-content/uploads/2026/11/Paljenje-1.-adventske-svijece_aa9bcee4-ffee-4f13-99f1-98e5491584f6-274x300.jpg"
-  },
-  {
-   "id": "na-dS1uYS1icmVndS8=",
-   "naslov": "Advent 2026. u Svetom Jurju na Bregu",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-25",
-   "opis": "Pred nama je najljepše vrijeme godine – vrijeme zajedništva, radosti, druženja i blagdanskog ozračja. I ove godine Općina Sveti Juraj na Bregu, u suradnji sa Župom Sveti Juraj na Bregu, udrugama i ostalim organizatorima,…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/25/advent-2026-u-svetom-jurju-na-bregu/",
-   "slika": "https://www.svetijurajnabregu.hr/wordpress/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-25-at-09.53.08-724x1024.jpeg"
-  },
-  {
-   "id": "na-LzI0L2FkdmVudC8=",
-   "naslov": "Advent",
-   "opcina": "Šenkovec",
-   "objavljeno": "2026-11-24",
-   "opis": "",
-   "link": "https://senkovec.hr/2026/11/24/advent/",
-   "slika": null
-  },
-  {
-   "id": "na-ZHUtdGFtYnVyZS8=",
-   "naslov": "Tamburaši KUU-e Zasadbreg pozivaju na 5. samostalni koncert „U san mi dođu tambure”",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-24",
-   "opis": "Dragi prijatelji i ljubitelji tamburaške glazbe! Iza nas su četiri samostalna koncerta, mnoštvo lijepih uspomena i nezaboravnih glazbenih trenutaka. Svaki od njih imao je svoju posebnu priču, a sada je vrijeme da zajedno…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/24/tamburasi-kuu-e-zasadbreg-pozivaju-na-5-samostalni-koncert-u-san-mi-dodu-tambure/",
-   "slika": "https://static.xx.fbcdn.net/images/emoji.php/v9/t6c/1/16/2764.png"
-  },
-  {
-   "id": "na-ZHVicm92bmlrLw==",
-   "naslov": "Advent u gradu rudara počinje koncertom Klavirskog trija Dubrovnik",
-   "opcina": "Mursko Središće",
-   "objavljeno": "2026-11-23",
-   "opis": "Najljepše vrijeme u godini stiže u grad rudara! Advent u gradu rudara 2026. otvara se u petak, 27. studenoga, u 19 sati adventskim koncertom Klavirskog trija Dubrovnik u Centru za kulturu „Rudar“ u Murskom Središću. Već…",
-   "link": "https://mursko-sredisce.hr/advent-u-gradu-rudara-pocinje-koncertom-klavirskog-trija-dubrovnik/",
-   "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/11/advent-web-2026.webp"
-  },
-  {
-   "id": "na-ai1uYS1icmVndS8=",
-   "naslov": "Pozivnica za 13. Božićni sajam",
-   "opcina": "Sveti Juraj na Bregu",
-   "objavljeno": "2026-11-23",
-   "opis": "S velikom radošću Vas pozivamo da se predstavite na 13. Božićnom sajmu – Općine Sveti Juraj na Bregu. Sajam je izložbeno – prodajnog karaktera, a namijenjen je poslovnim subjektima, udrugama, školama te vrtićima.…",
-   "link": "https://www.svetijurajnabregu.hr/2026/11/23/pozivnica-za-13-bozicni-sajam-sveti-juraj-na-bregu/",
-   "slika": null
-  },
-  {
-   "id": "na-ZW1samktYmFqa2kv",
-   "naslov": "Božićna predstava i darovi za djecu – „Velika zbrka u zemlji bajki”",
-   "opcina": "Selnica",
-   "objavljeno": "2026-11-22",
-   "opis": "Općina Selnica poziva najmlađe na veselo božićno druženje uz predstavu „Velika zbrka u zemlji bajki”, koja će se održati u subotu, 19. prosinca 2026. godine, s početkom u 14:00 sati, u Dječjem vrtiću „Selnički zvončići”.…",
-   "link": "https://www.selnica.hr/bozicna-predstava-i-darovi-za-djecu-velika-zbrka-u-zemlji-bajki/",
-   "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/11/priredba26.webp"
-  },
-  {
-   "id": "na-a3JhbGpldmVjLTMv",
-   "naslov": "ADVENT U OPĆINI DONJI KRALJEVEC",
-   "opcina": "Donji Kraljevec",
-   "objavljeno": "2026-11-20",
-   "opis": "",
-   "link": "https://www.donjikraljevec.hr/2026/11/20/advent-u-opcini-donji-kraljevec-3/",
-   "slika": "https://www.donjikraljevec.hr/web2019/wp-content/uploads/2026/11/advent2026.jpg"
-  },
-  {
-   "id": "na-dmV6aXZhbmphLw==",
-   "naslov": "GenFluence sajam u Murskoj Soboti: Dan poduzetništva, kreativnosti i prekograničnog povezivanja",
-   "opcina": "Mursko Središće",
-   "objavljeno": "2026-11-19",
-   "opis": "Četvrtak, 19. studenoga 2026. godine, u Murskoj Soboti održat će se cjelodnevni GenFluence sajam, događaj posvećen promociji poduzetništva, kreativnosti, inovativnih ideja i prekogranične suradnje. Sajam će okupiti…",
-   "link": "https://mursko-sredisce.hr/genfluence-sajam-u-murskoj-soboti-dan-poduzetnistva-kreativnosti-i-prekogranicnog-povezivanja/",
-   "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/11/fenfluence.webp"
-  },
-  {
-   "id": "na-LWktc2thYnJuamUv",
-   "naslov": "Obilježavanje Dana sjećanja na žrtve Domovinskog rata i Dana sjećanja na žrtvu Vukovara i Škabrnje",
-   "opcina": "Mursko Središće",
-   "objavljeno": "2026-11-17",
-   "opis": "Grad Mursko Središće u utorak 17. studenoga 2026. godine obilježio je Dan sjećanja na žrtve Domovinskog rata te Dan sjećanja na žrtvu Vukovara i Škabrnje. Uz duboko poštovanje i zahvalnost, građani su se prisjetili svih…",
-   "link": "https://mursko-sredisce.hr/obiljezavanje-dana-sjecanja-na-zrtve-domovinskog-rata-i-dana-sjecanja-na-zrtvu-vukovara-i-skabrnje/",
-   "slika": "https://mursko-sredisce.hr/cms/wp-content/uploads/2026/11/dan-sjecanja-2026-GMS-13.webp"
-  },
-  {
-   "id": "na-LXZ1a292YXJhLTMv",
-   "naslov": "Obilježavanje Dana sjećanja na žrtve Domovinskog rata i žrtvu Vukovara",
-   "opcina": "Donji Kraljevec",
-   "objavljeno": "2026-11-16",
-   "opis": "",
-   "link": "https://www.donjikraljevec.hr/2026/11/16/obiljezavanje-dana-sjecanja-na-zrtve-domovinskog-rata-i-zrtvu-vukovara-3/",
-   "slika": null
   }
  ],
  "restorani": [
