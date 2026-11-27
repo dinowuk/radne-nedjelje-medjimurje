@@ -1,5 +1,5 @@
 {
- "azurirano": "2026-11-26T11:03:14.443Z",
+ "azurirano": "2026-11-27T10:59:33.556Z",
  "nadolazeca": "2026-11-29",
  "nedjelje": [
   "2026-09-20",
@@ -22,7 +22,7 @@
   "Trgovina Krk": {
    "ok": true,
    "poslovnica": 88,
-   "provjereno": "2026-11-26T11:03:14.443Z"
+   "provjereno": "2026-11-27T10:59:33.556Z"
   },
   "NTL": {
    "ok": false,
@@ -33,42 +33,42 @@
   "Konzum": {
    "ok": true,
    "poslovnica": 10,
-   "provjereno": "2026-11-26T11:03:14.443Z"
+   "provjereno": "2026-11-27T10:59:33.556Z"
   },
   "Lidl": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-26T11:03:14.443Z"
+   "provjereno": "2026-11-27T10:59:33.556Z"
   },
   "Kaufland": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-26T11:03:14.443Z"
+   "provjereno": "2026-11-27T10:59:33.556Z"
   },
   "Spar": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-26T11:03:14.443Z"
+   "provjereno": "2026-11-27T10:59:33.556Z"
   },
   "Plodine": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-26T11:03:14.443Z"
+   "provjereno": "2026-11-27T10:59:33.556Z"
   },
   "Studenac": {
    "ok": true,
    "poslovnica": 8,
-   "provjereno": "2026-11-26T11:03:14.443Z"
+   "provjereno": "2026-11-27T10:59:33.556Z"
   },
   "KTC": {
    "ok": true,
    "poslovnica": 3,
-   "provjereno": "2026-11-26T11:03:14.443Z"
+   "provjereno": "2026-11-27T10:59:33.556Z"
   },
   "Eurospin": {
    "ok": true,
    "poslovnica": 1,
-   "provjereno": "2026-11-26T11:03:14.443Z"
+   "provjereno": "2026-11-27T10:59:33.556Z"
   }
  },
  "greske": [
@@ -79,7 +79,7 @@
   "Studenac: preskočena \"Seget 83, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Hrvatskih branitelja 1, Otok\" (ime mjesta postoji i izvan Međimurja)",
   "Studenac: preskočena \"Alojzija Stepinca 8A, Otok\" (ime mjesta postoji i izvan Međimurja)",
-  "Najave Štrigova: HTTP 404 za https://opcinastrigova.hr/feed/"
+  "Najave Štrigova: HTTP 403 za https://opcinastrigova.hr/feed/"
  ],
  "trgovine": [
   {
@@ -277,15 +277,16 @@
     "2026-11-08": null,
     "2026-11-15": null,
     "2026-11-22": null,
-    "2026-11-29": null
+    "2026-11-29": null,
+    "2026-12-06": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -302,15 +303,16 @@
     "2026-11-08": null,
     "2026-11-15": null,
     "2026-11-22": null,
-    "2026-11-29": null
+    "2026-11-29": null,
+    "2026-12-06": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": "07:00-21:00"
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -327,15 +329,16 @@
     "2026-11-08": null,
     "2026-11-15": "08:00-18:00",
     "2026-11-22": null,
-    "2026-11-29": null
+    "2026-11-29": null,
+    "2026-12-06": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": "07:00-21:00"
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -1111,15 +1114,16 @@
     "2026-11-08": null,
     "2026-11-15": "08:00-14:00",
     "2026-11-22": null,
-    "2026-11-29": null
+    "2026-11-29": null,
+    "2026-12-06": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -1556,15 +1560,16 @@
     "2026-11-08": null,
     "2026-11-15": null,
     "2026-11-22": null,
-    "2026-11-29": null
+    "2026-11-29": null,
+    "2026-12-06": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -1872,15 +1877,16 @@
     "2026-11-08": null,
     "2026-11-15": "08:00-14:00",
     "2026-11-22": null,
-    "2026-11-29": null
+    "2026-11-29": null,
+    "2026-12-06": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -2400,15 +2406,16 @@
     "2026-11-08": null,
     "2026-11-15": null,
     "2026-11-22": null,
-    "2026-11-29": null
+    "2026-11-29": null,
+    "2026-12-06": null
    },
    "tjedan": {
-    "cet": "07:00-21:00",
     "pet": "07:00-21:00",
     "sub": "07:00-21:00",
     "pon": "07:00-21:00",
     "uto": "07:00-21:00",
-    "sri": "07:00-21:00"
+    "sri": "07:00-21:00",
+    "cet": "07:00-21:00"
    }
   },
   {
@@ -2999,15 +3006,16 @@
     "2026-11-08": null,
     "2026-11-15": "08:00-14:00",
     "2026-11-22": null,
-    "2026-11-29": null
+    "2026-11-29": null,
+    "2026-12-06": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -3027,12 +3035,12 @@
     "2026-11-29": null
    },
    "tjedan": {
-    "cet": null,
     "pet": null,
     "sub": null,
     "pon": null,
     "uto": null,
-    "sri": null
+    "sri": null,
+    "cet": null
    }
   },
   {
@@ -3258,15 +3266,16 @@
     "2026-11-08": null,
     "2026-11-15": "08:00-14:00",
     "2026-11-22": null,
-    "2026-11-29": null
+    "2026-11-29": null,
+    "2026-12-06": null
    },
    "tjedan": {
-    "cet": "07:00-20:00",
     "pet": "07:00-20:00",
     "sub": "07:00-20:00",
     "pon": "07:00-20:00",
     "uto": "07:00-20:00",
-    "sri": "07:00-20:00"
+    "sri": "07:00-20:00",
+    "cet": "07:00-20:00"
    }
   },
   {
@@ -4290,22 +4299,6 @@
    "link": "https://eventinfo.com.hr/dogadaj/godisnja-izlozba-clanova-fotokluba-cakovec-"
   },
   {
-   "id": "ei-4946",
-   "naslov": "Mario Celinić - sedam vrhova, sedam kontinenata, jedna priča",
-   "od": "2026-11-26",
-   "do": "2026-11-26",
-   "vrijeme": "18:30",
-   "mjesto": "Zgrada Scheier Čakovec",
-   "grad": "Čakovec",
-   "lat": 46.389895,
-   "lng": 16.435728,
-   "kategorija": "predstavljanje",
-   "cijena": "Besplatno",
-   "opis": "U šali sebe naziva „Vječitim drugim”, ali na festivalu CRNI IBEX upravo je on prvi. Mario Celinić otvara četverodnevni festival pričom o jednom od najvećih planinarskih ciljeva – usponima na najviše vrhove svih sedam kontinenata. Mario je drugi Hrvat koji je ostvario taj pothvat,…",
-   "slika": "https://eventinfo.com.hr/admin/slike_dogadaji/mala/mario_celini____sedam_vrhova__sedam_kontinenata__jedna_pri_a_1794223926.jpg",
-   "link": "https://eventinfo.com.hr/dogadaj/mario-celinic-sedam-vrhova-sedam-kontinenata-jedna-prica"
-  },
-  {
    "id": "ei-4941",
    "naslov": "Odsjek za likovnu kulturu i likovnu umjetnost Umjetničke akademije Sveučilišta u Splitu",
    "od": "2026-11-26",
@@ -4567,7 +4560,7 @@
    "id": "na-PTImYWlkPTEwNjM4",
    "naslov": "Prva Cvirkijada Nautičkog kluba Labud okupila brojne posjetitelje uz domaće čvarke, tamburaše i dobro druženje",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-26",
+   "objavljeno": "2026-11-27",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10638",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10638_80671_vipro040.jpg"
@@ -4576,10 +4569,19 @@
    "id": "na-PTImYWlkPTEwNjMz",
    "naslov": "Hit Teatar predstavom „Mamini sinovi“ nasmijao publiku u Domu kulture Grada Preloga",
    "opcina": "Prelog",
-   "objavljeno": "2026-11-26",
+   "objavljeno": "2026-11-27",
    "opis": "",
    "link": "http://www.prelog.hr/?task=group&gid=2&aid=10633",
    "slika": "http://www.prelog.hr/articlefiles/thumb_10633_80610_vipro019.jpg"
+  },
+  {
+   "id": "na-Y3JuaS1pYmV4Lw==",
+   "naslov": "Čakovec dobio novi festival planinarske kulture – Otvoren prvi Crni Ibex",
+   "opcina": "Čakovec",
+   "objavljeno": "2026-11-27",
+   "opis": "Čakovec je u četvrtak, postao mjesto susreta planinarskih iskustava, pustolovina i priča s planinskih vrhova. U zgradi Scheier svečano je otvoreno prvo izdanje festivala Crni Ibex, novog četverodnevnog događanja…",
+   "link": "https://www.cakovec.hr/cakovec-dobio-novi-festival-planinarske-kulture-otvoren-prvi-crni-ibex/",
+   "slika": null
   },
   {
    "id": "na-cmliaXNsYXZlYy8=",
@@ -4688,24 +4690,6 @@
    "opis": "",
    "link": "https://www.donjikraljevec.hr/2026/11/16/obiljezavanje-dana-sjecanja-na-zrtve-domovinskog-rata-i-zrtvu-vukovara-3/",
    "slika": null
-  },
-  {
-   "id": "na-LWRydXplbmphLw==",
-   "naslov": "Martinje na Međimurskoj vinskoj cesti – Tri dana tradicije, vina i dobrog druženja!",
-   "opcina": "Selnica",
-   "objavljeno": "2026-10-27",
-   "opis": "Od 6. do 8. studenoga 2026. godine Međimurje će ponovno živjeti u znaku Martinja! Bogat program manifestacije „Martinje na Međimurskoj vinskoj cesti“ donosi tri dana veselja, druženja, domaćih okusa i njegovanja bogate…",
-   "link": "https://www.selnica.hr/martinje-na-medimurskoj-vinskoj-cesti-tri-dana-tradicije-vina-i-dobrog-druzenja/",
-   "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/10/Martinje-na-MVC-plakat-scaled.webp"
-  },
-  {
-   "id": "na-Y2UtZGVsaWNpamUv",
-   "naslov": "Vina z brajdi u Selnici – Poziv na veselo druženje uz vino, glazbu i domaće delicije",
-   "opcina": "Selnica",
-   "objavljeno": "2026-10-27",
-   "opis": "U nedjelju, 8. studenoga 2026. godine, s početkom u 16 sati, u Domu kulture Selnica održat će se manifestacija „Vina z brajdi“, koja donosi ugodno druženje, bogatstvo domaćih okusa i veselu atmosferu u duhu međimurske…",
-   "link": "https://www.selnica.hr/vina-z-brajdi-u-selnici-poziv-na-veselo-druzenje-uz-vino-glazbu-i-domace-delicije/",
-   "slika": "https://www.selnica.hr/cms/wp-content/uploads/2026/10/Martinje-2026.webp"
   }
  ],
  "restorani": [
